@@ -1,0 +1,10 @@
+---
+layout: post
+title: An EXPLOSION of new writing!
+created: 1414897963
+categories:
+- sharing
+- learning cycles
+- agile learning centers
+---
+<p>I&rsquo;m painfully aware of the gap between how much value and insight I&rsquo;ve been experiencing in the work that I&rsquo;ve been doing, and how much I&rsquo;ve been sharing and expressing that value in ways that others can access it.</p><p>One of the central principles in <a href="http://nyc.AgileLearningCenters.org">Agile Learning Centers</a> is that in today&rsquo;s age, learning (2.0) isn&rsquo;t complete until shared. There&rsquo;s a whole learning cycle: intention, creation, reflection, &amp; sharing.&nbsp; Like all natural cycles it can get fractally convoluted at times, but that it&rsquo;s important to develop our ability to acknowledge and consciously participate in each part of the cycle. I can definitely see where my participation in the SHARING phase has been constrained to interpersonal conversations, and the lid needs to get blown off so that I can complete a deeper cycle of learning by sharing more effectively on a larger scale.</p><p>I&rsquo;m committed to having a personal breakthrough in this domain and becoming a much more reliable writer, poster, and general sharer of insights and value&hellip; no longer leaving it to gather moss in between my ears.</p><p>In the spirit of this, and in camaraderie with other friends who are writing every day for <a href="http://NaNoWriMo.org">NaNoWriMo</a>, I commit to write and post every day in November. I will be posting each entry here, even if it is really an addition to the <a href="https://docs.google.com/document/d/1Line362Wm0zMOZcEZMqPYfHqNS4XIVyVsP7SS_4jE2o/edit#">Ceptr Apocalypse</a>, my <a href="http://artbrock.AgileLearningCenters.org">Agile Learning Center blog</a>, the <a href="http://EmergingLeaderLabs.org">Emerging Leader Labs</a> web site, or whatever.</p><p>Even if I have to share something that is not fully polished or finished. The point is to share, share, share.</p><p>So&hellip; it starts now!</p>

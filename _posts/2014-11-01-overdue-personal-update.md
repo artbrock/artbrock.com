@@ -1,0 +1,8 @@
+---
+layout: post
+title: Overdue Personal Update
+created: 1414897549
+categories:
+- personal
+---
+<p>It looks like it&#39;s been two years since I&#39;ve posted here and a ridiculous amount has happened.</p><ul><li>Multiple successful sessions of <a href="http://EmergingLeaderLabs.org">Emerging Leader Labs </a>which look like they will spread to new locations with new leadership.<br />&nbsp;</li><li>To keep my son&#39;s school from closing in a crisis, I stepped in as Director and rebooted it, establishing a new educational model which updates the spirit of Free Schools to use Agile Management practices to support self-organization and governance. Since doing that, the number of <a href="http://AgileLearningCenters.org">Agile Learning Centers</a> has been doubling annually (1,2,4 and may be on track for 8 next year) and is spreading quickly.<br />&nbsp;</li><li>Eric Harris-Braun and I have been making exciting, steady progress on developing Ceptr as the underlying framework we need for Streamscapes, The MetaCurrency Project, and basically as the tools for the next stage of human evolution in social collective intelligence. &nbsp;Things are bootstrapping themselves really well which is really encouraging for how all this may successfully work together.<br />&nbsp;</li><li>I&#39;m spending a lot time upstate in an ecovillage in Chatham, NY (<a href="http://qivc.org">Quaker Intentional Village Canaan</a>)</li></ul><p>Really.... there&#39;s so much more to say... and I haven&#39;t been saying it... which leads me to my next post... where I&#39;m declaring a personal breakthrough in sharing the value that has so abundantly been showing up in the work I&#39;ve been doing.</p>

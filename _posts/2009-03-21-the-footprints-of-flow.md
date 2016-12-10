@@ -1,0 +1,62 @@
+---
+layout: post
+title: The Footprints of Flow
+created: 1237615200
+categories:
+- open source software
+- metacurrency
+- intrinsic integrity
+- flow
+- design
+- currency
+---
+<p>Alan’s most recent of posts (<a href="http://blog.newcurrencyfrontiers.com/search?updated-max=2009-03-26T09%3A59%3A00-07%3A00&amp;max-results=20">about P2P Currency and Currency Platforms</a>) outline a trajectory that points in this direction, but I want to specifically spell out one thing that is so different about what we’re building than any other currency projects we’ve seen.<br>
+<br>
+There are some fundamental shifts that must be made in currency infrastructure for us to break free of the constraints and dysfunctional patterns of the past, and I don’t believe that any prior platforms provide for these necessary shifts yet.<br>
+<br>
+I’ll let Eric write about how MCP and SGFL are also a complete departure, but I’m writing about the one that has been consuming my attention: Intrinsic Data Integrity.<br>
+<!--break--></p><h3>&nbsp;</h3><h3><strong>Intrinsic Data Integrity</strong></h3><p>No, you didn’t space out in your computer science class and miss this term; I’m totally coining this phrase. There are a few other names for it that I’m considering, but for now, I’m calling it Intrinsic Integrity.<br>
+<br>
+There were times when whole villages hid behind castle walls and great moats, and when the borders of nations were defined by defensible boundaries like rivers, coasts, mountain ranges and Great Walls. Closing something off behind high walls and tight defenses is certainly one approach to security.<br>
+<br>
+However, we’ve discovered that there are much more effective methods to ensure security (even if many of us are not conscious of it). Notice that today, there are very few people living behind castle walls, and few nations focused on defensible borders. We’ve replaced walls with laws and moats with tort. Rather than erecting walls to hide from hordes of savages, it turns out we’re much safer having people internalize rules and laws. They suddenly cease being “savages.”<br>
+<br>
+But when it comes to dealing with computers and data, we’ve mostly ignored this lesson. We lock our data behind passwords, permissions and firewalls, relying on that one type of security when we could have the data internalize rules which keep it secure. There are a few instances where we do this like when we use CRCs (Cyclic Redundancy Checks) to ensure a downloaded file hasn’t been tampered with, parity bits in RAID arrays, or check sums on network packets. However, we don’t generally structure the data we use for decision-making ways that ensure its integrity.<br>
+<br>
+One great example of software that does do this is the distributed source code management tool called git. Instead of a tightly controlled central repository where you protect from unauthorized people committing changes to it, git allows anybody to download the source code for a project (for example, the kernel of the Linux operating system), make modifications to the code and then commit the code again!<br>
+<br>
+This would be very dangerous to do with typical software or databases. Imagine if you could download your bank’s internal software or your bank account data, make changes to it, and then recommit it again. Everybody would be changing their bank balances all the time. With git you can’t alter something without adding a completely new commit which records your signature. If you tried to make a sneaky unsigned change to existing data, it would no longer match with the signatures attached to it. This makes it safer for people to change to the Linux kernel and yet without accidentally introducing flaws or security holes because those changes would the signature on the code.<br>
+<br>
+By implementing Intrinsic Data Integrity, you can allow people to have a completely authoritative copy of their own transaction history. This data could be specifically shared with the parties of each transaction, or shared with third party notaries or auditors, or possibly open to public review. New ways of analyzing and aggregating the data become possible, because the original data is available in a linked and countersigned chain. (Each transaction is signed by both parties.)  Just like you can notate the moves of a chess game and replay them to recreate the state of a chess game, you can replay the signed transactions to create the state of an account or the whole currency system at any point in time.<br>
+&nbsp;</p><h3>&nbsp;</h3><h3><strong>Tracks in the Sand</strong></h3><p>Humans are good at seeing objects; but we’re not so good at direct apprehension of flow. Flow is really only visible to us when it is embodied in something. We typically create a story from the movement of stuff and the after-effects on objects to perceive what is flowing. We see the Grand Canyon and rebuild the long story of erosion that etched it. We see mouse tracks in the snow which end in a sudden deep indentation having wing marks on either side and reconstruct a story of a flow that occurred.<br>
+<br>
+If currencies are the tools for shaping, enabling and measuring currents or flows, then a linked chain of digitally signed transactions are the tracks those flows leave behind so that we can understand the story that the flows are telling. If we later learn about patterns we want to study, we can always go back to the original flow-tracks and look for them. Each participant in this kind of currency becomes a sovereign individual empowered represent their current status and complete history.<br>
+&nbsp;</p><p>&nbsp;</p><h3><strong>Openness is about more than open source code</strong></h3><p>Consider Wikipedia. It is more than an Encyclopedia which uses Open Source software. There are millions of sites and wikis built on such open source tools. But the Wikipedia folks made a decision right up front that has encouraged many thousands of people to invest their time, expertise and money in supporting that particular project. They made all the data freely available. I don’t mean just readable via web pages; you can download their whole database and create your own fully functional copy of Wikipedia.<br>
+<br>
+Why is that so important? It is an explicit promise that your investment will never be lost because of bad policies, poor decisions, internal politics or failure to adapt to the needs of the community. If someone can do the job better than Wikipedia, then they can just take the all data and start doing so with better policies, incentives, interfaces or whatever. The cost to branch the project to another, possibly more fruitful path, is extremely low. This looming possibility also serves to keep them honest and responsive.<br>
+<br>
+A closed currency system (behind castle walls) where individuals do not have the sovereignty to fully and accurately represent their own activity history ensures that the investment of account-holders dies with the authority managing the castle walls. The integrity of the data relies on the ability to defend the walls and requires complete trust of the individuals who get access to the data inside the walls. Once a single individual abuses the trust or the walls are breached, all the data becomes questionable. This makes it almost impossible to gracefully transition data from a failed project to new endeavor.</p><br>
+<br>
+<h3><strong>A Walled Currency Will Eventually Fail You</strong></h3><p>Let’s pretend for a moment that there are two possible outcomes for any currency system – success or failure. I’m going to completely forego defining success, so you can view it as massive adoption, high volumes of activity, universal liquidity, meeting the needs it was designed for, or whatever. If the individual participant does not have sovereignty which includes full “ownership” of their personal data either outcome ends up being a loss for them.<br>
+<br>
+If a bad currency design fails, the value embedded in it is lost. However, currency failure may happen for reasons independent of the validity of the currency design itself: bad timing, bad governance, inadequate leadership, lack of funding, lack of promotion, poor infrastructure, internal strife, etc. Whatever investment of time, energy, learning, goods or services that each participant invested is completely lost and generally cannot be usefully ported to a new iteration of an otherwise good currency. If some people still like the original idea even though it was steered awry, they are forced to start over from ground zero.<br>
+<br>
+On the other hand, currency success tends to lead to continued use, reliance and influence. As this cycle continues the currency gains more and more power and influence in its community or economy (consider the dynamic of national currencies). In a silo/castle-wall system, the people who control it also grow in power and influence. It becomes harder and harder to consider alternatives to the currency system because it seems so vital. Eventually, imbalances emerge. The centralized access and control leads to corruption of leadership and inequitable treatment (even if unintentionally via Pareto Effect). Or needs of participants change but the system doesn’t adapt effectively. In any case, the only way to break free from a successful closed currency appears to be through painful and disruptive collapse.<br>
+<br>
+Currently, we have the privilege of experiencing the collapse of a “successful” currency first-hand.<br>
+<br>
+The only real way to avoid those dysfunctional dynamics is to have the underlying infrastructure optimized for easy forking, evolution and adaptation with each participant having the capacity to migrate toward systems which provide better solutions.<br>
+&nbsp;</p><p>&nbsp;</p><h3><strong>Never Surrender!</strong></h3><p>We have surrendered the power to make money to the government. Then of course, the power hungry have figured out how to get the government to surrender money-making powers to them.<br>
+<br>
+In America, the bankers have "stolen" money-making power 6 times. We've taken it back from them 5 times. I suggest this time when we take back money-making powers, we keep them. We should not surrender them back to the government or any oligarchical group.<br>
+<br>
+Intrinsic Data Integrity ensures that we can maintain our sovereignty as individuals even when we gather together in communities and groups to create currencies. The other protocols of the metacurrency platform separate functions and powers so that there is much more of an open market for the various activities in a currency. The functions performed inside the closed banks, such as authentication/identity, transacting, auditing, managing security, granting access, enforcing rules, changing rules, maintaining the state of the system, assessing fees, storing records, charging interest, providing interfaces, etc. are broken into separate functions many of which an individual can do themselves, and for the others they can select from various providers who have the technical capacities. This prevents abuses of power by any one group.<br>
+&nbsp;</p><h3>&nbsp;</h3><h3><strong>Where Privacy and Openness Meet</strong></h3><p>You may wonder if we can make these footprints visible and still honor people’s privacy. Yes. We can share data and still ensure privacy, but many systems may not and should not do so. Transparency is a very powerful tool for spreading awareness and mutual trust. Most currencies would be wise to tap into that kind of power and clarity.<br>
+<br>
+If, however, you have reason to safeguard privacy there are a number of solid ways to do so. The most obvious one is to encrypt the core parts of a transaction that you don’t want publicly visible, and leave only the outer layer of linked countersignatures visible. In this case, you don’t need to worry about whether the various “owners” of their transactions are protecting them behind high walls. Let them loose but build a tiny wall into each one.<br>
+<br>
+This post covers the theoretical application of Intrinsic Data Integrity and its importance. I’ll have to follow it up with a geekier post illustrating technical aspects of its implementation.<br>
+<br>
+I’m excited about the larger implications of the power shift from enabling currencies with Intrinsic Integrity.<br>
+<br>
+I’m still trying to sort out how this is like giving social DNA the “organic” material to really evolve our social “bodies.” There’s more to come when I can explain that.</p>
