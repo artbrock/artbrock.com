@@ -73,7 +73,7 @@ You've got to use the right tools for the job. In the case of P2P governance, so
 ## It's Oversimplified
 This is an introductory article. For most people reading it, these ideas and approaches are novel and probably seem complex. Please don't assume that because I don't drill into great detail about every piece, that there are no supporting details. I'd invite you into the inquiry with me about those tangible details, just because I have some, doesn't mean they're right.
 
-## People won't agree. / It's too Complicated. / We can't possibly change to this!
+## It's too Complicated / You'll never get people on board
 When our current system comes down, they'll have to choose something to believe in. Let's look at some indicators of how hard it would be to get people onboard for something like this, using Moore's model of crossing the chasm.
 
 ### Crossing the chasm -- distributed tech
