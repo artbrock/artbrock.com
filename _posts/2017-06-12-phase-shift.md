@@ -19,7 +19,7 @@ tags:
 
 # A Major "Phase Shift"
 
-Micah has taken over!!!!
+Micah has taken over again!!!!
 
 You've probably seen a lot more activity around the MetaCurrency Project in recent months: a new Ceptr web site, Ceptr broken down into clearer sub-projects, blockchain alternatives, lots of code releases, Hackathons, virtual potlucks, online presentations, etc. I guess we ought to make it clearer what's going on.
 
