@@ -17,8 +17,6 @@ tags:
 - Ceptr
 ---
 
-![Transformation](http://ceptr.org/images/chrysalis_butterfly.jpg){:class="img-responsive"}
-
 # A Major "Phase Shift"
 
 You've probably seen a lot more activity around the MetaCurrency Project in recent months: a new Ceptr web site, Ceptr broken down into clearer sub-projects, blockchain alternatives, lots of code releases, Hackathons, virtual potlucks, online presentations, etc. I guess we ought to make it clearer what's going on.
@@ -26,6 +24,8 @@ You've probably seen a lot more activity around the MetaCurrency Project in rece
 For a long time we've operated as one of those fringy open source projects like some mad scientists experimenting in their garage. But now we must navigate the transition from a tech hobby project to a scalable business, in part, because we've been approached by funders.
 
 Our focus is initially on Holochain, a scalable blockchain alternative which is part of the larger Ceptr social OS. Watch for updates on the [Ceptr blog](http://ceptr.org/blog).
+
+![Transformation](http://ceptr.org/images/chrysalis_butterfly.jpg){:class="img-responsive"}
 
 ## Why now?
 
