@@ -34,7 +34,7 @@ They said things like: *"Wow, its like a distributed app platform that's actuall
 
 And *"It feels like we're building the plane while flying it, but it's exciting that actually flies!"*
 
-## Holochain's Legacy Continues
+## Holochain's Capacities Expand
 Over the next year or so, we made a lot of improvements on all levels: added features, improved the testing suite, refined our DHT/gossip models, identified idioms and app development patterns that worked well on an eventually consistent, sharded data store on a validating DHT.
 
 We also had LOTS more Hackathons: Barcelona Spain, Vaduz Liechtenstein, Riga Latvia, Bristol UK, Porto Portugal, Sebastapol California, London UK, Copenhagen Denmark, Sydney Australia, Melbourne Australia, Vancouver BC, Austin Texas, New York City (twice), Denver Colorado, Sao Paolo Brazil, Amsterdam Netherlands, Pittsburgh PA (CMU), etc.
@@ -77,11 +77,12 @@ Whew! There's a bunch more I'm probably not thinking of at the moment. But the p
 More importantly, there are things that Holochain makes easy that are rather difficult to do on other decentralized platforms. Just try to do a real-time-ish game like MinerSweeper! Or live-video-streaming on blockchain! Or easy Public Key Infrastructure that is fully distributed.
 
 ## Economic Sustainability for Open Source Infrastructure
-Many may not know this, but Holochain is a small part of a much larger technology infrastructure design for a replacement for most of our existing computing, communications, governance, and financial systems called [Ceptr](https://ceptr.org).
+Some of you may already know this, but Holochain is a small part of a much larger technology infrastructure design for a replacement for most of our existing computing, communications, governance, and currency systems called [Ceptr](https://ceptr.org).
 
-We specifically spun Holochain out to be a standalone framework that could go head-to-head with blockchain and outperform it in every way. One main reason we did this was to bring part of our P2P technology design into mainstream use, and establish long-term financial viability for both Holochain and Ceptr.
+We specifically took one small piece of Ceptr to provide a standalone framework that could go head-to-head with blockchain and outperform it in every way. We called it Holochain. One main reason we did this was to bring part of our P2P technology design into mainstream use, so we could establish long-term financial viability for both Holochain and Ceptr.
 
-To do this we jumped into the ICO craze, knowing its days were numbered, with a desire to raise the bar of integity for ICOs and their projects. We structured ours quite differently than most with specific attention on having it be [ethical](ethical ICO) and responsible as possible.
+To achieve this we designed a commercial/fundable project of providing cloud-style hosting on top of Holochain as a scalabilty layer.
+ multi-stage funding strategy with the first phase involving a crowdfunding campaign for hardware and an ICO for the software, knowing its days were numbered, with a desire to raise the bar of integity for ICOs and their projects. We structured ours quite differently than most with specific attention on having it be [ethical](ethical ICO) and responsible as possible.
 
 So we designed [HOLO](https://holo.host) as a major project to be able to bridge obscure and marginalized crypto-apps to mainstream users by letting them just use their web browser as if it were any data-driven web site. We know Holochain has no inherent speed or scale bottlenecks, so that theoretically these Holo-hosted apps could scale to the size of Facebook or Twitter. And there wasn't a blockchain-based project out there who could get anywhere near our performance or ease of devlopment.
 
