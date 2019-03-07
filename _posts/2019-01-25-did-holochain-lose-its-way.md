@@ -23,66 +23,104 @@ tags:
 
 # Did Holochain Go Astray?
 
-## A Quick, Strong, and Easy Start
-Eric Harris-Braun and I started building Holochain on New Years Eve at the end of 2016. Just two months and one week later we had our first Hackathon in San Francisco for people to build apps on Holochain.
+## Fast, Strong, and Easy Start
+On New Years Eve, the last day of 2016, Eric Harris-Braun and I [started building Holochain](https://github.com/holochain/hologchain-proto). The basic design came from one part of [Ceptr](https://ceptr.org) an advanced computing and currencies platform we'd been working on for years.
 
-In fairness, it was an invitation only event for friends who had an understanding the tools were not yet mature. Yet even then, people built P2P applications in those few days in JavaScript and Lisp that basically worked.
+Two months later, on the first week of March 2017, we had our [first Hackathon in San Francisco](https://ceptr.org/hackathons) for people to build apps on Holochain.
 
-The people who came were somewhat shocked. We had folks who had already wrestled with launching tokens and dApps in Solidity on Ethereum. They raved about how much easier it was to build on Holochain and how they felt safer to launch an app on it knowing they could manage its reach and scope, instead of the **only** option being "written in stone" on a permanent blockchain.
+It was an invitation only event for friends who understood our tools were not yet mature. Yet even then, people built complete P2P [dApps](#) in just a few days in JavaScript and Lisp that essentially worked.
 
-They said things like: *"Wow, its like a distributed app platform that's actually distributed!"*
+The people who came expressed shock and surprise. Folks who had wrestled with launching tokens and dApps on Ethereum praised the ease of building on Holochain. They also felt safer of launching a dApp on it, knowing they could start it invitation-only and then expand the reach and scope of live-tested versions, instead of being "written in stone" on a permanent blockchain.
 
-And *"It feels like we're building the plane while flying it, but it's exciting that actually flies!"*
+They said: *"Wow, its a distributed app platform that's actually distributed!"*
 
-## Holochain's Capacities Expand
-Over the next year or so, we made a lot of improvements on all levels: added features, improved the testing suite, refined our DHT/gossip models, identified idioms and app development patterns that worked well on an eventually consistent, sharded data store on a validating DHT.
+And" *"It feels like we're building the plane while flying it, but it's exciting that actually flies!"*
 
-We also had LOTS more Hackathons: Barcelona Spain, Vaduz Liechtenstein, Riga Latvia, Bristol UK, Porto Portugal, Sebastapol California, London UK, Copenhagen Denmark, Sydney Australia, Melbourne Australia, Vancouver BC, Austin Texas, New York City (twice), Denver Colorado, Sao Paolo Brazil, Amsterdam Netherlands, Pittsburgh PA (CMU), etc.
+Our first weekend hackathon yielded [HoloChat](https://github.com/holochain/holochat) (a multichannel Slack-like chat), [TrustGraph](#) (for making decentralized, censor-proof, reputational claims), and two versions of Clutter, a twitter clone -- [one in JavaScript](https://github.com/holochain/clutter) and [one in Lisp](https://github.com/holochain/cludder), which both used the same UI.
 
-At these events, people built around 60 cool apps to various stages of proof-of-concept, to working prototype, to providing a pretty polished experience. Some noteworthy ones that come to mind:
- - [Clutter](https://github.com/holochain/clutter) (P2P Twitter),
- - [HoloChat](https://github.com/holochain/holochat) (Slack alike) *[new version](https://github.com/holochain/holochat-rust
-) rebuilt on Rust*,
- - [TrustGraph](https://libraries.io/github/trustgraph/trustgraph-holochain) (peer ratings and reviews),
- - [DPKI]() (Distribute Public Key Infrastructure),
- - [HoloDex]() (indexing overlay app for sharded DHT),
- - [hAppStore (distributed directory for distributing distributed apps),
- - [Fractal Wiki (like Decko),
- - [Transactor (mutual credit currency),
- - [Touchpoints (NFC enabled interaction system),
- - [Federated Wiki,
- - [Community Book Sharing Library,
- - [RaveMaker (party announcement and support system),
- - [Prediction/Betting markets,
- - [Comet (P2P Reddit),
- - [P2P Credit Clearing Network,
- - [Medical drug provenance / supply chain tracking,
- - [Electricity Smart Meter Mgt (IoT data recording / kilowatt sharing)
- - [UnMute (like uncensorable Medium.com),
- - [HoloVault / Personas (personal/identity data manager)
- - [New Craigslist]() (self-explanatory) *also [implemented in OCaml](https://github.com/struktured/NewCraigsList)*,
- - [HoloChess](),
- - [Battleship,
- - [Massively Multiplayer Pong,
- - [MinerSweeper (real-time-ish multiplayer game),
- - [Errand (Trello-like kanban boards),
- - [Omni](https://github.com/OmniProject/omni) (publication of scholarly peer reviewed articles),
- - [NAME? (video streaming),
- - [Cannabis supply chain accountability/provenance
- - [Shared To-Do List,
- - [Happy virus]() (Amsterdam)
+## The Power of Holochain Grows
+Making apps was possible, but there were a bunch more features to implement for permisisons, security, sharding of the DHT, etc.
 
-Whew! There's a bunch more I'm probably not thinking of at the moment. But the point is, when people talk about Holochain as if it is vaporware and doesn't exist yet, they clearly don't realize A LOT OF THINGS have been built on it and worked just fine.
+We worked over the next six months improving networking, enhancing testing, benchmarking performance, and learning the [design patterns](https://github.com/holochain/mixins) and idioms of building agent-centric dApps on an eventually-consistent, sharded, validating DHT.
 
-More importantly, there are things that Holochain makes easy that are rather difficult to do on other decentralized platforms. Just try to do a real-time-ish game like MinerSweeper! Or live-video-streaming on blockchain! Or easy Public Key Infrastructure that is fully distributed.
+And after some official Alpha releases, we held **LOTS more Hackathons:**
+ 1. Barcelona Spain,
+ 2. Vaduz Liechtenstein,
+ 3. Riga Latvia,
+ 4. Bristol UK,
+ 5. Porto Portugal,
+ 6. Sebastapol California,
+ 7. London UK,
+ 8. Copenhagen Denmark,
+ 9. Sydney Australia,
+ 10. Melbourne Australia,
+ 11. Vancouver BC,
+ 12. Austin Texas,
+ 13. New York City (twice),
+ 14. Denver Colorado,
+ 15. Sao Paolo Brazil,
+ 16. Amsterdam Netherlands,
+ 17. Pittsburgh PA (CMU), etc.
 
-## Economic Sustainability for Open Source Infrastructure
-Some of you may already know this, but Holochain is a small part of a much larger technology infrastructure design for a replacement for most of our existing computing, communications, governance, and currency systems called [Ceptr](https://ceptr.org).
+## Viable Holochain Apps
+Out of those events came about 60 pretty cool Holochain apps to various stages of completion. They ranged from proof-of-concept of back-end features to pretty polished experiences with a full UI. Some noteworthy ones that come to mind:
+ - [DPKI](https://github.com/holochain/dpki): Distribute Public Key Infrastructure -- crypto-key management,
+ - [HoloDex](https://github.com/holochain/holodex): Indexing overlay app for searching a sharded DHT,
+ - [hAppStore](https://github.com/holochain/HCHC): A distributed directory for distributing distributed apps),
+ - [Fractal Wiki](https://github.com/holochain/fractal-wiki): structure wiki of nexted cards (like Decko),
+ - [Transactor](https://github.com/holochain/transactor): A basic mutual credit currency,
+ - [Touchpoints](https://github.com/holochain/touchpoints): Mobile NFC enabled interaction logging system,
+ - [Federated Wiki](https://github.com/holochain/fedwiki),
+ - [Community Book Sharing Library](#) <-- self-explanatory,
+ - [RaveMaker](#) Party announcement and support system,
+ - [Arcade City P2P](#): Ridesharing app,
+ - [Prediction/Betting market](#), Augur-like,
+ - [Comet](#) P2P Reddit site,
+ - [P2P Credit Clearing Network](#): ,
+ - Medical drug provenance / Supply Chain tracking system,
+ - [Electric Smart Meter Mgt](https://github.com/jeznag/): IoT data recording /  sharing / kilowatt balancing
+ - [UnMute](https://github.com/holochain/unmute) censor-proof blogging like Medium.com (later evolved into [humm.earth](https://humm.earth)),
+ - [HoloVault / Personas](https://github.com/holochain/holovault) personal data and identity management,
+ - [New Craigslist](#): self-explanatory -- *also [implemented in OCaml](https://github.com/struktured/NewCraigsList)*,
+ - [HoloChess](https://github.com/holochain/holochess),
+ - [Battleship](#),
+ - [Massively Multiplayer Pong](#),
+ - [MinerSweeper](#): Real-time-ish multi-player minesweeper,
+ - [Errand](https://github.com/holochain/errand): Trello-like kanban boards for tasks,
+ - [Omni](https://github.com/OmniProject/omni): For publication of scholarly peer reviewed articles,
+ - [NAME]: Video streaming,
+ - [Cannabis provenance and supply chain accountability](#),
+ - [Shared To-Do List](#),
+ - [Happy virus](#): Infect your friends with fun and beneficial activities.
+ - [Junto](#): Social network
 
-We specifically took one small piece of Ceptr to provide a standalone framework that could go head-to-head with blockchain and outperform it in every way. We called it Holochain. One main reason we did this was to bring part of our P2P technology design into mainstream use, so we could establish long-term financial viability for both Holochain and Ceptr.
+Whew! I'm sure there's a bunch more I'm not remembering at the moment.
+
+Notice how similar these dApps are to the kinds things we do on the web every day. Holochain is not relegated to slow crypto-gambling oand speculation as the only viable use-case. Storing data is cheap. Processing is efficient. Scaling is natural.
+
+There are still many people saying the usefullness of dApps has not really ben demonstrated yet. That's because they're still looking at the kind of dApps that are viable on blockchain.
+
+## Holochain's dApp Architecture Proven
+People still talk about Holochain as if it's vaporware and doesn't exist yet. This is in part because of confusion about expecting a MainNet or token. But Holochain is so efficient it doesn't need to have a token to subsidize inefficiency.
+
+Many people clearly don't realize A LOT OF THINGS have been built on it and they have worked just fine. This is in part our failure to "hype" Holochain adequately and the apps built on it.
+
+And more importantly, there are things that Holochain makes easy that are rather difficult to do on other decentralized platforms.
+
+Show me another decentralized platform that can do real-time-ish games like MinerSweeper or Pong!
+
+Try live-video-streaming on blockchain!
+
+After 10 years of blockchain, where is an easy Decentralized Public Key Infrastructure?
+
+## Going Mainstream with Agent-Centric Design
+The main reason we broke Holochain out from Ceptr into a standalone framework that could go head-to-head with blockchain, was to P2P technology designs into mainstream use.
+
+so we could establish long-term financial viability for both Holochain and Ceptr.
 
 To achieve this we designed a commercial/fundable project of providing cloud-style hosting on top of Holochain as a scalabilty layer.
- multi-stage funding strategy with the first phase involving a crowdfunding campaign for hardware and an ICO for the software, knowing its days were numbered, with a desire to raise the bar of integity for ICOs and their projects. We structured ours quite differently than most with specific attention on having it be [ethical](ethical ICO) and responsible as possible.
+
+multi-stage funding strategy with the first phase involving a crowdfunding campaign for hardware and an ICO for the software, knowing its days were numbered, with a desire to raise the bar of integity for ICOs and their projects. We structured ours quite differently than most with specific attention on having it be [ethical](ethical ICO) and responsible as possible.
 
 So we designed [HOLO](https://holo.host) as a major project to be able to bridge obscure and marginalized crypto-apps to mainstream users by letting them just use their web browser as if it were any data-driven web site. We know Holochain has no inherent speed or scale bottlenecks, so that theoretically these Holo-hosted apps could scale to the size of Facebook or Twitter. And there wasn't a blockchain-based project out there who could get anywhere near our performance or ease of devlopment.
 
