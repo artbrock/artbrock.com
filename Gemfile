@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'jekyll'
+gem "jekyll", "~> 4.0"
 
 group :jekyll_plugins do
   gem 'jekyll-gist'
@@ -10,4 +10,3 @@ end
 
 gem 'asciidoctor', '~> 1.5.4'
 gem 'coderay', '1.1.1'
-

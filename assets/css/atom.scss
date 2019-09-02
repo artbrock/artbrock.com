@@ -1,7 +1,9 @@
 ---
+# atom.scss
 sitemap:
   exclude: true
 ---
+
 @charset "utf-8";
 
 @import "functions.scss";
@@ -45,7 +47,7 @@ feed {
 			letter-spacing: initial;
 		}
 	}
-	
+
 	> id,
 	> updated,
 	> subtitle,

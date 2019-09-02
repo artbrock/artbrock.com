@@ -25,8 +25,8 @@ author: artbrock
 
 # This URL is the main address for absolute links. No slash at the end.
 #
-url: 'https://artbrock.github.io'
-baseurl: ''
+# url: 'https://artbrock.github.io'
+# baseurl: ''
 
 # This is for the editing function in _/includes/improve_content
 # Leave it empty if your site is not on GitHub/GitHub Pages
@@ -38,18 +38,17 @@ improve_content: https://github.com/artbrock/artbrock.github.io/edit/master
 # Example: <img src="{{ site.urlimg }}{{ post.image.title }}" />
 # Markdown-Example for posts ![Image Text]({{ site.urlimg }}image.jpg)
 #
-urlimg: 'https://artbrock.github.io/images/'
+# urlimg: 'https://artbrock.github.io/images/'
 
 
 # Logo size is 600x80 pixels
 logo: "logo.png"
 
-# Gems
-gems:
+# Plugins
+plugins:
     - jekyll-asciidoc
     - jekyll-gist
     - jekyll-paginate
-
 
 #       ____              _             __  _
 #      / __ \____ _____ _(_)___  ____ _/ /_(_)___  ____

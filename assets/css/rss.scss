@@ -1,4 +1,5 @@
 ---
+# rss.scss
 sitemap:
   exclude: true
 ---
@@ -45,7 +46,7 @@ channel {
 			letter-spacing: initial;
 		}
 	}
-	
+
 	> description,
 	> link {
 		display: none;
