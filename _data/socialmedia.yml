@@ -1,54 +1,24 @@
 - name: GitHub
-  url: http://github.com/artbrock
+  url: https://github.com/artbrock
   class: icon-github
-  title: Code and more...
+  title: Code and more…
 
 - name: YouTube
   url: https://www.youtube.com/user/Artemystical
   class: icon-youtube
-  title: "Videos, Presentations, Events, Discussions..."
+  title: "Videos, Presentations, Events, Discussions…"
 
 - name: Twitter
-  url: http://twitter.com/artbrock
+  url: https://twitter.com/artbrock
   class: icon-twitter
   title: "Visit or Follow Arthur on Twitter"
 
-- name: Google+
-  url: https://plus.google.com/u/0/+Arthur_Brock
-  class: icon-googleplus
-  title: "Google+"
-
 - name: Facebook
-  url: http://www.facebook.com/artbrock
+  url: https://www.facebook.com/artbrock
   class: icon-facebook
   title: "Find Arthur on Facebook"
 
 - name: Vimeo
-  url: http://www.vimeo.com/artbrock
+  url: https://www.vimeo.com/artbrock
   class: icon-vimeo
   title: "Catch Arthur on Vimeo"
-  
-#- name: Mixcloud
-#  url: http://www.mixcloud.com/phlow/
-#  class: icon-cloud
-#  title: "Mixe, was sonst?"
-
-# - name: Soundcloud
-#   url: http://soundcloud.com/
-#   class: icon-soundcloud
-#   title: ""
-
-# - name: Instagram
-#   url: http://instagram.com/
-#   class: icon-instagram
-#   title: ""
-
-# - name: Pinterest
-#   url: http://www.pinterest.com/
-#   class: icon-pinterest
-#   title: ""
-
-# - name: Xing
-#   url: https://www.xing.com/profile/
-#   class: icon-xing
-#   title: Xing Profil

@@ -1,4 +1,9 @@
-- menu_name: "Dankeschön"
+- menu_name: "Thanks to"
+
+- name: "Theme by Phlow"
+  url: "https://github.com/Phlow/feeling-responsive"
+  class: "network-feeling-responsive"
+  title: "Theme by Phlow"
 
 - name: "Icons by Daniel Bruce"
   url: "http://entypo.com/"

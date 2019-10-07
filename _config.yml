@@ -1,26 +1,13 @@
-# ASCII-Font › http://patorjk.com/software/taag/#p=display&f=Slant&t=Phlow
-#
-#      _____ _ __          _____      __  __  _
-#     / ___/(_) /____     / ___/___  / /_/ /_(_)___  ____ ______
-#     \__ \/ / __/ _ \    \__ \/ _ \/ __/ __/ / __ \/ __ `/ ___/
-#    ___/ / / /_/  __/   ___/ /  __/ /_/ /_/ / / / / /_/ (__  )
-#   /____/_/\__/\___/   /____/\___/\__/\__/_/_/ /_/\__, /____/
-#                                                 /____/
-#
-# Title of your website
-title: "Arthur Brock's Personal Site"
+#               __  __                    __
+#   ____ ______/ /_/ /_  _________  _____/ /__
+#  / __ `/ ___/ __/ __ \/ ___/ __ \/ ___/ //_/
+# / /_/ / /  / /_/ /_/ / /  / /_/ / /__/ ,<
+# \__,_/_/   \__/_.___/_/   \____/\___/_/|_|
 
-# The slogan describes your website and is used on homepage in <title> and other important places
+title: 'Arthur Brock's Personal Site'
 slogan: 'Building a world that works for all'
-
-# The description is used on homepage and in the footer to quickly describe your website. Use a maximum of 150 characters for SEO-purposes.
 description: 'Culture-Hacking, Alt.Education, Targeted Currency Design, NextNet Technologies.'
-
-# The credits show up in the includes/_footer.html – It would be nice of you to leave a link to Phlow or Feeling Responsive as a thank you :)
 credits: '<p>Generated with &hearts; by <a href="http://artbrock.com/">artbrock</a> with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> and the <a href="http://phlow.github.io/feeling-responsive/">Feeling Responsive Theme</a>.</p>'
-
-# Main author of the website
-# See > authors.yml
 author: artbrock
 
 # This URL is the main address for absolute links. No slash at the end.
@@ -111,10 +98,13 @@ defaults:
       path: '' 				# an empty string here means all files in the project
       type: 'pages'
     values:
-      show_meta: false 	# Hide metadata for all pages
-      # sidebar:    		# Possible values › left, right › by default there will be no sidebar
+      # Hide metadata for all pages
+      show_meta: false
+      # Possible values › left, right › by default there will be no sidebar
+      # sidebar:    		
       comments: false
-      author: artbrock     # Default author for pages
+      # Default author for pages
+      author: artbrock
   -
     scope:
       path: ''
