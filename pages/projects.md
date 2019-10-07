@@ -20,7 +20,7 @@ permalink: /projects/
 
 <div class="large-6 columns">
 
- <img style="height: 200px; width: 100%; object-fit: contain;" src="{{ site.urlimg }}{{ project.image }}" limit:9999 />
+ <img style="height: 150px; width: 100%; object-fit: contain;" src="{{ site.urlimg }}{{ project.image }}" limit:9999 />
 
  <h3><a href="{{ project.permalink }}">{{ project.title }}</a></h3>
 
@@ -37,9 +37,9 @@ permalink: /projects/
 
 <div class="large-6 columns">
 
- <img style="height: 200px; width: 100%; object-fit: cover;" src="{{ site.urlimg }}{{ collaboration.image }}" limit:9999 />
+ <img style="height: 150px; width: 100%; object-fit: contain;" src="{{ site.urlimg }}{{ collaboration.image }}" limit:9999 />
 
- <h3>{{ collaboration.title }}</h3>
+ <h3><a href="{{ collaboration.permalink }}">{{ collaboration.title }}</a></h3>
 
  {{ collaboration.content }}
 
