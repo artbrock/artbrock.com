@@ -1,4 +1,4 @@
 ---
 layout: redirect
-refresh_to_post_id: /2014/11/01/overdue-personal-update
+redirect_to: /2014/11/01/overdue-personal-update
 ---

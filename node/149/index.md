@@ -1,4 +1,4 @@
 ---
 layout: redirect
-refresh_to_post_id: /2016/05/15/integrity-as-important-as-profit
+redirect_to: /2016/05/15/integrity-as-important-as-profit
 ---

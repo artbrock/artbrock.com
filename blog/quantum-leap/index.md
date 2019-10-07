@@ -1,4 +1,4 @@
 ---
 layout: redirect
-refresh_to_post_id: /2015/11/02/a-quantum-leap
+redirect_to: /2015/11/02/a-quantum-leap
 ---

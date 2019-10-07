@@ -1,4 +1,4 @@
 ---
 layout: redirect
-refresh_to_post_id: /2014/11/28/todays-writing-update
+redirect_to: /2014/11/28/todays-writing-update
 ---

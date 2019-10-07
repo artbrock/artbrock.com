@@ -1,4 +1,4 @@
 ---
 layout: redirect
-refresh_to_post_id: /2010/12/13/artbrocks-wish-list
+redirect_to: /2010/12/13/artbrocks-wish-list
 ---

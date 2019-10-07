@@ -1,4 +1,4 @@
 ---
 layout: redirect
-refresh_to_post_id: /2011/04/24/currency-resources-section-for-life-inc
+redirect_to: /2011/04/24/currency-resources-section-for-life-inc
 ---

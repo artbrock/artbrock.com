@@ -1,4 +1,4 @@
 ---
 layout: redirect
-refresh_to_post_id: /2009/05/12/differences-between-open-source-and-open-currency
+redirect_to: /2009/05/12/differences-between-open-source-and-open-currency
 ---

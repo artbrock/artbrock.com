@@ -15,17 +15,12 @@ author: artbrock
 # url: 'https://artbrock.github.io'
 # baseurl: ''
 
-# This is for the editing function in _/includes/improve_content
-# Leave it empty if your site is not on GitHub/GitHub Pages
-improve_content: https://github.com/artbrock/artbrock.github.io/edit/master
-
 # This URL points directly to the images directory making
 # things easier to link to images in posts and templates. It needs a slash at the end.
 #
 # Example: <img src="{{ site.urlimg }}{{ post.image.title }}" />
 # Markdown-Example for posts ![Image Text]({{ site.urlimg }}image.jpg)
-#
-# urlimg: 'https://artbrock.github.io/images/'
+urlimg: '/images/'
 
 
 # Logo size is 600x80 pixels
@@ -101,7 +96,7 @@ defaults:
       # Hide metadata for all pages
       show_meta: false
       # Possible values › left, right › by default there will be no sidebar
-      # sidebar:    		
+      # sidebar:
       comments: false
       # Default author for pages
       author: artbrock

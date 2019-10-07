@@ -1,4 +1,4 @@
 ---
 layout: redirect
-refresh_to_post_id: /2014/11/20/hacking-my-productivity
+redirect_to: /2014/11/20/hacking-my-productivity
 ---

@@ -1,4 +1,4 @@
 ---
 layout: redirect
-refresh_to_post_id: /2006/04/17/on-the-passing-of-my-father
+redirect_to: /2006/04/17/on-the-passing-of-my-father
 ---
