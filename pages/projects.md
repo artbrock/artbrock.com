@@ -1,16 +1,8 @@
 ---
 layout: page-fullwidth
-#
-# Content
-#
 title: "Projects &amp; collaborations"
-#
-# Styling
-#
-header: no
-#
-# Metainformation & Customization
-#
+header:
+ image_fullwidth: header-projects.jpg
 permalink: /projects/
 ---
 
