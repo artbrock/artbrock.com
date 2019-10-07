@@ -1,5 +1,6 @@
 ---
 layout: page
+permalink: /2016/05/15/thesis-presentation-emerging-leader-labs
 title: Thesis Presentation @ Emerging Leader Labs
 created: 1463357320
 categories:

@@ -1,5 +1,6 @@
 ---
 layout: page
+permalink: /2011/04/23/where-the-game-layer-really-counts-sharing-and-peer-communities
 title: 'Where the Game Layer Really Counts: Sharing & Peer Communities '
 created: 1303595650
 categories: []

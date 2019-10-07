@@ -1,5 +1,6 @@
 ---
 layout: page
+permalink: /2016/05/15/integrity-as-important-as-profit
 title: Integrity as Important as Profit
 created: 1463353404
 categories:

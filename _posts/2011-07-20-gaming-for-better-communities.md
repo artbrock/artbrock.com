@@ -1,5 +1,6 @@
 ---
 layout: page
+permalink: /2011/07/20/gaming-for-better-communities
 title: Gaming for Better Communities
 created: 1311135800
 categories:

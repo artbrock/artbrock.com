@@ -1,5 +1,6 @@
 ---
 layout: page
+permalink: /2016/05/14/regenerative-organizational-design-jacki-saorsail
 title: Regenerative Organizational Design - Jacki Saorsail
 created: 1463205600
 categories:

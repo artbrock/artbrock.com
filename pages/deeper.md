@@ -1,8 +1,9 @@
 ---
 layout: page
 subheadline: ""
-title: ""
+title: "Go deeper"
 teaser: ""
-header: no
+header:
+ image_fullwidth: header-deeper.jpg
 permalink: /deeper
 ---

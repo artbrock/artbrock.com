@@ -5,7 +5,7 @@ subheadline: "Why a whole web site?"
 teaser: "My web site is a catch-all for the variety of projects and activities that I’m involved in. I'm not too reliable about sending correspondence or newsletters, so friends have encouraged me to provide a place to keep up…"
 permalink: "/about"
 header:
-    image_fullwidth: "header_drop.jpg"
+    image_fullwidth: "header-about.jpg"
 ---
 <img alt="Arthur Brock" src="{{ site.urlimg }}Art_Brock_headshot.jpg" style="margin: 0 0 2rem 20px; float: right; ">
 
@@ -21,7 +21,7 @@ You can find out more <a href="#about">about me</a> on the bottom of this page o
 <a name="about"></a>
 
 ## About Me
-<img alt="Arthur Brock" src="/sites/artbrock.com/files/Arthur_Brock_caricature.png" style="margin:10px; float:left; ">
+<img alt="Arthur Brock" src="{{ site.urlimg }}Arthur_Brock_caricature.png" style="margin:0 20px 2rem 0; float:left; ">
 
 <strong>BRIEF BIO: </strong>Arthur Brock builds targeted currencies which shape the social dynamics of our emerging post-industrial economy. He has created more than a hundred designs for multi-currency systems and his software company has built and deployed dozens of those systems.
 
@@ -29,10 +29,10 @@ Initially, Arthur put his experience Artificial Intelligence to use at GM, Chrys
 
 Arthur’s designs include currency systems for: collaborative scientific research, sustainable fishery management, corporate compensation plans, employee stock options, community-based economic development, business barter and exchange, triple-bottom-line trade credits, open source software development, customer loyalty programs, water rights, recirculating gift certificates, community service, employee performance management, arts &amp; culture development, efficient resource sharing &amp; management, and community &amp; environmental impact assessment.
 
-Based in New York City, Arthur Brock consults worldwide with organizations which are actively restructuring themselves for the new economy. <a href="/contact">Contact him here</a><
+Based in New York City, Arthur Brock consults worldwide with organizations which are actively restructuring themselves for the new economy. [Contact him here](/contact).
 
 You might know him from some of his projects and companies (past or present):
 
-<a href="http://nyc.AgileLearningCenters.org">Agile Learning Centers</a>, <a href="http://EmergingLeaderLabs.org">Emerging Leader Labs</a>, Ceptr, Streamscapes,&nbsp;<a href="http://www.NewCurrencyFrontiers.com">New Currency Frontiers</a>,&nbsp;<a href="http://www.MetaCurrency.org">MetaCurrency Project</a>, Flowplace, Local Capital Summit, Lifeblood Design, <a href="http://geekgene.com">Geek Gene</a>, Mile High Business Alliance, Targeted Currencies Network, Dream Team Technologies, Artful Solutions or Artful Internet Solutions, The Foundation for Inventive Learning, or The Journal of Integral Living.
+[Agile Learning Centers](http://nyc.AgileLearningCenters.org), [Emerging Leader Labs](http://EmergingLeaderLabs.org), Ceptr, Streamscapes, [New Currency Frontiers](http://www.NewCurrencyFrontiers.com), [MetaCurrency Project](/metacurrency), Flowplace, Local Capital Summit, [Lifeblood Design](/lifeblood-design), [Geek Gene](http://geekgene.com), Mile High Business Alliance, Targeted Currencies Network, Dream Team Technologies, Artful Solutions or Artful Internet Solutions, The Foundation for Inventive Learning, or The Journal of Integral Living.
 
 <p style="text-align: center;"><embed flashvars="host=picasaweb.google.com&amp;captions=1&amp;hl=en_US&amp;feat=flashalbum&amp;RGB=0x000000&amp;feed=http%3A%2F%2Fpicasaweb.google.com%2Fdata%2Ffeed%2Fapi%2Fuser%2Fartbrock%2Falbumid%2F5277445913242609889%3Falt%3Drss%26kind%3Dphoto%26hl%3Den_US" height="300" pluginspage="http://www.macromedia.com/go/getflashplayer" src="http://picasaweb.google.com/s/c/bin/slideshow.swf" type="application/x-shockwave-flash" width="500">
