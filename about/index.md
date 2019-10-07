@@ -7,7 +7,7 @@ permalink: "/about/"
 header:
     image_fullwidth: "header_drop.jpg"
 ---
-<img alt="Arthur Brock" src="{{ site.urlimg }}Art_Brock_headshot.jpg" style="margin: 10px; float: right; ">
+<img alt="Arthur Brock" src="{{ site.urlimg }}Art_Brock_headshot.jpg" style="margin: 0 0 2rem 20px; float: right; ">
 
 Welcome. My web site is a catch-all for the variety of projects and activities that I’m involved in. I'm not too reliable about sending correspondence or newsletters, so friends have encouraged me to provide a place to keep up.
 

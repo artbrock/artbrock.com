@@ -4,7 +4,7 @@
 # / /_/ / /  / /_/ /_/ / /  / /_/ / /__/ ,<
 # \__,_/_/   \__/_.___/_/   \____/\___/_/|_|
 
-title: 'Arthur Brock's Personal Site'
+title: 'Arthur Brock''s Personal Site'
 slogan: 'Building a world that works for all'
 description: 'Culture-Hacking, Alt.Education, Targeted Currency Design, NextNet Technologies.'
 credits: '<p>Generated with &hearts; by <a href="http://artbrock.com/">artbrock</a> with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> and the <a href="http://phlow.github.io/feeling-responsive/">Feeling Responsive Theme</a>.</p>'
@@ -20,8 +20,7 @@ author: artbrock
 #
 # Example: <img src="{{ site.urlimg }}{{ post.image.title }}" />
 # Markdown-Example for posts ![Image Text]({{ site.urlimg }}image.jpg)
-urlimg: '/images/'
-
+# urlimg: '/images/'
 
 # Logo size is 600x80 pixels
 logo: "logo.png"
@@ -35,6 +34,10 @@ plugins:
     - jekyll-asciidoc
     - jekyll-gist
     - jekyll-paginate
+
+# https://jekyllrb.com/docs/collections/
+collections:
+  projects:
 
 #       ____              _             __  _
 #      / __ \____ _____ _(_)___  ____ _/ /_(_)___  ____
