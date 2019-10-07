@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: BALLE Conference and pre-conference events happening this summer
 categories:
 - targettedcurrencies

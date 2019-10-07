@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: The Pervasiveness of Consciousness and Language
 created: 1417150765
 categories:

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Thesis Presentation @ Emerging Leader Labs
 created: 1463357320
 categories:

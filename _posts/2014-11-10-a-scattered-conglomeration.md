@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: A Scattered Conglomeration
 created: 1415680776
 categories:

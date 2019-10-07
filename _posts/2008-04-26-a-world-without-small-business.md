@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: A World Without Small Business
 created: 1209189600
 categories: []

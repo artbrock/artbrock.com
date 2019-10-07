@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Deep Wealth talk at New Economy Conference
 created: 1418672764
 categories: []

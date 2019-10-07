@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Returning from NYC
 created: 1416196511
 categories:

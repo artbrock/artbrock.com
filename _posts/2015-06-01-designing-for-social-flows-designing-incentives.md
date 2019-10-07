@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: 'Designing for Social Flows: Designing Incentives.'
 created: 1433208683
 categories:

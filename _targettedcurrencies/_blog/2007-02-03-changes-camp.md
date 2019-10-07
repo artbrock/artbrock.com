@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Recent Changes Camp - Geekpower meets global change
 categories:
 - targettedcurrencies

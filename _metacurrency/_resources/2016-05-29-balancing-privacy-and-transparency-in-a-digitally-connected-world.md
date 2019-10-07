@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Matthew’s talk on Privacy and Transparency
 created: 1464444000
 categories:

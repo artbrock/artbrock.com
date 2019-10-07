@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Currency Token Life Cycle
 created: 1477832400
 categories:

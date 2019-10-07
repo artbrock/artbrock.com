@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Just a Spoonful of Ceptr
 created: 1447435669
 categories:

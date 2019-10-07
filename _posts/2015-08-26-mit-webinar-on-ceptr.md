@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: MIT Webinar on Ceptr
 created: 1440602819
 categories:

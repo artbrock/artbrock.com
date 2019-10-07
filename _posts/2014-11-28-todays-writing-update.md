@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Today's writing update
 created: 1417235903
 categories:

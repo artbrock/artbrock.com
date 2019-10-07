@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Ode to ELL and my Backlog
 created: 1465863955
 categories:

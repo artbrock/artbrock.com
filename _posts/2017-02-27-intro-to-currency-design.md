@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Intro to Currency Design
 date: 2017-02-27 16:19:03 -0800
 date_gmt: 2017-02-28 00:19:03 -0000

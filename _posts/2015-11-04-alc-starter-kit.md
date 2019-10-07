@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: ALC Starter Kit
 created: 1446642000
 categories:

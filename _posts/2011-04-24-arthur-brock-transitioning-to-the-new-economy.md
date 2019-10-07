@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Arthur Brock - Transitioning to the New Economy
 created: 1303660736
 categories:

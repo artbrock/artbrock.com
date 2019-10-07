@@ -1,5 +1,5 @@
 ---
-layout: 	post
+layout: page
 title:    Did Holochain Go Astray
 date:     2019-01-26 19:54:50 -0700
 date_gmt: 2019-01-26 02:54:50 -0000

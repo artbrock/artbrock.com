@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: New Speech-Act Spaces
 created: 1447832656
 categories:

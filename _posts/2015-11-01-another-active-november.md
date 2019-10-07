@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Another Active November!
 created: 1446389532
 categories:

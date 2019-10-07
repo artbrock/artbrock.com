@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Understanding Commonwealth Economies & Re-interpreting Darwinism
 created: 1414985300
 categories:

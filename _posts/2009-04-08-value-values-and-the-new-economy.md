@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Value, Values and the New Economy
 created: 1239170400
 categories:

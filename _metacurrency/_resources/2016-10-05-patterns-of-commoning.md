@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Patterns of Commoning
 created: 1475586000
 categories:

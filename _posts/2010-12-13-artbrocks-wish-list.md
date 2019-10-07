@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Artbrock's Wish List
 created: 1292218068
 categories: []

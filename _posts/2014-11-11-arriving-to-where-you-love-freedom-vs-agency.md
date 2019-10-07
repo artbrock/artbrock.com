@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Arriving to Where you Love (Freedom vs. Agency)
 created: 1415763320
 categories:

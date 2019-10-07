@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Distributed Receptor-Based Computing
 created: 1446555600
 categories:

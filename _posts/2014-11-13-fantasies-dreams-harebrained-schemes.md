@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Fantasies, Dreams, Harebrained Schemes
 created: 1415940952
 categories:

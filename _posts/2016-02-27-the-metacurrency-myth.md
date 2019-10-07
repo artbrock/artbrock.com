@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: The MetaCurrency Myth
 created: 1456631010
 categories:

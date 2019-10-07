@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Is there anything that can’t be Monetized?
 created: 1447138459
 categories:

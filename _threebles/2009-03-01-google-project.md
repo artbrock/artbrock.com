@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Google 10^100 Project Submission
 created: 1235865600
 categories:

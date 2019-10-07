@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Gaming for Better Communities
 created: 1311135800
 categories:

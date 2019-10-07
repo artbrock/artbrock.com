@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Reputation is Orthogonal to Exchange
 created: 1416114206
 categories:

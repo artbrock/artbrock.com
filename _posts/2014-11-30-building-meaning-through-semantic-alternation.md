@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Building Meaning through Semantic Alternation
 created: 1417324256
 categories:

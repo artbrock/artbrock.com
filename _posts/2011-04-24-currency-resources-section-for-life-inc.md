@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Currency Resources Section for Life Inc.
 created: 1303622874
 categories: []

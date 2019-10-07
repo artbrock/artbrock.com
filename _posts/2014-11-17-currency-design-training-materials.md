@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Currency Design Training Materials
 created: 1416286255
 categories:

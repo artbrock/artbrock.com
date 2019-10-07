@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Katie Teauge Interviews Eric Harris-Braun
 created: 1465308000
 categories:

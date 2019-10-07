@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Local Flavors
 created: 1272067620
 categories: []

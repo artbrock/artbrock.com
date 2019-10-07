@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Integrity as Important as Profit
 created: 1463353404
 categories:

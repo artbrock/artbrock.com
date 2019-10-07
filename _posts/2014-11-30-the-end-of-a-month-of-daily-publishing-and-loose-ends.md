@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: The End of a Month of Daily Publishing & Loose Ends
 created: 1417409901
 categories:

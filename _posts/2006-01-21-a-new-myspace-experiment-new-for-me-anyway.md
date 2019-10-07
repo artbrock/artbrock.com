@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: A New MySpace Experiment (new for me, anyway)
 created: 1137879655
 categories:

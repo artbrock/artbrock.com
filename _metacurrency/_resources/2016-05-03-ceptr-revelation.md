@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Ceptr revelation
 created: 1462197600
 categories:

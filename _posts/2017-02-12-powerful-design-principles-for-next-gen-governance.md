@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Powerful Design Principles for Next-Gen Governance
 date: 2017-02-12 22:08:00 -0500
 date_gmt: 2017-02-13 03:08:00 -0000

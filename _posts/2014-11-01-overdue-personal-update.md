@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Overdue Personal Update
 created: 1414897549
 categories:

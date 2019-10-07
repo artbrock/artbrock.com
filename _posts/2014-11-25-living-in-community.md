@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Living in Community
 created: 1416977891
 categories:

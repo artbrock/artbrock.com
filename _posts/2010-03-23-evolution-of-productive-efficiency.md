@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Evolution of Productive Efficiency
 created: 1269389380
 categories: []

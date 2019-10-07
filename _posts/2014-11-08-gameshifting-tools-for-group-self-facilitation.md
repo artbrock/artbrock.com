@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: GameShifting tools for Group Self-Facilitation
 created: 1415422835
 categories:

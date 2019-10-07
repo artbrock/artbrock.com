@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Arthur Brock & Eric Harris-Braun speak at Occupy Wall St.
 created: 1319916526
 categories:

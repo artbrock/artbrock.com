@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: 'Milk & Honey: Tracks In The Snow'
 created: 1303661082
 categories:

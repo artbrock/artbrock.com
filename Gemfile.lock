@@ -1,3 +1,10 @@
+GIT
+  remote: https://github.com/Phlow/feeling-responsive
+  revision: 2b1d3f888933b6a5fc7f332881351cab8320a4c3
+  branch: bare-bones-version
+  specs:
+    jekyll-theme-feeling-responsive (1.0.2)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -83,6 +90,7 @@ DEPENDENCIES
   jekyll-asciidoc
   jekyll-gist
   jekyll-paginate
+  jekyll-theme-feeling-responsive!
 
 BUNDLED WITH
    1.17.2

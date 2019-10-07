@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Occupy Wall Street: Occupy Money Talk
 created: 1319374800
 categories:

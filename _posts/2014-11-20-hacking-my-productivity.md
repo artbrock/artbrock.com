@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Hacking my Productivity
 created: 1416542937
 categories:

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Art Brock on #Blocktalk
 created: 1466431200
 categories:

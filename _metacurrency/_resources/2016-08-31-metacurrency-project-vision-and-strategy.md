@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: MetaCurrency Project Vision & Strategy
 created: 1472565600
 categories:

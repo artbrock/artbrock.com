@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: A Thought Experiment
 created: 1415249713
 categories:

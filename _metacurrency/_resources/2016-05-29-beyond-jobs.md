@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Beyond Jobs
 created: 1464444000
 categories:

@@ -1,5 +1,5 @@
 ---
-layout: 	post
+layout: page
 title: CIA on Holo Hosting (Confidentiality, Integrity, & Availability)
 date: 2019-02-18 19:54:50 -0700
 date_gmt: 2019-02-18 02:54:50 -0000

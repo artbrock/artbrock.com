@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Gift Transactions vs. Commercial Transactions
 created: 1298340675
 categories:

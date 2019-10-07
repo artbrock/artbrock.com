@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Feminist Gift Economy Conference
 created: 1100563740
 categories:

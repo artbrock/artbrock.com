@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Emerging Leader Labs - Seed Project
 created: 1345744757
 categories:

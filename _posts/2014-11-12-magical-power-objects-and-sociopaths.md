@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Magical Power Objects and Sociopaths
 created: 1415854488
 categories:

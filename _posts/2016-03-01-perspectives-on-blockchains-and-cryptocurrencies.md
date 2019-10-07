@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Perspectives on Blockchains and Cryptocurrencies
 created: 1456850820
 categories:

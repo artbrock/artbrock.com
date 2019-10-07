@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Regenerative Organizational Design - Jacki Saorsail
 created: 1463205600
 categories:

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: The Footprints of Flow
 created: 1237615200
 categories:

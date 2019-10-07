@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: What I’m Learning from Publishing Daily
 created: 1416805174
 categories:

@@ -1,5 +1,5 @@
 ---
-layout: 	post
+layout: page
 title: Basics of the Cryptographic Autonomy License
 date: 2019-01-24 19:54:50 -0700
 date_gmt: 2019-01-24 02:54:50 -0000

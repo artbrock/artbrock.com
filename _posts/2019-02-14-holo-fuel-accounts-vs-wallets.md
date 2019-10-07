@@ -1,5 +1,5 @@
 ---
-layout: 	post
+layout: page
 title: Holo Fuel Accounts vs. Wallets
 date: 2019-02-14 19:54:50 -0700
 date_gmt: 2019-02-14 02:54:50 -0000
@@ -30,5 +30,3 @@ As we get approach launch of the Holo Network, we've been getting some questions
 
 
 Let's start by clearing up some confusion about the word "wallet" as it applies to typical cryptocurrencies. **Crypto wallets hold cryptographic keys, not money.**
-
- 

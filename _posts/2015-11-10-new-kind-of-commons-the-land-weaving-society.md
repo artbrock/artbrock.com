@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: 'New Kind of Commons: The Land Weaving Society'
 created: 1447138800
 categories:

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: 'Monetizing my Daughter: A Modest Proposal'
 created: 1415129924
 categories:

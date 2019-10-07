@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Dynamic Alignment as a collaborative decision making tool
 created: 1235865600
 categories:

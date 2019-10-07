@@ -1,5 +1,5 @@
 ---
-layout: 	post
+layout: page
 title: Commons Engine
 date: 2017-06-05 23:16:09 -0400
 date_gmt: 2017-06-06 03:16:09 -0000

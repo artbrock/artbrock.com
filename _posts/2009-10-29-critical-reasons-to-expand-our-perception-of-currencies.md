@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: 'Critical reasons to expand our perception of Currencies '
 created: 1256796000
 categories:

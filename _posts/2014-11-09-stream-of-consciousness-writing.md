@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Stream of Consciousness Writing
 created: 1415594952
 categories:

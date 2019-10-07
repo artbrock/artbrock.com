@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Draft Proposal for a Currency Commons
 created: 1426702343
 categories:

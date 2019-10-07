@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Answers are Truly no Better than Questions
 created: 1416692955
 categories:

@@ -44,6 +44,10 @@ improve_content: https://github.com/artbrock/artbrock.github.io/edit/master
 # Logo size is 600x80 pixels
 logo: "logo.png"
 
+# Theme
+# https://jekyllrb.com/docs/themes/#installing-a-theme
+theme: jekyll-theme-feeling-responsive
+
 # Plugins
 plugins:
     - jekyll-asciidoc

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: The Future of Governance is not Governments
 categories:
 - Social Change

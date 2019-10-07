@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Some Thoughts about Feedback Loops
 created: 1415075039
 categories:

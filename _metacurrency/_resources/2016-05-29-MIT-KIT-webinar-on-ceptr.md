@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: MIT-KIT webkit on ceptr
 created: 1464444000
 categories:

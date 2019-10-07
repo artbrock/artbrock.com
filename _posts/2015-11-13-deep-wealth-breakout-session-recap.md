@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Deep Wealth Breakout Session Recap
 created: 1447433661
 categories:

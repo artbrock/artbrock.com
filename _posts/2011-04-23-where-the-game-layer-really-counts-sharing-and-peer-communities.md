@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: 'Where the Game Layer Really Counts: Sharing & Peer Communities '
 created: 1303595650
 categories: []

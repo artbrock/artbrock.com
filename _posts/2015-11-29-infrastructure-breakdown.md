@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Infrastructure Breakdown
 created: 1448775207
 categories:

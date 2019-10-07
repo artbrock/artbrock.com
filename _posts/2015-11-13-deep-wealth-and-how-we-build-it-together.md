@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Deep Wealth & How we Build it Together
 created: 1447435303
 categories:

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Currency Map
 created: 1468504800
 categories:

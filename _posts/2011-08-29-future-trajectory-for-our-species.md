@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Future trajectory for our species?
 created: 1314642008
 categories:

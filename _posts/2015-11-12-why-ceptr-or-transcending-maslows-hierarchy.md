@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Why Ceptr? or Transcending Maslow's Hierarchy
 created: 1447349495
 categories:

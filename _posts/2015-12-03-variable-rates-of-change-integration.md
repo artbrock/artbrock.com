@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Variable Rates of Change Integration
 created: 1449193405
 categories:

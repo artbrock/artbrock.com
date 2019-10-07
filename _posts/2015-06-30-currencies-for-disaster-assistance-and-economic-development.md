@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Currencies for Disaster Assistance and Economic Development
 created: 1435685302
 categories:

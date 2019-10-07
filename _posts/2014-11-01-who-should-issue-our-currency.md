@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Who should issue our currency?
 created: 1414898758
 categories:

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Designing Social Flows - Chapter 6 on Designing Incentives
 created: 1416629543
 categories:

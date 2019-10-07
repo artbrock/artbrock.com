@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Introduction to Metacurrency
 created: 1303928591
 categories: []

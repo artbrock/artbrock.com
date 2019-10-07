@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: About Arthur Brock
 created: 1221164949
 categories: []

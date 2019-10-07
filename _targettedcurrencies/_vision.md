@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Our Vision
 created: 1104498000
 categories:

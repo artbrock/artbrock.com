@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Bernal Experiments With Local Currency
 created: 1310617739
 categories:

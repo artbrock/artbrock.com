@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Currency Quips for Later Development
 created: 1250834400
 categories:

@@ -1,5 +1,5 @@
 ---
-layout: 	post
+layout: page
 title: What to Expect with Your HoloPort
 date: 2019-02-28 19:54:50 -0700
 date_gmt: 2019-02-28 02:54:50 -0000
@@ -26,7 +26,7 @@ tags:
 
 ## Status of Holo Network
  - link to posts about Alpha launches
- 
+
 ### Membranes
  * Privacy of address spaces
  * Composability of bridges

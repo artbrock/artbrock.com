@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Jerry Michalski interviews me about Alternative Currencies IFTF FutureCast
   Interview
 created: 1463370854

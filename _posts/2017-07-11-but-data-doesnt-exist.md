@@ -1,5 +1,5 @@
 ---
-layout: 	post
+layout: page
 title: But Data Doesn't Exist
 date: 2017-07-11 18:17:57 -0700
 date_gmt: 2017-07-12 01:17:57 -0000

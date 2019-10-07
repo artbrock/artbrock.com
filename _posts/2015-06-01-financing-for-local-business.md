@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Financing for Local Business
 created: 1433209334
 categories:

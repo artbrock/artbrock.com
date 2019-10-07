@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: An EXPLOSION of new writing!
 created: 1414897963
 categories:

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Dream Team Technologies Founding Documents
 created: 1436801301
 categories:

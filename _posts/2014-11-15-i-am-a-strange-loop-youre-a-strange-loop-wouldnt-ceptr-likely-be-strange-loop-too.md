@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: I am a Strange Loop. You’re a Strange Loop. Wouldn’t Ceptr likely be Strange
   Loop too?
 created: 1416027813

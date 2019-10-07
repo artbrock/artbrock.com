@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Currencies as DNA of Social Organisms
 created: 1240725600
 categories:

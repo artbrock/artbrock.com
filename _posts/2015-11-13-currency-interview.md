@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Currency Interview
 created: 1447434200
 categories:

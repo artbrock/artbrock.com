@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: The Sovereign Accountable Commons
 created: 1454282387
 categories:

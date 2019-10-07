@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: The Deepest Importance of Currencies
 created: 1311269207
 categories:

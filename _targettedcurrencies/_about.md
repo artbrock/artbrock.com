@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Who We Are
 created: 1104498000
 categories:

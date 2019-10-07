@@ -1,5 +1,5 @@
 ---
-layout: 	post
+layout: page
 title: hApp Dev Cookbook
 date: 2019-02-20 19:54:50 -0700
 date_gmt: 2019-02-20 02:54:50 -0000

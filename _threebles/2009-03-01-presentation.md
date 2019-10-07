@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Google Presentation about Threebles (March 2009)
 created: 1235865600
 categories:

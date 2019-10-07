@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Colorado Local First
 created: 1266969725
 categories: []

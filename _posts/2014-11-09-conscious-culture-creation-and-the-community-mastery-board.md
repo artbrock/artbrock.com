@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Conscious Culture Creation and the Community Mastery Board
 created: 1415509207
 categories:

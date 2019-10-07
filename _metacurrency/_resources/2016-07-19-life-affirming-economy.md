@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: The Unfolding Story of a Life Affirming Economy -Ferananda Ibarra
 created: 1468850400
 categories:

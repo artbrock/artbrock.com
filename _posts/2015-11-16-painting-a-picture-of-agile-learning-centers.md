@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Painting a picture of Agile Learning Centers
 created: 1447650498
 categories:

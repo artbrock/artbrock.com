@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: The Central Covenants of Successful Economies
 created: 1302041016
 categories:

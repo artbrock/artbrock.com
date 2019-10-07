@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Building a Semantic, Mashable, Fully Decentralized Internet : Jean-François Noubel
 created: 1464444000
 categories:

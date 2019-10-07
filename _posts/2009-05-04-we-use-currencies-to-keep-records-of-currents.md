@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: We use currencies to keep records of currents...
 created: 1241416800
 categories:

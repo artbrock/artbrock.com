@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Money Can't Buy You Love...or Trust.
 created: 1295593200
 categories:

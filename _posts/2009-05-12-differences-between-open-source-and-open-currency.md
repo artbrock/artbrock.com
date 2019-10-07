@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Differences Between "Open Source" and "Open Currency"
 created: 1242108000
 categories:

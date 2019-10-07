@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Deep Wealth: A post-monetary Jazz Ensemble
 created: 1470319200
 categories:

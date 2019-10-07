@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: The Laws of Thermodynamics Reinterpreted
 created: 1416459717
 categories:

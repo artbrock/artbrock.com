@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: 'Predictable Living Systems '
 created: 1233126000
 categories:

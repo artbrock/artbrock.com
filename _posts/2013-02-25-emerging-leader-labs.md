@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Emerging Leader Labs
 created: 1361838109
 categories:

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Challenging Broken Assumptions of Governance
 date: 2017-02-11 23:30:14 -0500
 date_gmt: 2017-02-12 04:30:14 -0000

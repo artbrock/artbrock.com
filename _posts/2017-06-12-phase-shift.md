@@ -1,5 +1,5 @@
 ---
-layout: 	post
+layout: page
 title:    Phase Shift
 date:     2017-06-12 17:11:02 -0400
 date_gmt: 2017-06-12 21:11:02 -0000

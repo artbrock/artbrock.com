@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Wealth: A Living Systems Model
 created: 1319374800
 categories:

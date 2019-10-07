@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: New Economy, New Wealth
 created: 1303602073
 categories: []

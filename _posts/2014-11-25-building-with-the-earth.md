@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Building with the Earth
 created: 1416891808
 categories:
