@@ -15,7 +15,7 @@ You can find much more up-to-date information at on the [MetaCurrency Project we
 
 We are a recognized leader in the alternative currency movement and at the forefront of implementing dynamic system designs which: strengthen loyalty and participation, generate new revenue, leverage existing assets, maximize cash flow, and build trust and reputation.
 
-Some of the projects we have implemented include employee incentive plans, local currency systems, volunteer rewards, feedback systems for ecology management, and participatory information value and ranking. We’ve worked with businesses, governments, non-profits, and online communities, as well as conferences and events.
+Some of the projects we have implemented include employee incentive plans, local currency systems, volunteer rewards, feedback systems for ecology management, and participatory information value and ranking. We've worked with businesses, governments, non-profits, and online communities, as well as conferences and events.
 
 ## What do we mean by targeted currencies?
 

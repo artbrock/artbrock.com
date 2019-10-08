@@ -10,7 +10,7 @@ categories:
 - gift economies
 - commonwealth
 ---
-<p>I'm way overdue for an update here. I have about 20 partially written posts that I've just never finished. I guess I just need to put them up however they stand. <br />
+\nI'm way overdue for an update here. I have about 20 partially written posts that I've just never finished. I guess I just need to put them up however they stand. <br />
 <br />
 So Eric and I decided to translate all our abstract MetaCurrency theory into practical, engaging action and start <a href="http://www.EmergingLeaderLabs.org">Emerging Leader Labs</a>.<br />
 <br />

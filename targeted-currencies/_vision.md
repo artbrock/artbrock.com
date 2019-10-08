@@ -23,7 +23,7 @@ Flows of trust, reputation, knowledge, information, value, goods, services, reso
 
 ## The Effect of a Unifying Model
 
-At one time, people explained disease as the result of “the evil eye” or curses. Rules for the safe handling of food were elaborate social/moral/spiritual traditions such as the Laws of Kashrut (Kosher practices). Plagues were blamed on divine punishment.
+At one time, people explained disease as the result of "the evil eye" or curses. Rules for the safe handling of food were elaborate social/moral/spiritual traditions such as the Laws of Kashrut (Kosher practices). Plagues were blamed on divine punishment.
 
 Germ Theory provided a single model to understand the cause and address the prevention and treatment of all of these issues. Numerous things which were previously thought to be unrelated and disconnected suddenly had a new connection.
 
@@ -58,7 +58,7 @@ Currencies Integrated into University Education
 
 **Grades** (A-, B+, C…) are a performance metric currency designed to measure the students performance as assessed by the teacher
 
-**Credits** (5 credit hours of Math) are a unit of account currency which allow the University to tally the classes chosen by students to ensure they’ve met their curriculum requirements
+**Credits** (5 credit hours of Math) are a unit of account currency which allow the University to tally the classes chosen by students to ensure they've met their curriculum requirements
 
 **Degrees** (B.S., M.B.A., Ph.D.) are a token of status currency intended to demonstrate that somebody has achieved a specific educational status.
 
@@ -73,7 +73,7 @@ All three are used together to establish your academic reputation and shape the 
 - Computer Science
 - Biology / Environmental Science
 
-We’ve been identifying the dynamics of currencies and building the tools to implement them for diverse applications and communities.
+We've been identifying the dynamics of currencies and building the tools to implement them for diverse applications and communities.
 
 ## Essential Components to Build a Market
 
@@ -103,7 +103,7 @@ College Degrees (to certify knowledge) --> Colleges & Universities
 
 Academic Grades --> Tutors (why else would you pay a university for a class AND hire a tutor to help you in the subject)
 
-Frequent Flier Miles --> Partner Programs (AA makes over $1B/yr on sales of FFM’s to partners)
+Frequent Flier Miles --> Partner Programs (AA makes over $1B/yr on sales of FFM's to partners)
 
 eBay Reputation Ratings --> Trusted Brokers
 
@@ -111,7 +111,7 @@ Postage Stamps --> Philately
 
 Event Tickets --> Scalpers
 
-The advent of Germ Theory didn’t instantly solve everyone’s problems. People had to learn new things; for example, washing their hands instead of making the sign to avert the evil eye.
+The advent of Germ Theory didn't instantly solve everyone's problems. People had to learn new things; for example, washing their hands instead of making the sign to avert the evil eye.
 
 We have a rich vocabulary in the world of objects but a weaker one in the world of complex systems and processes. Currencies are all about process.
 
@@ -141,7 +141,7 @@ We have been building a currency platform that is customizable to create currenc
 
 ## Rules vs. Rewards – Aligning our Incentives
 
-As a society we tend to make rules and laws to try to force others to act the way we think they should. We create rules and then punish the rule breakers. These negative incentives are from a pattern of behavior carried over from a level of consciousness (Spiral Dynamics’ Blue Meme) which focused on rules.
+As a society we tend to make rules and laws to try to force others to act the way we think they should. We create rules and then punish the rule breakers. These negative incentives are from a pattern of behavior carried over from a level of consciousness (Spiral Dynamics' Blue Meme) which focused on rules.
 
 We have an opportunity to redesign our incentives to encourage people to do what they naturally want to - and end up with a better world. We can design currencies to resonate with people in each level of consciousness.
 

@@ -30,9 +30,9 @@ If you think I'm going to provide some neat and tidy, mathematical, mechanistic,
 
 I know that might sound complicated, actually, it's beyond complicated it's complex.
 
-Any system of governance that does not work well FOR people will  If you think machines are going to solve the problem...
+Any system of governance that does not work well FOR people will  If you think machines are going to solve the problem…
 
-If you think arriving at an answer which an algorithm says is best, but doesn't feel right to people...
+If you think arriving at an answer which an algorithm says is best, but doesn't feel right to people…
 
 # Baseline: Governance is for and by Humans
 - We're messy
@@ -65,7 +65,7 @@ Awareness(Values/Reason/Intent)/Protocol
 # Objections:
 
 ## You're just a techno-utopian!
-Yeah, yeah... If you need to throw some label on my to invalidate what I'm saying rather than consider it, do what you must. You might want to check if you're blindly clinging to [assumptions about governance that are simply not true]().
+Yeah, yeah… If you need to throw some label on my to invalidate what I'm saying rather than consider it, do what you must. You might want to check if you're blindly clinging to [assumptions about governance that are simply not true]().
 
 I don't think technology will magically solve our problems. PEOPLE have to do that work. Remember, language and currencies are technologies we use every day to coordinate on massive scales, just like DNA is a technology our cells use to coordinate on massive scales.
 
@@ -81,7 +81,7 @@ When our current system comes down, they'll have to choose something to believe 
 
 78% of the US Population are active Facebook users. That is a much higher level of participation than happens in government, even just voting, even in controversial presidential election years.
 
-100 million bitcoin users not to mention other blockchain tech. Billions going into it this year. Banks... etc. Decentralized crypto systems have reached mainstream.
+100 million bitcoin users not to mention other blockchain tech. Billions going into it this year. Banks… etc. Decentralized crypto systems have reached mainstream.
 
 ## So you get to decide the algorithms?
 No. You do.

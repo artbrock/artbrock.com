@@ -9,4 +9,4 @@ categories:
 - social enterprise incubator
 - gift economies
 ---
-<iframe width="553" height="350" src="https://www.youtube.com/embed/v3aGoFw04HY" frameborder="0" allowfullscreen></iframe>
+{% include _youtube.html youtube=v3aGoFw04HY %}

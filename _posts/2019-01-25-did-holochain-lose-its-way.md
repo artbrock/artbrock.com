@@ -125,9 +125,9 @@ multi-stage funding strategy with the first phase involving a crowdfunding campa
 
 So we designed [HOLO](https://holo.host) as a major project to be able to bridge obscure and marginalized crypto-apps to mainstream users by letting them just use their web browser as if it were any data-driven web site. We know Holochain has no inherent speed or scale bottlenecks, so that theoretically these Holo-hosted apps could scale to the size of Facebook or Twitter. And there wasn't a blockchain-based project out there who could get anywhere near our performance or ease of devlopment.
 
-So [we sold Holo hosting boxes on IndieGoGo](https://IndieGoGo.com/....) and did an Initional Community Offering pre-selling hosting power on the Holo hosting network.
+So [we sold Holo hosting boxes on IndieGoGo](https://IndieGoGo.com/….) and did an Initional Community Offering pre-selling hosting power on the Holo hosting network.
 
-**Clarification:** Holochain does not have a token or currency built in. It is designed for scalable P2P apps that people self-host so they can control their identity and data... not for tokens. Blockchain is so inefficient it has to pay people to run it and burn through those hashes in Proof-of-Work or place stakes in Proof-of-Stake. But Holochain apps are lightweight enough to run on your phone. We tested between 75-100 full nodes running on a Raspberry Pi with just 2Gb of RAM.
+**Clarification:** Holochain does not have a token or currency built in. It is designed for scalable P2P apps that people self-host so they can control their identity and data… not for tokens. Blockchain is so inefficient it has to pay people to run it and burn through those hashes in Proof-of-Work or place stakes in Proof-of-Stake. But Holochain apps are lightweight enough to run on your phone. We tested between 75-100 full nodes running on a Raspberry Pi with just 2Gb of RAM.
 
 **Clarification Part II:** Holo does have a currency. It has to have one that can do billions of micro-transactions daily so it can run an edge-based app hosting network. In other words, like AirBnB sells more room-nights than the largest hotel chains, but has never built a hotel. Holo seeks to compete with the big cloud hosting companies without ever having to build a data center by using the efficency and scalability of Holochain to tap into computing power wherever it already is. This computing power is to form the basis of Holo's cryptocurrency with the currency always being backed/redeemable for the tangible asset of computing power. And the 1% transaction fees could fund Holochain and possibly even some of the development of Ceptr.
 
@@ -170,7 +170,7 @@ We are poised to launch Holo, but don't have an ecosystem of apps to host on it 
 
 Realistically, the last 6 months have not been not all bad. We still have a strong core base of supporters, and word has been spreading over the past year. In places like Turkey, there seems to be an explosion of support stemming from some vocal and respected thought leaders. However, some people (myself included) are tired of the *talk* of how great Holo/chain will be and just want to see it running.
 
-I've probably blathered on long enough here...
+I've probably blathered on long enough here…
 
 I'm just trying to be transparent about the fact that we don't have all the answers, and in retrospect, have probably made some strategic mistakes. I've opened a lot of inquiries in this post, and I hope community members will weigh in with thoughts and feedback in the comments. How do we best serve you?
 

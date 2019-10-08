@@ -52,7 +52,7 @@ Many are understandably skeptical about utopian visions of what is possible give
 
 As big-brained, symbol-using animals, we tend to over-value the importance of the tiny rational portion of ourselves. For example, we put kids in over 12 years of school which focuses on rational storage and retrieval of information in the mind. In school, most are never taught how to collaborate (It's called cheating.), or how to listen compassionately, establish friendship or trust, express their deepest commitments (That stuff is all a distraction called "talking in class.").
 
-Sorry... I'm ranting. This isn't about [better alternatives to our broken educational system](http://AgileLearningCenters.org), it's about our misplaced emphasis on rationality in our selves and our ideas of governance.
+Sorry… I'm ranting. This isn't about [better alternatives to our broken educational system](http://AgileLearningCenters.org), it's about our misplaced emphasis on rationality in our selves and our ideas of governance.
 
 See way back in the first post in this series, we identified problems with the assumption that humans are rational. And since most strategies for governance revolve around this false assumption it probably seemed like pretty bad news.
 

@@ -7,17 +7,17 @@ header:
 ---
 ## Deep Wealth Design
 
-{% include _youtube.html youtube='na_YQyKHpAQ' media-height=300 %}
-
 > Deep Wealth is the heart of a thrivable future  
 > Arthur Brock
+
+{% include _youtube.html youtube='na_YQyKHpAQ' media-height=300 %}
 
 There are core principles and patterns involved in generating lush, thriving, abundant living systems. We have created a living system model of wealth which enables communities and organizations to build Deep Wealth, rather than just a shallow accumulation of numbers in a bank account.
 This is because we are committed to nourishing living systems. And what makes living systems alive (at all levels: organisms, ecosystems, economies, communities, organizations, etc), is the integrity of their flows. Disrupt any vital flow, and the system soon dies.
 
 ![Wealth: A Living Systems Model]({{ site.urlimg }}Levels-of-Wealth_Water.png)
 
-As a society, we have a pretty good understanding of objects and how to manipulate them, but we’re not as good with flows. The MetaCurrency Project has identified the patterns, principles, and protocols for how we use currencies (think “current-sees”) to share, measure and enable all kinds of currents.
+As a society, we have a pretty good understanding of objects and how to manipulate them, but we're not as good with flows. The MetaCurrency Project has identified the patterns, principles, and protocols for how we use currencies (think "current-sees") to share, measure and enable all kinds of currents.
 
 The nervous systems of our organizations, governments, and economies are encoded with currencies. If we use currencies designed for short-term gain, we construct corporations that are cancerous.
 

@@ -5,7 +5,7 @@ created: 1292218068
 permalink: /2010/12/13/artbrocks-wish-list
 categories: []
 ---
-<p>Since I'm not too easy to buy gifts for, this page has been placed here in response to requests for gift ideas for birthday or Christmas.</p>
+\nSince I'm not too easy to buy gifts for, this page has been placed here in response to requests for gift ideas for birthday or Christmas.</p>
 
 <h3>Stuff:</h3>
 
@@ -33,4 +33,4 @@ helmet)</li>
 </ul>
 
 
-<p>Also... here's my <a href="http://amzn.com/w/L3Q6KTPVN6IU">Amazon Wish List</a></p>
+\nAlso… here's my <a href="http://amzn.com/w/L3Q6KTPVN6IU">Amazon Wish List</a></p>

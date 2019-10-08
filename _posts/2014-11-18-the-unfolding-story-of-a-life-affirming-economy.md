@@ -10,6 +10,6 @@ categories:
 - currencies
 - commonwealth
 ---
-<p>Video from a TEDx talk from one of our lovely MetaCurrency leaders was just released. It's rather beautiful. Please take a few minutes to soak it in.</p>
+\nVideo from a TEDx talk from one of our lovely MetaCurrency leaders was just released. It's rather beautiful. Please take a few minutes to soak it in.</p>
 
 <iframe width="720" height="405" src="//www.youtube.com/embed/EO7_JKyOAZE" frameborder="0" allowfullscreen></iframe>

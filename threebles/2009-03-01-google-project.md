@@ -25,7 +25,7 @@ Externalization of costs is the core issue to solve to achieve sustainable busin
 
 There is an easier way.
 
-To determine a company’s impact on people, ask the people; to determine their impact on the planet, measure inputs and outputs, then have these figures effect the company’s actual costs through triple bottom line money.
+To determine a company's impact on people, ask the people; to determine their impact on the planet, measure inputs and outputs, then have these figures effect the company's actual costs through triple bottom line money.
 
 Businesses optimize themselves to their incentives. Dollars teach them to focus solely on profits because they are coupled with a credit rating solely based on financial metrics. That rating determines the cost and availability of money. Integrating externalized costs into the cost of money is the beginning of Triple-Bottom-Line Economics (3ble).
 
