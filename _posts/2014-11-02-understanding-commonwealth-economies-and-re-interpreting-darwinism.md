@@ -2,6 +2,7 @@
 layout: page
 title: Understanding Commonwealth Economies & Re-interpreting Darwinism
 created: 1414985300
+permalink: /2014/11/02/understanding-commonwealth-economies-and-re-interpreting-darwinism
 categories:
 - evolution
 - commonwealth

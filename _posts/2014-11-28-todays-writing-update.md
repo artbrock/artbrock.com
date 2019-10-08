@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Today's writing update
+permalink: /2014/11/28/todays-writing-update
 created: 1417235903
 categories:
 - news

@@ -23,6 +23,17 @@
    - title: Resources
      url: /metacurrency/resources
 
+- title: Threebles
+  url: /threebles
+  side: left
+  dropdown:
+   - title: Strategy
+     url: /threebles/strategy
+   - title: Google presentation
+     url: /threebles/google-presentation
+   - title: Google project
+     url: /threebles/google-project
+
 - title: Lifeblood
   url: /lifeblood
   side: left

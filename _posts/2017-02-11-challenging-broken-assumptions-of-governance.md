@@ -10,6 +10,7 @@ author_login: artbrock
 author_email: artbrock@geekgene.com
 author_url: http://artbrock.com
 categories: [post]
+permalink: /2017/02/11/challenging-broken-assumptions-of-governance
 comments: []
 tags:
 - Governance

@@ -2,6 +2,7 @@
 layout: page
 title: Differences Between "Open Source" and "Open Currency"
 created: 1242108000
+permalink: /2009/05/12/differences-between-open-source-and-open-currency
 categories:
 - twollars
 - open source software

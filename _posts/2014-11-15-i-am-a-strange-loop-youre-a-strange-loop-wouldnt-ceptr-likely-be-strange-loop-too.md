@@ -2,6 +2,7 @@
 layout: page
 title: I am a Strange Loop. You’re a Strange Loop. Wouldn’t Ceptr likely be Strange
   Loop too?
+permalink: /2014/11/15/i-am-a-strange-loop-youre-a-strange-loop-wouldnt-ceptr-likely-be-strange-loop-too
 created: 1416027813
 categories:
 - patterns

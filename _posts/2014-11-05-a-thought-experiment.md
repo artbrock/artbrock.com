@@ -2,6 +2,7 @@
 layout: page
 title: A Thought Experiment
 created: 1415249713
+permalink: /2014/11/05/a-thought-experiment
 categories:
 - social dna
 - living systems

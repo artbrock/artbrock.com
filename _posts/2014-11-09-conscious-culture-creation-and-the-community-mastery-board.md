@@ -2,6 +2,7 @@
 layout: page
 title: Conscious Culture Creation and the Community Mastery Board
 created: 1415509207
+permalink: /2014/11/09/conscious-culture-creation-and-the-community-mastery-board
 categories:
 - social dna
 - intentional community

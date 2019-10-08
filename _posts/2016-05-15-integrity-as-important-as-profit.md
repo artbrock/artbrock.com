@@ -2,6 +2,7 @@
 layout: page
 permalink: /2016/05/15/integrity-as-important-as-profit
 title: Integrity as Important as Profit
+permalink: /2016/05/15/integrity-as-important-as-profit
 created: 1463353404
 categories:
 - ethics

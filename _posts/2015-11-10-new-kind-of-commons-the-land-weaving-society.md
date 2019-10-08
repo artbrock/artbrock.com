@@ -2,6 +2,7 @@
 layout: page
 title: 'New Kind of Commons: The Land Weaving Society'
 created: 1447138800
+permalink: /2015/11/10/new-kind-of-commons-the-land-weaving-society
 categories:
 - new economy
 - gift economies

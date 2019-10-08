@@ -2,6 +2,7 @@
 layout: page
 title: The MetaCurrency Myth
 created: 1456631010
+permalink: /2016/02/27/the-metacurrency-myth
 categories:
 - vision
 - currencies

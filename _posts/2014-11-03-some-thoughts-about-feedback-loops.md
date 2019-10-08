@@ -2,6 +2,7 @@
 layout: page
 title: Some Thoughts about Feedback Loops
 created: 1415075039
+permalink: /2014/11/03-some-thoughts-about-feedback-loops
 categories:
 - upward spirals
 - system dynamics

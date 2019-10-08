@@ -2,6 +2,7 @@
 layout: page
 title: Why Ceptr? or Transcending Maslow's Hierarchy
 created: 1447349495
+permalink: /2015/11/12/why-ceptr-or-transcending-maslows-heirarchy
 categories:
 - money
 - language

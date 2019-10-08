@@ -2,6 +2,7 @@
 layout: page
 title: New Economy, New Wealth
 created: 1303602073
+permalink: /2011/04/23/new-economy-new-wealth
 categories: []
 ---
 <div class="prezi-player">

@@ -2,6 +2,7 @@
 layout: page
 permalink: /2016/05/14/regenerative-organizational-design-jacki-saorsail
 title: Regenerative Organizational Design - Jacki Saorsail
+permalink: /2016/05/14/regenerative-organizational-design-jacki-soarsail
 created: 1463205600
 categories:
 - emerging leader labs

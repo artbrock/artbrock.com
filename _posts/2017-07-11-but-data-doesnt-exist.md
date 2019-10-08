@@ -12,6 +12,7 @@ author_email: 	artbrock@geekgene.com
 author_url: 	http://artbrock.com
 categories: 	[post]
 comments: []
+permalink: /2017/07/11/but-data-doesnt-exist
 tags:
 - Tag1
 - Tag2

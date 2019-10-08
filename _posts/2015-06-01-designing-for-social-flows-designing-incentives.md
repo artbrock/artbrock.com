@@ -2,6 +2,7 @@
 layout: page
 title: 'Designing for Social Flows: Designing Incentives.'
 created: 1433208683
+permalink: /2015/06/01/designing-for-social-flows-designing-incentives
 categories:
 - flows
 - currency design

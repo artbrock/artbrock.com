@@ -1,6 +1,7 @@
 ---
 layout: page
 title: The End of a Month of Daily Publishing & Loose Ends
+permalink: /2014/11/30/the-end-of-a-month-of-daily-publishing-and-loose-ends
 created: 1417409901
 categories:
 - writing

@@ -1,15 +1,10 @@
 ---
-layout: page
-title: Google Presentation about Threebles (March 2009)
+layout: page-fullwidth
+title: Google presentation about threebles (March 2009)
 created: 1235865600
-categories:
-- threebles
-- currencies
+permalink: /threebles/google-presentation
+header:
+ image_fullwidth: /header-threebles.jpg
 ---
-# Google Presentation about Threebles (March 2009)
 
-<iframe
-  src="http://docs.google.com/EmbedSlideshow?docid=dgptrmnk_17d7vnt4fk&size=m"
-  width="100%"
-  height="100vh">
-</iframe>
+{% include _google-docs.slideshow.html docid='dgptrmnk_17d7vnt4fk' media-height=600 %}

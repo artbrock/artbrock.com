@@ -2,6 +2,7 @@
 layout: page
 title: Currencies for Disaster Assistance and Economic Development
 created: 1435685302
+permalink: /2015/06/30/currencies-for-disaster-assistance-and-economic-development
 categories:
 - targeted currencies
 - local currency

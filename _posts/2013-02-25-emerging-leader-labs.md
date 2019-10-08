@@ -2,6 +2,7 @@
 layout: page
 title: Emerging Leader Labs
 created: 1361838109
+permalink: /2013/02/25/emerging-leader-labs
 categories:
 - current projects
 ---

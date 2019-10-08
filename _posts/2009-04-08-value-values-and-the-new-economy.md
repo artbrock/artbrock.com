@@ -2,6 +2,7 @@
 layout: page
 title: Value, Values and the New Economy
 created: 1239170400
+permalink: /2009/04/08/value-values-and-the-new-economy
 categories:
 - new economy
 - flow

@@ -2,6 +2,7 @@
 layout: page
 title: Painting a picture of Agile Learning Centers
 created: 1447650498
+permalink: /2015/11/16/painting-a-picture-of-agile-learning-centers
 categories:
 - agile learning centers
 - 21st century learning

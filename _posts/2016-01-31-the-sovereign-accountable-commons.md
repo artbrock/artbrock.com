@@ -2,6 +2,7 @@
 layout: page
 title: The Sovereign Accountable Commons
 created: 1454282387
+permalink: /2016/01/31/the-sovereign-accountable-commons
 categories:
 - sovereingty
 - reputation

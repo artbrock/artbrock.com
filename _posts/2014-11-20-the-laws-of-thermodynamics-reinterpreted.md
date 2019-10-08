@@ -1,6 +1,7 @@
 ---
 layout: page
 title: The Laws of Thermodynamics Reinterpreted
+permalink: /2014/11/20/the-laws-of-thermodynamics-reinterpreted
 created: 1416459717
 categories:
 - upward spirals

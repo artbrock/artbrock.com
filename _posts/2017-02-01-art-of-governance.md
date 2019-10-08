@@ -2,6 +2,7 @@
 layout: page
 title: The Art of Governance
 created: 2017-02-01
+permalink: /2017/02/01/art-of-governance
 categories:
 - governance
 - self-regulation

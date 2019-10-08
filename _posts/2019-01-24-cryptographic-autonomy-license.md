@@ -12,6 +12,7 @@ author_email: 	artbrock@holochain.org
 author_url: 	http://artbrock.com
 categories: 	[post]
 comments: []
+permalink: /2019/01/24/cryptographic-autonomy-license
 tags:
 - P2P
 - Open Source

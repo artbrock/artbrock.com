@@ -2,6 +2,7 @@
 layout: page
 title: A World Without Small Business
 created: 1209189600
+permalink: /2008/04/26/a-world-without-small-business
 categories: []
 ---
 <p>Ashley Kingsley originally posted<a href="http://ashleyslist.blogspirit.com/archive/2006/04/05/the-world-without-small-business.html"> this article</a> and David Sandusky started some discussion of it <a href="http://www.yourbrandplan.com/forum/business-needs-opportunities/644-world-without-small-business.html">here </a>where I posted this response.<br>

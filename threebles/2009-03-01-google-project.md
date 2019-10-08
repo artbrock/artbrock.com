@@ -1,12 +1,11 @@
 ---
 layout: page
-title: Google 10^100 Project Submission
+title: Google 10^100 project submission
 created: 1235865600
-categories:
-- threebles
-- currencies
+permalink: /threebles/google-project
+header:
+ image_fullwidth: header-threebles.jpg
 ---
-# Google 10^100 Project Submission | Threebles
 
 ## 8. Your idea's name (maximum 50 characters):
 
@@ -62,7 +61,7 @@ Threebles help the economy by providing community-managed currencies which provi
 
 Target existing networks of businesses and groups within the sustainability and relocalization movements (BALLE networks, Transition Towns, Micro-Credit organizations, Community Development Corps, relocalization networks, Independent Business Alliances, chambers of commerce, etc.). I have a dozen communities interested, but they currently lack funding.
 
-Establish online directories with feedback and rating functions for people, self-reporting from businesses about their practices, and scoring/report cards from environmental watchdog groups (see www.ColoradoLocalFirst.com for example). Build as open source toolset for rapid proliferation and widespread support.
+Establish online directories with feedback and rating functions for people, self-reporting from businesses about their practices, and scoring/report cards from environmental watchdog groups (see [www.coloradolocalfirst.com](/colorado-local-first) for example). Build as open source toolset for rapid proliferation and widespread support.
 
 Implement local trade exchange as a mutual credit currency with electronic transactions and account ledgers. Interest/demurrage rates, transaction fees and available credit all adjust according to the people-planet-profit credit ratings respectively. Again, Open Source trade exchange tools are required.
 

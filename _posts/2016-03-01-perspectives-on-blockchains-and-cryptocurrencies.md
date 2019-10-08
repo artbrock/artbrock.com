@@ -2,6 +2,7 @@
 layout: page
 title: Perspectives on Blockchains and Cryptocurrencies
 created: 1456850820
+permalink: /2016/03/01/perspectives-on-blockchains-and-cryptocurrencies
 categories:
 - distributed systems
 - currencies

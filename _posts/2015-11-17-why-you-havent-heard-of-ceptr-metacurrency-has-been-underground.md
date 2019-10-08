@@ -2,6 +2,7 @@
 layout: page
 title: Why you haven't heard of Ceptr | MetaCurrency has been Underground
 created: 1447746035
+permalink: /2015/11/17/why-you-havent-heard-of-ceptr-metacurrency-has-been-underground
 categories:
 - metacurrency
 - ceptr

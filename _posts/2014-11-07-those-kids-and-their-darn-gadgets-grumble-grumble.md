@@ -2,6 +2,7 @@
 layout: page
 title: Those Kids and Their Darn Gadgets <grumble...grumble>
 created: 1415336427
+permalink: /2014/11/07/those-kids-and-their-darn-gadgets-grumble-grumble
 categories:
 - learning cycles
 - learning

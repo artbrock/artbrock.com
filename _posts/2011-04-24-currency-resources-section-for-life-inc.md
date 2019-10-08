@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Currency Resources Section for Life Inc.
+permalink: /2011/04/24/currency-resources-section-for-life-inc
 created: 1303622874
 categories: []
 ---

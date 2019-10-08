@@ -2,6 +2,7 @@
 layout: page
 title: Money Can't Buy You Love...or Trust.
 created: 1295593200
+permalink: /2011/01/21/money-cant-buy-you-love-or-trust
 categories:
 - relationship economy
 - gifts

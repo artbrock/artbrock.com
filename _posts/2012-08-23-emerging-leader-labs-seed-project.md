@@ -2,6 +2,7 @@
 layout: page
 title: Emerging Leader Labs - Seed Project
 created: 1345744757
+permalink: /2012/08/23/emerging-leader-labs-seed-project
 categories:
 - social impact
 - social enterprise incubator

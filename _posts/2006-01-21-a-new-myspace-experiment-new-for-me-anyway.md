@@ -2,6 +2,7 @@
 layout: page
 title: A New MySpace Experiment (new for me, anyway)
 created: 1137879655
+permalink: /2006/01/21/a-new-myspace-experiment-for-me-anyway
 categories:
 - writing
 - currencies

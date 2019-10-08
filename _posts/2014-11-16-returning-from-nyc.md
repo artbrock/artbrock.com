@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Returning from NYC
+permalink: /2014/11/16/returning-from-nyc
 created: 1416196511
 categories:
 - personal

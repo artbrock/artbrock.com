@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Home
+title: Threebles may wobble but they won't fall down
 created: 1235865600
-categories:
-- threebles
-- currencies
+permalink: /threebles
+header:
+ image_fullwidth: header-threebles.jpg
 ---
-# Threebles may wobble but they won't fall down: Money designed for sustainability and stability
+## Money designed for sustainability and stability
 
 Triple Bottom Line accounting was invented to try to get at the real costs of business which are often externalized in the normal economy. Instead of internalizing the complexity and attempting to account for all such external effects, we suggest another approach. Set up external feedback loops for people and planetary impacts then create a financial consequences by effecting their cost and availability of money.
 

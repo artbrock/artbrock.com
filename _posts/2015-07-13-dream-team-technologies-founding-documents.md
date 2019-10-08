@@ -2,6 +2,7 @@
 layout: page
 title: Dream Team Technologies Founding Documents
 created: 1436801301
+permalink: /2015/07/13/dream-team-technologies-founding-documents
 categories:
 - inspiration
 - design

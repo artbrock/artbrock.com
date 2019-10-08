@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Reputation is Orthogonal to Exchange
+permalink: /2014/11/16/repuation-is-orthogonal-to-exchange
 created: 1416114206
 categories:
 - reputation

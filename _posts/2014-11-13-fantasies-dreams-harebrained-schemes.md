@@ -2,6 +2,7 @@
 layout: page
 title: Fantasies, Dreams, Harebrained Schemes
 created: 1415940952
+permalink: /2014/11/13/fantasies-dreams-harebrained-schemes
 categories:
 - metacurrency
 - magic

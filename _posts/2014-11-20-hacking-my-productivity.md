@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Hacking my Productivity
+permalink: /2014/11/20/hacking-my-productivity
 created: 1416542937
 categories:
 - productivity hacks

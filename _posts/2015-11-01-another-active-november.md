@@ -2,6 +2,7 @@
 layout: page
 title: Another Active November!
 created: 1446389532
+permalink: /2015/11/01/another-active-november
 categories:
 - writing
 ---

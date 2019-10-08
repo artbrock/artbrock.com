@@ -2,6 +2,7 @@
 layout: page
 title: ALCs as NextGen Self-Directed Learning (Pt.1)
 created: 1446706800
+permalink: /2015/11/05/alcs-as-nextgen-self-directed-learning-pt-1
 categories:
 - learning
 - education

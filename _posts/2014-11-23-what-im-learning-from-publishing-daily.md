@@ -1,6 +1,7 @@
 ---
 layout: page
 title: What I’m Learning from Publishing Daily
+permalink: /2014/11/23/what-im-learning-from-publishing-daily
 created: 1416805174
 categories:
 - writing

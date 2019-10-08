@@ -2,6 +2,7 @@
 layout: page
 title: A Quantum Leap
 created: 1446476211
+permalink: /2015/11/02/a-quantum-leap
 categories:
 - social change
 - language

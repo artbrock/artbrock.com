@@ -10,6 +10,7 @@ author_login: artbrock
 author_email: artbrock@geekgene.com
 author_url: http://artbrock.com
 categories: [post]
+permalink: /2017/02/27/intro-to-currency-design
 comments: []
 tags:
 - Tag1
@@ -90,7 +91,7 @@ Sounds crazy? Try to get someone at a bank or IRS to interact with you without y
 Maybe now you can understand how we're using the word currency. Think of it as "Current-See." A symbol system for making particular currents or flows visible.										
 We can't really interact with something if we can't "see" it. Social organisms can only "see" the world through current-sees. Decisions are made based on these. Just think of the government, if they can't measure it, they can't see it.
 
-So how do these currencies work?	
+So how do these currencies work?
 
 ## Arthur
 Let's go back to the two levels. 1) The currency tokens or symbols themselves. 2) The system which establishes and maintains the rules for the curreny tokens. 										

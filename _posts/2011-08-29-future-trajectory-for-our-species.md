@@ -2,6 +2,7 @@
 layout: page
 title: Future trajectory for our species?
 created: 1314642008
+permalink: /2011/08/29/future-trajectory-for-our-species
 categories:
 - social dna
 - new economy

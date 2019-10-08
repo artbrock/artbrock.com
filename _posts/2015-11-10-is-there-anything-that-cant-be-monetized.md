@@ -2,6 +2,7 @@
 layout: page
 title: Is there anything that can’t be Monetized?
 created: 1447138459
+permalink: /2015/11/10/is-there-anything-that-cant-be-monetized
 categories:
 - money
 - industrial age economy

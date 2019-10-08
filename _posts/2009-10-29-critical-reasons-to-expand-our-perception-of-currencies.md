@@ -2,6 +2,7 @@
 layout: page
 title: 'Critical reasons to expand our perception of Currencies '
 created: 1256796000
+permalink: /2009/10/29/critical-reasons-to-expand-our-perception-of-currencies
 categories:
 - money
 - currencies

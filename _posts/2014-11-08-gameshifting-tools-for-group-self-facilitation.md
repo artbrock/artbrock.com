@@ -2,6 +2,7 @@
 layout: page
 title: GameShifting tools for Group Self-Facilitation
 created: 1415422835
+permalink: /2014/11/08/gameshifting-tools-for-group-self-facilitation
 categories:
 - social dna
 - polymorphism

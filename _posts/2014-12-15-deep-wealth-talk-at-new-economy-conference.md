@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Deep Wealth talk at New Economy Conference
+permalink: /2014/12/15/deep-wealth-talk-at-new-economy-conference
 created: 1418672764
 categories: []
 ---

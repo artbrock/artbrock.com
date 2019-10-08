@@ -12,6 +12,7 @@ author_email: 	artbrock@holochain.org
 author_url: 	http://artbrock.com
 categories: 	[post]
 comments: []
+permalink: /2019/02/18/confidentiality-integrity-availability
 tags:
 - Confidentiality
 - Data Integrity

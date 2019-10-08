@@ -2,6 +2,7 @@
 layout: page
 title: Triple Bottom Line Currency
 created: 1223445600
+permalink: /2008/10/08/triple-bottom-line-currency
 categories:
 - triple bottom line
 - design

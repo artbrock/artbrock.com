@@ -2,6 +2,7 @@
 layout: page
 title: On the passing of my father...
 created: 1145264400
+permalink: /2006/04/17-on-the-passing-of-my-father
 categories:
 - personal
 - family

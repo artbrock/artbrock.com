@@ -3,6 +3,7 @@ layout: page
 permalink: /2011/07/20/users-for-sale-has-digital-illiteracy-turned-us-into-social-commodities
 title: 'Users for Sale: Has Digital Illiteracy Turned Us Into Social Commodities?'
 created: 1311136248
+permalink: /2011/07/20/users-for-sale-has-digital-illiteracy-turned-us-into-social-commodities
 categories:
 - social networks
 - next-net

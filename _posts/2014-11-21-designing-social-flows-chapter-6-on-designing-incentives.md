@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Designing Social Flows - Chapter 6 on Designing Incentives
+permalink: /2014/11/21/designing-social-flows-chapter-6-on-designing-incentives
 created: 1416629543
 categories:
 - social dna

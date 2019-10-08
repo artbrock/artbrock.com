@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Variable Rates of Change Integration
+permalink: /2015/12/03/variable-rates-of-change-integration
 created: 1449193405
 categories:
 - reputation

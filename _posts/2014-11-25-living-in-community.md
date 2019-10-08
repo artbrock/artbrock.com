@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Living in Community
+permalink: /2014/11/25/living-in-community
 created: 1416977891
 categories:
 - social contracts

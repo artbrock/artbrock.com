@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Infrastructure Breakdown
+permalink: /2015/11/29/infrastructure-breakdown
 created: 1448775207
 categories:
 - writing

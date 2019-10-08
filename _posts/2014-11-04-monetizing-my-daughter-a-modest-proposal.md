@@ -2,6 +2,7 @@
 layout: page
 title: 'Monetizing my Daughter: A Modest Proposal'
 created: 1415129924
+permalink: /2014/11/04-monetizing-my-daughter-a-modest-proposal
 categories:
 - satire
 - moral

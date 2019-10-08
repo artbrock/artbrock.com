@@ -2,6 +2,7 @@
 layout: page
 title: A Scattered Conglomeration
 created: 1415680776
+permalink: /2014/11/10/a-scattered-conglomeration
 categories:
 - writing
 - ceptr

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: The Future of Governance is not Governments
+permalink: /2017/01/26/future-governance-is-not-governments
 categories:
 - Social Change
 - Governance

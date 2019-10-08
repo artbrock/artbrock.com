@@ -2,6 +2,7 @@
 layout: page
 title: 'Predictable Living Systems '
 created: 1233126000
+permalink: /2009/01/28/predictable-living-systems
 categories:
 - currency
 - predictability

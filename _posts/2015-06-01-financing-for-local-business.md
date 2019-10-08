@@ -2,6 +2,7 @@
 layout: page
 title: Financing for Local Business
 created: 1433209334
+permalink: /2015/06/01/financing-for-local-business
 categories:
 - local currency
 - relocalization

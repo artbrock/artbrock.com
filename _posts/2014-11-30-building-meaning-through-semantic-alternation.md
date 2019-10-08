@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Building Meaning through Semantic Alternation
+permalink: /2014/11/30/building-meaning-through-semantic-alternation
 created: 1417324256
 categories:
 - structure

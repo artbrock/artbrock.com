@@ -2,6 +2,7 @@
 layout: page
 title: Magical Power Objects and Sociopaths
 created: 1415854488
+permalink: /2014/11/12/magical-power-objects-and-sociopaths
 categories:
 - power
 - money

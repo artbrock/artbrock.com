@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Currency Design Training Materials
+permalink: /2014/11/17/currency-design-training-materials
 created: 1416286255
 categories:
 - currency design

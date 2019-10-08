@@ -2,6 +2,7 @@
 layout: page
 title: An EXPLOSION of new writing!
 created: 1414897963
+permalink: /2014/11/01/an-explosion-of-new-writing
 categories:
 - sharing
 - learning cycles

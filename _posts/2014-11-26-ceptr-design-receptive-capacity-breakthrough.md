@@ -1,6 +1,7 @@
 ---
 layout: page
 title: 'Ceptr Design: Receptive Capacity Breakthrough'
+permalink: /2014/11/26/ceptr-design-receptive-capacity-breakthrough
 created: 1417025664
 categories:
 - receptive capacity

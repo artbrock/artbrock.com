@@ -1,6 +1,7 @@
 ---
 layout: page
 title: The Pervasiveness of Consciousness and Language
+permalink: /2014/11/27/the-pervasiveness-of-consciousness-and-language
 created: 1417150765
 categories:
 - writing

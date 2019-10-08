@@ -2,6 +2,7 @@
 layout: page
 title: Feminist Gift Economy Conference
 created: 1100563740
+permalink: /2004/11/15/feminist-gift-economy-conference
 categories:
 - gift economies
 - currencies

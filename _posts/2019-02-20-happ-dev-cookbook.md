@@ -12,6 +12,7 @@ author_email: 	artbrock@holochain.org
 author_url: 	http://artbrock.com
 categories: 	[post]
 comments: []
+permalink: /2019/02/20/happ-dev-cookbook
 tags:
 - P2P Applications
 - Agent-Centric

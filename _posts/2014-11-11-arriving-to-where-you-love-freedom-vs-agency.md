@@ -2,6 +2,7 @@
 layout: page
 title: Arriving to Where you Love (Freedom vs. Agency)
 created: 1415763320
+permalink: /2014/11/11/arriving-to-where-you-love-freedom-vs-agency
 categories:
 - social dna
 - freedom

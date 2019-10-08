@@ -2,6 +2,7 @@
 layout: page
 title: Overdue Personal Update
 created: 1414897549
+permalink: /2014/11/01/overdue-personal-update
 categories:
 - personal
 ---

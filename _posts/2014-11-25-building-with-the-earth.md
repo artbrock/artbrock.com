@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Building with the Earth
+permalink: /2014/11/25/building-with-the-earth
 created: 1416891808
 categories:
 - intentional community

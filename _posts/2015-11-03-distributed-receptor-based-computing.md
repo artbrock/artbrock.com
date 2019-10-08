@@ -2,6 +2,7 @@
 layout: page
 title: Distributed Receptor-Based Computing
 created: 1446555600
+permalink: /2015/11/03/distributed-receptor-based-computing
 categories:
 - receptive capacity
 - decentralization

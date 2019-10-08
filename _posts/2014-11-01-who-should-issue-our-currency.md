@@ -2,6 +2,7 @@
 layout: page
 title: Who should issue our currency?
 created: 1414898758
+permalink: /2014/11/01/who-should-issue-our-currency
 categories:
 - money
 - decentralization

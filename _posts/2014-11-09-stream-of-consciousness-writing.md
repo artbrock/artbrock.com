@@ -2,6 +2,7 @@
 layout: page
 title: Stream of Consciousness Writing
 created: 1415594952
+permalink: /2014/11/09/stream-of-consciousness-writing
 categories:
 - writing
 - sharing

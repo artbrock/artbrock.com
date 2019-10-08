@@ -2,6 +2,7 @@
 layout: page
 title: New Speech-Act Spaces
 created: 1447832656
+permalink: /2015/11/18/new-speech-act-spaces
 categories:
 - language
 - ceptr

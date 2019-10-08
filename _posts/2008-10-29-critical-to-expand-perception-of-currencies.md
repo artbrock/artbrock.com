@@ -2,6 +2,7 @@
 layout: page
 title: Critical to expand perception of Currencies
 created: 1225260000
+permalink: /2008/10/29/critical-to-expand-perception-of-currencies
 categories:
 - currency
 - dna

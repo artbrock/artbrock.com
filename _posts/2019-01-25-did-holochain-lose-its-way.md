@@ -12,6 +12,7 @@ author_email: artbrock@holochain.org
 author_url: 	http://artbrock.com
 categories:  [post]
 comments: []
+permalink: /2019/01/25/did-holochain-lose-its-way
 tags:
 - Holochain
 - Usability

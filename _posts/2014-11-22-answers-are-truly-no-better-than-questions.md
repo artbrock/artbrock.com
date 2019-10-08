@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Answers are Truly no Better than Questions
+permalink: /2014/11/22/answers-are-truly-no-better-than-questions
 created: 1416692955
 categories:
 - education

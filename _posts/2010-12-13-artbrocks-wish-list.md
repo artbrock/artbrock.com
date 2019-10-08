@@ -2,6 +2,7 @@
 layout: page
 title: Artbrock's Wish List
 created: 1292218068
+permalink: /2010/12/13/artbrocks-wish-list
 categories: []
 ---
 <p>Since I'm not too easy to buy gifts for, this page has been placed here in response to requests for gift ideas for birthday or Christmas.</p>
