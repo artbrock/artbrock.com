@@ -20,7 +20,8 @@ author: artbrock
 #
 # Example: <img src="{{ site.urlimg }}{{ post.image.title }}" />
 # Markdown-Example for posts ![Image Text]({{ site.urlimg }}image.jpg)
-urlimg: '/images/'
+urlimg: /images/
+urldoc: /docs/
 
 # default media height used in includes for images and videos
 media-height: 300

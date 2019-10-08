@@ -18,3 +18,8 @@ img {
  margin: 2rem 60px 3rem 0;
  float: left;
 }
+
+.frontpage-widget img {
+ height: 250px;
+ object-fit: cover;
+}

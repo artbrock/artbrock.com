@@ -2,11 +2,10 @@
 layout: page
 title: Dynamic Alignment as a collaborative decision making tool
 created: 1235865600
-categories:
-- lifeblooddesign
+permalink: /lifeblood/dynamic-alignment
+header:
+ image_fullwidth: header-lifeblood.jpg
 ---
-# Dynamic Alignment as a collaborative decision making tool
-
 ## Proper Application:
 
 This tool is best used for groups that need to reach agreement about something that can be captured in a document and have some useful starting place.  For example, I don’t recommend it for trying to brainstorm something from scratch, but if a group is trying to agree on a plan or strategy, ratify bylaws, or refine a policy, then this is could be the right kind of tool for you.  I’ll be using the process of refining a document as an example.

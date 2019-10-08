@@ -23,6 +23,17 @@
    - title: Resources
      url: /metacurrency/resources
 
+- title: Lifeblood
+  url: /lifeblood
+  side: left
+  dropdown:
+   - title: About
+     url: /lifeblood/about
+   - title: Dynamic alignment
+     url: /lifeblood/dynamic-alignment
+   - title: Tools
+     url: /lifeblood/tools
+
 - title: Articles
   url: /blog
   side: left
