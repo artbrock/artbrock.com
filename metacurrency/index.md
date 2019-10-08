@@ -1,9 +1,8 @@
 ---
 layout: page
-title: About
+title: Metacurrency
 created: 1235865600
-categories:
-- metacurrency
+permalink: /metacurrency
 ---
 ## Deep Wealth Design
 

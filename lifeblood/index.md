@@ -1,9 +1,7 @@
 ---
 layout: page
-title: What actually makes a business or community thrive?
-created: 1235865600
-categories:
-- lifeblooddesign
+title: Lifeblood design
+permalink: /lifeblood
 ---
 # What actually makes a business or community thrive?
 

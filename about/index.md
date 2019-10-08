@@ -33,6 +33,19 @@ Based in New York City, Arthur Brock consults worldwide with organizations which
 
 You might know him from some of his projects and companies (past or present):
 
-[Agile Learning Centers](http://nyc.AgileLearningCenters.org), [Emerging Leader Labs](http://EmergingLeaderLabs.org), Ceptr, Streamscapes, [New Currency Frontiers](http://www.NewCurrencyFrontiers.com), [MetaCurrency Project](/metacurrency), Flowplace, Local Capital Summit, [Lifeblood Design](/lifeblood-design), [Geek Gene](http://geekgene.com), Mile High Business Alliance, Targeted Currencies Network, Dream Team Technologies, Artful Solutions or Artful Internet Solutions, The Foundation for Inventive Learning, or The Journal of Integral Living.
-
-<p style="text-align: center;"><embed flashvars="host=picasaweb.google.com&amp;captions=1&amp;hl=en_US&amp;feat=flashalbum&amp;RGB=0x000000&amp;feed=http%3A%2F%2Fpicasaweb.google.com%2Fdata%2Ffeed%2Fapi%2Fuser%2Fartbrock%2Falbumid%2F5277445913242609889%3Falt%3Drss%26kind%3Dphoto%26hl%3Den_US" height="300" pluginspage="http://www.macromedia.com/go/getflashplayer" src="http://picasaweb.google.com/s/c/bin/slideshow.swf" type="application/x-shockwave-flash" width="500">
+- [Agile Learning Centers](/agile-learning-centers)
+- [Emerging Leader Labs](/emerging-leader-labs)
+- [Ceptr](/ceptr)
+- Streamscapes
+- [New Currency Frontiers](/new-currency-frontiers)
+- [MetaCurrency Project](/metacurrency)
+- [Flowplace](/flowplace)
+- Local Capital Summit
+- [Lifeblood Design](/lifeblood)
+- [Geek Gene](/geek-gene)
+- [Mile High Business Alliance](/mile-high-business-alliance)
+- [Targeted Currencies Network](/targeted-currencies)
+- Dream Team Technologies
+- Artful Solutions or Artful Internet Solutions
+- The Foundation for Inventive Learning
+- The Journal of Integral Living

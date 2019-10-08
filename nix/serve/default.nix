@@ -1,6 +1,6 @@
 { pkgs }:
 let
- script = pkgs.writeShellScriptBin "art-serve" ''
+ script = pkgs.writeShellScriptBin "nix-serve" ''
 bundle install && \
 bundle exec jekyll serve \
  --incremental \

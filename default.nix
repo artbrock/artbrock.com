@@ -1,13 +1,11 @@
 let
- pkgs = import ./nixpkgs;
+ pkgs = import ./nix/pkgs;
 
- build = pkgs.callPackage ./build { pkgs = pkgs; };
- flush = pkgs.callPackage ./flush { pkgs = pkgs; };
- serve = pkgs.callPackage ./serve { pkgs = pkgs; };
+ flush = pkgs.callPackage ./nix/flush { pkgs = pkgs; };
+ serve = pkgs.callPackage ./nix/serve { pkgs = pkgs; };
 
- dev-shell = (pkgs.callPackage ./nix-shell {
+ dev-shell = (pkgs.callPackage ./nix/shell {
   pkgs = pkgs;
-  build = build;
   flush = flush;
   serve = serve;
  });

@@ -1,6 +1,6 @@
 { pkgs }:
 let
- script = pkgs.writeShellScriptBin "art-flush" ''
+ script = pkgs.writeShellScriptBin "nix-flush" ''
 rm -rf ./vendor
 rm -f Gemfile.lock
 rm -rf .jekyll-cache
