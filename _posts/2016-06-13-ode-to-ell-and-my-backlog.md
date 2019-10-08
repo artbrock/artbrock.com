@@ -9,4 +9,6 @@ categories:
 - media
 - gift economies
 ---
-\nCrap… it all got deleted and I have to re-write it. &nbsp;Awesome.</p>
+
+Crap… it all got deleted and I have to re-write it. &nbsp;Awesome.
+

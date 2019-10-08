@@ -21,4 +21,4 @@ Of course, this only works for typing. So I have to have a computer - preferably
 
 This month of writing, which also involves publishing things even if they are not fully complete or edited, is probably and important addition to this workflow.
 
-So… let's hear it for prioritizing sharing over getting it right! :)</p>
+So… let's hear it for prioritizing sharing over getting it right! :)

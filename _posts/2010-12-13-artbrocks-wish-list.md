@@ -5,9 +5,11 @@ created: 1292218068
 permalink: /2010/12/13/artbrocks-wish-list
 categories: []
 ---
-\nSince I'm not too easy to buy gifts for, this page has been placed here in response to requests for gift ideas for birthday or Christmas.</p>
 
-<h3>Stuff:</h3>
+Since I'm not too easy to buy gifts for, this page has been placed here in response to requests for gift ideas for birthday or Christmas.
+
+
+## Stuff:
 
 <ul><li>Shoe Repair at <a href="http://www.dardanos.com/repair-services.php">Dardano's</a></li>
 <li>A nice AM Yoga DVD</li>
@@ -33,4 +35,5 @@ helmet)</li>
 </ul>
 
 
-\nAlso… here's my <a href="http://amzn.com/w/L3Q6KTPVN6IU">Amazon Wish List</a></p>
+
+Also… here's my <a href="http://amzn.com/w/L3Q6KTPVN6IU">Amazon Wish List</a>

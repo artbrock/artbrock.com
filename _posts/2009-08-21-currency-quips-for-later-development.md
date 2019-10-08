@@ -64,7 +64,7 @@ When we set money-making aside, we tend to take pretty good care of each other.
 
 ## Money and Anti-Inflation
 
-Lastly, this one is a response on a [Facebook discussion](http://www.facebook.com/topic.php?uid=71363831381&amp;topic=7673) to a question about value reference currencies.
+Lastly, this one is a response on a [Facebook discussion](/facebook/value-reference-currencies) to a question about value reference currencies.
 
 ---
 
