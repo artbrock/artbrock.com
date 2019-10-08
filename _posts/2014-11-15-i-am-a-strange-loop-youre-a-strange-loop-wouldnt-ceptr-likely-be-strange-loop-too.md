@@ -31,6 +31,9 @@ Well… yes and no.&nbsp; In the case of Ceptr, it happens that the solution com
 In some ways this is really clear and obvious. It is also quite profound. And I think the way that we implement it in Ceptr, makes the profundity more clear than current networking protocols do.
 
 [To add later:
-<ul><li><span style="line-height: 1.5;">Diagram of strange loop in Ceptr with feedback between virtual and physical levels.</span></li><li><span style="line-height: 1.5;">Show how the network itself exists/runs INSIDE the nodes, and yet the nodes exist INSIDE the network. (another diagram?)</span></li><li><span style="line-height: 1.5;">Spell it out longer and more clearly, because the one paragraph explanation in the <a href="https://docs.google.com/document/d/1Line362Wm0zMOZcEZMqPYfHqNS4XIVyVsP7SS_4jE2o/edit#heading=h.ee3qi5eixr98">Revelation</a>, while concise, may be a bit too dense for most people to process.</span></li></ul>
+<ul>
+- <span style="line-height: 1.5;">Diagram of strange loop in Ceptr with feedback between virtual and physical levels.</span>
+- <span style="line-height: 1.5;">Show how the network itself exists/runs INSIDE the nodes, and yet the nodes exist INSIDE the network. (another diagram?)</span>
+- <span style="line-height: 1.5;">Spell it out longer and more clearly, because the one paragraph explanation in the <a href="https://docs.google.com/document/d/1Line362Wm0zMOZcEZMqPYfHqNS4XIVyVsP7SS_4jE2o/edit#heading=h.ee3qi5eixr98">Revelation</a>, while concise, may be a bit too dense for most people to process.</span></ul>
 <span style="line-height: 1.5;">]</span>
 

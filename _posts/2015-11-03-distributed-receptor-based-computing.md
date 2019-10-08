@@ -16,7 +16,17 @@ The MetaCurrency Project's requirements for decentralization combined with a com
 <!--break-->
 
 Our approach addresses many issues people are tackling in a variety of projects (web of trust, blockchain, semantic web, decentralized applications, federated identity, ease of interoperability, rapid code evolution with massive reuse, mesh networks, etc.) through a unified approach. &nbsp;We know providing such a different approach creates barriers to adoption and understanding, but we also know that applications in Ceptr will be able to be developed faster, easier and should significantly outperform projects which have been cobbled together from more traditional tools.
-<ul><li>There's a lot of things we've worked out pretty well, like:&nbsp;</li><li>Lightweight virtual machines (receptors) for distributed applications/computing</li><li>Configurable byzantine fault tolerance options for distributed data storage with intrinsic data integrity in signed chains</li><li>Deeply integrated semantics: semantic memory, semantic stacks, and a generalized parsing and pattern matching system via our semantic tree regular expression engine</li><li>Built-in code repository for sharing vocabularies, code and protocols</li><li>Optimization for rapid evolution and easy deprecation (of code, vocabs, protocols, etc.)</li><li>Pluggable, self-describing protocols (Ceptr protocols are not textual descriptions for human protocol developers, but pluggable semantic code. A receptor can install a protocol to read a message after receiving the message it didn't know how to read.)</li><li>Network-wide event subscription (through persistent "listeners")</li><li>Massive interoperability, reusability, mashability, and composability</li><li>Ensuring fractal coherence (This needs a paper of its own to explain why it's important.)</li></ul>
+<ul>
+- There's a lot of things we've worked out pretty well, like:&nbsp;
+- Lightweight virtual machines (receptors) for distributed applications/computing
+- Configurable byzantine fault tolerance options for distributed data storage with intrinsic data integrity in signed chains
+- Deeply integrated semantics: semantic memory, semantic stacks, and a generalized parsing and pattern matching system via our semantic tree regular expression engine
+- Built-in code repository for sharing vocabularies, code and protocols
+- Optimization for rapid evolution and easy deprecation (of code, vocabs, protocols, etc.)
+- Pluggable, self-describing protocols (Ceptr protocols are not textual descriptions for human protocol developers, but pluggable semantic code. A receptor can install a protocol to read a message after receiving the message it didn't know how to read.)
+- Network-wide event subscription (through persistent "listeners")
+- Massive interoperability, reusability, mashability, and composability
+- Ensuring fractal coherence (This needs a paper of its own to explain why it's important.)</ul>
 Some of Ceptr is operational, some is barely operational code-scaffolding, and some is yet to be built (especially these next topics). And we could use some support designing good implementation strategies for some of these things.
 
 <strong>Hierarchal Deterministic Keys and Key Management:</strong> Since every agent that wants to communicate on the Ceptr Network gets its own address and keys for signing &amp; encryption, we'd love ideas for making it easy for people to manage a lot of keys. Also, in many configurations we'd like to use hierarchal keys (e.g. a master receptor and with synched slave instances, an agent/person and the receptors they create (whether a standalone receptor or sharded peers).
