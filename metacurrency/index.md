@@ -7,7 +7,7 @@ header:
 ---
 ## Deep Wealth Design
 
-{% include youtube.html youtube='na_YQyKHpAQ' media-height=300 %}
+{% include _youtube.html youtube='na_YQyKHpAQ' media-height=300 %}
 
 > Deep Wealth is the heart of a thrivable future  
 > Arthur Brock

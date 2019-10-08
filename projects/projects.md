@@ -8,8 +8,8 @@ permalink: /projects/
 
 ## Current projects
 
-{% include grid-tile.html size=6 items=site.projects %}
+{% include _grid-tile.html size=6 media-height=200 object-fit='contain' items=site.projects %}
 
 ## Collaborations
 
-{% include grid-tile.html size=6 items=site.collaborations %}
+{% include _grid-tile.html size=6 media-height=200 object-fit='contain' items=site.collaborations %}

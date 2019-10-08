@@ -1,0 +1,20 @@
+---
+---
+// hack [class] on to bump the specificity
+html[class], body[class] {
+ font-size: 17px;
+}
+
+img {
+ display: block;
+}
+
+.right-image {
+ margin: 2rem 0 3rem 60px;
+ float: right;
+}
+
+.left-image {
+ margin: 2rem 60px 3rem 0;
+ float: left;
+}

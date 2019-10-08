@@ -7,7 +7,7 @@ permalink: "/about"
 header:
     image_fullwidth: "header-about.jpg"
 ---
-<img alt="Arthur Brock" src="{{ site.urlimg }}Art_Brock_headshot.jpg" style="margin: 0 0 2rem 20px; float: right; ">
+<img alt="Arthur Brock" src="{{ site.urlimg }}Art_Brock_headshot.jpg" class="right-image">
 
 Welcome. My web site is a catch-all for the variety of projects and activities that I’m involved in. I'm not too reliable about sending correspondence or newsletters, so friends have encouraged me to provide a place to keep up.
 
@@ -21,7 +21,7 @@ You can find out more <a href="#about">about me</a> on the bottom of this page o
 <a name="about"></a>
 
 ## About Me
-<img alt="Arthur Brock" src="{{ site.urlimg }}Arthur_Brock_caricature.png" style="margin:0 20px 2rem 0; float:left; ">
+<img alt="Arthur Brock" src="{{ site.urlimg }}Arthur_Brock_caricature.png" class="left-image">
 
 <strong>BRIEF BIO: </strong>Arthur Brock builds targeted currencies which shape the social dynamics of our emerging post-industrial economy. He has created more than a hundred designs for multi-currency systems and his software company has built and deployed dozens of those systems.
 

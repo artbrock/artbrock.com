@@ -10,16 +10,16 @@ permalink: /deeper
 
 ## Videos, speaking engagements, interviews
 
-{% include grid-tile.html size=12 items=site.videos %}
+{% include _grid-tile.html size=12 items=site.videos %}
 
 ## Presentations &amp; prezis
 
-{% include grid-tile.html size=12 items=site.presentations %}
+{% include _grid-tile.html size=12 items=site.presentations %}
 
 ## Audio podcasts &amp; more
 
-{% include grid-tile.html size=12 items=site.podcasts %}
+{% include _grid-tile.html size=12 items=site.podcasts %}
 
 ## Publications, writings, contributions
 
-{% include grid-tile.html size=12 items=site.publications %}
+{% include _grid-tile.html size=12 items=site.publications %}

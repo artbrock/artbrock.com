@@ -6,7 +6,7 @@
 {% for item in include.items %}
 
   {% assign media-height=item.media-height | default: include.media-height | default: site.media-height %}
-  {% assign object-fit=item.object-fit | default: 'cover' %}
+  {% assign object-fit=item.object-fit | default: include.object-fit | default: 'cover' %}
 
   {% assign n=n | plus: 1 %}
   {% assign row-start=n | modulo: per-row %}
@@ -21,9 +21,9 @@
      {% if item.permalink %}<a href="{{ item.permalink }}">{% endif %}
       <div>
 
-       {% include vimeo.html vimeo=item.vimeo media-height=media-height %}
+       {% include _vimeo.html vimeo=item.vimeo media-height=media-height %}
 
-       {% include youtube.html youtube=item.youtube media-height=media-height %}
+       {% include _youtube.html youtube=item.youtube media-height=media-height %}
 
        {% if item.image %}
         <img style="height: {{ media-height }}px; width: 100%; object-fit: {{ object-fit }};" src="{{ site.urlimg }}{{ item.image }}" limit:9999 />
