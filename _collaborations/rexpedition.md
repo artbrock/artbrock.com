@@ -1,6 +1,6 @@
 ---
-title: "The REXpedition"
+title: The REXpedition
 image: rex-logo.png
-permalink: http://geekgene.com/
+permalink: /rexpedition
 ---
 [{{ page.title }}]({{ page.permalink }}) is the Relationship Economy eXpedition.

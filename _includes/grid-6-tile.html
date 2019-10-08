@@ -1,0 +1,18 @@
+{% for item in include.items %}
+
+ <div class="large-6 columns">
+
+  <a href="{{ item.permalink }}">
+   <div>
+    <img style="height: 150px; width: 100%; object-fit: contain;" src="{{ site.urlimg }}{{ item.image }}" limit:9999 />
+
+    <h3>{{ item.title }}</h3>
+   </div>
+  </a>
+
+  {{ item.content }}
+
+ <p>&nbsp;</p>
+ </div>
+
+{% endfor %}
