@@ -1,9 +1,12 @@
 {% assign n=0 %}
 {% assign size-n=include.size | times: 1 %}
-
 {% assign per-row=12 | divided_by: size-n | floor %}
 
+
 {% for item in include.items %}
+
+  {% assign media-height=item.media-height | default: include.media-height | default: site.media-height %}
+  {% assign object-fit=item.object-fit | default: 'cover' %}
 
   {% assign n=n | plus: 1 %}
   {% assign row-start=n | modulo: per-row %}
@@ -14,13 +17,21 @@
   {% endif %}
 
     <div class="large-{{ size-n }} columns">
-     <a href="{{ item.permalink }}">
+
+     {% if item.permalink %}<a href="{{ item.permalink }}">{% endif %}
       <div>
-       <img style="height: 150px; width: 100%; object-fit: contain;" src="{{ site.urlimg }}{{ item.image }}" limit:9999 />
+
+       {% include vimeo.html vimeo=item.vimeo media-height=media-height %}
+
+       {% include youtube.html youtube=item.youtube media-height=media-height %}
+
+       {% if item.image %}
+        <img style="height: {{ media-height }}px; width: 100%; object-fit: {{ object-fit }};" src="{{ site.urlimg }}{{ item.image }}" limit:9999 />
+       {% endif %}
 
        <h3>{{ item.title }}</h3>
       </div>
-     </a>
+     {% if item.permalink %}</a>{% endif %}
 
      {{ item.content }}
 

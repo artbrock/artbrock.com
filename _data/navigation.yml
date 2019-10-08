@@ -1,30 +1,39 @@
 - title: Home
-  url: "/"
+  url: /
   side: left
 
 - title: About
-  url: "/about"
+  url: /about
   side: left
 
 - title: Projects
-  url: "/projects"
+  url: /projects
   side: left
 
 - title: Deeper
-  url: "/deeper"
+  url: /deeper
   side: left
 
-- title: Blog
-  url: "/blog/"
+- title: Metacurrency
+  url: /metacurrency
   side: left
   dropdown:
-  - title: "Blog Archive"
-    url: "/blog/archive/"
+   - title: FAQ
+     url: /metacurrency/faq
+   - title: Resources
+     url: /metacurrency/resources
 
-- title: "Search"
-  url: "/search/"
+- title: Articles
+  url: /blog
+  side: left
+  dropdown:
+  - title: Articles archive
+    url: /blog/archive
+
+- title: Search
+  url: /search
   side: right
 
-- title: "Contact"
-  url: "/contact"
+- title: Contact
+  url: /contact
   side: right

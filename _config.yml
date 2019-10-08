@@ -22,6 +22,9 @@ author: artbrock
 # Markdown-Example for posts ![Image Text]({{ site.urlimg }}image.jpg)
 urlimg: '/images/'
 
+# default media height used in includes for images and videos
+media-height: 300
+
 # Logo size is 600x80 pixels
 logo: "logo.png"
 
@@ -39,6 +42,11 @@ plugins:
 collections:
   projects:
   collaborations:
+  presentations:
+  podcasts:
+  videos:
+  publications:
+  metacurrency-resources:
 
 #       ____              _             __  _
 #      / __ \____ _____ _(_)___  ____ _/ /_(_)___  ____
@@ -65,6 +73,8 @@ exclude:
     - README.md
     - INSTALL.md
     - vendor
+    - nix
+    - default.nix
 
 # The language setting is used in /includes/header.html for html-settings
 language: 'en'

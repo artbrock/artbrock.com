@@ -1,0 +1,7 @@
+{% assign media-height=include.media-height | default: site.media-height %}
+
+{% if item.vimeo %}
+ <div style="height: {{ media-height }}px; background: black;" class="flex-video vimeo widescreen">
+  <iframe src="https://player.vimeo.com/video/{{ item.vimeo }}" allow="autoplay, fullscreen"></iframe>
+ </div>
+{% endif %}

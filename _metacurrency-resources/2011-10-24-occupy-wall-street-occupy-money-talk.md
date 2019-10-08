@@ -1,13 +1,10 @@
 ---
 layout: page
-title: Occupy Wall Street: Occupy Money Talk
+title: Occupy wall street, occupy money talk
+vimeo: 31164740
 created: 1319374800
-categories:
-- metacurrency
+permalink: /occupy-wall-street/occupy-money
 ---
-
-https://vimeo.com/31164740
-
 Arthur and Eric talk about re-claiming our capacity to create wealth and the Metacurrency Project on Re-visioning Money Day at OWS (on 10/24/11).
 
 Arthur Brock & Eric Harris-Braun at OWS from Katie Teague on Vimeo.
