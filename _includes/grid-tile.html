@@ -1,0 +1,34 @@
+{% assign n=0 %}
+{% assign size-n=include.size | times: 1 %}
+
+{% assign per-row=12 | divided_by: size-n | floor %}
+
+{% for item in include.items %}
+
+  {% assign n=n | plus: 1 %}
+  {% assign row-start=n | modulo: per-row %}
+  {% assign row-end= n | plus: 1 | modulo: per-row %}
+
+  {% if row-start == 1 %}
+   <div class="row">
+  {% endif %}
+
+    <div class="large-{{ size-n }} columns">
+     <a href="{{ item.permalink }}">
+      <div>
+       <img style="height: 150px; width: 100%; object-fit: contain;" src="{{ site.urlimg }}{{ item.image }}" limit:9999 />
+
+       <h3>{{ item.title }}</h3>
+      </div>
+     </a>
+
+     {{ item.content }}
+
+    <p>&nbsp;</p>
+    </div>
+
+  {% if row-end == 1 %}
+   </div>
+  {% endif %}
+
+{% endfor %}
