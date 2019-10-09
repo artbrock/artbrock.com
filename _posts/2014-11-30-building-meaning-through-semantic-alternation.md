@@ -10,14 +10,13 @@ categories:
 - design principles
 - ceptr
 ---
-
 In designing Ceptr we've discovered a pattern in how systems build meaning. It's likely that someone else has already written about this, but we haven't found it, so we don't know what anyone else calls it. We're calling it Semantic Alternation.
 
-<img src="{{ site.urlimg }}images/ott1.jpg" style="float: right; padding: 10px;">Something has meaning or significance in a particular context. This object (a physical structure) is footstool when in front of the easy chair, a table when holding the chess board between two chairs, and when we're low on seating for an event and put it at the end of the dining table, it's a chair. (See more pictures below)
+![]({{ site.urlimg }}ott1.jpg)
+
+Something has meaning or significance in a particular context. This object (a physical structure) is footstool when in front of the easy chair, a table when holding the chess board between two chairs, and when we're low on seating for an event and put it at the end of the dining table, it's a chair. (See more pictures below)
 
 Meaning is not fixed and independent; it is fluid and bound to a context.
-
-<!--break-->
 
 We build up meaning that way. For example, there are phones (sounds) we make when speaking which are the same, but based on the context of surrounding sounds appear to be a vowel (like "u" in "round" or "rule") and in other contexts seem to be a consonant (like "w" in "way"). At the next level up, the word "rule" may be used as a noun ("the golden rule") or a verb ("to rule with an iron fist").  Sometimes phrases even have different meaning based on the surrounding phrases in a sentence. And a sentence could be interpreted differently based on its surrounding context of other sentences.
 
@@ -25,7 +24,7 @@ This process of assembling parts into a structure and giving meaning to those pa
 
 Let's take a look at an example to make this clearer.  Suppose I have a couch-matching profile (our imaginary version of couch-surfing we often talk about in Ceptr discussions) with my home address which has been looked up to create a "Home_Location" in the form of a latitude and longitude.  You could picture it like this:
 
-<iframe allowfullscreen="" frameborder="0" height="400" id="iframe_container" mozallowfullscreen="" src="https://prezi.com/embed/y-1ttw3mttkg/?bgcolor=ffffff&amp;lock_to_path=1&amp;autoplay=0&amp;autohide_ctrls=0#" webkitallowfullscreen="" width="600"></iframe>
+{% include _prezi.html id='y-1ttw3mttkg' name='' %}
 
 Home_Location is a name given to a structure called LatLong in the context of a couch-matching profile. The LatLong is built from assembling a float structure called Latitude and a float called Longitude (along with some definitions of constraints and processes for mapping 2D coordinates on a sphere).  The float is built by assembling an integer called Mantissa and an integer called Exponent (along with a process for using those parts to represent significant digits and raising them to a power).  The integer is built by assembling a sequence of 32 (or 64) things called bits together and additively interpreting each successive bit to be the next power of 2 (little-endian or big-endian).  The bits are built by assembling a set of transistors in a flip-flop circuit in the computer memory and "naming" one of the outputs (or output states) ON vs. OFF. And so on.
 
@@ -33,11 +32,10 @@ There is an alternating pattern of Structuring and Semantics (naming the element
 
 In Ceptr, this is how you define new types/structures and then name them so that they can be used for storing something.
 
-…
-
-<img src="{{ site.urlimg }}images/ott2.jpg" style="float:right; padding:10px;">
+![]({{ site.urlimg }}ott2.jpg)
 
 These pictures illustrate the real world example of a single "structure" assembled into different semantic contexts as a "table," "chair," and "footstool."
 
-<img src="{{ site.urlimg }}images/ott3.jpg" style="float:right; padding:10px;">Notes for idea development: Meaningfulness is constructed by alternating cycles of attributing meaning to an existing structure, then creating new assemblages of meaningful units (an new structure), then assigning meaning to the new assemblage/structure (semantics / naming), assembling anew based on the new meaning.  See Lat/Long example. Give biological examples, stereoscopy, auditory triangulation, rgb rods/cones, neural structures, cellular behavior, hormonal signals.
+![]({{ site.urlimg }}ott3.jpg)
 
+Notes for idea development: Meaningfulness is constructed by alternating cycles of attributing meaning to an existing structure, then creating new assemblages of meaningful units (an new structure), then assigning meaning to the new assemblage/structure (semantics / naming), assembling anew based on the new meaning.  See Lat/Long example. Give biological examples, stereoscopy, auditory triangulation, rgb rods/cones, neural structures, cellular behavior, hormonal signals.
