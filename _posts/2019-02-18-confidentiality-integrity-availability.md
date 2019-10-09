@@ -1,8 +1,9 @@
 ---
-layout: 	post
+layout: page
 title: CIA on Holo Hosting (Confidentiality, Integrity, & Availability)
 date: 2019-02-18 19:54:50 -0700
 date_gmt: 2019-02-18 02:54:50 -0000
+meta_description: People are wondering about Holochain apps hosted via Holo, and just what kind of guarantees there are about High Availability of access, Data Integrity and Confidentiality of personal data.
 image: 		
 status: 	publish
 published: 	true
@@ -12,6 +13,7 @@ author_email: 	artbrock@holochain.org
 author_url: 	http://artbrock.com
 categories: 	[post]
 comments: []
+permalink: /2019/02/18/confidentiality-integrity-availability
 tags:
 - Confidentiality
 - Data Integrity
@@ -20,11 +22,10 @@ tags:
 - High Availability
 ---
 
-# CIA on Holo Hosting (Confidentiality, Integrity, & Availability)
-
 People are wondering about Holochain apps hosted via Holo, and just what kind of guarantees there are about High Availability of access, Data Integrity and Confidentiality of personal data.
 
 ## Availability
+
 One of the keys to creating high availability systems is ensuring redundancy such that there is no single point of failure possible to bring down a running service. Since Holochain apps are fully distributed and each node runs the complete application code, and multiple copies of data gets stored in a self-healing DHT, redundancy and resiliency is ridiculously high. Let's drill into the details.
 
 **Number of Hosts:** We've already sold about 3,000 HoloPorts in 65 countries which will come online quickly. I figure there'll be another couple thousand downloads of Holo by people who want to run hosts on their own hardware or on cloud hosting. So we'll probably start with around 5,000 hosts and a dozen apps.
@@ -36,11 +37,13 @@ One of the keys to creating high availability systems is ensuring redundancy suc
 This assumes there is no fatal bug in Holochain or in your app, which is running on all the nodes, and in either case, such a bug would need to be found and fixed to achieve 100% availability.
 
 ## Integrity
+
 Content addressable and signed
 Mutual enforcement of rules via randomized peer validation
 
 
 ## Confidentiality
+
 Encrypted over the wire: encrypted P2P tunnels inside HTTPS
 Encrypted at rest:
 Sharded across many nodes:

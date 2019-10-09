@@ -1,5 +1,5 @@
 ---
-layout: 	post
+layout: page
 title: Commons Engine
 date: 2017-06-05 23:16:09 -0400
 date_gmt: 2017-06-06 03:16:09 -0000
@@ -12,6 +12,7 @@ author_email: 	artbrock@geekgene.com
 author_url: 	http://artbrock.com
 categories: 	[post]
 comments: []
+permalink: /2017/06/05/commons-engine
 tags:
 - Commons
 - Cooperatives
@@ -24,7 +25,9 @@ tags:
 ---
 
 ## Commons Engine
+
 We intend to turn the management of Ceptr and its software ecosystem over to a Sovereign Accountable Commons (our counterpart to a DAO - decentralized autonomous organization). For us this means building:
+
  - Sophisticated value accounting
  - Commons-based asset management
  - A cryptocurrency for purchase (and pre-purchase of assets)

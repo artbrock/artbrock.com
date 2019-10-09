@@ -1,10 +1,13 @@
 ---
-layout: post
+layout: page
 title: Financing for Local Business
 created: 1433209334
+image: 51Ch404RPpL._SX329_BO1,204,203,200_.jpg
+object-fit: contain
+permalink: /2015/06/01/financing-for-local-business
 categories:
 - local currency
 - relocalization
 - financing
 ---
-<p>Pages 128-130 in <a href="http://www.amazon.com/Rethinking-Money-Currencies-Scarcity-Prosperity/dp/1609942965/ref=la_B001HPZISQ_1_2?ie=UTF8&amp;qid=1355743013&amp;sr=1-2">Rethinking Money</a>&nbsp;by Bernard Lietaer and Jacqui Dunne outline one of the Capital Programs that we've been building at the <a href="http://milehighbiz.org">Mile High Business Alliance</a>.</p>
+Pages 128-130 in [Rethinking Money](/amazon/rethinking-money) by Bernard Lietaer and Jacqui Dunne outline one of the Capital Programs that we've been building at the [Mile High Business Alliance](/mile-high-business-alliance).
