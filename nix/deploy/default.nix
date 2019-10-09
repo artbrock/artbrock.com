@@ -21,7 +21,7 @@ if [[ -n $(git status --porcelain) ]]
    echo "Building jekyll docs"
    bundle install && bundle exec jekyll build --config _config.yml
 
-   if [[ -n $(git status --porcelain) ]]
+   if [[ $(git status --porcelain) -eq 0 ]]
     then
      echo "Pushing to github pages"
      git add . && git commit -am'jekyll build docs [skip ci]'
