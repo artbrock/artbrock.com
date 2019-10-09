@@ -8,4 +8,4 @@ header:
 permalink: /targeted-currencies/documents
 ---
 
-{% include _grid-tile.html size=12 items=site.targeted-currencies-documents %}
+{% include _grid-tile.html size=6 items=site.targeted-currencies-documents %}
