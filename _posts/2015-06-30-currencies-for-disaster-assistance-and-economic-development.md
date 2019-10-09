@@ -45,9 +45,11 @@ Each program that we propose takes this kind of approach to maximize beneficial 
  
 ## Working Name: Purgatory Parades
 _Note to Team: These may have been a brilliant idea for a year ago, but I'm concerned that the optimal timing for these may have passed and they may need to be modified a bit from trash collection to something like marching with scythes, or lawn-mowers to help keep unkempt properties from being seized by the city (especially in the lower 9<sup>th</sup> Ward)._
-<h3>Purpose</h3>
+### Purpose
+
 Building on the tradition of parades and "jazz funerals" in New Orleans as an event which brings community together, the "Purgatory Parades" create an engaging context for people to participate in reclaiming their streets, rebuilding their communities and relationships, mourning their losses and celebrating new victories and accomplishments.
-<h3>Overview</h3><ul>
+### Overview
+<ul>
 - **The Music:** Each parade will be planned to include a primary band to play dirges and slow marches which may progressively build to livelier paced tunes throughout the course of the parade. 
 - **The Krewes:** Community organizations such as churches, schools, neighborhood groups and non-profit organizations will be involved to recruit parade participants from their membership.  Each Organization's participants will form their "krewe" (from the Mardi Gras parade traditions) and be able to create their own theme, team colors, strategies, etc.  We will track the results of each krewe so we can acknowledge their noteworthy accomplishments and they can win prizes.
 - **The Route:** Initially, the route of each parade will be designed to impact the communities where the participating organizations are located.  Later parades may reach into other zones of greater need once people have adopted the practice as a worthwhile investment of time and energy.  The plan should be a zig-zag weaving pattern over the course of blocks which allows stragglers that are collecting trash or moving large items to easily keep pace or catch-up to the parade (see map for a sample route).
@@ -59,15 +61,19 @@ Building on the tradition of parades and "jazz funerals" in New Orleans as an ev
 - **The Rewards:** We will collect support from local businesses in the form of gift certificates which are awarded to the organizations for the volume of work their krewe accomplished.  A possible example, $10 of certificates for every 100 lbs of trash collected given to that school or church.  This is also an attractive opportunity to garner support from donors and businesses **outside **the community to provide certificates which they know will benefit the individuals and organizations who are actively taking responsibility for their communities.
 - **The Celebration:** After the hours of hard work, music and marching, there will be a party and celebration.  Ideally, food will be supplied by local restaurants and grocers who want to support the community clean-up, but a potluck approach is always a fallback possibility.  Another band should be recruited for the party.  The party is another kind of reward for a job well done.  It is also the place for fellowship and interpersonal appreciation.  Trust grows and new connections and relationships are established.
 - **The Metrics:** We will be collecting a large amount of useful data about the process.  Measurements of the number of organizations, how many participants they recruited, how many pounds of trash their krewe collected, how much total trash was collected, how many blocks were cleaned, total number of participants, man-hours of work accomplished, how many businesses supported the parade, estimated dollar values for support (their write-off amounts), which krewe won additional prizes and recognition, how many parades individuals have participated in, and much more.  This information will vividly illustrate the multiplier effect to financial supporters, demonstrating how much more effective the dollars they invested are in this approach rather than being spent on contractors.
-<h3>Strategic Approach</h3>
+### Strategic Approach
+
 First, we will connect with on the ground organizations in New Orleans (such as Common Ground Collective)  [ This section still need to be fleshed out more. ]
 
 Second, we will put some supporting technical infrastructure in place to support the planning, management and measurement of results of the parades. 
 
 Finally, we will sponsor a staff position to do the legwork of rallying participation and support.
-<h3>Connections Established &amp; Flow Diagram
- </h3><h3>[[ I still need to come up with graphics for this. ]]
- </h3><h3>Expected Outcomes</h3>
+### Connections Established &amp; Flow Diagram
+ 
+### [[ I still need to come up with graphics for this. ]]
+ 
+### Expected Outcomes
+
 _Primary Outcomes_
 <ul>
 - Collection and removal of massive amounts of trash from yards and streets
@@ -81,7 +87,8 @@ _Secondary Outcomes_
 - Acknowledges important social role of the participating organizations and their relationship with their constituencies
 - Increases relationship and loyalty of community to local businesses which support the parades
 - …
-<h3>Precedents for this Model</h3><ul>
+### Precedents for this Model
+<ul>
 - Carnival / Mardi Gras &amp; krewes [ These each need more. ]
 - "Jazz Funerals"
 - Curitiba Trash Tokens
@@ -91,18 +98,55 @@ _Secondary Outcomes_
 - community clean-up days &amp; trash-a-thons
 
  
-## Truth &amp; Reconciliation in the Superdome with the Saints<h3>[[ Eric will write this one. ]]</h3><h3>Purpose:</h3><h3>Overview:</h3><h3>Strategic Approach:</h3><h3>Connections Established &amp; Flow Diagram:</h3><h3>Expected Outcomes:</h3><h3>Precedents for this Model:</h3>
+## Truth &amp; Reconciliation in the Superdome with the Saints### [[ Eric will write this one. ]]
+### Purpose:
+### Overview:
+### Strategic Approach:
+### Connections Established &amp; Flow Diagram:
+### Expected Outcomes:
+### Precedents for this Model:
+
  
-## A Renaissance of Arts in the French Quarter<h3>[[ Arthur will write this one as an adaptation of Cool Cash. ]]</h3><h3>Purpose:</h3><h3>Overview:</h3><h3>Strategic Approach:</h3><h3>Connections Established &amp; Flow Diagram:</h3><h3>Expected Outcomes:</h3><h3>Precedents for this Model:</h3>
+## A Renaissance of Arts in the French Quarter### [[ Arthur will write this one as an adaptation of Cool Cash. ]]
+### Purpose:
+### Overview:
+### Strategic Approach:
+### Connections Established &amp; Flow Diagram:
+### Expected Outcomes:
+### Precedents for this Model:
+
  
-## "Flip this Block" - Reality TV &amp; the Rebuilding of NOLA<h3>[[ Will should handle this one.  More scheming may be wanted. ]]</h3><h3>Purpose:</h3><h3>Overview:</h3><h3>Strategic Approach:</h3><h3>Connections Established &amp; Flow Diagram:</h3><h3>Expected Outcomes:</h3><h3>Precedents for this Model:</h3>
+## "Flip this Block" - Reality TV &amp; the Rebuilding of NOLA### [[ Will should handle this one.  More scheming may be wanted. ]]
+### Purpose:
+### Overview:
+### Strategic Approach:
+### Connections Established &amp; Flow Diagram:
+### Expected Outcomes:
+### Precedents for this Model:
+
  
-## Sustainable Land Re-Allocation Strategy - Urban Wetlands<h3>[[ Who knows the landscape well enough to do this one? ]]</h3><h3>Purpose:</h3><h3>Overview:</h3><h3>Strategic Approach:</h3><h3>Connections Established &amp; Flow Diagram:</h3><h3>Expected Outcomes:</h3><h3>Precedents for this Model:</h3>
+## Sustainable Land Re-Allocation Strategy - Urban Wetlands### [[ Who knows the landscape well enough to do this one? ]]
+### Purpose:
+### Overview:
+### Strategic Approach:
+### Connections Established &amp; Flow Diagram:
+### Expected Outcomes:
+### Precedents for this Model:
+
  
-## Housing Credits<h3>[[ More scheming is required to develop a plan // or integrate it into the Arts/CoolCash currency ]]</h3><h3>Purpose:</h3><h3>Overview:</h3><h3>Strategic Approach:</h3><h3>Connections Established &amp; Flow Diagram:</h3><h3>Expected Outcomes:</h3><h3>Precedents for this Model:</h3>
+## Housing Credits### [[ More scheming is required to develop a plan // or integrate it into the Arts/CoolCash currency ]]
+### Purpose:
+### Overview:
+### Strategic Approach:
+### Connections Established &amp; Flow Diagram:
+### Expected Outcomes:
+### Precedents for this Model:
+
  
-## Scholastic Benefits ("Bennies" or "Benjamins"): A Student-Centered Initiative for Enhancing Educational Excellence<h3>[[ Arthur just made this up adapting prior work.  Please review. ]]
- </h3><h3>Purpose</h3>
+## Scholastic Benefits ("Bennies" or "Benjamins"): A Student-Centered Initiative for Enhancing Educational Excellence### [[ Arthur just made this up adapting prior work.  Please review. ]]
+ 
+### Purpose
+
 There is no better way to gain a thorough understanding of course material than to teach it to another, and the earlier students practice the habit of giving back to their communities the more they will incorporate the behaviors into the rest of their lives.
 
 If you empower students in a creative way to become participants in one another's learning, you can build community, promote educational excellence, and give them the early relationship to learning that it is a relevant and engaging part of their life experience.
@@ -110,7 +154,8 @@ If you empower students in a creative way to become participants in one another'
 The purpose of this initiative is to improve the quality of education in New Orleans and Louisiana, without imposing an undue financial burden on local school districts. We will provide incentives for primary and secondary level students to actively support the educational needs of the younger students who follow them.
 
 By drawing the older students into tutoring and mentoring relationships with younger students, we can simultaneously enrich the opportunities for scholastic achievement for the students who need help, and deepen the involvement and understanding of the students who teach.
-<h3>Overview</h3>
+### Overview
+
 In co-operation with participating school districts and state universities, the State of Louisiana will establish a school issued Scholastic Benefits currency called 'Benjamins.' This electronic currency will be credited to students for the hours they spend tutoring other students, either in the schools or in a setting that otherwise enables accurate reporting of hours of input.
 
 The primary redemption of the currency shall be in the form of an accumulating tuition credit that can be redeemed through participating colleges and universities. This credit will represent half (.5) of the total Benjamins accrued to the student's account, and will not be available to them directly except for the purposes of tuition credit at the time of matriculation.
@@ -122,7 +167,8 @@ The remaining portion (.25) of the Benjamins is the students to spend. This prov
 Students who receive tutoring shall have the means to provide feedback about their experience by rating the quality of the instruction. These ratings will be available to future students and their parents who may be looking for a tutor with a good reputation. These ratings will serve as a score board to show who are the top performers system wide, and will be a source of pride for some students who may not have other opportunities to be appreciated for their strengths. It is also possible that consistently strong performers could be granted some form of bonus, but it is our experience that the simple presence of a reputation system encourages people to strive for higher placement.
 
 Students who receive tutoring in the program will be eligible for bonuses if they in turn provide tutoring to the next group of students down the chain. The ultimate focus of the program will be to encourage students to see themselves as part of a chain of knowledge. To learn, and then to teach what you have learned, is the calling we wish to inculcate into as many youth as possible.
-<h3>Strategic Approach</h3>
+### Strategic Approach
+
 There are three broad constituencies we have considered; the needs and resources of the State and its communities, the ends and interests of the educational system on the primary, secondary, and collegiate levels, and the welfare and growth of the student citizens. Each aspect of our program is designed to integrate and serve all of these sectors by drawing the students into greater involvement with the system, give them a sense of ownership and accomplishment, and align their interests with the school's and those of the greater community.
 
 The path to success begins when students, who may have never before seen themselves as having the intellectual or financial means to aspire to a college degree come to know themselves as people with futures of great possibility. This program will not just be something that will touch their lives in a distant future, but will be felt every day as they envision themselves as capable and contributing members of a larger community; a community that offers reasonable hope of advancement through effort. And it is important to underscore that this advancement will require true effort. It will not be a process that simply hands a future to them, but it will engage them in earning their futures for themselves. They will not be subsidized. They will be valuable contributors.
@@ -134,9 +180,11 @@ They earn through giving of themselves, and will reap the pride of the acknowled
 They will, of course, get the satisfaction of providing for themselves in a direct and immediate way by earning the portion that is theirs to spend at local businesses. This is a great opportunity for the businesses to support education while at the same time boosting their revenue by attracting customers who will be paying for part of their currency in U.S. currency. In communities that utilize other related targeted currencies, the liquidity and memberships of those currencies can be enhanced by the expansion of their bases to include the students and businesses who are introduced to them through the conversion of Benjamins.
 
 At the very end of the process, the deepest benefits will be felt by the State, as a new generation of students enters the collegiate system with greater commitment to their communities, more practice at citizenship, and a deeper and more profound relationship to the learning process. Each of the students they have taught and mentored will have an incentive to continue the process onward, and a culture of service and learning will form in their minds as just the natural way things always have been.
-<h3>Connections Established &amp; Flow Diagram</h3>
+### Connections Established &amp; Flow Diagram
+
 <img alt="Illustration of flows of value involved with using Benjamins" src="{{ site.urlimg }}images/Benjamins.png" style="height: 522px; width: 640px;">
-<h3>Expected Outcomes</h3>
+### Expected Outcomes
+
 _Primary Outcomes_
 <ul>
 - Tutored students will show improved grades, test scores and performance on course work.
@@ -149,7 +197,8 @@ _Secondary Outcomes_
 - Peripheral workloads of teachers will be reduced by students more actively helping one another. This will free the teachers to focus where they are most needed.
 - Greater association across age boundaries will foster a stronger school-wide community and decrease negative schoolyard behavior such as bullying.
 - Increased responsibility and ownership will reduce vandalism and graffiti.
-<h3>Precedents for this Model</h3>
+### Precedents for this Model
+
 Several cities have successfully applied currencies to facilitate incentive programs.  When the Time Dollar Institute of Washington, D.C. used a modified Time Dollar implementation in the Chicago schools, they were able to harness the genius and energy of students to tutor one another and provided rewards that were designed to help students cross the digital divide. One of the pleasant side effects was a marked shift in behavioral patterns. Students were not only less violent toward the students they taught, but they also became the advocates of their charges, making sure that none of their peers degraded the atmosphere for learning of ‘their' students.
 
 Christian Isquierdo, associated now with the Community Hero Card and the Pilot City Health Program in Minneapolis, was able to achieve dramatic success in San Juan with his Bank Left school incentive system. He demonstrated not only that the participation and attendance of students could be improved through the introduction of a targeted currency, but also the willingness of local businesses to support and participate in initiatives of this sort.

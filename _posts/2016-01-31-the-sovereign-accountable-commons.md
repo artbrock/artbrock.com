@@ -13,10 +13,10 @@ categories:
 - commons
 ---
 
-<span style="line-height: 1.5;">[This is an abstract outlining some stuff we need to write up about the Sovereign Accountable Commons as a pattern enabled by Ceptr. I wrote this up to submit to for a book about <a href="http://blog.p2pfoundation.net/call-for-papers-decentralizing-the-commons/2015/12/21">Decentralizing the Commons via the P2P Foundation site</a>.]
+[This is an abstract outlining some stuff we need to write up about the Sovereign Accountable Commons as a pattern enabled by Ceptr. I wrote this up to submit to for a book about <a href="http://blog.p2pfoundation.net/call-for-papers-decentralizing-the-commons/2015/12/21">Decentralizing the Commons via the P2P Foundation site</a>.]
 
-<span style="line-height: 1.5;">The Sovereign Accountable Commons (SAC) is akin to Decentralized Autonomous Organizations on the blockchain but they leverage a different distributed architecture, Ceptr. Ceptr is a new technology platform for building Distributed Apps and for enhancing collective intelligence in the process of being released by the MetaCurrency project in early 2016.
-## <span style="line-height: 1.5;">Sovereign:
+The Sovereign Accountable Commons (SAC) is akin to Decentralized Autonomous Organizations on the blockchain but they leverage a different distributed architecture, Ceptr. Ceptr is a new technology platform for building Distributed Apps and for enhancing collective intelligence in the process of being released by the MetaCurrency project in early 2016.
+## Sovereign:
 An SAC runs as a collectively distributed application. As long as at least one person wants to run it, it can't be shut down. Two or nodes running it make it a collective. It's algorithms set availability and redundancy based on size and scale of the network.
 
 Everybody in a group is an equal peer, subject to the same rules, processes, and procedures, because everybody is running a copy of the same instruction set. This "code as law" applies to holding of assets, management of assets, interactions, transactions, governance, releasing new versions of "code as law," and every aspect of ongoing operation of the SAC.

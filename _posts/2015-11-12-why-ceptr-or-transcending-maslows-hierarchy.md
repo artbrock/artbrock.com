@@ -21,7 +21,7 @@ From Sheri:
 
 I'm just reading <a href="http://www.huffingtonpost.com/maya-zuckerman/evolved-archetypes_b_8438970.html">this great article by our friend and colleague Maya Zuckerman</a> about new archetypes and the new storytelling that is needed and this paragraph was especially juicy and it feels perfect for this gathering:
 <blockquote style="padding-left:1.5em;">
-In that theory Maslow argued that humans have stages of psychological growth in accord with the levels of need being met from the surroundings. Though Maslow never described his model as a pyramid, this has become the de-facto way to describe it. Maslow talked about the "metamotivation," the motivation that takes people beyond their basic needs in search of constant betterment. This can be considered a driving force for both the Champion and Steward in the collective journey. (…&gt;
+In that theory Maslow argued that humans have stages of psychological growth in accord with the levels of need being met from the surroundings. Though Maslow never described his model as a pyramid, this has become the de-facto way to describe it. Maslow talked about the "metamotivation," the motivation that takes people beyond their basic needs in search of constant betterment. This can be considered a driving force for both the Champion and Steward in the collective journey. (…>
 
 In a world preoccupied with stereotypes, narratives like this need to be all-encompassing, engaging and immersive. What is stopping us from collaborating on solutions for the biggest global challenges are not the actual solutions, but **our relationships with each other**. Our stories do not encompass all of us, they don't welcome and empower all genders, ethnicities, and species. We are bickering amongst ourselves, while forests are burning, people are starving, species dying, and ecosystems collapsing.
 
@@ -31,7 +31,7 @@ Something potent here….
 
  
 <hr>
-<span style="line-height: 1.5;">Sheri,
+Sheri,
 
 I'm in favor of empowering stories. But I don't think they'll solve the problem of working together at large scale on large scale problems.
 
