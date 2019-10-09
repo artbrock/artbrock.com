@@ -3,15 +3,19 @@
 {% assign url='https://prezi.com/' | append: include.id | append: '/' | append: include.name %}
 {% assign embed-url='https://prezi.com/embed/' | append: include.id | append: '/' | append: include.name %}
 
-<iframe
- width="100%"
- height="{{ media-height }}"
- src="{{ embed-url }}"
- webkitallowfullscreen="1"
- mozallowfullscreen="1"
- allowfullscreen="1">
-</iframe>
+{% if include.id %}
 
-{% if include.title %}
- [{{ include.title }}]({{ url }}) on [Prezi](/prezi).
+ <iframe
+  width="100%"
+  height="{{ media-height }}"
+  src="{{ embed-url }}"
+  webkitallowfullscreen="1"
+  mozallowfullscreen="1"
+  allowfullscreen="1">
+ </iframe>
+
+ {% if include.title %}
+  [{{ include.title }}]({{ url }}) on [Prezi](/prezi).
+ {% endif %}
+
 {% endif %}

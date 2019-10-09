@@ -25,6 +25,10 @@
 
        {% include _youtube.html youtube=item.youtube media-height=media-height %}
 
+       {% include _prezi.html id=item.prezi-id name=item.prezi-name %}
+
+       {% include _audio.html audio=item.audio %}
+
        {% if item.image %}
         <img style="height: {{ media-height }}px; width: 100%; object-fit: {{ object-fit }};" src="{{ site.urlimg }}{{ item.image }}" limit:9999 />
        {% endif %}
@@ -43,3 +47,7 @@
   {% endif %}
 
 {% endfor %}
+
+{% if row-end != 1 %}
+</div>
+{% endif %}

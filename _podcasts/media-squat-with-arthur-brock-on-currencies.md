@@ -1,4 +1,6 @@
 ---
-layout: redirect
-redirect_to: /2011/04/23/media-squat-with-arthur-brock-on-currencies
+layout: page
+title: Media squat with Arthur Brock on currencies
+audio: rushkoff-interviews-arthur.mp3
 ---
+Douglas Rushkoff interviews Arthur Brock about currencies for a New Economy on his Media Squat radio show.
