@@ -3,7 +3,7 @@ let
 
   name = "nix-deploy";
 
-  path = "_site";
+  path = " _site";
   upstream = "origin";
   from-branch = "master";
   to-branch = "gh-pages";
