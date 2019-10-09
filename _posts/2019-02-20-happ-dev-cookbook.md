@@ -3,7 +3,11 @@ layout: page
 title: hApp Dev Cookbook
 date: 2019-02-20 19:54:50 -0700
 date_gmt: 2019-02-20 02:54:50 -0000
-image: 		
+header:
+ image_fullwidth: haley3.jpg
+image:
+ thumb: haley3.jpg
+meta_description: Membranes, agent-centric design, micro-services
 status: 	publish
 published: 	true
 author: 	Arthur Brock

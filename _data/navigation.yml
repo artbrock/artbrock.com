@@ -49,7 +49,7 @@
   url: /blog
   side: left
   dropdown:
-  - title: Articles archive
+  - title: Archive
     url: /blog/archive
 
 - title: Search

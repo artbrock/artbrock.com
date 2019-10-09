@@ -4,6 +4,7 @@ title:    Did Holochain Go Astray
 date:     2019-01-26 19:54:50 -0700
 date_gmt: 2019-01-26 02:54:50 -0000
 image: 		
+meta_description: On New Years Eve, the last day of 2016, Eric Harris-Braun and I started building Holochain. The basic design came from one part of Ceptr an advanced computing and currencies platform we'd been working on for years.
 status:     	publish
 published: 	  true
 author: 	    Arthur Brock

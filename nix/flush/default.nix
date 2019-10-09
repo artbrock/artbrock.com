@@ -5,7 +5,7 @@ let
 rm -f Gemfile.lock
 rm -rf .jekyll-cache
 rm -rf _site
-rm ./.jekyll-metadata
+rm -f .jekyll-metadata
 '';
 
  # soft flush && refetch all deps

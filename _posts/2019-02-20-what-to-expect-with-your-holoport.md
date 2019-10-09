@@ -3,7 +3,10 @@ layout: page
 title: What to Expect with Your HoloPort
 date: 2019-02-28 19:54:50 -0700
 date_gmt: 2019-02-28 02:54:50 -0000
-image: 		
+header:
+ image_fullwidth: holoport.webp
+image:
+ thumb: holoport.webp
 status: 	publish
 published: 	true
 author: 	Arthur Brock
@@ -13,6 +16,7 @@ author_url: 	http://artbrock.com
 categories: 	[post]
 comments: []
 permalink: /2019/02/20/what-to-expect-with-your-holoport
+meta_description: Status of Holo network, membranes, agent-centric design, micro-services.
 tags:
 - Holo
 - HoloPorts

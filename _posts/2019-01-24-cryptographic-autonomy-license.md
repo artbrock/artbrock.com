@@ -4,6 +4,7 @@ title: Basics of the Cryptographic Autonomy License
 date: 2019-01-24 19:54:50 -0700
 date_gmt: 2019-01-24 02:54:50 -0000
 image: 		
+meta_description: In this article, I boil the Cryptographic Autonomy License down to its most basic salient points to try to make it clear why we need a new kind of open source license for distributed P2P software, and how we seek to achieve protections for end users by leveraging a novel application of existing copyright law.
 status: 	publish
 published: 	true
 author: 	Arthur Brock

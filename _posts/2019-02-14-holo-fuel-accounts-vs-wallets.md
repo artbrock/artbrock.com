@@ -3,6 +3,7 @@ layout: page
 title: Holo Fuel Accounts vs. Crypto Wallets vs. Exchange Accounts
 date: 2019-02-14 19:54:50 -0700
 date_gmt: 2019-02-14 02:54:50 -0000
+meta_description: As we get approach launch of the Holo Network, we've been getting some questions about how wallets, keys, and transactions will work for Holo Fuel.
 image: 		
 status: 	publish
 published: 	true

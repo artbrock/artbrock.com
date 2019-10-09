@@ -3,6 +3,7 @@ layout: page
 title: But Data Doesn't Exist
 date: 2017-07-11 18:17:57 -0700
 date_gmt: 2017-07-12 01:17:57 -0000
+meta_description: There's a wikipedia article about the fallacies of distributed computing.
 image: 		
 status: 	publish
 published: 	true
