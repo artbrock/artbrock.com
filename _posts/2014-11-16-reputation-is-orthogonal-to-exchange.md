@@ -23,14 +23,15 @@ Here's the crux of it. **Reputation currencies do NOT operate the same way as mo
 
 <!--break-->
 
-<span style="line-height: 1.5;">If you find yourself in a situation where you need a reputation currency (and I would suggest more of you should be finding yourself in that situation than currently are), do not create your reputation system as if it is a monetary system.  You do not spend or trade reputation. Once you earn it, it is yours.</span>
+<span style="line-height: 1.5;">If you find yourself in a situation where you need a reputation currency (and I would suggest more of you should be finding yourself in that situation than currently are), do not create your reputation system as if it is a monetary system.  You do not spend or trade reputation. Once you earn it, it is yours.
 
 When I go to college, I do not SPEND my high school degree. When I apply for a job, I don't SPEND my college degree.  When a friend recommends a movie for me to see, neither my friend nor the movie production company are spending any of their reputation.  Reputation is not traded.  It is not spent. If you make your reputation system operate that way, you have destroyed its integrity as a reputation system. 
 
 I'm not saying there is no relationship between the two. A college degree may help you get a higher paying job, but you don't trade the degree for the job. You don't trade your exam grades for the degree. You don't trade your reputation as a confidant for friendship. You don't trade your race times for a gold medal. In each case, you still keep your reputation AND get the results of that reputation.
 
 I would suggest that it is very much like the relationship between an electrical field and a magnetic field. The two are related. The magnitude of one affects the magnitude of the other. However, they are orthogonal. They are at right angles to each other.  They're not opposites, but they are fundamentally different in a number of important and useful ways.
-<h2> </h2><h2>Some of the Design Principles Involved with Reputation Currency<br> </h2><h3>Identity and Relationship</h3>
+##  ## Some of the Design Principles Involved with Reputation Currency
+ <h3>Identity and Relationship</h3>
 Reputation currencies are predicated on continuity of identity. They make no sense without the ability to stay tethered to an identity. It can be a strong/verified identity, or a blind pseudonym on a web site, but without an identity to have the a reputation currency connected to over time, there is no reputation or reputation currency. 
 
 Money, on the other hand, can be completely anonymous, and in the form of cash, it's supposed to be. A business selling a product doesn't care WHO paid, just HOW MUCH was paid. The accounting required for money vs. reputation is quite different.
@@ -67,18 +68,20 @@ Each community has a different social contract by which members operate with eac
 - % Successful sales (# delivered sales / # total sales)
 - Avg. days to receive item (from shipping tracking data)
 - Avg. Rating (1-5) received for "as advertised"
-- % of transactions requiring problem resolution</ul></td><td><ul>
+- % of transactions requiring problem resolution
+</td><td><ul>
 - How long account has been active &amp; total # bids won
 - % Successful Purchases (# bids paid / # bids won)
 - Avg. time to payment (in hours)
 - Avg. Rating (1-5) given for "as advertised"
-- % of transactions requiring problem resolution</ul></td></tr></tbody></table>
+- % of transactions requiring problem resolution
+</td></tr></tbody></table>
 I think if you take a few moments to look at the kind of behaviors that tracking those reputational elements would incent, you might see it's a heck of a lot better than "feedback extortion" (Threatening to give negative feedback if you receive negative feedback).I hope this example also illustrates why reputation currencies need to have multiple dimensions if you want to clarify what people are good at or reliable for fulfilling on. I did send these suggestions to eBay about 10 years ago. Their feedback system has improved a bit since then, but still hasn't made it to this level of clarity or usefulness.
-<h3><span style="font-family: Georgia, 'Times New Roman', Times, serif; font-size: 14.6666669845581px; line-height: 1;">Meaningful Scale</span></h3>
+<h3><span style="font-family: Georgia, 'Times New Roman', Times, serif; font-size: 14.6666669845581px; line-height: 1;">Meaningful Scale</h3>
 As long as I'm kind of poking at eBay, we should also look at their original feedback rating as an example of how NOT to have an understandable number. For a long time, there was just a number after people's username [like gooduser (12,345)]. The problem is that number is basically completely useless. A number 10 is great if I've only ever made 10 sales or purchases spread out over the past 5 years. However, a number 21,003 is terrible if I'm selling 1,000 units a day of something that people can just download after purchasing and I've made 100,000 sales.  Without knowing when someone joined, what their volume of activity is, and what percentage of their feedback is positive, the number is completely meaningless.
 
 Using scales people understand, like percentages, percentiles, number of days to receive purchase, 5 star rating, etc. are necessary for reputation to provide any meaning.
-<h2>Conclusion</h2>
+## Conclusion
 There are a lot of awesome ways to have reputation currencies and monetary currencies interact with each other, but please, do not ever make the rookie mistake of thinking they should ever be collapsed into the same currency. In fact, you should expect to use more than just two currencies if you want to preserve the dimensions of reputation and value that your community cares about when transacting with each other.  
 
 Apparently when I force myself to publish daily, some of my work comes out as a bit of a rant because the ranting keeps me writing. I hope that you can glean the value here behind the ranting, because I really do hope to see this pattern in the world change sooner rather than later.

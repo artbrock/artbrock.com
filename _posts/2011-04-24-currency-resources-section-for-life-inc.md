@@ -5,7 +5,6 @@ permalink: /2011/04/24/currency-resources-section-for-life-inc
 created: 1303622874
 categories: []
 ---
-
 Modern technology makes it realistic for us to perform the accounting and transaction functions that banks have traditionally done for us. We have the means to put an end to their money monopoly and their currency monoculture which they have fostered to make it easier for them to control the economy and channel wealth into the hands of the few.
 
 Contrary to traditional economic dogma, currencies are not neutral measures of value. Every currency embodies specific values through the nature of its design, which ignores certain things and elevates others. For example, the single largest sector of health care providers is never discussed in our health care debates because mothers don't charge for their caregiving. Vital things, like breathable air and drinkable water, have no monetary value until they become scarce. This is not an inherent behavior of markets, only for markets designed to revolve around artificially scarce currencies. Different currencies incent different behaviors and, hence, yield different economies.

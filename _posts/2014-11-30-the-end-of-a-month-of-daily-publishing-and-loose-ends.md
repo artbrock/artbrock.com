@@ -19,33 +19,40 @@ For me there's a bit of a tension between writing freely and quickly, and writin
 
 So… November ends with a bunch of loose ends. This is the TO DO list as I see it.
 <ol>
-- Put some images and visuals in most of the posts to make them more engaging.<br> 
+- Put some images and visuals in most of the posts to make them more engaging.
+ 
 - There are articles for me to go back and **finish writing/editing**:<ul>
 - <a href="http://www.artbrock.com/blog/building-meaning-through-semantic-alternation" style="line-height: 1.5;">Building Meaning through Semantic Alternation</a>
 - <a href="http://www.artbrock.com/blog/pervasiveness-consciousness-and-language" style="line-height: 1.5;">The Pervasiveness of Consciousness and Language</a>
 - <a href="http://www.artbrock.com/blog/laws-thermodynamics-reinterpreted" style="line-height: 1.5;">The Laws of Thermodynamics Reinterpreted</a>
-- <a href="http://www.artbrock.com/blog/magical-power-objects-and-sociopaths" style="line-height: 1.5;">Magical Power Objects and Sociopaths</a><span style="line-height: 1.5;"> - Part 2 (What to do about it.)</span>
-- <a href="http://www.artbrock.com/blog/conscious-culture-creation-and-community-mastery-board" style="line-height: 1.5;">Conscious Culture Creation and the Community Mastery Board</a></ul>
-- <span style="line-height: 1.5;">Ones I need to cross-</span><strong style="line-height: 1.5;">post to my Agile Learning Center**<span style="line-height: 1.5;"> Blog</span><ul>
+- <a href="http://www.artbrock.com/blog/magical-power-objects-and-sociopaths" style="line-height: 1.5;">Magical Power Objects and Sociopaths</a><span style="line-height: 1.5;"> - Part 2 (What to do about it.)
+- <a href="http://www.artbrock.com/blog/conscious-culture-creation-and-community-mastery-board" style="line-height: 1.5;">Conscious Culture Creation and the Community Mastery Board</a>
+
+- <span style="line-height: 1.5;">Ones I need to cross-<strong style="line-height: 1.5;">post to my Agile Learning Center**<span style="line-height: 1.5;"> Blog<ul>
 - <strike style="line-height: 1.5;">Answers are Truly no Better than Questions</strike>
 - <strike style="line-height: 1.5;">Hacking my Productivity</strike>
 - <strike style="line-height: 1.5;">Those Kids and Their Darn Gadgets &lt;grumble…grumble&gt;</strike>
 - <a href="http://www.artbrock.com/blog/arriving-where-you-love-freedom-vs-agency" style="line-height: 1.5;">Arriving to Where you Love (Freedom vs. Agency)</a>
-- <a href="http://www.artbrock.com/blog/conscious-culture-creation-and-community-mastery-board" style="line-height: 1.5;">Conscious Culture Creation and the Community Mastery Board</a></ul>
-- <span style="line-height: 1.5;">Ones I should cross-</span><strong style="line-height: 1.5;">post to MetaCurrency**<span style="line-height: 1.5;"> or other Currency resource sites</span><ul>
+- <a href="http://www.artbrock.com/blog/conscious-culture-creation-and-community-mastery-board" style="line-height: 1.5;">Conscious Culture Creation and the Community Mastery Board</a>
+
+- <span style="line-height: 1.5;">Ones I should cross-<strong style="line-height: 1.5;">post to MetaCurrency**<span style="line-height: 1.5;"> or other Currency resource sites<ul>
 - <a href="http://www.artbrock.com/blog/designing-social-flows-chapter-6-designing-incentives" style="line-height: 1.5;">Designing Social Flows - Chapter 6 on Designing Incentives</a>
 - <a href="http://www.artbrock.com/blog/reputation-orthogonal-exchange" style="line-height: 1.5;">Reputation is Orthogonal to Exchange</a>
 - <a href="http://www.artbrock.com/blog/thought-experiment" style="line-height: 1.5;">A Thought Experiment</a>
 - <a href="http://www.artbrock.com/blog/monetizing-my-daughter-modest-proposal" style="line-height: 1.5;">Monetizing my Daughter: A Modest Proposal</a>
 - <a href="http://www.artbrock.com/blog/some-thoughts-about-feedback-loops" style="line-height: 1.5;">Some Thoughts about Feedback Loops</a>
 - <a href="http://www.artbrock.com/blog/understanding-commonwealth-economies-re-interpreting-darwinism" style="line-height: 1.5;">Understanding Commonwealth Economies &amp; Re-interpreting Darwinism</a>
-- <a href="http://www.artbrock.com/blog/who-should-issue-our-currency" style="line-height: 1.5;">Who should issue our currency?</a></ul>
-- <span style="line-height: 1.5;">Ones I should cross-</span><strong style="line-height: 1.5;">post to Ceptr **<span style="line-height: 1.5;">site, Apocalypse or github tech docs</span><ul>
+- <a href="http://www.artbrock.com/blog/who-should-issue-our-currency" style="line-height: 1.5;">Who should issue our currency?</a>
+
+- <span style="line-height: 1.5;">Ones I should cross-<strong style="line-height: 1.5;">post to Ceptr **<span style="line-height: 1.5;">site, Apocalypse or github tech docs<ul>
 - <strike style="line-height: 1.5;">Ceptr Design: Receptive Capacity Breakthrough</strike>
 - <strike><a href="http://www.artbrock.com/blog/i-am-strange-loop-you%E2%80%99re-strange-loop-wouldn%E2%80%99t-ceptr-likely-be-strange-loop-too" style="line-height: 1.5;">I am a Strange Loop. You're a Strange Loop. Wouldn't Ceptr likely be Strange Loop too?</a></strike>
-- <strike><a href="http://www.artbrock.com/blog/building-meaning-through-semantic-alternation" style="line-height: 1.5;">Building Meaning through Semantic Alternation</a></strike></ul>
-- <span style="line-height: 1.5;">Things I should </span><strong style="line-height: 1.5;">integrate into the Emerging Leader Labs**<span style="line-height: 1.5;"> site/materials</span><ul>
+- <strike><a href="http://www.artbrock.com/blog/building-meaning-through-semantic-alternation" style="line-height: 1.5;">Building Meaning through Semantic Alternation</a></strike>
+
+- <span style="line-height: 1.5;">Things I should <strong style="line-height: 1.5;">integrate into the Emerging Leader Labs**<span style="line-height: 1.5;"> site/materials<ul>
 - <a href="http://www.artbrock.com/blog/conscious-culture-creation-and-community-mastery-board" style="line-height: 1.5;">Conscious Culture Creation and the Community Mastery Board</a>
-- <a href="http://www.artbrock.com/blog/gameshifting-tools-group-self-facilitation" style="line-height: 1.5;">GameShifting tools for Group Self-Facilitation</a></ul></ol>
-<br>Of course it seems like after a month of writing I have more writing tasks to do than when I started. :P
+- <a href="http://www.artbrock.com/blog/gameshifting-tools-group-self-facilitation" style="line-height: 1.5;">GameShifting tools for Group Self-Facilitation</a>
+</ol>
+
+Of course it seems like after a month of writing I have more writing tasks to do than when I started. :P
 

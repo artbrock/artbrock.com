@@ -17,7 +17,7 @@ I consistently hear these sorts of complaints a lot from parents, grandparents, 
 - "Kids today are addicted to being on their damn electronic devices."
 - "Kids don't even learn proper spelling or grammar with their stupid text speak."
 - "Video games and smartphones are like crack for young minds."
-- "Kids today aren't learning necessary social skills since they won't pull their noses out of their devices."</ul>
+- "Kids today aren't learning necessary social skills since they won't pull their noses out of their devices."
 
 ![children playing video games]({{ site.urlimg }}children-playing-video-games.jpg)
 

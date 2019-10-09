@@ -26,7 +26,8 @@ Our approach addresses many issues people are tackling in a variety of projects 
 - Pluggable, self-describing protocols (Ceptr protocols are not textual descriptions for human protocol developers, but pluggable semantic code. A receptor can install a protocol to read a message after receiving the message it didn't know how to read.)
 - Network-wide event subscription (through persistent "listeners")
 - Massive interoperability, reusability, mashability, and composability
-- Ensuring fractal coherence (This needs a paper of its own to explain why it's important.)</ul>
+- Ensuring fractal coherence (This needs a paper of its own to explain why it's important.)
+
 Some of Ceptr is operational, some is barely operational code-scaffolding, and some is yet to be built (especially these next topics). And we could use some support designing good implementation strategies for some of these things.
 
 **Hierarchal Deterministic Keys and Key Management:** Since every agent that wants to communicate on the Ceptr Network gets its own address and keys for signing &amp; encryption, we'd love ideas for making it easy for people to manage a lot of keys. Also, in many configurations we'd like to use hierarchal keys (e.g. a master receptor and with synched slave instances, an agent/person and the receptors they create (whether a standalone receptor or sharded peers).
@@ -36,7 +37,7 @@ Some of Ceptr is operational, some is barely operational code-scaffolding, and s
 **Lightweight Signing &amp; Multi-Party Signatures:** Every network message in Ceptr is signed. We'd like to keep that as light as possible. We also would like build a few multi-party signature scenarios into our BFT algorithms.
 
 **Resource Balancing in Distributed Systems with Diverse Capacities**: When you have a handful of receptor instances with different resources (CPU, GPU, bandwidth, storage, network centrality, etc.), are there existing tools algorithms for "load balancing" based on these capacity differentials?
-<h2>Ceptr Identity and Web of Trust</h2>
+## Ceptr Identity and Web of Trust
 **Network Addresses** - Network addresses in Ceptr are permanent IDs associated with the agent (person, program, or legal entity) communicating on the network. These UUIDs have a history and are accountable for their activities. Addresses are not temporary, reassigned, or segmented for routing.
 
 We use a **progressive trust** approach, where people are able to self-assert into the network as an anonymous client. Later they may upgrade via a triangulation/vouching process to create a trusted peer address. When they register their address (from a sparse UUID space) on the network, they must publish a public key (to a sharded DHT), and may provide a public key-server address, revocation-server address, and identity server address. Identity information can be selectively shared via capacity-based tokens.

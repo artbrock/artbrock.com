@@ -30,13 +30,13 @@ When I think about these laws, which we seem to have discovered as core patterns
 So, let me restate them as the Laws of Econodynamics
 <ol>
 - **The First Law **is about the persistence of value (although it may change forms). There is an inexaustable (infinitely renewable) supply of value which remains actively flowing within the sytem. 
-- **The Second Law** is about distribution of power and wealth. Whenever power is exercised or wealth is transfered, some (transaction fee?) must be invested in the system that enables these transfers. Or stated in biblical terms: "<span style="line-height: 1.5;">Thou shalt not concentrate power."</span></ol>
+- **The Second Law** is about distribution of power and wealth. Whenever power is exercised or wealth is transfered, some (transaction fee?) must be invested in the system that enables these transfers. Or stated in biblical terms: "<span style="line-height: 1.5;">Thou shalt not concentrate power."</ol>
 Obviously, ***thermo***dynamics laws are often described in terms of heat. For example, the second law means "Heat can never pass from a colder to a warmer body without requiring some other energy." In Econodynamics terms, that may mean money/power can never pass from a poorer/weaker person to a richer/stronger one without unsustainably taxing the system.
 
 For me, It's actually really beautiful to think about these principles as the universe's reminder (requirement even) to follow these patterns. Then they also may make a good baseline to measure human-created created systems against, to see whether those systems are operating in accord with the "laws of the universe" or in discord with those patterns. 
 
 For example, our existing monetary system operates contrary to the Second Law. It is structured that wealth (heat or energy) is transferred to those who already have the most of it. Maybe this is exactly why this pattern seems to have such erosive effects on nature and natural systems.
-<h2>More thoughts</h2>
+## More thoughts
 Consider massive concentrations in the physical world… stars which collapsing under the weight of their own gravity finally create a supernova to redistribute the concentrations of wealth throughout their region of space.  Everything is eventually re-distributed quite widely so that we can all be made of stardust…
 
 (too sleepy… goodnight)

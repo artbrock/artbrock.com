@@ -16,11 +16,9 @@ Douglas Hofstadter, in _Godel, Escher, Bach_ and _I am a Strange Loop_, weaves a
 
 From a very early point in our MetaCurrency work we identified an underlying pattern of co-emergence and co-creation that seems make for very interesting bootstrapping dynamics - the ability for complexity to emerge from simplicity. In our internal shorthand, we refer to this as "two hands writing" in reference to M.C. Escher's vivid illustration of this principle.
 
-<img alt="" src="http://ceptr.wagn.org/files/Escher_Hands-large-6314.jpg" style="width: 500px; height: 426px;">
+![]({{ site.urlimg }}escher_hand.jpg)
 
-<!--break-->
-
-Not too surprisingly, it turns out that this kind of self-referential feedback loop is central to the architecture of Ceptr. I tried to summarize it in brief, dense prose in the <a href="https://docs.google.com/document/d/1Line362Wm0zMOZcEZMqPYfHqNS4XIVyVsP7SS_4jE2o/edit#heading=h.ee3qi5eixr98">Ceptr Revelation</a> document, but for most people, a bit more explanation and examples are probably necessary to understand it better. I'm going to try to lay it out more clearly here.
+Not too surprisingly, it turns out that this kind of self-referential feedback loop is central to the architecture of Ceptr. I tried to summarize it in brief, dense prose in the [Ceptr Revelation](/ceptr/revelation) document, but for most people, a bit more explanation and examples are probably necessary to understand it better. I'm going to try to lay it out more clearly here.
 
 For Ceptr, the strange loop comes from our solution to the problem of infinite regress. Just like you could say that in the world, every object exists in some space - a space that gives it room and orderly structure out of which its existence is built.
 
@@ -30,10 +28,8 @@ Well… yes and no.  In the case of Ceptr, it happens that the solution comes fr
 
 In some ways this is really clear and obvious. It is also quite profound. And I think the way that we implement it in Ceptr, makes the profundity more clear than current networking protocols do.
 
-[To add later:
-<ul>
-- <span style="line-height: 1.5;">Diagram of strange loop in Ceptr with feedback between virtual and physical levels.</span>
-- <span style="line-height: 1.5;">Show how the network itself exists/runs INSIDE the nodes, and yet the nodes exist INSIDE the network. (another diagram?)</span>
-- <span style="line-height: 1.5;">Spell it out longer and more clearly, because the one paragraph explanation in the <a href="https://docs.google.com/document/d/1Line362Wm0zMOZcEZMqPYfHqNS4XIVyVsP7SS_4jE2o/edit#heading=h.ee3qi5eixr98">Revelation</a>, while concise, may be a bit too dense for most people to process.</span></ul>
-<span style="line-height: 1.5;">]</span>
+[ To add later: ]
 
+- Diagram of strange loop in Ceptr with feedback between virtual and physical levels.
+- Show how the network itself exists/runs INSIDE the nodes, and yet the nodes exist INSIDE the network. (another diagram?)
+- Spell it out longer and more clearly, because the one paragraph explanation in the [Revelation](/ceptr/revelation), while concise, may be a bit too dense for most people to process.

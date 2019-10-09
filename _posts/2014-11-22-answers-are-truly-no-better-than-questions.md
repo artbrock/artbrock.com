@@ -39,7 +39,7 @@ Don't question if those "less successful" kids might have some completely differ
 Don't question who should be in charge of a child's education. Clearly we should never think the child might be the best one for that job!
 
 I'm not saying that teachers don't mean well -- I'm sure most consultants with prefabricated product do too, but it just feels to me like there's so much more possible in asking better and better questions, than on settling on some old set of answers to somebody else's questions. I've experienced the freedom of being able to ask my own, and I wish for all who want it to have it too.
-<h2>[… but back to unimaginably powerful trajectories…]</h2>
+## [… but back to unimaginably powerful trajectories…]
 You know that old Lao Tzu quote? "A leader is best when people barely know he exists, when his work is done, his aim fulfilled, they will say: we did it ourselves."  
 
 I believe this is pointing to exactly the kind of leader (or consultant as the case may be) who can help clarify where people want to go, help eliminate the impediments to getting there, help establish a dynamic and momentum that will get them there, and then disappear. Because it make all the difference in the world for people to get themselves where they want to go. The sense of accomplishment, fulfillment and empowerment to do it again rests on this factor. It can't be about needing to find the right consultant when they want to do it again.

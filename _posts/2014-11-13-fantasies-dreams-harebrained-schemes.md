@@ -14,9 +14,11 @@ categories:
 - agile learning centers
 ---
 
-[Note: this is not the topic I said I would blog about as I ended yesterday's post.]
+[ Note: this is not the topic I said I would blog about as I ended yesterday's post. ]
 
-<img alt="" src="{{ site.urlimg }}images/apple-spaceship-campus.jpg" style="width: 430px; height: 240px; margin-left: 10px; margin-right: 10px; float: right;">Okay… I'll admit it.  I've had some pretty harebrained schemes. 
+![]({{ site.urlimg }}apple-spaceship-campus.jpg)
+
+Okay… I'll admit it.  I've had some pretty harebrained schemes.
 
 Abnormal. Uncomfortable. Ridiculous. Unreasonable. Outrageous, even.
 
@@ -25,8 +27,6 @@ Of course, most of the ones that I actually took action on have worked.  About t
 I'm committed to maintain some spark of unjaded idealism and allowing myself to dream big.  I have some crazy, big projects in the works: building eco-villages and inspiring and nourishing communities, making it possible for myself and others to live from our passions instead of from monetary-based survival, transforming education, business, and human collective intelligence…
 
 But it's tricky navigating the waters between deep rooted dreams and harebrained schemes, and making sure that I don't get waylaid by flaky fantasies.
-
-<!--break-->
 
 Yesterday, I was searching online for properties near Woodstock, NY because Mercer has been looking at the possibility of getting a place there. Among my searching I stumbled across a listing which said 9 bedrooms, 9 bathrooms.  Curious, I clicked and discovered it was actually a listing for a retreat center with 124 bedrooms and who knows how many bathrooms.  I clicked through some of the photos in a beautiful lakeside setting… then moved on.
 
@@ -38,7 +38,7 @@ You see, I know I've had a major lid on my activities lately. I haven't really b
 
 But I also know that everything is about to pop. Agile Learning Centers are growing and spreading. Emerging Leader Labs were really successful but need upgraded, year-round facilities. And our MetaCurrency work is about to come out of the closet and we'll need a bunch of people helping support that project as it solidifies, grows, and starts providing the infrastructure for everything else.
 
-I'm going to have to take that lid off soon and make room for more people, more energy, and more inspiration.  But I have to admit, after having moved a significant portion of my own life into a post-monetary context, I still don't love the idea having to drum up enough cash to pay everyone else's bills. 
+I'm going to have to take that lid off soon and make room for more people, more energy, and more inspiration.  But I have to admit, after having moved a significant portion of my own life into a post-monetary context, I still don't love the idea having to drum up enough cash to pay everyone else's bills.
 
 You know what inspires me though? Getting rid of those bills -- Creating a space where there's an economy of scale that everyone doesn't have to be so preoccupied with the hamster wheel economy of continually using all your energy and creativity just to pay those bills. I'm far more interested in what we can build together when we have enough runway to get some magic flowing.
 
@@ -48,7 +48,7 @@ That's something that I like working my butt off for.
 
 So… instead of sleeping -- the images started coming -- the people to invite into this picture. It's like Dream Team all over again on a whole new scale. And I have a big network of competent and inspired people to invite.
 
-So… is this a flaky fantasy?  <span style="line-height: 1.5;">Or…is it starting to become a full-fledged harebrained scheme?</span>
+So… is this a flaky fantasy? Or…is it starting to become a full-fledged harebrained scheme?
 
 I'm going to take a bit longer to find out… Right now I'm exploring, listening, vibing out the rhythms of responses. Is the Universe working with me on this one?  Because I'm not into to pushing this rock uphill.  However, if this is a call I'm supposed to answer - I'm damn well not going to miss it.
 
@@ -56,5 +56,4 @@ If you're reading this, be warned!  There may be a list with your name on it.  A
 
 Feel free to let me know what you hear the Universe whispering about it.
 
-Do you hear it calling too? 
-
+Do you hear it calling too?

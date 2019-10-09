@@ -31,7 +31,7 @@ Something potent here….
 
  
 <hr>
-<span style="line-height: 1.5;">Sheri,</span>
+<span style="line-height: 1.5;">Sheri,
 
 I'm in favor of empowering stories. But I don't think they'll solve the problem of working together at large scale on large scale problems.
 
