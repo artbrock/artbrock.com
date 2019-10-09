@@ -7,7 +7,7 @@
 title: 'Arthur Brock''s Personal Site'
 slogan: 'Building a world that works for all'
 description: 'Culture-Hacking, Alt.Education, Targeted Currency Design, NextNet Technologies.'
-credits: '<p>Generated with &hearts; by <a href="http://artbrock.com/">artbrock</a> with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> and the <a href="http://phlow.github.io/feeling-responsive/">Feeling Responsive Theme</a>.</p>'
+credits: '<p>Generated with &hearts; by <a href="/">artbrock</a> with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> and the <a href="http://phlow.github.io/feeling-responsive/">Feeling Responsive Theme</a>.</p>'
 author: artbrock
 
 # This URL is the main address for absolute links. No slash at the end.

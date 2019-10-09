@@ -36,11 +36,11 @@ Need custom graphic… Articles, Blogs, Press…
 
 Download these goodies…
 
-- [My Father's research on the Economic Impact of the Arts (I'm just keeping it around online for search engines since the web site for his research lapsed after his death. There's a bunch of good information in there.)](/geekgene/capp)
+- [My Father's research on the Economic Impact of the Arts (I'm just keeping it around online for search engines since the web site for his research lapsed after his death. There's a bunch of good information in there.)](/geek-gene/capp)
 - [Transitioning to the New Economy](/2011/04/24/arthur-brock-transitioning-to-the-new-economy)
 - [Tracks in the Snow](/2011/04/24/milk-and-honey-tracks-in-the-snow)
 - [The Metacurrency Project](/metacurrency)
 
-Interviews
+### Interviews
 
 [Game Layer](/2011/04/23/where-the-game-layer-really-counts-sharing-and-peer-communities)
