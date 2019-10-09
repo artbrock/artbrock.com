@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://phlow.github.io/feeling-responsive/sitemap.xml

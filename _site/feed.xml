@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="https://phlow.github.io/feeling-responsive/assets/xslt/rss.xslt" ?>
+<?xml-stylesheet type="text/css" href="https://phlow.github.io/feeling-responsive/assets/css/rss.css" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Arthur Brock's Personal Site</title>
+		<description>Culture-Hacking, Alt.Education, Targeted Currency Design, NextNet Technologies.</description>
+		<link>https://phlow.github.io/feeling-responsive/</link>
+		<atom:link href="https://phlow.github.io/feeling-responsive/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>What to Expect with Your HoloPort</title>
+				<link>https://phlow.github.io/feeling-responsive/2019/02/20/what-to-expect-with-your-holoport</link>
+				<pubDate>Fri, 01 Mar 2019 13:54:50 +1100</pubDate>
+				<description>&lt;h2 id=&quot;status-of-holo-network&quot;&gt;Status of Holo Network&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;link to posts about Alpha launches&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;membranes&quot;&gt;Membranes&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Privacy of address spaces&lt;/li&gt;
+  &lt;li&gt;Composability of bridges&lt;/li&gt;
+  &lt;li&gt;Validation of new agents&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;agent-centric-design&quot;&gt;Agent-Centric Design&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Global discoverability of local state changes&lt;/li&gt;
+  &lt;li&gt;Countersigning state changes of multiple agents (fuel example)&lt;/li&gt;
+  &lt;li&gt;Deterministic Proofs amidst eventual consistency (election example)&lt;/li&gt;
+  &lt;li&gt;CRDTs&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;micro-services&quot;&gt;Micro-Services&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Single data integrity engine, many UIs&lt;/li&gt;
+  &lt;li&gt;Reducing and simplifying updates and upgrades&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+				<guid isPermaLink="true">https://phlow.github.io/feeling-responsive/2019/02/20/what-to-expect-with-your-holoport</guid>
+			</item>
+		
+			<item>
+				<title>hApp Dev Cookbook</title>
+				<link>https://phlow.github.io/feeling-responsive/2019/02/20/happ-dev-cookbook</link>
+				<pubDate>Thu, 21 Feb 2019 13:54:50 +1100</pubDate>
+				<description>&lt;h2 id=&quot;design-patterns-for-happ-dev-cookbook&quot;&gt;Design Patterns for hApp Dev Cookbook&lt;/h2&gt;
+
+&lt;h3 id=&quot;membranes&quot;&gt;Membranes&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Privacy of address spaces&lt;/li&gt;
+  &lt;li&gt;Composability of bridges&lt;/li&gt;
+  &lt;li&gt;Validation of new agents&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;agent-centric-design&quot;&gt;Agent-Centric Design&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Global discoverability of local state changes&lt;/li&gt;
+  &lt;li&gt;Countersigning state changes of multiple agents (fuel example)&lt;/li&gt;
+  &lt;li&gt;Deterministic Proofs amidst eventual consistency (election example)&lt;/li&gt;
+  &lt;li&gt;CRDTs&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;micro-services&quot;&gt;Micro-Services&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Single data integrity engine, many UIs&lt;/li&gt;
+  &lt;li&gt;Reducing and simplifying updates and upgrades&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+				<guid isPermaLink="true">https://phlow.github.io/feeling-responsive/2019/02/20/happ-dev-cookbook</guid>
+			</item>
+		
+			<item>
+				<title>CIA on Holo Hosting (Confidentiality, Integrity, &amp; Availability)</title>
+				<link>https://phlow.github.io/feeling-responsive/2019/02/18/confidentiality-integrity-availability</link>
+				<pubDate>Tue, 19 Feb 2019 13:54:50 +1100</pubDate>
+				<description>&lt;p&gt;People are wondering about Holochain apps hosted via Holo, and just what kind of guarantees there are about High Availability of access, Data Integrity and Confidentiality of personal data.&lt;/p&gt;
+
+&lt;h2 id=&quot;availability&quot;&gt;Availability&lt;/h2&gt;
+
+&lt;p&gt;One of the keys to creating high availability systems is ensuring redundancy such that there is no single point of failure possible to bring down a running service. Since Holochain apps are fully distributed and each node runs the complete application code, and multiple copies of data gets stored in a self-healing DHT, redundancy and resiliency is ridiculously high. Let’s drill into the details.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Number of Hosts:&lt;/strong&gt; We’ve already sold about 3,000 HoloPorts in 65 countries which will come online quickly. I figure there’ll be another couple thousand downloads of Holo by people who want to run hosts on their own hardware or on cloud hosting. So we’ll probably start with around 5,000 hosts and a dozen apps.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Calculating Uptime:&lt;/strong&gt; Each app can set specific filters and weights for requirements on host performance and characteristics. I’m going to use sample numbers here for calculations. Suppose an app requires hosts that have at least a 90% uptime record. First, this seems ample, even for boxes in homes, as it allows for 72 hours (3 days) of downtime per month and that should be plenty for locales with reliable electricity and Internet infrastructure. If your app was hosted on a single centralized host, you could have up to 10% chance of downtime, but if we can assume a broad distribution of hosts, not likely to be effected by local outages, then each successive host we add cuts that again by 10%. So if 5 hosts are running your app you are at .1 * .1 * .1 * .1 * .1 = 0.00001 or 99.999% uptime. We’ve reached 5 nines uptime with just 5 independent hosts. What happens when your app is running on 1,000 hosts? At what point do you just round those nines to 100% availability?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Centralized Aspects of Holo:&lt;/strong&gt; Of course, there are some parts of Holo which are more centralized because we have to interface with existing Internet protocols. For example, your app’s domain name must use DNS services to resolve to a host (or in our case we return a batch of 5 hosts). We’re using service workers on Cloudflare for all of these “centralized” services and Cloudflare has such high redundancy and reliability across their 155 data centers, that they promise their enterprise customers (like us) &lt;strong&gt;100% uptime in their SLAs&lt;/strong&gt;. In other words, even the centralized parts of Holo are many times more reliable and decentralized than platforms like NEO, EOS, or TRON which rely on a very small number of block producers (with 7, 21, and 27 nodes respectively).&lt;/p&gt;
+
+&lt;p&gt;This assumes there is no fatal bug in Holochain or in your app, which is running on all the nodes, and in either case, such a bug would need to be found and fixed to achieve 100% availability.&lt;/p&gt;
+
+&lt;h2 id=&quot;integrity&quot;&gt;Integrity&lt;/h2&gt;
+
+&lt;p&gt;Content addressable and signed
+Mutual enforcement of rules via randomized peer validation&lt;/p&gt;
+
+&lt;h2 id=&quot;confidentiality&quot;&gt;Confidentiality&lt;/h2&gt;
+
+&lt;p&gt;Encrypted over the wire: encrypted P2P tunnels inside HTTPS
+Encrypted at rest:
+Sharded across many nodes:
+Contract with Hosts/Providers:
+Trust metrics:
+Private host groups:&lt;/p&gt;
+</description>
+				<guid isPermaLink="true">https://phlow.github.io/feeling-responsive/2019/02/18/confidentiality-integrity-availability</guid>
+			</item>
+		
+			<item>
+				<title>Holo Fuel Accounts vs. Crypto Wallets vs. Exchange Accounts</title>
+				<link>https://phlow.github.io/feeling-responsive/2019/02/14/holo-fuel-accounts-vs-wallets</link>
+				<pubDate>Fri, 15 Feb 2019 13:54:50 +1100</pubDate>
+				<description>&lt;p&gt;As we get approach launch of the Holo Network, we’ve been getting some questions about how wallets, keys, and transactions will work for Holo Fuel.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;How do wallets work on Holo fuel?&lt;/li&gt;
+  &lt;li&gt;Can I use a hardware wallet for Holo fuel?&lt;/li&gt;
+  &lt;li&gt;Why does Holo fuel use “accounts” instead of wallets?&lt;/li&gt;
+  &lt;li&gt;Where are “coins” stored on Holo fuel&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Let’s start by clearing up some confusion about the word “wallet” as it applies to typical cryptocurrencies. &lt;strong&gt;Crypto wallets hold cryptographic keys, not money.&lt;/strong&gt;&lt;/p&gt;
+</description>
+				<guid isPermaLink="true">https://phlow.github.io/feeling-responsive/2019/02/14/holo-fuel-accounts-vs-wallets</guid>
+			</item>
+		
+			<item>
+				<title>Did Holochain Go Astray</title>
+				<link>https://phlow.github.io/feeling-responsive/2019/01/25/did-holochain-lose-its-way</link>
+				<pubDate>Sun, 27 Jan 2019 13:54:50 +1100</pubDate>
+				<description>&lt;h2 id=&quot;fast-strong-and-easy-start&quot;&gt;Fast, Strong, and Easy Start&lt;/h2&gt;
+
+&lt;p&gt;On New Years Eve, the last day of 2016, Eric Harris-Braun and I &lt;a href=&quot;/holochain/proto&quot;&gt;started building Holochain&lt;/a&gt;. The basic design came from one part of &lt;a href=&quot;/ceptr&quot;&gt;Ceptr&lt;/a&gt; an advanced computing and currencies platform we’d been working on for years.&lt;/p&gt;
+
+&lt;p&gt;Two months later, on the first week of March 2017, we had our &lt;a href=&quot;/ceptr/hackathons&quot;&gt;first Hackathon in San Francisco&lt;/a&gt; for people to build apps on Holochain.&lt;/p&gt;
+
+&lt;p&gt;It was an invitation only event for friends who understood our tools were not yet mature. Yet even then, people built complete P2P &lt;a href=&quot;#&quot;&gt;dApps&lt;/a&gt; in just a few days in JavaScript and Lisp that essentially worked.&lt;/p&gt;
+
+&lt;p&gt;The people who came expressed shock and surprise. Folks who had wrestled with launching tokens and dApps on Ethereum praised the ease of building on Holochain. They also felt safer of launching a dApp on it, knowing they could start it invitation-only and then expand the reach and scope of live-tested versions, instead of being “written in stone” on a permanent blockchain.&lt;/p&gt;
+
+&lt;p&gt;They said: &lt;em&gt;“Wow, its a distributed app platform that’s actually distributed!”&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;And” &lt;em&gt;“It feels like we’re building the plane while flying it, but it’s exciting that actually flies!”&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Our first weekend hackathon yielded &lt;a href=&quot;/holochain/holochat&quot;&gt;HoloChat&lt;/a&gt; (a multichannel Slack-like chat), &lt;a href=&quot;#&quot;&gt;TrustGraph&lt;/a&gt; (for making decentralized, censor-proof, reputational claims), and two versions of Clutter, a twitter clone – &lt;a href=&quot;/holochain/clutter&quot;&gt;one in JavaScript&lt;/a&gt; and &lt;a href=&quot;/holochain/cludder&quot;&gt;one in Lisp&lt;/a&gt;, which both used the same UI.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-power-of-holochain-grows&quot;&gt;The Power of Holochain Grows&lt;/h2&gt;
+
+&lt;p&gt;Making apps was possible, but there were a bunch more features to implement for permisisons, security, sharding of the DHT, etc.&lt;/p&gt;
+
+&lt;p&gt;We worked over the next six months improving networking, enhancing testing, benchmarking performance, and learning the &lt;a href=&quot;/holochain/mixins&quot;&gt;design patterns&lt;/a&gt; and idioms of building agent-centric dApps on an eventually-consistent, sharded, validating DHT.&lt;/p&gt;
+
+&lt;p&gt;And after some official Alpha releases, we held &lt;strong&gt;LOTS more Hackathons:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Barcelona Spain,&lt;/li&gt;
+  &lt;li&gt;Vaduz Liechtenstein,&lt;/li&gt;
+  &lt;li&gt;Riga Latvia,&lt;/li&gt;
+  &lt;li&gt;Bristol UK,&lt;/li&gt;
+  &lt;li&gt;Porto Portugal,&lt;/li&gt;
+  &lt;li&gt;Sebastapol California,&lt;/li&gt;
+  &lt;li&gt;London UK,&lt;/li&gt;
+  &lt;li&gt;Copenhagen Denmark,&lt;/li&gt;
+  &lt;li&gt;Sydney Australia,&lt;/li&gt;
+  &lt;li&gt;Melbourne Australia,&lt;/li&gt;
+  &lt;li&gt;Vancouver BC,&lt;/li&gt;
+  &lt;li&gt;Austin Texas,&lt;/li&gt;
+  &lt;li&gt;New York City (twice),&lt;/li&gt;
+  &lt;li&gt;Denver Colorado,&lt;/li&gt;
+  &lt;li&gt;Sao Paolo Brazil,&lt;/li&gt;
+  &lt;li&gt;Amsterdam Netherlands,&lt;/li&gt;
+  &lt;li&gt;Pittsburgh PA (CMU), etc.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;viable-holochain-apps&quot;&gt;Viable Holochain Apps&lt;/h2&gt;
+
+&lt;p&gt;Out of those events came about 60 pretty cool Holochain apps to various stages of completion. They ranged from proof-of-concept of back-end features to pretty polished experiences with a full UI. Some noteworthy ones that come to mind:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/holochain/dpki&quot;&gt;DPKI&lt;/a&gt;: Distribute Public Key Infrastructure – crypto-key management,&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/holochain/holodex&quot;&gt;HoloDex&lt;/a&gt;: Indexing overlay app for searching a sharded DHT,&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/holochain/HCHC&quot;&gt;hAppStore&lt;/a&gt;: A distributed directory for distributing distributed apps),&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/holochain/fractal-wiki&quot;&gt;Fractal Wiki&lt;/a&gt;: structure wiki of nexted cards (like Decko),&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/holochain/transactor&quot;&gt;Transactor&lt;/a&gt;: A basic mutual credit currency,&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/holochain/touchpoints&quot;&gt;Touchpoints&lt;/a&gt;: Mobile NFC enabled interaction logging system,&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/holochain/fedwiki&quot;&gt;Federated Wiki&lt;/a&gt;,&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Community Book Sharing Library&lt;/a&gt; &amp;lt;– self-explanatory,&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;RaveMaker&lt;/a&gt; Party announcement and support system,&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Arcade City P2P&lt;/a&gt;: Ridesharing app,&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Prediction/Betting market&lt;/a&gt;, Augur-like,&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Comet&lt;/a&gt; P2P Reddit site,&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;P2P Credit Clearing Network&lt;/a&gt;: ,&lt;/li&gt;
+  &lt;li&gt;Medical drug provenance / Supply Chain tracking system,&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/holochain/smart-meter-mgmt&quot;&gt;Electric Smart Meter Mgt&lt;/a&gt;: IoT data recording /  sharing / kilowatt balancing&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/holochain/unmute&quot;&gt;UnMute&lt;/a&gt; censor-proof blogging like Medium.com (later evolved into &lt;a href=&quot;https://humm.earth&quot;&gt;humm.earth&lt;/a&gt;),&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/holochain/holovault&quot;&gt;HoloVault / Personas&lt;/a&gt; personal data and identity management,&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/holochain/craigs-list&quot;&gt;New Craigslist&lt;/a&gt;: self-explanatory – *also implemented in OCaml,&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/holochain/holochess&quot;&gt;HoloChess&lt;/a&gt;,&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Battleship&lt;/a&gt;,&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Massively Multiplayer Pong&lt;/a&gt;,&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;MinerSweeper&lt;/a&gt;: Real-time-ish multi-player minesweeper,&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/holochain/errand&quot;&gt;Errand&lt;/a&gt;: Trello-like kanban boards for tasks,&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/OmniProject/omni&quot;&gt;Omni&lt;/a&gt;: For publication of scholarly peer reviewed articles,&lt;/li&gt;
+  &lt;li&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Cannabis provenance and supply chain accountability&lt;/a&gt;,&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Shared To-Do List&lt;/a&gt;,&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Happy virus&lt;/a&gt;: Infect your friends with fun and beneficial activities.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Junto&lt;/a&gt;: Social network&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Whew! I’m sure there’s a bunch more I’m not remembering at the moment.&lt;/p&gt;
+
+&lt;p&gt;Notice how similar these dApps are to the kinds things we do on the web every day. Holochain is not relegated to slow crypto-gambling oand speculation as the only viable use-case. Storing data is cheap. Processing is efficient. Scaling is natural.&lt;/p&gt;
+
+&lt;p&gt;There are still many people saying the usefullness of dApps has not really ben demonstrated yet. That’s because they’re still looking at the kind of dApps that are viable on blockchain.&lt;/p&gt;
+
+&lt;h2 id=&quot;holochains-dapp-architecture-proven&quot;&gt;Holochain’s dApp Architecture Proven&lt;/h2&gt;
+
+&lt;p&gt;People still talk about Holochain as if it’s vaporware and doesn’t exist yet. This is in part because of confusion about expecting a MainNet or token. But Holochain is so efficient it doesn’t need to have a token to subsidize inefficiency.&lt;/p&gt;
+
+&lt;p&gt;Many people clearly don’t realize A LOT OF THINGS have been built on it and they have worked just fine. This is in part our failure to “hype” Holochain adequately and the apps built on it.&lt;/p&gt;
+
+&lt;p&gt;And more importantly, there are things that Holochain makes easy that are rather difficult to do on other decentralized platforms.&lt;/p&gt;
+
+&lt;p&gt;Show me another decentralized platform that can do real-time-ish games like MinerSweeper or Pong!&lt;/p&gt;
+
+&lt;p&gt;Try live-video-streaming on blockchain!&lt;/p&gt;
+
+&lt;p&gt;After 10 years of blockchain, where is an easy Decentralized Public Key Infrastructure?&lt;/p&gt;
+
+&lt;h2 id=&quot;going-mainstream-with-agent-centric-design&quot;&gt;Going Mainstream with Agent-Centric Design&lt;/h2&gt;
+
+&lt;p&gt;The main reason we broke Holochain out from Ceptr into a standalone framework that could go head-to-head with blockchain, was to P2P technology designs into mainstream use.&lt;/p&gt;
+
+&lt;p&gt;so we could establish long-term financial viability for both Holochain and Ceptr.&lt;/p&gt;
+
+&lt;p&gt;To achieve this we designed a commercial/fundable project of providing cloud-style hosting on top of Holochain as a scalabilty layer.&lt;/p&gt;
+
+&lt;p&gt;multi-stage funding strategy with the first phase involving a crowdfunding campaign for hardware and an ICO for the software, knowing its days were numbered, with a desire to raise the bar of integity for ICOs and their projects. We structured ours quite differently than most with specific attention on having it be &lt;a href=&quot;ethical ICO&quot;&gt;ethical&lt;/a&gt; and responsible as possible.&lt;/p&gt;
+
+&lt;p&gt;So we designed &lt;a href=&quot;/holo&quot;&gt;HOLO&lt;/a&gt; as a major project to be able to bridge obscure and marginalized crypto-apps to mainstream users by letting them just use their web browser as if it were any data-driven web site. We know Holochain has no inherent speed or scale bottlenecks, so that theoretically these Holo-hosted apps could scale to the size of Facebook or Twitter. And there wasn’t a blockchain-based project out there who could get anywhere near our performance or ease of devlopment.&lt;/p&gt;
+
+&lt;p&gt;So &lt;a href=&quot;https://IndieGoGo.com/….&quot;&gt;we sold Holo hosting boxes on IndieGoGo&lt;/a&gt; and did an Initional Community Offering pre-selling hosting power on the Holo hosting network.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Clarification:&lt;/strong&gt; Holochain does not have a token or currency built in. It is designed for scalable P2P apps that people self-host so they can control their identity and data… not for tokens. Blockchain is so inefficient it has to pay people to run it and burn through those hashes in Proof-of-Work or place stakes in Proof-of-Stake. But Holochain apps are lightweight enough to run on your phone. We tested between 75-100 full nodes running on a Raspberry Pi with just 2Gb of RAM.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Clarification Part II:&lt;/strong&gt; Holo does have a currency. It has to have one that can do billions of micro-transactions daily so it can run an edge-based app hosting network. In other words, like AirBnB sells more room-nights than the largest hotel chains, but has never built a hotel. Holo seeks to compete with the big cloud hosting companies without ever having to build a data center by using the efficency and scalability of Holochain to tap into computing power wherever it already is. This computing power is to form the basis of Holo’s cryptocurrency with the currency always being backed/redeemable for the tangible asset of computing power. And the 1% transaction fees could fund Holochain and possibly even some of the development of Ceptr.&lt;/p&gt;
+
+&lt;h2 id=&quot;bulletproofing-is-expensive&quot;&gt;Bulletproofing is Expensive&lt;/h2&gt;
+
+&lt;p&gt;Once we sold out our ICO for around 30,000 ETH (when ETH was worth a little over $600), we needed to refactor Holochain for increased security and to run in browsers and on mobile phones and tablets so we could truly go mainstream.&lt;/p&gt;
+
+&lt;p&gt;We decided to rebuild in Rust so we could get the strong security, stability, and concurrency safety it provides, as well as be able to compile to Web Assembly (WASM) to run on browsers and light-clients. In mid-May, with funding and a larger development team, we estimated we needed 3 months to rebuild the Holochain prototype which had been built in Go.&lt;/p&gt;
+
+&lt;p&gt;We had been planning the rebuild for a while, and some of our developers we very excited about it. We targeted August 15th for our first Alpha release with all the features of the Go prototype.&lt;/p&gt;
+
+&lt;h2 id=&quot;dev-targets-missed&quot;&gt;Dev Targets Missed&lt;/h2&gt;
+
+&lt;p&gt;Five months later, as of January 15th, we still don’t have ALL the features of the original prototype. In fairness, we have a lot of other improvements to security, testing, troubleshooting, and the underlying infrastructure, but we still haven’t implemented all the features of the original. Now we’re poised to launch a Closed Alpha version of the Holo network on top of this partial functionality.&lt;/p&gt;
+
+&lt;p&gt;The learning curve and slowdown from building on Rust may not be as bad as it seems. Theoretically, it should save us a lot grief later and be significantly more secure. Rust is so strict that it won’t let you compile until you handle all sorts of possible vulnerabilities that most other languages just let you get away with. So it could be saving us later time and pain in fixing issues.&lt;/p&gt;
+
+&lt;p&gt;However, that’s not the part that concerns me the most – &lt;strong&gt;Holochain has gotten harder to use.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;usability-for-web-developers&quot;&gt;Usability for Web Developers&lt;/h2&gt;
+
+&lt;p&gt;We positioned Holo to be a web app hosting framework, but now have a version of Holochain that only lets you build apps in Rust. And how many web developers code in Rust?&lt;/p&gt;
+
+&lt;p&gt;After this Closed Alpha launch so that we have some kind of hosting network for the micro-servers we sold on IndieGoGo to be able to run something, we will probably scramble a bit to pop up V8 or SpiderMonkey so that web developers can build apps in JavaScript and a familiar context. Either framework can run any Rust apps compiled to WASM. (Note: We don’t have widespread agreement from our devs on exactly what approach to take here.)&lt;/p&gt;
+
+&lt;p&gt;Luckily, web developers can still use whatever frameworks they’re comfortable with for building the UI (React, Vue, Angular, Vanilla JS, whatever). That usability feature of Holochain has still carried over.&lt;/p&gt;
+
+&lt;p&gt;But here we are over a half year later, and instead of having a thriving ecosystem of apps on Holochain, we are starting over in a language that few devs have experience with.&lt;/p&gt;
+
+&lt;h2 id=&quot;bootstrapping-the-app-ecosystem&quot;&gt;Bootstrapping the App Ecosystem&lt;/h2&gt;
+
+&lt;p&gt;I’m concerned we underplayed the maturity of the prototype and discouraged people who were ready to build on it to wait for the Rust version. Now much of the world thinks Holochain is still vaporware when we have had a framework for almost 2 years that outperforms every other crypto platform that I’ve seen.&lt;/p&gt;
+
+&lt;p&gt;Should we have spun off sup ome cadre of devs, trainers, and marketers to get a bunch of apps up and running beyond the proof-of-concept phase? Yes, it seems we probably should have.&lt;/p&gt;
+
+&lt;p&gt;Luckily, there are few projects (like &lt;a href=&quot;/humm&quot;&gt;Humm.Earth&lt;/a&gt;) that ignored our warnings and did go live on the Go version of Holochain.  But there were not enough of these for the community at large to take Holochain seriously.&lt;/p&gt;
+
+&lt;p&gt;Is it too late to leverage the Go version? Probably. We haven’t supported it or made updates in almost 6 months.&lt;/p&gt;
+
+&lt;h2 id=&quot;recovering-from-misfire&quot;&gt;Recovering from Misfire&lt;/h2&gt;
+
+&lt;p&gt;So, how do we recover from essentially holding the community back for 6 months telling them to wait for the next great thing?&lt;/p&gt;
+
+&lt;p&gt;We are poised to launch Holo, but don’t have an ecosystem of apps to host on it yet. The Closed Alpha will pretty much only have apps made by the Holo/chain dev team. We hope to get more apps going once people see this infrastructure is for real. But if we do a slight reset (to JavaScript as mentioned above), does that add more delay? Or does it accelerate adoption because of familiarity for web devs?&lt;/p&gt;
+
+&lt;p&gt;Realistically, the last 6 months have not been not all bad. We still have a strong core base of supporters, and word has been spreading over the past year. In places like Turkey, there seems to be an explosion of support stemming from some vocal and respected thought leaders. However, some people (myself included) are tired of the &lt;em&gt;talk&lt;/em&gt; of how great Holo/chain will be and just want to see it running.&lt;/p&gt;
+
+&lt;p&gt;I’ve probably blathered on long enough here…&lt;/p&gt;
+
+&lt;p&gt;I’m just trying to be transparent about the fact that we don’t have all the answers, and in retrospect, have probably made some strategic mistakes. I’ve opened a lot of inquiries in this post, and I hope community members will weigh in with thoughts and feedback in the comments. How do we best serve you?&lt;/p&gt;
+
+&lt;p&gt;I think I’ll start a new post to highlight how seriously scalable and resilient the Holo hosting network architecture is. I’m really excited about getting some Alpha going so we can see what speeds and performance are like!&lt;/p&gt;
+
+&lt;p&gt;=======&lt;/p&gt;
+
+&lt;p&gt;SLAs and resilience patterns of the Holo hosting network&lt;/p&gt;
+</description>
+				<guid isPermaLink="true">https://phlow.github.io/feeling-responsive/2019/01/25/did-holochain-lose-its-way</guid>
+			</item>
+		
+			<item>
+				<title>Basics of the Cryptographic Autonomy License</title>
+				<link>https://phlow.github.io/feeling-responsive/2019/01/24/cryptographic-autonomy-license</link>
+				<pubDate>Fri, 25 Jan 2019 13:54:50 +1100</pubDate>
+				<description>&lt;p&gt;In this article, I boil the Cryptographic Autonomy License down to its most basic salient points to try to make it clear why we need a new kind of open source license for distributed P2P software, and how we seek to achieve protections for end users by leveraging a novel application of existing copyright law.&lt;/p&gt;
+
+&lt;h2 id=&quot;tldr-copyleft--performance&quot;&gt;TL;DR; Copyleft + Performance&lt;/h2&gt;
+
+&lt;p&gt;You can use Holochain as free and open source software with a couple of conditions:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;The source code of Holochain or any derivative works must be provided under compatible open source terms which include this condition and the following condition regarding privacy of cryptographic keys.&lt;/li&gt;
+  &lt;li&gt;You only have permission for “public performance” of Holochain and use of its APIs for managing data integrity of distributed applications if you maintain End-User privacy and autonomy of their private cryptographic keys.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;public-performance-of-software&quot;&gt;Public Performance of Software?&lt;/h2&gt;
+
+&lt;p&gt;Software licenses are a part of copyright law where you are granted the right to copy and run “our work” (software code) under specific conditions. Music rights are also a part of copyright law, but include constraints not just about the distribution of copies, but about the public performance of “our work.”  For example, Artist A may need to get permission from Artist B to perform B’s song at A’s concert.&lt;/p&gt;
+
+&lt;p&gt;I’ve never seen a software license invoke this “public performance” clause, and it will likely stir up some controversy and present us with challenges getting our license accepted as an authorized Open Source license, but it is the only way we’ve been able to find to release our software with appropriate protections for end-users.&lt;/p&gt;
+
+&lt;h2 id=&quot;why-do-end-users-need-special-protection&quot;&gt;Why do End-Users need Special Protection?&lt;/h2&gt;
+
+&lt;p&gt;What if someone released a cryptocurrency which identifies itself as peer-to-peer app that is extremely easy to use? You just install it on your phone, tablet, or computer, and using the power of cryptographic keys to control your account/wallet, you can do direct transactions with any other account without the need for centralized servers.&lt;/p&gt;
+
+&lt;p&gt;That sounds pretty good so far, but this particular application generates the crypto keys for your account from a key server from software developer. It turns out the developer ALSO has a copy of everyone’s private keys that control their accounts and can spend your funds whenever they want. Would you consider this a valid or honest version decentralized cryptocurrency?&lt;/p&gt;
+
+&lt;p&gt;Holochain is designed to give end-users control of their identity, their data, and their participation. However, this is accomplished by peer-to-peer validation rules for data integrity across a shared and sharded data store which are orchestrated by cryptographic keys. And most end-users of software have no realistic way of knowing whether they are the sole controller of their cryptographic autonomy.&lt;/p&gt;
+
+&lt;h2 id=&quot;okay-but-why-the-weird-performance-clause&quot;&gt;Okay, but Why the Weird Performance Clause?&lt;/h2&gt;
+
+&lt;p&gt;Legally, our license can only protect the code that WE wrote. Our software is being licensed by a DEVELOPER to run their app (the currency, chat, or social network they just built). We are trying to say the only valid way to use our code is if their app’s END-USERS are the sole authors and controllers of their own private keys.&lt;/p&gt;
+
+&lt;p&gt;That is hard to shoehorn into the legal frameworks available to us today. We can’t apply copyright protections to the keys that our licensee’s end users create. So our attorney suggested a creative work-around leveraging the public performance dimension of copyright. You don’t need permission from a musician to perform their work in private, but performing in public is another issue.&lt;/p&gt;
+
+&lt;p&gt;A corporation might want to implement a serverless P2P Slack chat where the company still controls the keys, seeds, or revocation keys so that they could read everyone’s chats and private messages, post as if they were some person, or revoke someone’s keys and access. I see why a company might want to do that for their internal employees, and as long as they keep it internal, we probably can’t stop them.&lt;/p&gt;
+
+&lt;p&gt;However, if they want to run their online community, on a PUBLIC network such as the Internet, where they have each user providing a little server power to orchestrate the whole thing so the company now has zero costs for servers or infrastructure, well now maybe we can assert some protections on behalf of those end-users to make sure they at least control their own data on their own device.&lt;/p&gt;
+
+&lt;h2 id=&quot;avoiding-false-security-and-advertising&quot;&gt;Avoiding False Security and Advertising&lt;/h2&gt;
+
+&lt;p&gt;We want “Holochain” apps to be trusted as maximizing end-user autonomy and control, and as that starts to happen, we can’t let someone claim their software is a “Holochain” app if they are actually maintaining central control of end-user cryptographic keys. Otherwise, people will think they’re in control of their accounts, money, personal information, or communications without realizing, at any moment, someone could strip them of their autonomy via revocation keys or a master seed.&lt;/p&gt;
+
+&lt;p&gt;Frankly, we don’t see any way to freely share Holochain with integrity, that does not include these protections for the people who are not technical enough to make this determination for themselves.&lt;/p&gt;
+
+&lt;p&gt;You might think you are one of the people who can tell for yourself. You bought a Trezor or Ledger hardware wallet and the key never leaves the device! Except of course if the device is ever left unsupervised and someone pulls it, or a “man in the middle” changed the seed before you received it, or maybe Trezor or Ledger actually keep generate all user seeds from a secret master seed so they can easily compromise everyone’s private keys.&lt;/p&gt;
+
+&lt;p&gt;The point is it can be challenging even for technical experts, so if someone launches a fraudulent cryptocurrency that they’re marketing as running on Holochain and under the control of end users, they’re rights to the license should be nullified if they are defrauding their end users by maintaining central cryptographic control.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-does-this-mean-for-your-app&quot;&gt;What Does this Mean for Your App?&lt;/h2&gt;
+
+&lt;p&gt;So you want to build an app on Holochain, and want to know how this effects you.&lt;/p&gt;
+
+&lt;p&gt;First, we’re NOT saying a dApp which uses the Holochain APIs must be released under an open source license. While we might encourage that, the copyleft nature of the Holochain license is not intended to force everyone who uses Holochain for their app, to be forced to release it as open source.&lt;/p&gt;
+
+&lt;p&gt;However, if you rewrite parts of Holochain itself, the source code for those elements need to be shared. In part, this is vital to ensuring the private key protections for end users. We need to be able to see you’re not building things into Holochain to circumvent, leak, or harvest user’s keys.&lt;/p&gt;
+
+&lt;h2 id=&quot;new-frontiers-of-p2p-law-and-software-licensing&quot;&gt;New Frontiers of P2P Law and Software Licensing&lt;/h2&gt;
+
+&lt;p&gt;For distributed apps, cryptographic keys fall into a strange middle zone between code and user data. Code is &lt;strong&gt;&lt;em&gt;functional&lt;/em&gt;&lt;/strong&gt; and provides the processes for routing and transforming user data as inputs or outputs in a computing system. Data is typically more like passive content, which may be created by end users, processed, and stored by the code.&lt;/p&gt;
+
+&lt;p&gt;Cryptographic Keys are both user data and functional. In Holochain they orchestrate proof of authorship of data, where data is stored, who controls data, who validates the data, security and encryption of communications and storage, operation of chain structures for progressive hashing and signing which establishes its sequence and integrity, etc. But end-users must be the AUTHOR of their own private keys, because compromising their sole AUTHORship literally compromises their AUTHORity and AUTHORizations within the system.&lt;/p&gt;
+
+&lt;p&gt;Software licenses to date apply to centralized implementations of programs as either standalone or client-server systems. A P2P dApp on Holochain is an integrated whole, with processing and storage divided across all user’s machines.&lt;/p&gt;
+
+&lt;p&gt;Without integrity of keys this whole architecture unravels. If our license can’t provide protections which maximize end-user cryptographic autonomy, then we fall right back into centralized patterns of control.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;We are sharing Holochain freely as open source software to give people back control of their identity and data, not to fool them into thinking they’re in control when they’re not.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;If it means reclaiming the Internet from the Facebooks of the world, we think it’s worth a little stretching of software licensing into the performance protections already provided by copyright law.&lt;/p&gt;
+
+&lt;p&gt;Do you see a better way to accomplish this?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Closing Notes:&lt;/strong&gt; As we worked with &lt;a href=&quot;#&quot;&gt;Van&lt;/a&gt; and distilled everything down to this core issue of Cryptographic Autonomy, the name of the license evolved, so this supercedes &lt;a href=&quot;#&quot;&gt;my previous post about the Human Commons License&lt;/a&gt;.&lt;/p&gt;
+</description>
+				<guid isPermaLink="true">https://phlow.github.io/feeling-responsive/2019/01/24/cryptographic-autonomy-license</guid>
+			</item>
+		
+			<item>
+				<title>ICO Craze</title>
+				<link>https://phlow.github.io/feeling-responsive/2017/07/20/ico-craze</link>
+				<pubDate>Fri, 21 Jul 2017 12:54:50 +1000</pubDate>
+				<description>&lt;h2 id=&quot;raising-the-bar-on-integrity-amidst-an-ico-craze&quot;&gt;Raising the Bar on Integrity Amidst an ICO Craze&lt;/h2&gt;
+
+&lt;p&gt;There has been some hoopla going on in the cryptocurrency crowdfunding space. A $30 million raise in 24 seconds one day! $152 million in one hour on the next! (Okay, a bit more than an hour.) $200 million for this one! $232 million for that one!&lt;/p&gt;
+
+&lt;p&gt;It’s like the cryptocurrency rollercoaster ride has whole new twists and loops. People afraid they’re going to miss out on winning it big&lt;/p&gt;
+
+&lt;p&gt;It feels like people are playing fast and loose with cryptocurrencies&lt;/p&gt;
+
+&lt;p&gt;In launching Holochain and our currency for application&lt;/p&gt;
+
+&lt;p&gt;Capitalization:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Not for raising your forever capital (just once), but for funding the first year of operations&lt;/li&gt;
+  &lt;li&gt;Funding amount not just made up, but responsive to actual demand to use the system&lt;/li&gt;
+  &lt;li&gt;ICO based on proof of concept, not a marketing pitch in a white paper&lt;/li&gt;
+  &lt;li&gt;A structure which reflects the truth/reality of the process, not pretending people are making a donation for gambling tokens&lt;/li&gt;
+  &lt;li&gt;Design the currency for value stability and lastingness, not for promises of 1000x returns and set up for pump and dumps.&lt;/li&gt;
+  &lt;li&gt;An ICO is a type of crowdfunding, and we want the CROWD at least as much as the funding. If you let all your coins get eaten by bitcoin whales, you’re probably not reaching your important stakeholders and early adopters. (And also making most of your supply subject to manipulation by those whales.)&lt;/li&gt;
+  &lt;li&gt;We think it is possible to set up an ICO which is truly not a security, so you can successfully navigate the SEC and include users in the US.&lt;/li&gt;
+  &lt;li&gt;Design for accountability – Giving yourself millions of tokens vs. being accountable to your community for what they have invested by having that debt.&lt;/li&gt;
+  &lt;li&gt;Money supply which expands/contracts&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+				<guid isPermaLink="true">https://phlow.github.io/feeling-responsive/2017/07/20/ico-craze</guid>
+			</item>
+		
+			<item>
+				<title>But Data Doesn't Exist</title>
+				<link>https://phlow.github.io/feeling-responsive/2017/07/11/but-data-doesnt-exist</link>
+				<pubDate>Wed, 12 Jul 2017 11:17:57 +1000</pubDate>
+				<description>&lt;h2 id=&quot;true-fallacies-of-distributed-computing&quot;&gt;True Fallacies of Distributed Computing&lt;/h2&gt;
+
+&lt;p&gt;There’s a wikipedia article about the fallacies of distributed computing.&lt;/p&gt;
+
+&lt;h3 id=&quot;data-exists&quot;&gt;Data Exists&lt;/h3&gt;
+
+&lt;p&gt;Having pretty tight control of a computing space allows people to maintain the illusion that data “exists.” But if we tell the truth, forces outside the control of your program disrupt data on a regular basis (buffer overruns, memory errors, seg faults, drive failures, power surges, solar flares?, etc.).&lt;/p&gt;
+
+&lt;p&gt;When we expand computing outside the bounds of a single computer these disruptions become so frequent that it we perform extremely awkward gyrations to preserve the illusion of data integrity (checksums, cryptographic hashes, signatures, consensus, leader election strategies for resolving inevitable differences, etc.)&lt;/p&gt;
+
+&lt;p&gt;The problem that data&lt;/p&gt;
+
+&lt;p&gt;The world is not stateful, it is interactive process. We resolve the quantum superpositions of probabilities only by interacting with something, and it is the AGENCY involved in that process of interaction that determines/reports/creates information or data. To divorce that data from the agency which produced it and act like it “exists” as some kind of truth is to create a fiction which we confuse with reality.&lt;/p&gt;
+
+&lt;p&gt;All data comes into existence through a process of authorship by some agent.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;The sales figures are reported by someone (they may have reasons to inflate them).&lt;/li&gt;
+  &lt;li&gt;The temperature is measured by some device (it may not be well placed or calibrated)
+ -&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;time-exists&quot;&gt;Time Exists&lt;/h3&gt;
+</description>
+				<guid isPermaLink="true">https://phlow.github.io/feeling-responsive/2017/07/11/but-data-doesnt-exist</guid>
+			</item>
+		
+			<item>
+				<title>A major phase shift</title>
+				<link>https://phlow.github.io/feeling-responsive/2017/06/12/phase-shift</link>
+				<pubDate>Tue, 13 Jun 2017 07:11:02 +1000</pubDate>
+				<description>&lt;p&gt;You’ve probably seen a lot more activity around the MetaCurrency Project in recent months: a new Ceptr web site, Ceptr broken down into clearer sub-projects, blockchain alternatives, lots of code releases, Hackathons, virtual potlucks, online presentations, etc. I guess we ought to make it clearer what’s going on.&lt;/p&gt;
+
+&lt;p&gt;For a long time we’ve operated as one of those fringy open source projects like some mad scientists experimenting in their garage. But now we must navigate the transition from a tech hobby project to a scalable business, in part, because we’ve been approached by funders.&lt;/p&gt;
+
+&lt;p&gt;Our focus is initially on Holochain, a scalable blockchain alternative which is part of the larger Ceptr social OS. Watch for updates on the &lt;a href=&quot;/ceptr/blog&quot;&gt;Ceptr blog&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://ceptr.org/images/chrysalis_butterfly.jpg&quot; alt=&quot;Transformation&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;why-now&quot;&gt;Why now?&lt;/h2&gt;
+
+&lt;p&gt;For one thing, &lt;strong&gt;timing.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;There’s a window of opportunity that simply wasn’t here a year ago. Far more people are ready to understand what we’re building. Blockchain has become quite the rage, so people are trying to solve all sorts of centralization problems with it. Global consensus on local independent actions as (as in the architecture of blockchain) will never scale.&lt;/p&gt;
+
+&lt;p&gt;If we don’t provide a better alternative before people sour on blockchain limitations, people may not be willing to listen to how our architecture is different if blockchain becomes perceived as a dead-end for large scale data.&lt;/p&gt;
+
+&lt;p&gt;The other reason is &lt;strong&gt;money&lt;/strong&gt;. Once others started realizing they need the tools we’re building for the things they want to build, they started approaching us to see if funding would get it for them faster. In response, we came up with a great structure for accepting investment, so they have extraordinary opportunities for big upsides, while we preserve the integrity of our commitment to open source resources for all humans.&lt;/p&gt;
+
+&lt;p&gt;We just got our initial funds in the door in last weeks. So you’ll see us ramping up our business ecosystem, running new internship/residency programs, and launching more server infrastructure, and implementing ways of tracking the value that people contribute to the project ecosystem.&lt;/p&gt;
+
+&lt;p&gt;Active team members doubled in the last few months (from 6 to 12), and we expect it to double again this summer, and likely again in the fall.&lt;/p&gt;
+
+&lt;h2 id=&quot;on-deck-in-tech&quot;&gt;On Deck in Tech&lt;/h2&gt;
+
+&lt;p&gt;As our core code provides a more stable foundation for the next layers of features, you can expect to see a lot more happening, much more quickly. Here’s what we expect to complete this summer:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Alpha release of Holochain&lt;/strong&gt; after our current security milestone.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Holochain App Generator&lt;/strong&gt; which walks you through the process of building a distributed app on holochain and generates most of the schemas, code, and files for you.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Large-Scale Multi-Node Test Rig&lt;/strong&gt; - container automation and testing for scalability of your application.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Core Holochain Services&lt;/strong&gt; - This summer we’re building a series of holochain apps to expose critical core services distributed to other apps, so you don’t have to build these things yourself.
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Holochain Package Manager&lt;/strong&gt; - a compact runtime distribution of holochain which comes with the one app which lets you install whatever other apps people want to publish on this distributed package management system.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;DPKI&lt;/strong&gt; (Distributed Public Key Infrastructure) - sophisticated services for key management, revocation, and identity validation where you can control and own your own data.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;HC Index&lt;/strong&gt; - pluggable index services to make it easier to find things scattered across an application’s DHT space.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Pluggable Governance&lt;/strong&gt; - a variety of options for integrating decision-making for evolving the code of holochain apps&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;HC Cache&lt;/strong&gt; - smart caching services to enable your application to automatically have CDN-like (content delivery network) performance.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;acknowledgements&quot;&gt;Acknowledgements&lt;/h2&gt;
+
+&lt;p&gt;We’ve gotten to this transition point because a bunch of people have been putting in good work.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Funding:&lt;/strong&gt; A shout-out to Ferananda Ibarra and Jeff Clearwater, of &lt;a href=&quot;/village-lab&quot;&gt;Village Lab&lt;/a&gt;, who have been developing the Wealth Stewardship Circle model for generating and stewarding collective wealth which transcends the investor/philanthropist box to weave healthier dynamics. Much of our funding has been been attracted through their work.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Dev:&lt;/strong&gt; Our software development on holochain has been steadily increasing. &lt;a href=&quot;/github/dayzee&quot;&gt;DayZee&lt;/a&gt; has been improving our docker containers especially for multi-node testing of our P2P gossip protocols. &lt;a href=&quot;/github/timotree3&quot;&gt;Timotree3&lt;/a&gt; has been cleaning up loose ends in a bunch of areas, from docker container optimization, and cross-platform scripting, to tightening up security of stray exposed variables and functions. &lt;a href=&quot;/github/neonphog&quot;&gt;Neonphog&lt;/a&gt; is building our holochain app scaffolding system and app wizard to make it fast and easy to produce the basics of a holochain app instantly. &lt;a href=&quot;/github/luckus&quot;&gt;Lucksus&lt;/a&gt; has come over from Germany to dive deep with &lt;a href=&quot;/github/zippy&quot;&gt;Zippy&lt;/a&gt; on holochain core, internal message flows, and our security implementation.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Biz:&lt;/strong&gt; Currently our fastest area of growth has been in the domain of growing our business infrastructure. Mary Camacho has started bringing some much needed leadership to augment Arthur in this domain. Matthew Schutte has invested significant work into creating a work and live space for our &lt;a href=&quot;/ceptr/residency&quot;&gt;summer residency program&lt;/a&gt;. Jarod Holtz has essentially taken on full-time administration and support functions for Arthur, Mary, Matthew, Ferananda which amplifies everyone’s results. Also, a secret team with more new leadership has assembled to explore options related to doing an ICO for our next major phase of development.&lt;/p&gt;
+</description>
+				<guid isPermaLink="true">https://phlow.github.io/feeling-responsive/2017/06/12/phase-shift</guid>
+			</item>
+		
+			<item>
+				<title>Commons Engine</title>
+				<link>https://phlow.github.io/feeling-responsive/2017/06/05/commons-engine</link>
+				<pubDate>Tue, 06 Jun 2017 13:16:09 +1000</pubDate>
+				<description>&lt;h2 id=&quot;commons-engine&quot;&gt;Commons Engine&lt;/h2&gt;
+
+&lt;p&gt;We intend to turn the management of Ceptr and its software ecosystem over to a Sovereign Accountable Commons (our counterpart to a DAO - decentralized autonomous organization). For us this means building:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Sophisticated value accounting&lt;/li&gt;
+  &lt;li&gt;Commons-based asset management&lt;/li&gt;
+  &lt;li&gt;A cryptocurrency for purchase (and pre-purchase of assets)&lt;/li&gt;
+  &lt;li&gt;Integrated/pluggable governance&lt;/li&gt;
+  &lt;li&gt;Royalties &amp;amp; Rewards (What if you earned royalties on code (or other assets) you shared.)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Since we have to build these things for ourselves, we will also share them as a tool for launching platform cooperatives (think Uber without an extractive corporation in the middle).&lt;/p&gt;
+
+&lt;p&gt;Expect to see more about this, our new partnerships in the space, and maybe even a crowdfunding campaign to help get it launched.&lt;/p&gt;
+</description>
+				<guid isPermaLink="true">https://phlow.github.io/feeling-responsive/2017/06/05/commons-engine</guid>
+			</item>
+		
+	</channel>
+</rss>
