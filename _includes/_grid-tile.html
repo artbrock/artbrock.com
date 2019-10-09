@@ -2,7 +2,6 @@
 {% assign size-n=include.size | times: 1 %}
 {% assign per-row=12 | divided_by: size-n | floor %}
 
-
 {% for item in include.items %}
 
   {% assign media-height=item.media-height | default: include.media-height | default: site.media-height %}
@@ -27,17 +26,19 @@
 
        {% include _prezi.html id=item.prezi-id name=item.prezi-name %}
 
+       {% include _iframe.html src=item.iframe %}
+
        {% include _audio.html audio=item.audio %}
 
        {% if item.image %}
-        <img style="height: {{ media-height }}px; width: 100%; object-fit: {{ object-fit }};" src="{{ site.urlimg }}{{ item.image }}" limit:9999 />
+        <img style="height: {{ media-height }}px; width: 100%; object-fit: {{ object-fit }};" src="{{ site.urlimg }}{{ item.image }}" />
        {% endif %}
 
        <h3>{{ item.title }}</h3>
       </div>
      {% if item.permalink %}</a>{% endif %}
 
-     {{ item.content }}
+     {% if item.meta_description %}{{ item.meta_description }}{% elsif item.content %}{{ item.content }}{% endif %}
 
     <p>&nbsp;</p>
     </div>

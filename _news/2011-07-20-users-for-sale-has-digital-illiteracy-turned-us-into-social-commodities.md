@@ -3,6 +3,8 @@ layout: page
 title: 'Users for Sale: Has Digital Illiteracy Turned Us Into Social Commodities?'
 created: 1311136248
 permalink: /2011/07/20/users-for-sale-has-digital-illiteracy-turned-us-into-social-commodities
+image: facebook-brands-360.jpg
+meta_description: The web-based email, chat and message boards that came online in the '90s were poised to revolutionize interpersonal communication. Then companies tried to monetize the Internet.
 categories:
 - social networks
 - next-net

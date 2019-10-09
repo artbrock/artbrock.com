@@ -3,8 +3,13 @@ layout: page
 permalink: /2011/04/23/where-the-game-layer-really-counts-sharing-and-peer-communities
 title: 'Where the Game Layer Really Counts: Sharing & Peer Communities '
 created: 1303595650
+image: 3-circles-sharing-drivers.png
+object-fit: contain
+meta_description: Game mechanics should be fun and playful, as well as rewarding in an real world sense-like leveling-up on Couchsurfing opens up new places, people and offline experiences to you, Aare most game-based apps fun, though?
 categories: []
 ---
+
+![]({{ site.urlimg }}3-circles-sharing-drivers.png)
 
 Richard MacManus is the founder and co-editor of the popular technology blog, [ReadWriteWeb](/read-write-web). Incidentally, he's also the mayor of Go-Bang Cafe in Petone, New Zealand on Foursquare. "But all I have to show for it is a virtual badge," he says. "I also have a coffee card from that establishment, so my 10th coffee is free. Why not tie that into Foursquare, and make it 'every 5th coffee is free' or some other promotion, as a reward for being the mayor?" He believes that [many social apps are going in this direction](/la-times/gamification), building in a "game layer" of points, badges and, in some cases, monetary rewards. "But game mechanics should be fun and playful, as well as rewarding in an 'real world' sense-like leveling-up on Couchsurfing opens up new places, people and offline experiences to you," he adds. "Are most 'game-based' apps fun, though?"
 

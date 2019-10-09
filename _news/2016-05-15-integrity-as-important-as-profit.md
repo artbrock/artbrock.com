@@ -3,12 +3,15 @@ layout: page
 title: Integrity as important as profit at Dream Team Technologies
 permalink: /2016/05/15/integrity-as-important-as-profit
 created: 1463353404
+image: bizwest.png
+object-fit: contain
+meta_description: An oldie, but goodie. An article written by Rebecca Self about my old company Dream Team Technologies around the time we received the Colorado Ethics in Business Award (2001). Bizwest
 categories:
 - ethics
 - business
 - awards
 ---
-By Rebecca Self Hill on <time>May 4, 2001</time>
+[By Rebecca Self Hill on <time>May 4, 2001</time>](https://bizwest.com/2001/05/04/integrity-as-important-as-profitat-dream-team-technologies/)
 
 Business Report Correspondent
 

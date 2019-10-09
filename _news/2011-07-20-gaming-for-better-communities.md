@@ -3,6 +3,9 @@ layout: page
 title: Gaming for Better Communities
 created: 1311135800
 permalink: /2011/07/20/gaming-for-better-communities
+image: 4360103520_734c3e1a14.jpg
+object-fit: contain
+meta_description: Gamification has become a full-fledged movement. It started with social media, then spread across industries as marketers discovered the allure of points, badges, challenges, and rewards as mediums to making almost anything seem like more fun.
 categories:
 - models
 - incentives

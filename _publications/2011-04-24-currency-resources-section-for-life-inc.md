@@ -1,0 +1,1 @@
+../_posts/2011-04-24-currency-resources-section-for-life-inc.md

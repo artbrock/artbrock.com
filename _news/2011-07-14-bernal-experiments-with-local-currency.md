@@ -2,6 +2,8 @@
 layout: page
 title: Bernal Experiments With Local Currency
 created: 1310617739
+image: bernal-bucks.jpg
+meta_description: Residents of Bernal Heights have a new reason to shop locally, one that rewards loyalty to the neighborhood's mom-and-pop businesses with discount savings. Under a homegrown benefits program launched this summer, people who open accounts with a local credit union are awarded specially branded VISA debit cards they can swipe at participating businesses to rack up discounts called Bernal Bucks.
 categories:
 - currency
 permalink: /2011/07/14/bernal-experiments-with-local-currency

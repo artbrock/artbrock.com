@@ -3,11 +3,16 @@ layout: page
 permalink: /2016/05/14/regenerative-organizational-design-jacki-saorsail
 title: Regenerative Organizational Design - Jacki Saorsail
 created: 1463205600
+image: Jacki-ELL-Capstone.png
+meta_description: Jacki Saorsail compiled a whole output packet as part of her capstone project for her Masters from Gaia University. Be sure to note there are SEVEN TABS OF CONTENT across the top of the page. That's where most the beef is, not on the "cover page." Gaia University - Capstone Output Packet for Masters Degree
 categories:
 - emerging leader labs
 - social change
 - social enterprise incubator
 ---
+
+![]({{ site.urlimg }}Jacki-ELL-Capstone.png)
+
 PLEASE NOTE THE OTHER TABS OF CONTENT PAGES ACROSS THE TOP OF THE ORIGINAL WEB PAGE SOURCE
 
 Emerging Leader Labs
