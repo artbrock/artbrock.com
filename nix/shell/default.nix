@@ -1,4 +1,5 @@
 {
+ deploy,
  pkgs,
  flush,
  serve
@@ -19,6 +20,7 @@ export GEM_HOME=$BUNDLE_HOME
   pkgs.bundler
   pkgs.ruby
  ]
+ ++ deploy.buildInputs
  ++ flush.buildInputs
  ++ serve.buildInputs
  ;
