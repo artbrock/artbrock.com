@@ -11,13 +11,13 @@ categories:
 - commonwealth
 ---
 
-<img alt="Youth sitting in a tight circle with their feet together." src="http://www.artbrock.com{{ site.urlimg }}circle_of_feet.jpg" style="width: 400px; height: 275px; margin-left: 8px; margin-right: 8px; float: left;">I've pretty much always lived in community. Except for when living in my camper or a tent, I've never really had a home to myself, I've always had family, community, roommates, housemates, or some variant like that.
+![]({{ site.urlimg }}circle_of_feet.jpg)
+
+I've pretty much always lived in community. Except for when living in my camper or a tent, I've never really had a home to myself, I've always had family, community, roommates, housemates, or some variant like that.
 
 In fact, there are only brief moments that I grasp the allure of the solitude of living alone. I experience it when I go out in nature, or want to have large windows of uninterrupted time to focus, create or work. But as a lifestyle, there feels like a certain kind of poverty to living alone.
 
 It is my experience, that true wealth is not a function of the amount of stuff you can cram into your house, or the quality of that stuff, or having a big number in your bank account in case you need some of that stuff. True wealth, or maybe I should say Deep Wealth, is a function of relationships.
-
-<!--break-->
 
 Inside of our relationships, we expand our sense of ourselves and knowledge of the world. We invent new things and are reminded of the wisdom of old things. We gain access to resources (all that stuff mentioned in the previous paragraph) and gain satisfaction from generously sharing our own resources that we can spare in that moment.
 
@@ -28,4 +28,3 @@ Specifically, I like to live among community that bring out my best… that hold
 I currently live in the common house in a Quaker ecovillage. This community doesn't have quite the level of intimacy, straight-talk, or sense of co-creative magic that I thrive on, but it does have all those other things I already mentioned, so for the moment, it is a place where I'm working to create Deep Wealth with others.
 
 But I feel the calling for more.
-

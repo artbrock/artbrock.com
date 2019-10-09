@@ -10,15 +10,15 @@ categories:
 - consulting
 ---
 
-<img alt="" src="{{ site.urlimg }}stupid_questions.jpg?1418143818" style="float: left; margin-left: 8px; margin-right: 8px; width: 330px; height: 474px;">Or stated more clearly -- the answers you have are limited to the quality of the questions you asked.
+![stupid questions]({{ site.urlimg }}stupid_questions.jpg)
+
+Or stated more clearly -- the answers you have are limited to the quality of the questions you asked.
 
 This is a way bigger deal than we think.
 
 You see… Our culture, our institutions, and our educational system all teach us that it's very important to have the right answers. The people with the right answers are the powerful ones.
 
 Well, there's a big hitch in that equation. Having the right answers to stupid questions is the same as having stupid answers.
-
-<!--break-->
 
 On the whole, it seems to me that our bar is set pretty low on the quality of questions. You certainly shouldn't question authority, or tradition, or science, or the establishment, or your elders, or your superiors, etc., etc…
 
@@ -39,7 +39,9 @@ Don't question if those "less successful" kids might have some completely differ
 Don't question who should be in charge of a child's education. Clearly we should never think the child might be the best one for that job!
 
 I'm not saying that teachers don't mean well -- I'm sure most consultants with prefabricated product do too, but it just feels to me like there's so much more possible in asking better and better questions, than on settling on some old set of answers to somebody else's questions. I've experienced the freedom of being able to ask my own, and I wish for all who want it to have it too.
+
 ## [… but back to unimaginably powerful trajectories…]
+
 You know that old Lao Tzu quote? "A leader is best when people barely know he exists, when his work is done, his aim fulfilled, they will say: we did it ourselves."  
 
 I believe this is pointing to exactly the kind of leader (or consultant as the case may be) who can help clarify where people want to go, help eliminate the impediments to getting there, help establish a dynamic and momentum that will get them there, and then disappear. Because it make all the difference in the world for people to get themselves where they want to go. The sense of accomplishment, fulfillment and empowerment to do it again rests on this factor. It can't be about needing to find the right consultant when they want to do it again.
@@ -49,4 +51,3 @@ A really good consultant upgrades the fundamental capacities of a group, and ide
 I, for one, am not concerned about that kind of job security. I know that even if we upgraded everyone's capacities to fulfill their intentions, there would still be the next level of unimaginably powerful trajectories to uncover and set ourselves upon.
 
 And that sounds like a game worth playing.
-
