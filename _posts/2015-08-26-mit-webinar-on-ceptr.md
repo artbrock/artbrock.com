@@ -6,6 +6,4 @@ permalink: /2015/08/26/mit-webinar-on-ceptr
 categories:
 - ceptr
 ---
-
-<iframe allowfullscreen="" frameborder="0" height="350" src="https://www.youtube.com/embed/3Db-8lD1lNA" width="550"></iframe>
-
+{% include _youtube.html youtube='3Db-8lD1lNA' %}

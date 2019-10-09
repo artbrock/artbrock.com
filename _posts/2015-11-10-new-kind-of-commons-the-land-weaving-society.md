@@ -13,11 +13,11 @@ categories:
 - ceptr
 ---
 
-<img alt="aerial photo of land" src="{{ site.urlimg }}images/woodlands_trace_weaving.jpg" style="width: 500px; height: 292px; margin-left: 10px; margin-right: 10px; float: left;">You might know the expression among software developers: "Code is Law." It is a trueism about the abilities and limitations that the users of the software become bound to. And I see a world where this becomes quite literally true in the larger social context as we build new digital commons and distributed autonomous organizations where our agreements, and processes for sharing and accessing resources are quite literally encoded in the digital tools we use to share them and gain access to them.
+![aerial photo of land]({{ site.urlimg }}woodlands_trace_weaving.jpg)
+
+You might know the expression among software developers: "Code is Law." It is a trueism about the abilities and limitations that the users of the software become bound to. And I see a world where this becomes quite literally true in the larger social context as we build new digital commons and distributed autonomous organizations where our agreements, and processes for sharing and accessing resources are quite literally encoded in the digital tools we use to share them and gain access to them.
 
 I'd like to share a bit about a vision for a Land Weaving Society as an example of these patterns and processes -- a way to shift land access and use, by voluntary participation in a commons where owners "share" their land (or house, or buildings) with other members for various uses like hiking, camping, farming, firewood collection, fruit harvesting, etc.
-
-<!--break-->
 
 When the owner shares, they can set conditions like: "to farm on my land, you must have a Permaculture Certifications." We would build and launch the supporting technical infrastructure on Ceptr so it is completely decentralized. Access would be mediated by various types of identification, validation and reputation currencies instead of by money. My "lens" (view of the resources in the network) would be filtered to those I actually have access to based on my certifications, reputation and relationships.
 
@@ -34,4 +34,3 @@ We would need to develop some immunities to litigious behaviors. Members may nee
 Instead of a countryside littered with "No Trespassing" signs, we could have "Enter Here" signs with sign-in stations for a new connected commons.
 
 This pattern of sharing access can create many new kinds of commons… when the tools are ready that make this easy and practical.
-

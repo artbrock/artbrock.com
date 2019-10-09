@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Draft Proposal for a Currency Commons
-permalink: /2016/03/18/draft-proposal-for-a-currency-commons
+permalink: /2015/03/18/draft-proposal-for-a-currency-commons
 created: 1426702343
 categories:
 - reputation
