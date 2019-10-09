@@ -12,9 +12,9 @@ categories:
 - ceptr
 ---
 
-Douglas Hofstadter, in <em>Godel, Escher, Bach</em> and <em>I am a Strange Loop</em>, weaves a pretty compelling tail of how mind and consciousness emerge from self-referential systems configured in a kind of "strange loop."&nbsp; Our consciousness or possibly all consciousness may emerge from this sort of feedback loop with strange interplay between levels.
+Douglas Hofstadter, in _Godel, Escher, Bach_ and _I am a Strange Loop_, weaves a pretty compelling tail of how mind and consciousness emerge from self-referential systems configured in a kind of "strange loop."  Our consciousness or possibly all consciousness may emerge from this sort of feedback loop with strange interplay between levels.
 
-From a very early point in our MetaCurrency work we identified an underlying pattern of co-emergence and co-creation that seems make for very interesting bootstrapping dynamics – the ability for complexity to emerge from simplicity. In our internal shorthand, we refer to this as "two hands writing" in reference to M.C. Escher's vivid illustration of this principle.
+From a very early point in our MetaCurrency work we identified an underlying pattern of co-emergence and co-creation that seems make for very interesting bootstrapping dynamics - the ability for complexity to emerge from simplicity. In our internal shorthand, we refer to this as "two hands writing" in reference to M.C. Escher's vivid illustration of this principle.
 
 <img alt="" src="http://ceptr.wagn.org/files/Escher_Hands-large-6314.jpg" style="width: 500px; height: 426px;">
 
@@ -22,11 +22,11 @@ From a very early point in our MetaCurrency work we identified an underlying pat
 
 Not too surprisingly, it turns out that this kind of self-referential feedback loop is central to the architecture of Ceptr. I tried to summarize it in brief, dense prose in the <a href="https://docs.google.com/document/d/1Line362Wm0zMOZcEZMqPYfHqNS4XIVyVsP7SS_4jE2o/edit#heading=h.ee3qi5eixr98">Ceptr Revelation</a> document, but for most people, a bit more explanation and examples are probably necessary to understand it better. I'm going to try to lay it out more clearly here.
 
-For Ceptr, the strange loop comes from our solution to the problem of infinite regress. Just like you could say that in the world, every object exists in some space – a space that gives it room and orderly structure out of which its existence is built.
+For Ceptr, the strange loop comes from our solution to the problem of infinite regress. Just like you could say that in the world, every object exists in some space - a space that gives it room and orderly structure out of which its existence is built.
 
-When I say that every running receptor exists in the (address) space of another receptor, it may at first glance seem that this is fundamentally impossible.&nbsp; Sure, I can imagine that a X receptor exists inside a Y, which exists inside a Z, but doesn't this have to bottom out somewhere. If EVERY receptor exists inside another doesn't this create an infinite regress issue? Doesn't some level have to be the fundamental level which doesn't exist inside of another level?
+When I say that every running receptor exists in the (address) space of another receptor, it may at first glance seem that this is fundamentally impossible.  Sure, I can imagine that a X receptor exists inside a Y, which exists inside a Z, but doesn't this have to bottom out somewhere. If EVERY receptor exists inside another doesn't this create an infinite regress issue? Doesn't some level have to be the fundamental level which doesn't exist inside of another level?
 
-Well… yes and no.&nbsp; In the case of Ceptr, it happens that the solution comes from a strange self-referential way that receptors, which are VIRTUAL machines, all have to run on some PHYSICAL device. And those PHYSICAL devices all must have addresses in the VIRTUAL space of the Ceptr Network to be able to route messages and talk to each other.
+Well… yes and no.  In the case of Ceptr, it happens that the solution comes from a strange self-referential way that receptors, which are VIRTUAL machines, all have to run on some PHYSICAL device. And those PHYSICAL devices all must have addresses in the VIRTUAL space of the Ceptr Network to be able to route messages and talk to each other.
 
 In some ways this is really clear and obvious. It is also quite profound. And I think the way that we implement it in Ceptr, makes the profundity more clear than current networking protocols do.
 

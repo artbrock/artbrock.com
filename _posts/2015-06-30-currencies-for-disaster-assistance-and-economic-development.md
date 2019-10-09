@@ -19,57 +19,57 @@ For local economic development, I'd recommend looking at <a href="http://grassro
 
 The document follows below.
 <hr><h2>Leveraging Local Currencies for Disaster Assistance</h2>
-&nbsp;
+ 
 <h2>Introduction</h2>
-Each of the programs proposed in this section take a tack which is distinct from typical disaster assistance.&nbsp; They rest on the principle that in every functioning community, most people are getting their needs met by other resources in the community.
+Each of the programs proposed in this section take a tack which is distinct from typical disaster assistance.  They rest on the principle that in every functioning community, most people are getting their needs met by other resources in the community.
 
-&nbsp;
+ 
 <p align="center"><img alt="Flow Pattern of a Healthy Economy (Resources and Needs connected via good flows of employment and spending)" src="{{ site.urlimg }}images/DevAid-HealthyEconomy.png">
 
 <!--break-->
 
-Disasters often disrupt the community's ability to maintain this flow of resources to meet their own needs.&nbsp; Many disaster assistance programs leverage their funding to establish a pattern of importing specific resources to the community or subsidize some needs of the people. This support is temporary while the community's normal resource flows are (hopefully) being restored.
+Disasters often disrupt the community's ability to maintain this flow of resources to meet their own needs.  Many disaster assistance programs leverage their funding to establish a pattern of importing specific resources to the community or subsidize some needs of the people. This support is temporary while the community's normal resource flows are (hopefully) being restored.
 
-&nbsp;
+ 
 <p align="center"><img alt="Flows of Typical Aid - Supply some Resources, Subsidize some Needs" src="{{ site.urlimg }}images/DevAid-TypicalAid.png">
 
-However, there are situations where the core infrastructure has been so severely disrupted that the core fabric and functions of the community need to be rebuilt.&nbsp; New Orleans not only lost much of its physical infrastructure, but has only recently rebounded to a little over half of its original population levels.&nbsp; The community's trauma goes beyond damaged homes and a crippled economy and reaches deep into the social fabric and psyche of the city's citizens.&nbsp;
+However, there are situations where the core infrastructure has been so severely disrupted that the core fabric and functions of the community need to be rebuilt.  New Orleans not only lost much of its physical infrastructure, but has only recently rebounded to a little over half of its original population levels.  The community's trauma goes beyond damaged homes and a crippled economy and reaches deep into the social fabric and psyche of the city's citizens. 
 
-In this kind of situation, it is critical to invest in re-knitting the social fabric and infrastructure.&nbsp; Rebuilding the channels for the community to serve its own needs not only provides healing on many levels, but creates a multiplier effect for any investment which far surpasses the impact of importing outside contractors to collect garbage or do construction work.
+In this kind of situation, it is critical to invest in re-knitting the social fabric and infrastructure.  Rebuilding the channels for the community to serve its own needs not only provides healing on many levels, but creates a multiplier effect for any investment which far surpasses the impact of importing outside contractors to collect garbage or do construction work.
 <p align="center"><img src="{{ site.urlimg }}images/DevAid-LocalCurrency.png">
 
-&nbsp;
+ 
 
 Each program that we propose takes this kind of approach to maximize beneficial impact within the New Orleans community.
 
-&nbsp;
+ 
 <h2>Working Name: Purgatory Parades</h2>
-<em>Note to Team: These may have been a brilliant idea for a year ago, but I'm concerned that the optimal timing for these may have passed and they may need to be modified a bit from trash collection to something like marching with scythes, or lawn-mowers to help keep unkempt properties from being seized by the city (especially in the lower 9<sup>th</sup> Ward).</em>
+_Note to Team: These may have been a brilliant idea for a year ago, but I'm concerned that the optimal timing for these may have passed and they may need to be modified a bit from trash collection to something like marching with scythes, or lawn-mowers to help keep unkempt properties from being seized by the city (especially in the lower 9<sup>th</sup> Ward)._
 <h3>Purpose</h3>
 Building on the tradition of parades and "jazz funerals" in New Orleans as an event which brings community together, the "Purgatory Parades" create an engaging context for people to participate in reclaiming their streets, rebuilding their communities and relationships, mourning their losses and celebrating new victories and accomplishments.
 <h3>Overview</h3><ul>
-- <strong>The Music:</strong> Each parade will be planned to include a primary band to play dirges and slow marches which may progressively build to livelier paced tunes throughout the course of the parade.&nbsp;
-- <strong>The Krewes:</strong> Community organizations such as churches, schools, neighborhood groups and non-profit organizations will be involved to recruit parade participants from their membership.&nbsp; Each Organization's participants will form their "krewe" (from the Mardi Gras parade traditions) and be able to create their own theme, team colors, strategies, etc.&nbsp; We will track the results of each krewe so we can acknowledge their noteworthy accomplishments and they can win prizes.
-- <strong>The Route:</strong> Initially, the route of each parade will be designed to impact the communities where the participating organizations are located.&nbsp; Later parades may reach into other zones of greater need once people have adopted the practice as a worthwhile investment of time and energy.&nbsp; The plan should be a zig-zag weaving pattern over the course of blocks which allows stragglers that are collecting trash or moving large items to easily keep pace or catch-up to the parade (see map for a sample route).<br><br> <strong><img alt="Picture of a map with the parade route weaving back and forth through a targeted neighborhood" src="{{ site.urlimg }}images/ParadeRoute.png"></strong>
-- <strong>The City:</strong> Roads will need to have normal motor traffic cordoned off and garbage removal facilities in the form of dumpsters or trucks will need to be strategically located along the path of the parade.
-- <strong>The Supplies:</strong> Local businesses can directly sponsor supplies for the event providing bottled water, trash bags, dumpsters, garbage trucks, dump trucks, etc.&nbsp; Trash removal trucks can even be decorated as parade "floats" and incorporated into the progress of the parade.
-- <strong>The Work:</strong> The parade is a kind of rolling work party.&nbsp; The participants of each krewe will collect trash of all shapes and sizes and load them into the trucks and dumpsters available on the route.&nbsp; All groups will qualify for some rewards, but the group which collects the most will receive an extra bonus.
-- <strong>The Rewards:</strong> We will collect support from local businesses in the form of gift certificates which are awarded to the organizations for the volume of work their krewe accomplished.&nbsp; A possible example, $10 of certificates for every 100 lbs of trash collected given to that school or church.&nbsp; This is also an attractive opportunity to garner support from donors and businesses <strong>outside </strong>the community to provide certificates which they know will benefit the individuals and organizations who are actively taking responsibility for their communities.
-- <strong>The Celebration:</strong> After the hours of hard work, music and marching, there will be a party and celebration.&nbsp; Ideally, food will be supplied by local restaurants and grocers who want to support the community clean-up, but a potluck approach is always a fallback possibility.&nbsp; Another band should be recruited for the party.&nbsp; The party is another kind of reward for a job well done.&nbsp; It is also the place for fellowship and interpersonal appreciation.&nbsp; Trust grows and new connections and relationships are established.
-- <strong>The Metrics:</strong> We will be collecting a large amount of useful data about the process.&nbsp; Measurements of the number of organizations, how many participants they recruited, how many pounds of trash their krewe collected, how much total trash was collected, how many blocks were cleaned, total number of participants, man-hours of work accomplished, how many businesses supported the parade, estimated dollar values for support (their write-off amounts), which krewe won additional prizes and recognition, how many parades individuals have participated in, and much more.&nbsp; This information will vividly illustrate the multiplier effect to financial supporters, demonstrating how much more effective the dollars they invested are in this approach rather than being spent on contractors.</ul><h3>Strategic Approach</h3>
-First, we will connect with on the ground organizations in New Orleans (such as Common Ground Collective) &nbsp;[ This section still need to be fleshed out more. ]
+- **The Music:** Each parade will be planned to include a primary band to play dirges and slow marches which may progressively build to livelier paced tunes throughout the course of the parade. 
+- **The Krewes:** Community organizations such as churches, schools, neighborhood groups and non-profit organizations will be involved to recruit parade participants from their membership.  Each Organization's participants will form their "krewe" (from the Mardi Gras parade traditions) and be able to create their own theme, team colors, strategies, etc.  We will track the results of each krewe so we can acknowledge their noteworthy accomplishments and they can win prizes.
+- **The Route:** Initially, the route of each parade will be designed to impact the communities where the participating organizations are located.  Later parades may reach into other zones of greater need once people have adopted the practice as a worthwhile investment of time and energy.  The plan should be a zig-zag weaving pattern over the course of blocks which allows stragglers that are collecting trash or moving large items to easily keep pace or catch-up to the parade (see map for a sample route).<br><br> **<img alt="Picture of a map with the parade route weaving back and forth through a targeted neighborhood" src="{{ site.urlimg }}images/ParadeRoute.png">**
+- **The City:** Roads will need to have normal motor traffic cordoned off and garbage removal facilities in the form of dumpsters or trucks will need to be strategically located along the path of the parade.
+- **The Supplies:** Local businesses can directly sponsor supplies for the event providing bottled water, trash bags, dumpsters, garbage trucks, dump trucks, etc.  Trash removal trucks can even be decorated as parade "floats" and incorporated into the progress of the parade.
+- **The Work:** The parade is a kind of rolling work party.  The participants of each krewe will collect trash of all shapes and sizes and load them into the trucks and dumpsters available on the route.  All groups will qualify for some rewards, but the group which collects the most will receive an extra bonus.
+- **The Rewards:** We will collect support from local businesses in the form of gift certificates which are awarded to the organizations for the volume of work their krewe accomplished.  A possible example, $10 of certificates for every 100 lbs of trash collected given to that school or church.  This is also an attractive opportunity to garner support from donors and businesses **outside **the community to provide certificates which they know will benefit the individuals and organizations who are actively taking responsibility for their communities.
+- **The Celebration:** After the hours of hard work, music and marching, there will be a party and celebration.  Ideally, food will be supplied by local restaurants and grocers who want to support the community clean-up, but a potluck approach is always a fallback possibility.  Another band should be recruited for the party.  The party is another kind of reward for a job well done.  It is also the place for fellowship and interpersonal appreciation.  Trust grows and new connections and relationships are established.
+- **The Metrics:** We will be collecting a large amount of useful data about the process.  Measurements of the number of organizations, how many participants they recruited, how many pounds of trash their krewe collected, how much total trash was collected, how many blocks were cleaned, total number of participants, man-hours of work accomplished, how many businesses supported the parade, estimated dollar values for support (their write-off amounts), which krewe won additional prizes and recognition, how many parades individuals have participated in, and much more.  This information will vividly illustrate the multiplier effect to financial supporters, demonstrating how much more effective the dollars they invested are in this approach rather than being spent on contractors.</ul><h3>Strategic Approach</h3>
+First, we will connect with on the ground organizations in New Orleans (such as Common Ground Collective)  [ This section still need to be fleshed out more. ]
 
-Second, we will put some supporting technical infrastructure in place to support the planning, management and measurement of results of the parades.&nbsp;
+Second, we will put some supporting technical infrastructure in place to support the planning, management and measurement of results of the parades. 
 
 Finally, we will sponsor a staff position to do the legwork of rallying participation and support.
-<h3>Connections Established &amp; Flow Diagram<br>&nbsp;</h3><h3>[[ I still need to come up with graphics for this. ]]<br>&nbsp;</h3><h3>Expected Outcomes</h3>
-<em>Primary Outcomes</em>
+<h3>Connections Established &amp; Flow Diagram<br> </h3><h3>[[ I still need to come up with graphics for this. ]]<br> </h3><h3>Expected Outcomes</h3>
+_Primary Outcomes_
 <ul>
 - Collection and removal of massive amounts of trash from yards and streets
 - Supports participants in overcoming isolation, helplessness, resignation and grief
 - Restores a sense of power and accomplishment to community members such that they recognize their ability to directly impact their community and environment
 - Active organizations receive financial rewards for their community responsibility and leadership</ul>
-<em>Secondary Outcomes</em>
+_Secondary Outcomes_
 <ul>
 - Re-knits social fabric and relationships by engaging people together in cooperative and mutually beneficial activities
 - Acknowledges important social role of the participating organizations and their relationship with their constituencies
@@ -82,18 +82,18 @@ Finally, we will sponsor a staff position to do the legwork of rallying particip
 - eBay reputation ratings
 - fundraising walks/runs/bike-a-thons
 - community clean-up days &amp; trash-a-thons</ul>
-&nbsp;
+ 
 <h2>Truth &amp; Reconciliation in the Superdome with the Saints</h2><h3>[[ Eric will write this one. ]]</h3><h3>Purpose:</h3><h3>Overview:</h3><h3>Strategic Approach:</h3><h3>Connections Established &amp; Flow Diagram:</h3><h3>Expected Outcomes:</h3><h3>Precedents for this Model:</h3>
-&nbsp;
+ 
 <h2>A Renaissance of Arts in the French Quarter</h2><h3>[[ Arthur will write this one as an adaptation of Cool Cash. ]]</h3><h3>Purpose:</h3><h3>Overview:</h3><h3>Strategic Approach:</h3><h3>Connections Established &amp; Flow Diagram:</h3><h3>Expected Outcomes:</h3><h3>Precedents for this Model:</h3>
-&nbsp;
-<h2>"Flip this Block" – Reality TV &amp; the Rebuilding of NOLA</h2><h3>[[ Will should handle this one.&nbsp; More scheming may be wanted. ]]</h3><h3>Purpose:</h3><h3>Overview:</h3><h3>Strategic Approach:</h3><h3>Connections Established &amp; Flow Diagram:</h3><h3>Expected Outcomes:</h3><h3>Precedents for this Model:</h3>
-&nbsp;
-<h2>Sustainable Land Re-Allocation Strategy – Urban Wetlands</h2><h3>[[ Who knows the landscape well enough to do this one? ]]</h3><h3>Purpose:</h3><h3>Overview:</h3><h3>Strategic Approach:</h3><h3>Connections Established &amp; Flow Diagram:</h3><h3>Expected Outcomes:</h3><h3>Precedents for this Model:</h3>
-&nbsp;
+ 
+<h2>"Flip this Block" - Reality TV &amp; the Rebuilding of NOLA</h2><h3>[[ Will should handle this one.  More scheming may be wanted. ]]</h3><h3>Purpose:</h3><h3>Overview:</h3><h3>Strategic Approach:</h3><h3>Connections Established &amp; Flow Diagram:</h3><h3>Expected Outcomes:</h3><h3>Precedents for this Model:</h3>
+ 
+<h2>Sustainable Land Re-Allocation Strategy - Urban Wetlands</h2><h3>[[ Who knows the landscape well enough to do this one? ]]</h3><h3>Purpose:</h3><h3>Overview:</h3><h3>Strategic Approach:</h3><h3>Connections Established &amp; Flow Diagram:</h3><h3>Expected Outcomes:</h3><h3>Precedents for this Model:</h3>
+ 
 <h2>Housing Credits</h2><h3>[[ More scheming is required to develop a plan // or integrate it into the Arts/CoolCash currency ]]</h3><h3>Purpose:</h3><h3>Overview:</h3><h3>Strategic Approach:</h3><h3>Connections Established &amp; Flow Diagram:</h3><h3>Expected Outcomes:</h3><h3>Precedents for this Model:</h3>
-&nbsp;
-<h2>Scholastic Benefits ("Bennies" or "Benjamins"): A Student-Centered Initiative for Enhancing Educational Excellence</h2><h3>[[ Arthur just made this up adapting prior work.&nbsp; Please review. ]]<br>&nbsp;</h3><h3>Purpose</h3>
+ 
+<h2>Scholastic Benefits ("Bennies" or "Benjamins"): A Student-Centered Initiative for Enhancing Educational Excellence</h2><h3>[[ Arthur just made this up adapting prior work.  Please review. ]]<br> </h3><h3>Purpose</h3>
 There is no better way to gain a thorough understanding of course material than to teach it to another, and the earlier students practice the habit of giving back to their communities the more they will incorporate the behaviors into the rest of their lives.
 
 If you empower students in a creative way to become participants in one another's learning, you can build community, promote educational excellence, and give them the early relationship to learning that it is a relevant and engaging part of their life experience.
@@ -108,7 +108,7 @@ The primary redemption of the currency shall be in the form of an accumulating t
 
 Half of the remainder (.25) will be allocated by the student to provide for the school community. For this portion, school administrations will determine a selection of priorities that they feel are equally acceptable and valid areas for funding. This may take the form of extracurricular organizations, portions of arts or sports programs, or anywhere they feel that there is some level of discretion in budgeting. Holders of Benjamins are then able use their currency to direct that amount of funding into the alternative that they wish to support. These credits will serve as ‘votes' on the spending of existing school funds, and will not represent any absolute investment on behalf of the State.
 
-The remaining portion (.25) of the Benjamins is the students to spend. This provides an immediate reward for their good work.&nbsp; Area businesses would be engaged to accept a portion of the cost of goods in the form of Benjamins. This allows businesses to support education through direct student support, while at the same time attracting new customers who will be paying for part of their purchase in US currency.
+The remaining portion (.25) of the Benjamins is the students to spend. This provides an immediate reward for their good work.  Area businesses would be engaged to accept a portion of the cost of goods in the form of Benjamins. This allows businesses to support education through direct student support, while at the same time attracting new customers who will be paying for part of their purchase in US currency.
 
 Students who receive tutoring shall have the means to provide feedback about their experience by rating the quality of the instruction. These ratings will be available to future students and their parents who may be looking for a tutor with a good reputation. These ratings will serve as a score board to show who are the top performers system wide, and will be a source of pride for some students who may not have other opportunities to be appreciated for their strengths. It is also possible that consistently strong performers could be granted some form of bonus, but it is our experience that the simple presence of a reputation system encourages people to strive for higher placement.
 
@@ -128,25 +128,25 @@ At the very end of the process, the deepest benefits will be felt by the State, 
 <h3>Connections Established &amp; Flow Diagram</h3>
 <img alt="Illustration of flows of value involved with using Benjamins" src="{{ site.urlimg }}images/Benjamins.png" style="height: 522px; width: 640px;">
 <h3>Expected Outcomes</h3>
-<em>Primary Outcomes</em>
+_Primary Outcomes_
 <ul>
 - Tutored students will show improved grades, test scores and performance on course work.
 - Students providing tutoring will attain a deeper understanding of the learning process and of the material they teach.
 - Students most prepared to take advantage of the opportunities provided by higher education, and most likely to repay the value back into their communities, will have a mechanism by which to earn tuition relief. They will then more likely to continue their education and reach their potential.</ul>
-<em>Secondary Outcomes</em>
+_Secondary Outcomes_
 <ul>
 - Increased voice in resource distribution will increase student involvement in the schools and their learning experience, and cast them into a more committed role of showing proper stewardship over those resources.
 - Peripheral workloads of teachers will be reduced by students more actively helping one another. This will free the teachers to focus where they are most needed.
 - Greater association across age boundaries will foster a stronger school-wide community and decrease negative schoolyard behavior such as bullying.
 - Increased responsibility and ownership will reduce vandalism and graffiti.</ul><h3>Precedents for this Model</h3>
-Several cities have successfully applied currencies to facilitate incentive programs.&nbsp; When the Time Dollar Institute of Washington, D.C. used a modified Time Dollar implementation in the Chicago schools, they were able to harness the genius and energy of students to tutor one another and provided rewards that were designed to help students cross the digital divide. One of the pleasant side effects was a marked shift in behavioral patterns. Students were not only less violent toward the students they taught, but they also became the advocates of their charges, making sure that none of their peers degraded the atmosphere for learning of ‘their' students.
+Several cities have successfully applied currencies to facilitate incentive programs.  When the Time Dollar Institute of Washington, D.C. used a modified Time Dollar implementation in the Chicago schools, they were able to harness the genius and energy of students to tutor one another and provided rewards that were designed to help students cross the digital divide. One of the pleasant side effects was a marked shift in behavioral patterns. Students were not only less violent toward the students they taught, but they also became the advocates of their charges, making sure that none of their peers degraded the atmosphere for learning of ‘their' students.
 
 Christian Isquierdo, associated now with the Community Hero Card and the Pilot City Health Program in Minneapolis, was able to achieve dramatic success in San Juan with his Bank Left school incentive system. He demonstrated not only that the participation and attendance of students could be improved through the introduction of a targeted currency, but also the willingness of local businesses to support and participate in initiatives of this sort.
 
 There are many other examples, both within and outside of the domain of currency that provide evidence that increased student involvement is a vital ingredient in assuring academic success.
 
 The US Department of Education visiting this subject in their publication, "Educational Reforms and Students at Risk: A Review of the Current State of the Art" Rossi, et al., stated:
-<p style="margin-left:.5in;"><em>Researchers increasingly conceptualize poor educational performance as the outcome of a process of disengagement that may begin as early as a child's entry into school (Finn, 1989; Kelly, 1989; Merchant, 1987; Rumberger, 1987; Natriello, 1984). According to this model, students who do not identify, participate, and succeed in school activities become increasingly at risk of academic failure and dropout. In order to improve student achievement and persistence, the model suggests that the school climate must foster "investment" behavior -- schools must encourage student involvement in academic and extracurricular activities by stimulating their interest, increasing their personal resources (e.g., remediating skill deficiencies), and rewarding their efforts.</em>
+<p style="margin-left:.5in;">_Researchers increasingly conceptualize poor educational performance as the outcome of a process of disengagement that may begin as early as a child's entry into school (Finn, 1989; Kelly, 1989; Merchant, 1987; Rumberger, 1987; Natriello, 1984). According to this model, students who do not identify, participate, and succeed in school activities become increasingly at risk of academic failure and dropout. In order to improve student achievement and persistence, the model suggests that the school climate must foster "investment" behavior -- schools must encourage student involvement in academic and extracurricular activities by stimulating their interest, increasing their personal resources (e.g., remediating skill deficiencies), and rewarding their efforts._
 
 Our proposal integrates the best of these prior programs and research into a manageable next step for the Louisiana school system.
 

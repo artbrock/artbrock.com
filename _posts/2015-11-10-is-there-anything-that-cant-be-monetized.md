@@ -10,7 +10,7 @@ categories:
 - currencies
 ---
 
-<em><img alt="Putting all of nature into the economic meat grinder to make money" src="https://one1more2time3.files.wordpress.com/2010/11/haitz27.jpg" style="width: 400px; height: 522px; margin-left: 10px; margin-right: 10px; float: left;">[This question was asked by Rachel Haywire in a private Facebook group where I occasionally participate. I'd like to share my answer, because I think it's important in understanding the nature of monetization - what it's good for, and what it's not.]</em>
+_<img alt="Putting all of nature into the economic meat grinder to make money" src="https://one1more2time3.files.wordpress.com/2010/11/haitz27.jpg" style="width: 400px; height: 522px; margin-left: 10px; margin-right: 10px; float: left;">[This question was asked by Rachel Haywire in a private Facebook group where I occasionally participate. I'd like to share my answer, because I think it's important in understanding the nature of monetization - what it's good for, and what it's not.]_
 
 I'd like to reframe just a bit. There are many things that *should not* be monetized or commoditized, but if we peel back our veil of justifications and self-delusions about money, we fundamentally use money (as configured today) as gambling tokens for speculative wealth. So then your question becomes, "Is there anything that somebody isn't willing to place gambling stakes on?" And the answer becomes more obvious. "No. Some idiot will be willing to price/gamble on/monetize just about anything." Of course, that is not to say such a price is a reflection of its real value or worth, just its current standing in a particular gambling market.
 

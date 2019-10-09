@@ -41,6 +41,6 @@ Our collective capacity for denial about the fact this this is common, normal, e
 
 Of course, the typical approach to monetizing a human is to extract their labor not physical products and parts. Enslavement used to be an acceptable way to approach this. Thank goodness, in our modern civilized era, we've hidden this kind of slavery from our view. We've replaced overt whips and chains slavery with the more subtle debt slavery. This is clear for "lower-class" families (and nations), but today even middle-class kids can expect to graduate from college with hundreds of thousands of dollars in loans that ensure they spend their lives working to fulfill somebody else's goals.
 
-This is a sad case of the tail wagging the dog – our Ponzi-scheme currency system forcing growth and short-term profit at the expense of longer term well-being. Of course, humans made this system, and we can remake it into something which actually acknowledges and DEEP WEALTH and helps make that visible.
+This is a sad case of the tail wagging the dog - our Ponzi-scheme currency system forcing growth and short-term profit at the expense of longer term well-being. Of course, humans made this system, and we can remake it into something which actually acknowledges and DEEP WEALTH and helps make that visible.
 
 But that is a topic for another post.

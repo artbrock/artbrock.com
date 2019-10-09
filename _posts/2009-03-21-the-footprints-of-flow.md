@@ -49,7 +49,7 @@ A closed currency system (behind castle walls) where individuals do not have the
 
 ### A Walled Currency Will Eventually Fail You
 
-Let's pretend for a moment that there are two possible outcomes for any currency system – success or failure. I'm going to completely forego defining success, so you can view it as massive adoption, high volumes of activity, universal liquidity, meeting the needs it was designed for, or whatever. If the individual participant does not have sovereignty which includes full "ownership" of their personal data either outcome ends up being a loss for them.
+Let's pretend for a moment that there are two possible outcomes for any currency system - success or failure. I'm going to completely forego defining success, so you can view it as massive adoption, high volumes of activity, universal liquidity, meeting the needs it was designed for, or whatever. If the individual participant does not have sovereignty which includes full "ownership" of their personal data either outcome ends up being a loss for them.
 
 If a bad currency design fails, the value embedded in it is lost. However, currency failure may happen for reasons independent of the validity of the currency design itself: bad timing, bad governance, inadequate leadership, lack of funding, lack of promotion, poor infrastructure, internal strife, etc. Whatever investment of time, energy, learning, goods or services that each participant invested is completely lost and generally cannot be usefully ported to a new iteration of an otherwise good currency. If some people still like the original idea even though it was steered awry, they are forced to start over from ground zero.
 

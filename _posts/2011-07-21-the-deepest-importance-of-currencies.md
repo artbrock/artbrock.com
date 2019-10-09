@@ -19,7 +19,7 @@ We fail to see this because of our deep assumptions about organisms as limited t
 
 Instead, we act like changing the mind of their cells (people) will solve the world's problems, but the significant problems stem from the systemic pattern of these social institutions which persist at a layer of social encoding quite distinct from the beliefs and behavior of individuals.
 
-Think about it… It is corporations that are wage-enslaving people in sweat shops, pillaging natural resources, spilling oil into oceans, marketing false needs, etc. If one of these corporations happens to get an enlightened CEO who wants to do things <em>nicer</em>, but won't plunder profit fast enough, then the board and shareholders will replace him with one who will.
+Think about it… It is corporations that are wage-enslaving people in sweat shops, pillaging natural resources, spilling oil into oceans, marketing false needs, etc. If one of these corporations happens to get an enlightened CEO who wants to do things _nicer_, but won't plunder profit fast enough, then the board and shareholders will replace him with one who will.
 
 Until we learn to rewrite the DNA of these social organisms, we truly can't solve any of the big problems. And currencies are the key to doing this. They are the formal encoding of currents at the social level. And it is currents/flows that make a living system alive.  This is true whether it is a biological organism or social organism.
 

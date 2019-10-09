@@ -12,32 +12,32 @@ Contrary to traditional economic dogma, currencies are not neutral measures of v
 
 Information age economies will replace commercial markets with more efficient, high-trust self-organizing social networks which immediately channel appropriate resources where they are needed. Just as factories and finance were high-leverage tools of the industrial age, social software and reputation currencies that fuel these new social markets are the tools of the new economy. And yes, these markets move real value. It is already happening with software (open source), accommodations (couchsurfing), knowledge (MIT open courseware) and many domains.
 
-There is a family of projects fostering these new economies and wielding currencies as something more powerful than money. They recognize currencies as formal symbol systems for shaping, enabling and measuring currents – currents of time, attention, participation, resources, sharing, trust, giving, information, knowledge, goods and services as well as tools for exchanging value.&nbsp; These projects are specifically geared to help you learn currency design principles so you can invent and implement well-targeted currencies of all types tailored to the needs of your community.
+There is a family of projects fostering these new economies and wielding currencies as something more powerful than money. They recognize currencies as formal symbol systems for shaping, enabling and measuring currents - currents of time, attention, participation, resources, sharing, trust, giving, information, knowledge, goods and services as well as tools for exchanging value.  These projects are specifically geared to help you learn currency design principles so you can invent and implement well-targeted currencies of all types tailored to the needs of your community.
 
-<strong>The Metacurrency Project</strong> – Building the platform for the next economy
+**The Metacurrency Project** - Building the platform for the next economy
 
-We are creating the means and standards for new currencies to interoperate, to provide transparency about the rules they operate by, and to run in a decentralized manner. "Open Sourcing" money requires that we eliminate power imbalances inherent in modern technology systems (e.g. system admins are all-powerful and users can only do what the admins permit). &nbsp;By separating data integrity, security and access our protocols enable fractal sovereignty at every level (which also provides new alternatives to the endless political/ideological debates over who gets control).
+We are creating the means and standards for new currencies to interoperate, to provide transparency about the rules they operate by, and to run in a decentralized manner. "Open Sourcing" money requires that we eliminate power imbalances inherent in modern technology systems (e.g. system admins are all-powerful and users can only do what the admins permit).  By separating data integrity, security and access our protocols enable fractal sovereignty at every level (which also provides new alternatives to the endless political/ideological debates over who gets control).
 
-Find out more about our ridiculously ambitious projects at <a href="http://www.metacurrency.org/">www.Metacurrency.org</a>
-<br clear="all">
+Find out more about our ridiculously ambitious projects at [www.Metacurrency.org](/metacurrency)
 
-<strong>The Flowplace</strong> – Convergence of Communities and Currencies
+**The Flowplace** - Convergence of Communities and Currencies
 
-<a href="http://www.flowplace.org/">www.Flowplace.org</a> is the first running instance of the <em>Open Rules Engine</em> from the Metacurrency Project. &nbsp;This means that launching a new currency is as easy as writing the rules for it (using XGFL - eXtensible Game Format Language). Then that currency can be used by any of the communities and participants of the Flowplace, including any community you'd like to create there. This project is sponsored by the site's first community TheTransitioner.org based in France.
+[www.Flowplace.org](/flowplace) is the first running instance of the _Open Rules Engine_ from the Metacurrency Project.  This means that launching a new currency is as easy as writing the rules for it (using XGFL - eXtensible Game Format Language). Then that currency can be used by any of the communities and participants of the Flowplace, including any community you'd like to create there. This project is sponsored by the site's first community TheTransitioner.org based in France.
 
-<strong>The Currency Guild</strong> – A community of practice for currency designers and implementers
+**The Currency Guild** - A community of practice for currency designers and implementers
 
-You know you'd like to start working on a better currency for your community or company, but don't know where to start. Post questions, discuss approaches, explore other projects, collaborate with other currency practitioners, and search our growing knowledgebase. Come find courses, certifications, mentors and friends.&nbsp;&nbsp; <a href="http://www.currencyguild.com/">www.CurrencyGuild.com</a>
+You know you'd like to start working on a better currency for your community or company, but don't know where to start. Post questions, discuss approaches, explore other projects, collaborate with other currency practitioners, and search our growing knowledgebase. Come find courses, certifications, mentors and friends.   [www.CurrencyGuild.com](/currency-guild)
 
-<strong>Symbionomics Institute </strong>– Inventing the Economics of Living Together
+**Symbionomics Institute ** - Inventing the Economics of Living Together
 
-A new era calls for new models. Economics carries an implicit notion of separation (from Greek <em>oikos</em> "house" + <em>nomos</em> "managing" which conveys an image of a house that can be managed separately from its community and surroundings). We are gathering ideas and thinkers from many fields (cybernetics, systems theory, biomimicry, biology, software design, social sciences, integral theory, physics, linguistics, anthropology, information systems) to create new models for living systems to operate together. Currencies are one of the primary tools employed for shaping these living social systems.&nbsp; <a href="http://www.symbionomics.com/">www.Symbionomics.com</a> [from <em>syn-</em> "together" + <em>bios</em> "life" +<em>nomos</em> "managing."]
+A new era calls for new models. Economics carries an implicit notion of separation (from Greek _oikos_ "house" + _nomos_ "managing" which conveys an image of a house that can be managed separately from its community and surroundings). We are gathering ideas and thinkers from many fields (cybernetics, systems theory, biomimicry, biology, software design, social sciences, integral theory, physics, linguistics, anthropology, information systems) to create new models for living systems to operate together. Currencies are one of the primary tools employed for shaping these living social systems.  [www.Symbionomics.com](/symbionics)
 
-<strong>New Currency Frontiers</strong>: Charting and Exploring the Terrain of the Next Economy
+[from _syn-_ "together" + _bios_ "life" +_nomos_ "managing."]
 
-If the Metacurrency Project is our geeky front-room technology project, then the New Currency Frontiers blog and web site are its "ideas behind the scenes" counterpart. They record a history of development of our currency models and ideas, many of which being migrated to their proper homes in the Currency Guild or Symbionomics Institute. If you're interested in the raw and uncut originals you can find them here: <a href="http://www.newcurrencyfrontiers.com/">www.NewCurrencyFrontiers.com</a> &amp; <a href="http://blog.newcurrencyfrontiers.com/">blog.NewCurrencyFrontiers.com</a>
+**New Currency Frontiers**: Charting and Exploring the Terrain of the Next Economy
 
-<strong>Lifeblood Design</strong> – Custom Currency Solutions
+If the Metacurrency Project is our geeky front-room technology project, then the New Currency Frontiers blog and web site are its "ideas behind the scenes" counterpart. They record a history of development of our currency models and ideas, many of which being migrated to their proper homes in the Currency Guild or Symbionomics Institute. If you're interested in the raw and uncut originals you can find them here: [www.NewCurrencyFrontiers.com](/new-currency-frontiers) & [blog.NewCurrencyFrontiers.com](/new-currency-frontiers/blog)
 
-Put the big brains behind all these currency systems to work for you to incent results, build trust and expand participation in your online community, company or local economy. We'll help you identify needs and resources, find your leverage points for engagement, and design and deploy currency systems of any and all types. <a href="http://www.lifeblooddesign.com/">www.LifebloodDesign.com</a>
+**Lifeblood Design** - Custom Currency Solutions
 
+Put the big brains behind all these currency systems to work for you to incent results, build trust and expand participation in your online community, company or local economy. We'll help you identify needs and resources, find your leverage points for engagement, and design and deploy currency systems of any and all types. [www.LifebloodDesign.com](/lifeblood)

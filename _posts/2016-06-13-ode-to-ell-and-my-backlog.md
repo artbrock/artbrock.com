@@ -10,5 +10,5 @@ categories:
 - gift economies
 ---
 
-Crap… it all got deleted and I have to re-write it. &nbsp;Awesome.
+Crap… it all got deleted and I have to re-write it.  Awesome.
 

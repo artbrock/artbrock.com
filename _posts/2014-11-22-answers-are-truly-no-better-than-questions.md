@@ -26,7 +26,7 @@ Some of us have problems constraining our thinking to boxes of any size or shape
 
 But there are other kinds of questions that shake up people's sense of reality. Questions that challenge deep and underlying assumptions we take for granted. Those kinds of questions tend to be awkward and uncomfortable because we don't like hanging out in the unknown for very long. We rush back to the known and predictable like the folds of a mother's skirt - safe, soft, warm and comforting.
 
-Interestingly, although I have certainly done my share of offending people with what I've had the audacity to question, it turns out, that this kind of questioning has largely been at the source of the how I've made my living for the last 25 years.&nbsp; It has also been one of the skills hardest to replace in my organizations and hardest to train others to be really good at.
+Interestingly, although I have certainly done my share of offending people with what I've had the audacity to question, it turns out, that this kind of questioning has largely been at the source of the how I've made my living for the last 25 years.  It has also been one of the skills hardest to replace in my organizations and hardest to train others to be really good at.
 
 As a consultant, the core value I provide is be able to step into a setting and ask the right questions to see the nature of an organization's limitations, problems or dysfunctions and discover not only where they're planning or hoping to get to, but what kind of solution or plan they could actually fulfill on.
 
@@ -40,7 +40,7 @@ Don't question who should be in charge of a child's education. Clearly we should
 
 I'm not saying that teachers don't mean well -- I'm sure most consultants with prefabricated product do too, but it just feels to me like there's so much more possible in asking better and better questions, than on settling on some old set of answers to somebody else's questions. I've experienced the freedom of being able to ask my own, and I wish for all who want it to have it too.
 <h2>[… but back to unimaginably powerful trajectories…]</h2>
-You know that old Lao Tzu quote? "A leader is best when people barely know he exists, when his work is done, his aim fulfilled, they will say: we did it ourselves." &nbsp;
+You know that old Lao Tzu quote? "A leader is best when people barely know he exists, when his work is done, his aim fulfilled, they will say: we did it ourselves."  
 
 I believe this is pointing to exactly the kind of leader (or consultant as the case may be) who can help clarify where people want to go, help eliminate the impediments to getting there, help establish a dynamic and momentum that will get them there, and then disappear. Because it make all the difference in the world for people to get themselves where they want to go. The sense of accomplishment, fulfillment and empowerment to do it again rests on this factor. It can't be about needing to find the right consultant when they want to do it again.
 

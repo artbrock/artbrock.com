@@ -23,7 +23,7 @@ When the owner shares, they can set conditions like: "to farm on my land, you mu
 
 This allows the commons to operate within the current law (owners granting terms of access) but to overlay whole new patterns of "code as law" which are managed and logged by software and where identity is mapped to RFID cards or smartphones. If you don't meet the criteria, you don't have access. If you cheat (fake your identity, break rules, etc.) you lose access to the whole network.
 
-I see this new kind of commons – one with membranes and formalizations embodied in and enabled by technology – providing access to massive amounts of idle wealth. Gardening in other's urban/suburban yards, hiking on other's trails, camping in other's woods, etc, etc.
+I see this new kind of commons - one with membranes and formalizations embodied in and enabled by technology - providing access to massive amounts of idle wealth. Gardening in other's urban/suburban yards, hiking on other's trails, camping in other's woods, etc, etc.
 
 A smartphone app can be used to sign in and out of properties, provide instructions (where camping/hiking/gardening is allowed), take before and after photos, identify members to each other (as well as their "qualifications" for access, and provide feedback about facilities and users of facilities.
 

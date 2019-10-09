@@ -34,7 +34,7 @@ A currency organizes connections and interactions between groups of people into 
 
 DNA doesn't tell us exactly what each individual biological critter will do, but it does define a particular range of possibilities and tendencies. We know pigs don't fly, bats don't "see," fish must live in water, and most humans develop language capacities. That doesn't tell us what sentences a particular human will say, just like the design of a currency doesn't determine exactly what transactions individuals will do.
 
-Suppose you want to understand human DNA – map the human genome. Scientists have found it VERY useful to learn from non-human creatures for many reasons. Simpler combinations of variables (fewer chromosome pairs), easier experimentation (eugenics / experimental breeding of humans is frowned upon), greater variety (difference between different animals create contrasts which help identify patterns that might be harder to see between humans who are so similar), etc.
+Suppose you want to understand human DNA - map the human genome. Scientists have found it VERY useful to learn from non-human creatures for many reasons. Simpler combinations of variables (fewer chromosome pairs), easier experimentation (eugenics / experimental breeding of humans is frowned upon), greater variety (difference between different animals create contrasts which help identify patterns that might be harder to see between humans who are so similar), etc.
 
 I'm suggesting that as currency designers (even if what you want most is to understand monetary currencies) that expanding our definition of currencies to include non-monetary configurations helps in the very same ways that considering non-human DNA helps in mapping human DNA.
 
@@ -45,4 +45,4 @@ I'm suggesting that as currency designers (even if what you want most is to unde
 
 This is what I meant in prior statement you asked about. I think there are many more reasons to consider these non-monetary currencies (such as gift economies are fundamentally more efficient than market economies).
 
-Getting out of the rut of thinking that new "money" is the only real answer yields many opportunities for us. And yes – these broader "currencies" solve real problems that real people are grappling with every day. Money isn't the only solution to our problems. And as we all know, it is in fact the source of many of them.
+Getting out of the rut of thinking that new "money" is the only real answer yields many opportunities for us. And yes - these broader "currencies" solve real problems that real people are grappling with every day. Money isn't the only solution to our problems. And as we all know, it is in fact the source of many of them.

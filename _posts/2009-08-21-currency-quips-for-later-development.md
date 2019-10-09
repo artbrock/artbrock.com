@@ -15,7 +15,7 @@ I wrote these responses in the comments thread on this article about [The End of
 
 ## Money and Power Pathologies
 
-Will – I think you make a good point that they're ability to fool us, does not make them the same thing in essence. And I even like your lunch money metaphor.
+Will - I think you make a good point that they're ability to fool us, does not make them the same thing in essence. And I even like your lunch money metaphor.
 
 So consider this: We start making alternative lunch money. It is only accepted at our own food carts, and participation is completely voluntary. The corporate thieves/bullies/thugs/raiders can only use it for lunch in that community and there's only so much lunch they can eat.
 

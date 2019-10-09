@@ -17,8 +17,8 @@ categories:
 
 Let's do a quick review of principles of thermodynamics for those who may be rusty. Remember, there are many different ways of precisely stating the Laws. I'm paraphrasing to convey basic meaning and context.
 <ol>
-- <strong>The First Law</strong> is about the conservation of matter and energy.&nbsp;They can be neither created nor destroyed, but can change form.
-- <strong>The Second Law</strong> is about entropy or energy dispersal. Whenever you use energy to do some work, or whenever energy is converted from one form to another, some of that energy is lost (dissipates as heat) in the process.&nbsp;</ol>
+- **The First Law** is about the conservation of matter and energy. They can be neither created nor destroyed, but can change form.
+- **The Second Law** is about entropy or energy dispersal. Whenever you use energy to do some work, or whenever energy is converted from one form to another, some of that energy is lost (dissipates as heat) in the process. </ol>
 These "laws" are understood to have been universally empirically validated. But mostly they are interpreted in a fairly restrictive sense to mean things like: the laws prove that perpetual motion machines (of the first and second class) are impossible.
 
 Having spent so many years looking at the world through the lens of currencies (current-sees), I have to admit, it's hard not to also see these Laws through that lens. I'm used to seeing, and using currencies to help groups collectively see, system behaviors that emerge from making seemingly small, and simple decisions about flows which over time create huge changes in direction. For example, the seemingly small rule of issuing money as debt which bears interest has massive consequences on the large scale pattern of the economy (forcing economic growth to stave off currency collapse, creating artificial scarcity and competition between people, consistent wealth transfer to those who already have it, etc.)
@@ -29,15 +29,15 @@ When I think about these laws, which we seem to have discovered as core patterns
 
 So, let me restate them as the Laws of Econodynamics
 <ol>
-- <strong>The First Law </strong>is about the persistence of value (although it may change forms). There is an inexaustable (infinitely renewable) supply of value which remains actively flowing within the sytem.&nbsp;
-- <strong>The Second Law</strong> is about distribution of power and wealth. Whenever power is exercised or wealth is transfered, some (transaction fee?) must be invested in the system that enables these transfers. Or stated in biblical terms: "<span style="line-height: 1.5;">Thou shalt not concentrate power."</span></ol>
-Obviously,&nbsp;<strong>*thermo*</strong>dynamics laws are often described in terms of heat. For example, the second law means "Heat can never pass from a colder to a warmer body without requiring some other energy." In Econodynamics terms, that may mean money/power can never pass from a poorer/weaker person to a richer/stronger one without unsustainably taxing the system.
+- **The First Law **is about the persistence of value (although it may change forms). There is an inexaustable (infinitely renewable) supply of value which remains actively flowing within the sytem. 
+- **The Second Law** is about distribution of power and wealth. Whenever power is exercised or wealth is transfered, some (transaction fee?) must be invested in the system that enables these transfers. Or stated in biblical terms: "<span style="line-height: 1.5;">Thou shalt not concentrate power."</span></ol>
+Obviously, ***thermo***dynamics laws are often described in terms of heat. For example, the second law means "Heat can never pass from a colder to a warmer body without requiring some other energy." In Econodynamics terms, that may mean money/power can never pass from a poorer/weaker person to a richer/stronger one without unsustainably taxing the system.
 
-For me, It's actually really beautiful to think about these principles as the universe's reminder (requirement even) to follow these patterns. Then they also may make a good baseline to measure human-created created systems against, to see whether those systems are operating in accord with the "laws of the universe" or in discord with those patterns.&nbsp;
+For me, It's actually really beautiful to think about these principles as the universe's reminder (requirement even) to follow these patterns. Then they also may make a good baseline to measure human-created created systems against, to see whether those systems are operating in accord with the "laws of the universe" or in discord with those patterns. 
 
 For example, our existing monetary system operates contrary to the Second Law. It is structured that wealth (heat or energy) is transferred to those who already have the most of it. Maybe this is exactly why this pattern seems to have such erosive effects on nature and natural systems.
 <h2>More thoughts</h2>
-Consider massive concentrations in the physical world… stars which collapsing under the weight of their own gravity finally create a supernova to redistribute the concentrations of wealth throughout their region of space. &nbsp;Everything is eventually re-distributed quite widely so that we can all be made of stardust…
+Consider massive concentrations in the physical world… stars which collapsing under the weight of their own gravity finally create a supernova to redistribute the concentrations of wealth throughout their region of space.  Everything is eventually re-distributed quite widely so that we can all be made of stardust…
 
 (too sleepy… goodnight)
 

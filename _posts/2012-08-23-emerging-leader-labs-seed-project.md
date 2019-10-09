@@ -17,7 +17,7 @@ So Eric and I decided to translate all our abstract MetaCurrency theory into pra
 <br />
 We're creating a template for social impact incubators to flourish outside of the monetary economy.<br />
 <br />
-One of our participants captured the spirit of the project pretty darn well in this new video he just made.&nbsp;Go Ben!<br />
+One of our participants captured the spirit of the project pretty darn well in this new video he just made. Go Ben!<br />
 
 
 
