@@ -25,7 +25,9 @@ tags:
 ---
 
 ## Commons Engine
+
 We intend to turn the management of Ceptr and its software ecosystem over to a Sovereign Accountable Commons (our counterpart to a DAO - decentralized autonomous organization). For us this means building:
+
  - Sophisticated value accounting
  - Commons-based asset management
  - A cryptocurrency for purchase (and pre-purchase of assets)

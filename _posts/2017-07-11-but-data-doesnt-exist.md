@@ -19,7 +19,7 @@ tags:
 ---
 
 
-# True Fallacies of Distributed Computing
+## True Fallacies of Distributed Computing
 
 There's a wikipedia article about the fallacies of distributed computing.
 

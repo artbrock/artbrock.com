@@ -23,19 +23,22 @@ tags:
 - Distributed Apps
 ---
 
-#  hApp Dev Cookbook
-
 ## Design Patterns for hApp Dev Cookbook
 
 ### Membranes
- * Privacy of address spaces
- * Composability of bridges
- * Validation of new agents
+
+* Privacy of address spaces
+* Composability of bridges
+* Validation of new agents
+
 ### Agent-Centric Design
- * Global discoverability of local state changes
- * Countersigning state changes of multiple agents (fuel example)
- * Deterministic Proofs amidst eventual consistency (election example)
- * CRDTs
+
+* Global discoverability of local state changes
+* Countersigning state changes of multiple agents (fuel example)
+* Deterministic Proofs amidst eventual consistency (election example)
+* CRDTs
+
 ### Micro-Services
- * Single data integrity engine, many UIs
- * Reducing and simplifying updates and upgrades
+
+* Single data integrity engine, many UIs
+* Reducing and simplifying updates and upgrades

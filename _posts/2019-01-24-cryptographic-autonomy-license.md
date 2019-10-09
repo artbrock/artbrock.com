@@ -21,15 +21,14 @@ tags:
 - Distributed Applications
 ---
 
-# The Basics of the Cryptographic Autonomy License
-
 In this article, I boil the Cryptographic Autonomy License down to its most basic salient points to try to make it clear why we need a new kind of open source license for distributed P2P software, and how we seek to achieve protections for end users by leveraging a novel application of existing copyright law.
 
 ## TL;DR; Copyleft + Performance
 
 You can use Holochain as free and open source software with a couple of conditions:
- 1. The source code of Holochain or any derivative works must be provided under compatible open source terms which include this condition and the following condition regarding privacy of cryptographic keys.
- 2. You only have permission for "public performance" of Holochain and use of its APIs for managing data integrity of distributed applications if you maintain End-User privacy and autonomy of their private cryptographic keys.
+
+1. The source code of Holochain or any derivative works must be provided under compatible open source terms which include this condition and the following condition regarding privacy of cryptographic keys.
+2. You only have permission for "public performance" of Holochain and use of its APIs for managing data integrity of distributed applications if you maintain End-User privacy and autonomy of their private cryptographic keys.
 
 ## Public Performance of Software?
 
