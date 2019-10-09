@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page-fullwidth
 subheadline: ""
 title: "Go deeper"
 teaser: ""
@@ -8,9 +8,10 @@ header:
 permalink: /deeper
 ---
 
+
 ## Videos, speaking engagements, interviews
 
-{% include _grid-tile.html size=12 items=site.videos %}
+{% include _grid-tile.html size=6 items=site.videos %}
 
 ## Presentations &amp; prezis
 

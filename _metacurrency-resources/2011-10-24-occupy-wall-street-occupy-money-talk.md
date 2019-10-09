@@ -5,6 +5,8 @@ vimeo: 31164740
 created: 1319374800
 permalink: /occupy-wall-street/occupy-money
 ---
-Arthur and Eric talk about re-claiming our capacity to create wealth and the Metacurrency Project on Re-visioning Money Day at OWS (on 10/24/11).
+The real possibility of Occupy Wall Street is not about physical occupation of a street, but about replacing the role that Wall St. plays in wealth creation.
 
-Arthur Brock & Eric Harris-Braun at OWS from Katie Teague on Vimeo.
+We spoke at Re-Visioning Money Day on October 24, 2011 at 60 Wall St. 
+
+Thanks to Katie Teague for filming!
