@@ -1,14 +1,14 @@
 ---
 layout: page
 title: BALLE Conference and pre-conference events happening this summer
+permalink: /2006/02/10/balle-conference
+meta_description: What I want to share at this point is about the BALLE Conference and other pre-conference events happening in Burlington, VT this summer.
 categories:
 - targettedcurrencies
 ---
-## BALLE Conference and pre-conference events happening this summer
-
 I know we've been horrible about updating this blog.
 
-Arthur and I are on the east coast, having a slightly-impromptu meeting with Eric Harris-Braun of Open Money, Chris Linstrom of The E.F. Schumacher Society, and Cara Taussig and Amy Kirschner of The Burlington Currency Project, all players in creating and supporting localized currencies. In the meeting we've been updating each other on our own projects and having more dialogue on how we can support each other in this work.
+Arthur and I are on the east coast, having a slightly-impromptu meeting with [Eric Harris-Braun](/eric-harris-braun) of Open Money, Chris Linstrom of The E.F. Schumacher Society, and Cara Taussig and Amy Kirschner of The Burlington Currency Project, all players in creating and supporting localized currencies. In the meeting we've been updating each other on our own projects and having more dialogue on how we can support each other in this work.
 
 What I want to share at this point is about the BALLE Conference and other pre-conference events happening in Burlington, VT this summer.
 

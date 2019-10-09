@@ -23,6 +23,19 @@
    - title: Resources
      url: /metacurrency/resources
 
+- title: Targeted currencies
+  url: /targeted-currencies
+  side: left
+  dropdown:
+   - title: About
+     url: /targeted-currencies/about
+   - title: Vision
+     url: /targeted-currencies/vision
+   - title: Blog
+     url: /targeted-currencies/blog
+   - title: Documents
+     url: /targeted-currencies/documents
+
 - title: Threebles
   url: /threebles
   side: left

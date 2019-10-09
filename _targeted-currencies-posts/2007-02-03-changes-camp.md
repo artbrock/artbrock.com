@@ -1,11 +1,11 @@
 ---
 layout: page
 title: Recent Changes Camp - Geekpower meets global change
+permalink: /2007/02/03/changes-camp
+meta_description: We're here to build partnerships and collaborate with people around our schemes - OS Earth, SourceTree, etc. There's some exciting energy with what we're doing.
 categories:
 - targettedcurrencies
 ---
-# Recent Changes Camp - Geekpower meets global change
-
 We're in the midst of the Recent Changes Camp, a geeky un-conference happening now in Portland. Arthur and I came up in the little RV, and Mike B (one of our great geeks) flew up to join us.
 
 We're here to build partnerships and collaborate with people around our schemes - OS Earth, SourceTree, etc. There's some exciting energy with what we're doing.

@@ -36,11 +36,11 @@
 
        <h3>{{ item.title }}</h3>
       </div>
-     {% if item.permalink %}</a>{% endif %}
+      {% if item.permalink %}</a>{% endif %}
 
-     {% if item.meta_description %}{{ item.meta_description }}{% elsif item.content %}{{ item.content }}{% endif %}
+      {% if item.meta_description %}{{ item.meta_description }}{% elsif item.content %}{{ item.content }}{% endif %}
 
-    <p>&nbsp;</p>
+     <p>&nbsp;</p>
     </div>
 
   {% if row-end == 1 %}

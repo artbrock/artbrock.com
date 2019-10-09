@@ -2,6 +2,9 @@
 layout: page
 title: Our Vision
 created: 1104498000
+permalink: /targeted-currencies/vision
+header:
+ image_fullwidth: header-targeted-currencies.jpg
 categories:
 - targettedcurrencies
 ---

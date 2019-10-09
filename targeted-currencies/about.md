@@ -2,6 +2,9 @@
 layout: page
 title: Who We Are
 created: 1104498000
+permalink: /targeted-currencies/about
+header:
+ image_fullwidth: header-targeted-currencies.jpg
 categories:
 - targettedcurrencies
 ---

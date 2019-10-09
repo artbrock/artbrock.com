@@ -2,14 +2,15 @@
 layout: page
 title: Welcome
 created: 1104498000
+permalink: /targeted-currencies
+header:
+ image_fullwidth: header-targeted-currencies.jpg
 categories:
 - targettedcurrencies
 ---
-## Welcome
+## This site is no longer maintained!
 
-### This site is no longer maintained!
-
-You can find much more up-to-date information at on the [MetaCurrency Project web site](http://metacurrency.org/). This site is just online for archival purposes
+You can find much more up-to-date information at on the [MetaCurrency Project web site](/metacurrency). This site is just online for archival purposes
 
 ## What is Targeted Currencies Network?
 
@@ -19,7 +20,7 @@ Some of the projects we have implemented include employee incentive plans, local
 
 ## What do we mean by targeted currencies?
 
-Targeted currencies are a tool used to increase the flow of resources within a community. These are specifically designed for each community and their specific problems, as opposed to 'one size fits all' solutions. The ultimate goal is to create a rich ecology of currencies that can add the dimensions of abundance and sufficiency to the global economy, balancing out the economics of scarcity that reigns the world today. Alternative, complementary, incentive and local currencies are all types of targeted currencies. [Read more about targeted currencies.](http://targetedcurrencies.net/moreabouttargetedcurrencies)
+Targeted currencies are a tool used to increase the flow of resources within a community. These are specifically designed for each community and their specific problems, as opposed to 'one size fits all' solutions. The ultimate goal is to create a rich ecology of currencies that can add the dimensions of abundance and sufficiency to the global economy, balancing out the economics of scarcity that reigns the world today. Alternative, complementary, incentive and local currencies are all types of targeted currencies. [Read more about targeted currencies.](/targeted-currencies/about)
 
 ## What will I find here?
 
