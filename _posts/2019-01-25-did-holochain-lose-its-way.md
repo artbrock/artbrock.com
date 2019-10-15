@@ -23,6 +23,8 @@ tags:
 - Software Development
 ---
 
+Note: I need to overwrite this entry with the completed entry from my Medium blog.
+
 ## Fast, Strong, and Easy Start
 
 On New Years Eve, the last day of 2016, Eric Harris-Braun and I [started building Holochain](/holochain/proto). The basic design came from one part of [Ceptr](/ceptr) an advanced computing and currencies platform we'd been working on for years.
