@@ -127,4 +127,4 @@ In theory these should never need to be changed as neither the jekyll nor drupal
 
 ## Contact form
 
-The contact pages uses a simple Typeform that sends an email to `arthur.brock@holo.host` for each submission.
+The contact pages uses a simple Typeform that sends an email to Arthur's main holo.host email for each submission.
