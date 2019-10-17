@@ -14,7 +14,6 @@ let
   script = pkgs.writeShellScriptBin name
   ''
 set -euo pipefail
-rm -rf ./_site
 if [[ -n $(git status --porcelain) ]]
  then echo "Repo is dirty! Commit changes before attempting to push to github pages." && exit 1
  else
