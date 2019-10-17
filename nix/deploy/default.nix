@@ -20,7 +20,7 @@ if [[ -n $(git status --porcelain) ]]
    echo "Building jekyll docs"
    nix-build
 
-   if [[ $(git status --porcelain) -eq 0 ]]
+   if [[ $(git status --porcelain) ]]
     then
      echo "Pushing to github pages"
      git add . && git commit -am'jekyll build docs [skip ci]'
