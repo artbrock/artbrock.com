@@ -19,7 +19,7 @@ if [[ -n $(git status --porcelain) ]]
  then echo "Repo is dirty! Commit changes before attempting to push to github pages." && exit 1
  else
    echo "Building jekyll docs"
-   bundle install && bundle exec jekyll build --config _config.yml
+   nix-build
 
    if [[ $(git status --porcelain) -eq 0 ]]
     then
