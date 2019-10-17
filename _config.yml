@@ -12,8 +12,8 @@ author: artbrock
 
 # This URL is the main address for absolute links. No slash at the end.
 #
-# url: 'https://artbrock.github.io'
-# baseurl: ''
+url: 'https://jekyll.arthurbrock.com'
+baseurl: ''
 
 # This URL points directly to the images directory making
 # things easier to link to images in posts and templates. It needs a slash at the end.
