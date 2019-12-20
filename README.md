@@ -1,4 +1,4 @@
-# Arthur Brock's Personal Web Site
+# Arthur Brock's Personal Web Site 
 
 This is the source code repository for [Arthur's web site](http://artbrock.com).  
 
