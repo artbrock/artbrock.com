@@ -6,7 +6,7 @@ group :jekyll_plugins do
   gem 'jekyll-gist'
   gem 'jekyll-paginate'
   gem 'jekyll-asciidoc'
-  gem 'jekyll-theme-feeling-responsive', :git => 'https://github.com/Phlow/feeling-responsive', :branch => 'bare-bones-version'
+  gem 'jekyll-theme-feeling-responsive', :git => 'https://github.com/thedavidmeister/feeling-responsive', :branch => '2020-01-09-art'
 end
 
 gem 'asciidoctor', '~> 1.5.4'
