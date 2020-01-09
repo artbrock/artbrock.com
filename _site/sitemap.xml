@@ -5,9 +5,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/xkcd/explain/1414</loc>
+	<loc>http://localhost:4000/xkcd/explain/1414</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -20,9 +20,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/lifeblood/about</loc>
+	<loc>http://localhost:4000/lifeblood/about</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -35,9 +35,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/lifeblood/dynamic-alignment</loc>
+	<loc>http://localhost:4000/lifeblood/dynamic-alignment</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -50,9 +50,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/threebles/google-project</loc>
+	<loc>http://localhost:4000/threebles/google-project</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -65,9 +65,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/threebles/google-presentation</loc>
+	<loc>http://localhost:4000/threebles/google-presentation</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -80,9 +80,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/threebles/strategy</loc>
+	<loc>http://localhost:4000/threebles/strategy</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -95,9 +95,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/lifeblood/tools</loc>
+	<loc>http://localhost:4000/lifeblood/tools</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -110,9 +110,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/xkcd/327</loc>
+	<loc>http://localhost:4000/xkcd/327</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -125,9 +125,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/wikipedia/DIKW_pyramid</loc>
+	<loc>http://localhost:4000/wikipedia/DIKW_pyramid</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -140,9 +140,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/targeted-currencies/about</loc>
+	<loc>http://localhost:4000/targeted-currencies/about</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -155,9 +155,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/arthur-mag/an-end-to-movements</loc>
+	<loc>http://localhost:4000/arthur-mag/an-end-to-movements</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -170,9 +170,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/blog/archive/</loc>
+	<loc>http://localhost:4000/blog/archive/</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -185,9 +185,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/agile-learning-centers/artbrock</loc>
+	<loc>http://localhost:4000/agile-learning-centers/artbrock</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -200,9 +200,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/atom.xml</loc>
+	<loc>http://localhost:4000/atom.xml</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -215,9 +215,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/amazon/balaclava</loc>
+	<loc>http://localhost:4000/amazon/balaclava</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -230,9 +230,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/matthew-schutte/balancing-privacy-and-transparency</loc>
+	<loc>http://localhost:4000/matthew-schutte/balancing-privacy-and-transparency</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -245,9 +245,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/grass-roots-economics/bangla</loc>
+	<loc>http://localhost:4000/grass-roots-economics/bangla</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -260,9 +260,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/clear-bon/bernal-bucks</loc>
+	<loc>http://localhost:4000/clear-bon/bernal-bucks</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -275,9 +275,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/matthew-schutte/beyond-jobs</loc>
+	<loc>http://localhost:4000/matthew-schutte/beyond-jobs</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -290,9 +290,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/redirections/outbound/occupy-wall-street/bill-design-competition/</loc>
+	<loc>http://localhost:4000/redirections/outbound/occupy-wall-street/bill-design-competition/</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -305,9 +305,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/p2p-foundation/blockchains-major-design-flaw</loc>
+	<loc>http://localhost:4000/p2p-foundation/blockchains-major-design-flaw</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -320,9 +320,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/ceptr/blocktalk</loc>
+	<loc>http://localhost:4000/ceptr/blocktalk</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -335,9 +335,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/new-currency-frontiers/blog</loc>
+	<loc>http://localhost:4000/new-currency-frontiers/blog</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -350,9 +350,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/ceptr/blog</loc>
+	<loc>http://localhost:4000/ceptr/blog</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -365,9 +365,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/targeted-currencies/blog</loc>
+	<loc>http://localhost:4000/targeted-currencies/blog</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -380,9 +380,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/vice/cambridge-analytica</loc>
+	<loc>http://localhost:4000/vice/cambridge-analytica</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -395,9 +395,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/geek-gene/capp</loc>
+	<loc>http://localhost:4000/geek-gene/capp</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -410,9 +410,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/indian-hot-springs/certificate</loc>
+	<loc>http://localhost:4000/indian-hot-springs/certificate</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -425,9 +425,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/agile-learning-centers/change-up-meeting</loc>
+	<loc>http://localhost:4000/agile-learning-centers/change-up-meeting</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -440,9 +440,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/holochain/cludder</loc>
+	<loc>http://localhost:4000/holochain/cludder</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -455,9 +455,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/holochain/clutter</loc>
+	<loc>http://localhost:4000/holochain/clutter</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -470,9 +470,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/thrivable/coaching</loc>
+	<loc>http://localhost:4000/thrivable/coaching</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -485,9 +485,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/metacurrency/commoning-patterns</loc>
+	<loc>http://localhost:4000/metacurrency/commoning-patterns</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -500,9 +500,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/agile-learning-centers/change-up-meeting</loc>
+	<loc>http://localhost:4000/agile-learning-centers/change-up-meeting</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -515,9 +515,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/metacurrency/community-principle</loc>
+	<loc>http://localhost:4000/metacurrency/community-principle</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -530,9 +530,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/thrivable/consulting</loc>
+	<loc>http://localhost:4000/thrivable/consulting</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -545,9 +545,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/holochain/craigs-list</loc>
+	<loc>http://localhost:4000/holochain/craigs-list</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -560,9 +560,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/metacurrency/cryptocurrencies-are-dead</loc>
+	<loc>http://localhost:4000/metacurrency/cryptocurrencies-are-dead</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -575,9 +575,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/lietaer/curitiba-trash-tokens</loc>
+	<loc>http://localhost:4000/lietaer/curitiba-trash-tokens</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -590,9 +590,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/community-currencies-in-action/currency-design-framework</loc>
+	<loc>http://localhost:4000/community-currencies-in-action/currency-design-framework</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -605,9 +605,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/metacurrency/currency-map</loc>
+	<loc>http://localhost:4000/metacurrency/currency-map</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -620,9 +620,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/new-currency-frontiers/currency-quips-for-later-development</loc>
+	<loc>http://localhost:4000/new-currency-frontiers/currency-quips-for-later-development</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -635,9 +635,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/metacurrency/currency-system-life-cycle</loc>
+	<loc>http://localhost:4000/metacurrency/currency-system-life-cycle</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -650,9 +650,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/metacurrency/currency-token-life-cycle</loc>
+	<loc>http://localhost:4000/metacurrency/currency-token-life-cycle</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -665,9 +665,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/wikipedia/cynefin</loc>
+	<loc>http://localhost:4000/wikipedia/cynefin</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -680,9 +680,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/github/dayzee</loc>
+	<loc>http://localhost:4000/github/dayzee</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -695,9 +695,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/ceptr/decentralised-internet</loc>
+	<loc>http://localhost:4000/ceptr/decentralised-internet</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -710,9 +710,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/p2p-foundation/decentralizing-commons</loc>
+	<loc>http://localhost:4000/p2p-foundation/decentralizing-commons</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -725,9 +725,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/etym/decide</loc>
+	<loc>http://localhost:4000/etym/decide</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -740,9 +740,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/wired/decision-making</loc>
+	<loc>http://localhost:4000/wired/decision-making</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -755,9 +755,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/metacurrency/deep-wealth</loc>
+	<loc>http://localhost:4000/metacurrency/deep-wealth</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -770,9 +770,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/deeper</loc>
+	<loc>http://localhost:4000/deeper</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -785,9 +785,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/new-currency-frontiers/dimensions-of-incentives</loc>
+	<loc>http://localhost:4000/new-currency-frontiers/dimensions-of-incentives</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -800,9 +800,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/targeted-currencies/documents</loc>
+	<loc>http://localhost:4000/targeted-currencies/documents</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -815,9 +815,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/crap-hound/down-and-out</loc>
+	<loc>http://localhost:4000/crap-hound/down-and-out</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -830,9 +830,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/holochain/dpki</loc>
+	<loc>http://localhost:4000/holochain/dpki</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -845,9 +845,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/gaia-university/emerging-leader-labs</loc>
+	<loc>http://localhost:4000/gaia-university/emerging-leader-labs</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -860,9 +860,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/holochain/errand</loc>
+	<loc>http://localhost:4000/holochain/errand</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -875,9 +875,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/huffington-post/evolved-archetypes</loc>
+	<loc>http://localhost:4000/huffington-post/evolved-archetypes</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -890,9 +890,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/assets/css/extra.css</loc>
+	<loc>http://localhost:4000/assets/css/extra.css</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -905,9 +905,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/mashable/facebook-ipo</loc>
+	<loc>http://localhost:4000/mashable/facebook-ipo</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -920,9 +920,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/agile-learning-centers/facilitator-training-manual</loc>
+	<loc>http://localhost:4000/agile-learning-centers/facilitator-training-manual</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -935,9 +935,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/metacurrency/faq</loc>
+	<loc>http://localhost:4000/metacurrency/faq</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -950,9 +950,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/holochain/fedwiki</loc>
+	<loc>http://localhost:4000/holochain/fedwiki</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -965,9 +965,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/feed.xml</loc>
+	<loc>http://localhost:4000/feed.xml</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -980,9 +980,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/value-for-people/first-steps</loc>
+	<loc>http://localhost:4000/value-for-people/first-steps</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -995,9 +995,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/smart-brief/food-industry</loc>
+	<loc>http://localhost:4000/smart-brief/food-industry</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1010,9 +1010,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/holochain/fractal-wiki</loc>
+	<loc>http://localhost:4000/holochain/fractal-wiki</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1025,9 +1025,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/agile-learning-centers/free-schools</loc>
+	<loc>http://localhost:4000/agile-learning-centers/free-schools</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1040,9 +1040,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/emerging-leader-labs/game-shifting</loc>
+	<loc>http://localhost:4000/emerging-leader-labs/game-shifting</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1055,9 +1055,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/la-times/gamification</loc>
+	<loc>http://localhost:4000/la-times/gamification</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1070,9 +1070,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/flowplace</loc>
+	<loc>http://localhost:4000/flowplace</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1085,9 +1085,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/geek-feminism/gittip-crisis</loc>
+	<loc>http://localhost:4000/geek-feminism/gittip-crisis</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1100,9 +1100,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/ceptr/hackathons</loc>
+	<loc>http://localhost:4000/ceptr/hackathons</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1115,9 +1115,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/holochain/hchc</loc>
+	<loc>http://localhost:4000/holochain/hchc</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1130,9 +1130,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/ceptr</loc>
+	<loc>http://localhost:4000/ceptr</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1145,9 +1145,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/holochain/holochat</loc>
+	<loc>http://localhost:4000/holochain/holochat</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1160,9 +1160,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/holochain/holochess</loc>
+	<loc>http://localhost:4000/holochain/holochess</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1175,9 +1175,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/holochain/holodex</loc>
+	<loc>http://localhost:4000/holochain/holodex</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1190,9 +1190,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/holochain/holovault</loc>
+	<loc>http://localhost:4000/holochain/holovault</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1205,9 +1205,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/gaia-university/how-to-read</loc>
+	<loc>http://localhost:4000/gaia-university/how-to-read</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1220,9 +1220,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/humans.txt</loc>
+	<loc>http://localhost:4000/humans.txt</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1235,9 +1235,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/blog/</loc>
+	<loc>http://localhost:4000/blog/</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1250,9 +1250,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/</loc>
+	<loc>http://localhost:4000/</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1265,9 +1265,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/latitude-research</loc>
+	<loc>http://localhost:4000/latitude-research</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1280,9 +1280,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/clear-bon</loc>
+	<loc>http://localhost:4000/clear-bon</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1295,9 +1295,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/currency-guild</loc>
+	<loc>http://localhost:4000/currency-guild</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1310,9 +1310,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/flowplace</loc>
+	<loc>http://localhost:4000/flowplace</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1325,9 +1325,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/triarchy-press</loc>
+	<loc>http://localhost:4000/triarchy-press</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1340,9 +1340,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/floyds-barber-shop</loc>
+	<loc>http://localhost:4000/floyds-barber-shop</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1355,9 +1355,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/symbionomics</loc>
+	<loc>http://localhost:4000/symbionomics</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1370,9 +1370,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/rushkoff</loc>
+	<loc>http://localhost:4000/rushkoff</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1385,9 +1385,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/ground-crew</loc>
+	<loc>http://localhost:4000/ground-crew</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1400,9 +1400,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/balle-network</loc>
+	<loc>http://localhost:4000/balle-network</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1415,9 +1415,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/new-currency-frontiers</loc>
+	<loc>http://localhost:4000/new-currency-frontiers</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1430,9 +1430,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/agile-learning-centers</loc>
+	<loc>http://localhost:4000/agile-learning-centers</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1445,9 +1445,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/thrivable</loc>
+	<loc>http://localhost:4000/thrivable</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1460,9 +1460,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/mile-high-business-alliance</loc>
+	<loc>http://localhost:4000/mile-high-business-alliance</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1475,9 +1475,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/humm</loc>
+	<loc>http://localhost:4000/humm</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1490,9 +1490,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/quaker-intentional-village</loc>
+	<loc>http://localhost:4000/quaker-intentional-village</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1505,9 +1505,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/eric-harris-braun</loc>
+	<loc>http://localhost:4000/eric-harris-braun</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1520,9 +1520,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/local-flavor-guides</loc>
+	<loc>http://localhost:4000/local-flavor-guides</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1535,9 +1535,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/ride-kicks</loc>
+	<loc>http://localhost:4000/ride-kicks</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1550,9 +1550,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/watercourse</loc>
+	<loc>http://localhost:4000/watercourse</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1565,9 +1565,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/colorado-local-first</loc>
+	<loc>http://localhost:4000/colorado-local-first</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1580,9 +1580,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/decko</loc>
+	<loc>http://localhost:4000/decko</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1595,9 +1595,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/emerging-leader-labs</loc>
+	<loc>http://localhost:4000/emerging-leader-labs</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1610,9 +1610,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/thred-up</loc>
+	<loc>http://localhost:4000/thred-up</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1625,9 +1625,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/prezi</loc>
+	<loc>http://localhost:4000/prezi</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1640,9 +1640,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/szechuan</loc>
+	<loc>http://localhost:4000/szechuan</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1655,9 +1655,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/web-of-trust</loc>
+	<loc>http://localhost:4000/web-of-trust</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1670,9 +1670,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/rexpedition</loc>
+	<loc>http://localhost:4000/rexpedition</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1685,9 +1685,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/game-shifting</loc>
+	<loc>http://localhost:4000/game-shifting</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1700,9 +1700,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/geek-gene</loc>
+	<loc>http://localhost:4000/geek-gene</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1715,9 +1715,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/art-of-gov</loc>
+	<loc>http://localhost:4000/art-of-gov</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1730,9 +1730,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/india-oven-denver</loc>
+	<loc>http://localhost:4000/india-oven-denver</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1745,9 +1745,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/conference-currents</loc>
+	<loc>http://localhost:4000/conference-currents</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1760,9 +1760,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/relocalize</loc>
+	<loc>http://localhost:4000/relocalize</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1775,9 +1775,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/contact-summit</loc>
+	<loc>http://localhost:4000/contact-summit</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1790,9 +1790,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/macon-money</loc>
+	<loc>http://localhost:4000/macon-money</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1805,9 +1805,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/orbooks</loc>
+	<loc>http://localhost:4000/orbooks</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1820,9 +1820,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/couch-surfing</loc>
+	<loc>http://localhost:4000/couch-surfing</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1835,9 +1835,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/platform-co-op</loc>
+	<loc>http://localhost:4000/platform-co-op</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1850,9 +1850,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/holo</loc>
+	<loc>http://localhost:4000/holo</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1865,9 +1865,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/workz</loc>
+	<loc>http://localhost:4000/workz</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1880,9 +1880,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/freemind</loc>
+	<loc>http://localhost:4000/freemind</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1895,9 +1895,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/knight-foundation</loc>
+	<loc>http://localhost:4000/knight-foundation</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1910,9 +1910,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/read-write-web</loc>
+	<loc>http://localhost:4000/read-write-web</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1925,9 +1925,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/ceptr</loc>
+	<loc>http://localhost:4000/ceptr</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1940,9 +1940,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/village-lab</loc>
+	<loc>http://localhost:4000/village-lab</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1955,9 +1955,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/future-of-money</loc>
+	<loc>http://localhost:4000/future-of-money</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1970,9 +1970,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/nanowrimo</loc>
+	<loc>http://localhost:4000/nanowrimo</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1985,9 +1985,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/human-competetive</loc>
+	<loc>http://localhost:4000/human-competetive</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -2000,9 +2000,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/money-and-life</loc>
+	<loc>http://localhost:4000/money-and-life</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -2015,9 +2015,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/content/welcome</loc>
+	<loc>http://localhost:4000/content/welcome</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -2030,9 +2030,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/133</loc>
+	<loc>http://localhost:4000/node/133</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -2045,9 +2045,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/117</loc>
+	<loc>http://localhost:4000/node/117</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -2060,9 +2060,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/138</loc>
+	<loc>http://localhost:4000/node/138</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -2075,9 +2075,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/93</loc>
+	<loc>http://localhost:4000/node/93</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -2090,9 +2090,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/54</loc>
+	<loc>http://localhost:4000/node/54</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -2105,9 +2105,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/105</loc>
+	<loc>http://localhost:4000/node/105</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -2120,9 +2120,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/139</loc>
+	<loc>http://localhost:4000/node/139</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -2135,9 +2135,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/70</loc>
+	<loc>http://localhost:4000/node/70</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -2150,9 +2150,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/77</loc>
+	<loc>http://localhost:4000/node/77</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -2165,9 +2165,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/59</loc>
+	<loc>http://localhost:4000/node/59</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -2180,9 +2180,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/29</loc>
+	<loc>http://localhost:4000/node/29</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -2195,9 +2195,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/66</loc>
+	<loc>http://localhost:4000/node/66</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -2210,9 +2210,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/142</loc>
+	<loc>http://localhost:4000/node/142</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -2225,9 +2225,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/75</loc>
+	<loc>http://localhost:4000/node/75</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -2240,9 +2240,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/76</loc>
+	<loc>http://localhost:4000/node/76</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -2255,9 +2255,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/135</loc>
+	<loc>http://localhost:4000/node/135</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -2270,9 +2270,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/91</loc>
+	<loc>http://localhost:4000/node/91</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -2285,9 +2285,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/106</loc>
+	<loc>http://localhost:4000/node/106</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -2300,9 +2300,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/136</loc>
+	<loc>http://localhost:4000/node/136</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -2315,9 +2315,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/57</loc>
+	<loc>http://localhost:4000/node/57</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -2330,9 +2330,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/84</loc>
+	<loc>http://localhost:4000/node/84</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -2345,9 +2345,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/1</loc>
+	<loc>http://localhost:4000/node/1</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -2360,9 +2360,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/79</loc>
+	<loc>http://localhost:4000/node/79</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -2375,9 +2375,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/53</loc>
+	<loc>http://localhost:4000/node/53</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -2390,9 +2390,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/80</loc>
+	<loc>http://localhost:4000/node/80</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -2405,9 +2405,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/71</loc>
+	<loc>http://localhost:4000/node/71</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -2420,9 +2420,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/55</loc>
+	<loc>http://localhost:4000/node/55</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -2435,9 +2435,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/148</loc>
+	<loc>http://localhost:4000/node/148</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -2450,9 +2450,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/115</loc>
+	<loc>http://localhost:4000/node/115</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -2465,9 +2465,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/134</loc>
+	<loc>http://localhost:4000/node/134</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -2480,9 +2480,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/81</loc>
+	<loc>http://localhost:4000/node/81</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -2495,9 +2495,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/126</loc>
+	<loc>http://localhost:4000/node/126</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -2510,9 +2510,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/23</loc>
+	<loc>http://localhost:4000/node/23</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -2525,9 +2525,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/73</loc>
+	<loc>http://localhost:4000/node/73</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -2540,9 +2540,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/109</loc>
+	<loc>http://localhost:4000/node/109</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -2555,9 +2555,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/102</loc>
+	<loc>http://localhost:4000/node/102</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -2570,9 +2570,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/24</loc>
+	<loc>http://localhost:4000/node/24</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -2585,9 +2585,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/150</loc>
+	<loc>http://localhost:4000/node/150</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -2600,9 +2600,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/124</loc>
+	<loc>http://localhost:4000/node/124</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -2615,9 +2615,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/99</loc>
+	<loc>http://localhost:4000/node/99</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -2630,9 +2630,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/120</loc>
+	<loc>http://localhost:4000/node/120</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -2645,9 +2645,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/65</loc>
+	<loc>http://localhost:4000/node/65</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -2660,9 +2660,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/153</loc>
+	<loc>http://localhost:4000/node/153</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -2675,9 +2675,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/68</loc>
+	<loc>http://localhost:4000/node/68</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -2690,9 +2690,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/96</loc>
+	<loc>http://localhost:4000/node/96</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -2705,9 +2705,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/88</loc>
+	<loc>http://localhost:4000/node/88</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -2720,9 +2720,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/151</loc>
+	<loc>http://localhost:4000/node/151</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -2735,9 +2735,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/67</loc>
+	<loc>http://localhost:4000/node/67</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -2750,9 +2750,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/95</loc>
+	<loc>http://localhost:4000/node/95</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -2765,9 +2765,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/137</loc>
+	<loc>http://localhost:4000/node/137</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -2780,9 +2780,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/143</loc>
+	<loc>http://localhost:4000/node/143</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -2795,9 +2795,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/82</loc>
+	<loc>http://localhost:4000/node/82</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -2810,9 +2810,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/114</loc>
+	<loc>http://localhost:4000/node/114</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -2825,9 +2825,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/110</loc>
+	<loc>http://localhost:4000/node/110</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -2840,9 +2840,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/131</loc>
+	<loc>http://localhost:4000/node/131</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -2855,9 +2855,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/90</loc>
+	<loc>http://localhost:4000/node/90</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -2870,9 +2870,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/22</loc>
+	<loc>http://localhost:4000/node/22</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -2885,9 +2885,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/87</loc>
+	<loc>http://localhost:4000/node/87</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -2900,9 +2900,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/64</loc>
+	<loc>http://localhost:4000/node/64</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -2915,9 +2915,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/101</loc>
+	<loc>http://localhost:4000/node/101</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -2930,9 +2930,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/129</loc>
+	<loc>http://localhost:4000/node/129</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -2945,9 +2945,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/113</loc>
+	<loc>http://localhost:4000/node/113</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -2960,9 +2960,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/60</loc>
+	<loc>http://localhost:4000/node/60</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -2975,9 +2975,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/74</loc>
+	<loc>http://localhost:4000/node/74</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -2990,9 +2990,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/89</loc>
+	<loc>http://localhost:4000/node/89</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -3005,9 +3005,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/61</loc>
+	<loc>http://localhost:4000/node/61</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -3020,9 +3020,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/108</loc>
+	<loc>http://localhost:4000/node/108</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -3035,9 +3035,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/125</loc>
+	<loc>http://localhost:4000/node/125</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -3050,9 +3050,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/94</loc>
+	<loc>http://localhost:4000/node/94</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -3065,9 +3065,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/141</loc>
+	<loc>http://localhost:4000/node/141</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -3080,9 +3080,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/100</loc>
+	<loc>http://localhost:4000/node/100</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -3095,9 +3095,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/69</loc>
+	<loc>http://localhost:4000/node/69</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -3110,9 +3110,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/140</loc>
+	<loc>http://localhost:4000/node/140</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -3125,9 +3125,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/130</loc>
+	<loc>http://localhost:4000/node/130</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -3140,9 +3140,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/128</loc>
+	<loc>http://localhost:4000/node/128</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -3155,9 +3155,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/31</loc>
+	<loc>http://localhost:4000/node/31</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -3170,9 +3170,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/145</loc>
+	<loc>http://localhost:4000/node/145</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -3185,9 +3185,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/127</loc>
+	<loc>http://localhost:4000/node/127</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -3200,9 +3200,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/147</loc>
+	<loc>http://localhost:4000/node/147</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -3215,9 +3215,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/92</loc>
+	<loc>http://localhost:4000/node/92</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -3230,9 +3230,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/123</loc>
+	<loc>http://localhost:4000/node/123</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -3245,9 +3245,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/112</loc>
+	<loc>http://localhost:4000/node/112</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -3260,9 +3260,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/122</loc>
+	<loc>http://localhost:4000/node/122</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -3275,9 +3275,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/132</loc>
+	<loc>http://localhost:4000/node/132</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -3290,9 +3290,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/152</loc>
+	<loc>http://localhost:4000/node/152</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -3305,9 +3305,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/149</loc>
+	<loc>http://localhost:4000/node/149</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -3320,9 +3320,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/78</loc>
+	<loc>http://localhost:4000/node/78</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -3335,9 +3335,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/49</loc>
+	<loc>http://localhost:4000/node/49</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -3350,9 +3350,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/62</loc>
+	<loc>http://localhost:4000/node/62</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -3365,9 +3365,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/30</loc>
+	<loc>http://localhost:4000/node/30</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -3380,9 +3380,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/107</loc>
+	<loc>http://localhost:4000/node/107</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -3395,9 +3395,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/85</loc>
+	<loc>http://localhost:4000/node/85</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -3410,9 +3410,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/58</loc>
+	<loc>http://localhost:4000/node/58</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -3425,9 +3425,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/32</loc>
+	<loc>http://localhost:4000/node/32</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -3440,9 +3440,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/104</loc>
+	<loc>http://localhost:4000/node/104</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -3455,9 +3455,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/63</loc>
+	<loc>http://localhost:4000/node/63</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -3470,9 +3470,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/97</loc>
+	<loc>http://localhost:4000/node/97</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -3485,9 +3485,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/27</loc>
+	<loc>http://localhost:4000/node/27</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -3500,9 +3500,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/72</loc>
+	<loc>http://localhost:4000/node/72</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -3515,9 +3515,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/33</loc>
+	<loc>http://localhost:4000/node/33</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -3530,9 +3530,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/6</loc>
+	<loc>http://localhost:4000/node/6</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -3545,9 +3545,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/86</loc>
+	<loc>http://localhost:4000/node/86</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -3560,9 +3560,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/146</loc>
+	<loc>http://localhost:4000/node/146</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -3575,9 +3575,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/144</loc>
+	<loc>http://localhost:4000/node/144</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -3590,9 +3590,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/26</loc>
+	<loc>http://localhost:4000/node/26</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -3605,9 +3605,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/83</loc>
+	<loc>http://localhost:4000/node/83</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -3620,9 +3620,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/node/25</loc>
+	<loc>http://localhost:4000/node/25</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -3635,9 +3635,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/blog/currencies-disaster-assistance-and-economic-development</loc>
+	<loc>http://localhost:4000/blog/currencies-disaster-assistance-and-economic-development</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -3650,9 +3650,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/blog/world-without-small-business</loc>
+	<loc>http://localhost:4000/blog/world-without-small-business</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -3665,9 +3665,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/blog/quantum-leap</loc>
+	<loc>http://localhost:4000/blog/quantum-leap</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -3680,9 +3680,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/blog/infrastructure-breakdown</loc>
+	<loc>http://localhost:4000/blog/infrastructure-breakdown</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -3695,9 +3695,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/blog/laws-thermodynamics-reinterpreted</loc>
+	<loc>http://localhost:4000/blog/laws-thermodynamics-reinterpreted</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -3710,9 +3710,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/blog/critical-reasons-expand-our-perception-currencies</loc>
+	<loc>http://localhost:4000/blog/critical-reasons-expand-our-perception-currencies</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -3725,9 +3725,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/blog/unfolding-story-life-affirming-economy</loc>
+	<loc>http://localhost:4000/blog/unfolding-story-life-affirming-economy</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -3740,9 +3740,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/blog/new-myspace-experiment-new-me-anyway</loc>
+	<loc>http://localhost:4000/blog/new-myspace-experiment-new-me-anyway</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -3755,9 +3755,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/blog/currency-quips-later-development</loc>
+	<loc>http://localhost:4000/blog/currency-quips-later-development</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -3770,9 +3770,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/blog/alc-starter-kit</loc>
+	<loc>http://localhost:4000/blog/alc-starter-kit</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -3785,9 +3785,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/blog/understanding-commonwealth-economies-re-interpreting-darwinism</loc>
+	<loc>http://localhost:4000/blog/understanding-commonwealth-economies-re-interpreting-darwinism</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -3800,9 +3800,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/blog/fantasies-dreams-harebrained-schemes</loc>
+	<loc>http://localhost:4000/blog/fantasies-dreams-harebrained-schemes</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -3815,9 +3815,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/blog/distributed-receptor-based-computing</loc>
+	<loc>http://localhost:4000/blog/distributed-receptor-based-computing</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -3830,9 +3830,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/blog/another-active-november</loc>
+	<loc>http://localhost:4000/blog/another-active-november</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -3845,9 +3845,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/blog/predictable-living-systems-0</loc>
+	<loc>http://localhost:4000/blog/predictable-living-systems-0</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -3860,9 +3860,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/blog/designing-social-flows-chapter-6-designing-incentives</loc>
+	<loc>http://localhost:4000/blog/designing-social-flows-chapter-6-designing-incentives</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -3875,9 +3875,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/blog/triple-bottom-line-currency</loc>
+	<loc>http://localhost:4000/blog/triple-bottom-line-currency</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -3890,9 +3890,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/blog/returning-nyc</loc>
+	<loc>http://localhost:4000/blog/returning-nyc</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -3905,9 +3905,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/blog/variable-rates-change-integration</loc>
+	<loc>http://localhost:4000/blog/variable-rates-change-integration</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -3920,9 +3920,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/blog/feminist-gift-economy-conference</loc>
+	<loc>http://localhost:4000/blog/feminist-gift-economy-conference</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -3935,9 +3935,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/blog/deepest-importance-currencies</loc>
+	<loc>http://localhost:4000/blog/deepest-importance-currencies</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -3950,9 +3950,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/blog/alcs-as-nextgen-self-directed-learning-pt-1</loc>
+	<loc>http://localhost:4000/blog/alcs-as-nextgen-self-directed-learning-pt-1</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -3965,9 +3965,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/blog/there-anything-can’t-be-monetized</loc>
+	<loc>http://localhost:4000/blog/there-anything-can’t-be-monetized</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -3980,9 +3980,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/blog/ceptr-design-receptive-capacity-breakthrough</loc>
+	<loc>http://localhost:4000/blog/ceptr-design-receptive-capacity-breakthrough</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -3995,9 +3995,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/blog/currencies-dna-social-organisms</loc>
+	<loc>http://localhost:4000/blog/currencies-dna-social-organisms</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -4010,9 +4010,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/blog/new-kind-commons-land-weaving-society</loc>
+	<loc>http://localhost:4000/blog/new-kind-commons-land-weaving-society</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -4025,9 +4025,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/blog/i-am-strange-loop-you’re-strange-loop-wouldn’t-ceptr-likely-be-strange-loop-too</loc>
+	<loc>http://localhost:4000/blog/i-am-strange-loop-you’re-strange-loop-wouldn’t-ceptr-likely-be-strange-loop-too</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -4040,9 +4040,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/blog/overdue-personal-update</loc>
+	<loc>http://localhost:4000/blog/overdue-personal-update</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -4055,9 +4055,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/blog/sovereign-accountable-commons</loc>
+	<loc>http://localhost:4000/blog/sovereign-accountable-commons</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -4070,9 +4070,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/blog/some-thoughts-about-feedback-loops</loc>
+	<loc>http://localhost:4000/blog/some-thoughts-about-feedback-loops</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -4085,9 +4085,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/blog/emerging-leader-labs-seed-project</loc>
+	<loc>http://localhost:4000/blog/emerging-leader-labs-seed-project</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -4100,9 +4100,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/blog/why-ceptr-or-transcending-maslows-hierarchy</loc>
+	<loc>http://localhost:4000/blog/why-ceptr-or-transcending-maslows-hierarchy</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -4115,9 +4115,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/blog/scattered-conglomeration</loc>
+	<loc>http://localhost:4000/blog/scattered-conglomeration</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -4130,9 +4130,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/blog/gameshifting-tools-group-self-facilitation</loc>
+	<loc>http://localhost:4000/blog/gameshifting-tools-group-self-facilitation</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -4145,9 +4145,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/blog/predictable-living-systems</loc>
+	<loc>http://localhost:4000/blog/predictable-living-systems</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -4160,9 +4160,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/blog/metacurrency-myth</loc>
+	<loc>http://localhost:4000/blog/metacurrency-myth</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -4175,9 +4175,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/blog/todays-writing-update</loc>
+	<loc>http://localhost:4000/blog/todays-writing-update</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -4190,9 +4190,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/blog/new-speech-act-spaces</loc>
+	<loc>http://localhost:4000/blog/new-speech-act-spaces</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -4205,9 +4205,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/blog/hacking-my-productivity</loc>
+	<loc>http://localhost:4000/blog/hacking-my-productivity</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -4220,9 +4220,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/blog/perspectives-blockchains-and-cryptocurrencies</loc>
+	<loc>http://localhost:4000/blog/perspectives-blockchains-and-cryptocurrencies</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -4235,9 +4235,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/blog/building-meaning-through-semantic-alternation</loc>
+	<loc>http://localhost:4000/blog/building-meaning-through-semantic-alternation</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -4250,9 +4250,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/blog/thought-experiment</loc>
+	<loc>http://localhost:4000/blog/thought-experiment</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -4265,9 +4265,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/blog/those-kids-and-their-darn-gadgets</loc>
+	<loc>http://localhost:4000/blog/those-kids-and-their-darn-gadgets</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -4280,9 +4280,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/blog/critical-expand-perception-currencies</loc>
+	<loc>http://localhost:4000/blog/critical-expand-perception-currencies</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -4295,9 +4295,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/blog/magical-power-objects-and-sociopaths</loc>
+	<loc>http://localhost:4000/blog/magical-power-objects-and-sociopaths</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -4310,9 +4310,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/blog/value-values-and-new-economy</loc>
+	<loc>http://localhost:4000/blog/value-values-and-new-economy</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -4325,9 +4325,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/blog/explosion-new-writing</loc>
+	<loc>http://localhost:4000/blog/explosion-new-writing</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -4340,9 +4340,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/blog/stream-consciousness-writing</loc>
+	<loc>http://localhost:4000/blog/stream-consciousness-writing</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -4355,9 +4355,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/blog/dream-team-technologies-founding-documents</loc>
+	<loc>http://localhost:4000/blog/dream-team-technologies-founding-documents</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -4370,9 +4370,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/blog/footprints-flow</loc>
+	<loc>http://localhost:4000/blog/footprints-flow</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -4385,9 +4385,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/blog/answers-are-truly-no-better-questions</loc>
+	<loc>http://localhost:4000/blog/answers-are-truly-no-better-questions</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -4400,9 +4400,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/blog/reputation-orthogonal-exchange</loc>
+	<loc>http://localhost:4000/blog/reputation-orthogonal-exchange</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -4415,9 +4415,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/blog/arriving-where-you-love-freedom-vs-agency</loc>
+	<loc>http://localhost:4000/blog/arriving-where-you-love-freedom-vs-agency</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -4430,9 +4430,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/blog/differences-between-open-source-and-open-currency</loc>
+	<loc>http://localhost:4000/blog/differences-between-open-source-and-open-currency</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -4445,9 +4445,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/blog/money-cant-buy-you-loveor-trust</loc>
+	<loc>http://localhost:4000/blog/money-cant-buy-you-loveor-trust</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -4460,9 +4460,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/blog/draft-proposal-currency-commons</loc>
+	<loc>http://localhost:4000/blog/draft-proposal-currency-commons</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -4475,9 +4475,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/blog/central-covenants-successful-economies</loc>
+	<loc>http://localhost:4000/blog/central-covenants-successful-economies</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -4490,9 +4490,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/blog/we-use-currencies-keep-records-currents</loc>
+	<loc>http://localhost:4000/blog/we-use-currencies-keep-records-currents</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -4505,9 +4505,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/blog/currency-design-training-materials</loc>
+	<loc>http://localhost:4000/blog/currency-design-training-materials</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -4520,9 +4520,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/blog/conscious-culture-creation-and-community-mastery-board</loc>
+	<loc>http://localhost:4000/blog/conscious-culture-creation-and-community-mastery-board</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -4535,9 +4535,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/blog/why-you-havent-heard-ceptr-metacurrency-has-been-underground</loc>
+	<loc>http://localhost:4000/blog/why-you-havent-heard-ceptr-metacurrency-has-been-underground</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -4550,9 +4550,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/blog/what-i’m-learning-publishing-daily</loc>
+	<loc>http://localhost:4000/blog/what-i’m-learning-publishing-daily</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -4565,9 +4565,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/blog/building-earth</loc>
+	<loc>http://localhost:4000/blog/building-earth</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -4580,9 +4580,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/blog/painting-picture-agile-learning-centers</loc>
+	<loc>http://localhost:4000/blog/painting-picture-agile-learning-centers</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -4595,9 +4595,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/blog/pervasiveness-consciousness-and-language</loc>
+	<loc>http://localhost:4000/blog/pervasiveness-consciousness-and-language</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -4610,9 +4610,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/blog/gift-transactions-vs-commercial-transactions</loc>
+	<loc>http://localhost:4000/blog/gift-transactions-vs-commercial-transactions</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -4625,9 +4625,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/blog/passing-my-father</loc>
+	<loc>http://localhost:4000/blog/passing-my-father</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -4640,9 +4640,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/blog/monetizing-my-daughter-modest-proposal</loc>
+	<loc>http://localhost:4000/blog/monetizing-my-daughter-modest-proposal</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -4655,9 +4655,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/blog/living-community</loc>
+	<loc>http://localhost:4000/blog/living-community</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -4670,9 +4670,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/blog/who-should-issue-our-currency</loc>
+	<loc>http://localhost:4000/blog/who-should-issue-our-currency</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -4685,9 +4685,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/blog/future-trajectory-our-species</loc>
+	<loc>http://localhost:4000/blog/future-trajectory-our-species</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -4700,9 +4700,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/blog/ode-ell-and-my-backlog</loc>
+	<loc>http://localhost:4000/blog/ode-ell-and-my-backlog</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -4715,9 +4715,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/blog/end-month-daily-publishing-loose-ends</loc>
+	<loc>http://localhost:4000/blog/end-month-daily-publishing-loose-ends</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -4730,9 +4730,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/news/gaming-better-communities</loc>
+	<loc>http://localhost:4000/news/gaming-better-communities</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -4745,9 +4745,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/news/users-sale-has-digital-illiteracy-turned-us-social-commodities</loc>
+	<loc>http://localhost:4000/news/users-sale-has-digital-illiteracy-turned-us-social-commodities</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -4760,9 +4760,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/news/thesis-presentation-emerging-leader-labs</loc>
+	<loc>http://localhost:4000/news/thesis-presentation-emerging-leader-labs</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -4775,9 +4775,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/news/bernal-experiments-local-currency</loc>
+	<loc>http://localhost:4000/news/bernal-experiments-local-currency</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -4790,9 +4790,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/news/regenerative-organizational-design-jacki-saorsail</loc>
+	<loc>http://localhost:4000/news/regenerative-organizational-design-jacki-saorsail</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -4805,9 +4805,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/news/where-game-layer-really-counts-sharing-peer-communities</loc>
+	<loc>http://localhost:4000/news/where-game-layer-really-counts-sharing-peer-communities</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -4820,9 +4820,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/news/integrity-important-profit</loc>
+	<loc>http://localhost:4000/news/integrity-important-profit</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -4835,9 +4835,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/wishlist</loc>
+	<loc>http://localhost:4000/wishlist</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -4850,9 +4850,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/lifeblood</loc>
+	<loc>http://localhost:4000/lifeblood</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -4865,9 +4865,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/threebles</loc>
+	<loc>http://localhost:4000/threebles</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -4880,9 +4880,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/targeted-currencies</loc>
+	<loc>http://localhost:4000/targeted-currencies</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -4895,9 +4895,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/about</loc>
+	<loc>http://localhost:4000/about</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -4910,9 +4910,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/404.html</loc>
+	<loc>http://localhost:4000/404.html</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -4925,9 +4925,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/contact</loc>
+	<loc>http://localhost:4000/contact</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -4940,9 +4940,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/metacurrency</loc>
+	<loc>http://localhost:4000/metacurrency</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -4955,9 +4955,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/info</loc>
+	<loc>http://localhost:4000/info</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -4970,9 +4970,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/trikke/inner-tubes</loc>
+	<loc>http://localhost:4000/trikke/inner-tubes</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -4985,9 +4985,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/huffington-post/introducing-badge</loc>
+	<loc>http://localhost:4000/huffington-post/introducing-badge</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -5000,9 +5000,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/wgbh/jp-social-networking</loc>
+	<loc>http://localhost:4000/wgbh/jp-social-networking</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -5015,9 +5015,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/giga-om/level-up-gamification</loc>
+	<loc>http://localhost:4000/giga-om/level-up-gamification</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -5030,9 +5030,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/github/lucksus</loc>
+	<loc>http://localhost:4000/github/lucksus</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -5045,9 +5045,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/mashable/marketing-threatens-social-media</loc>
+	<loc>http://localhost:4000/mashable/marketing-threatens-social-media</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -5060,9 +5060,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/ceptr/mit-kit</loc>
+	<loc>http://localhost:4000/ceptr/mit-kit</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -5075,9 +5075,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/holochain/mixins</loc>
+	<loc>http://localhost:4000/holochain/mixins</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -5090,9 +5090,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/github/neonphog</loc>
+	<loc>http://localhost:4000/github/neonphog</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -5105,9 +5105,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/metacurrency/new-economy</loc>
+	<loc>http://localhost:4000/metacurrency/new-economy</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -5120,9 +5120,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/occupy-wall-street/occupy-money</loc>
+	<loc>http://localhost:4000/occupy-wall-street/occupy-money</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -5135,9 +5135,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/holochain/omni</loc>
+	<loc>http://localhost:4000/holochain/omni</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -5150,9 +5150,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/new-currency-frontiers/p2p-currency-platforms</loc>
+	<loc>http://localhost:4000/new-currency-frontiers/p2p-currency-platforms</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -5165,9 +5165,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/gaia-university/pathway-design</loc>
+	<loc>http://localhost:4000/gaia-university/pathway-design</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -5180,9 +5180,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/next-gen/perspectives-on-play</loc>
+	<loc>http://localhost:4000/next-gen/perspectives-on-play</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -5195,9 +5195,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/projects/</loc>
+	<loc>http://localhost:4000/projects/</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -5210,9 +5210,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/holochain/proto</loc>
+	<loc>http://localhost:4000/holochain/proto</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -5225,9 +5225,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/ceptr/residency</loc>
+	<loc>http://localhost:4000/ceptr/residency</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -5240,9 +5240,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/metacurrency/resources</loc>
+	<loc>http://localhost:4000/metacurrency/resources</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -5255,9 +5255,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/amazon/rethinking-money</loc>
+	<loc>http://localhost:4000/amazon/rethinking-money</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -5270,9 +5270,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/ceptr/revelation</loc>
+	<loc>http://localhost:4000/ceptr/revelation</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -5285,9 +5285,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/robots.txt</loc>
+	<loc>http://localhost:4000/robots.txt</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -5300,9 +5300,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/web-vision/rushkoff-keynote</loc>
+	<loc>http://localhost:4000/web-vision/rushkoff-keynote</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -5315,9 +5315,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/search/</loc>
+	<loc>http://localhost:4000/search/</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -5330,9 +5330,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/latitude-research/sharing-survey</loc>
+	<loc>http://localhost:4000/latitude-research/sharing-survey</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -5345,9 +5345,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/dardanos/shoe-repair</loc>
+	<loc>http://localhost:4000/dardanos/shoe-repair</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -5360,9 +5360,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/sitemap.xml</loc>
+	<loc>http://localhost:4000/sitemap.xml</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -5375,9 +5375,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/holochain/smart-meter-mgmt</loc>
+	<loc>http://localhost:4000/holochain/smart-meter-mgmt</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -5390,9 +5390,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/shareable/social-media-offline-sharing</loc>
+	<loc>http://localhost:4000/shareable/social-media-offline-sharing</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -5405,9 +5405,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/gaia-university/specification</loc>
+	<loc>http://localhost:4000/gaia-university/specification</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -5420,9 +5420,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/agile-learning-centers/starter-kit</loc>
+	<loc>http://localhost:4000/agile-learning-centers/starter-kit</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -5435,9 +5435,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/new-currency-frontiers/stones-tumbles-gems</loc>
+	<loc>http://localhost:4000/new-currency-frontiers/stones-tumbles-gems</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -5450,9 +5450,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/metacurrency/strategy-vision</loc>
+	<loc>http://localhost:4000/metacurrency/strategy-vision</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -5465,9 +5465,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/science-news/subatomic-particles-free-will</loc>
+	<loc>http://localhost:4000/science-news/subatomic-particles-free-will</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -5480,9 +5480,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/jane-mcgonigal/ted</loc>
+	<loc>http://localhost:4000/jane-mcgonigal/ted</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -5495,9 +5495,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/github/timotree3</loc>
+	<loc>http://localhost:4000/github/timotree3</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -5510,9 +5510,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/agile-learning-centers/tomis-blog</loc>
+	<loc>http://localhost:4000/agile-learning-centers/tomis-blog</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -5525,9 +5525,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/holochain/touchpoints</loc>
+	<loc>http://localhost:4000/holochain/touchpoints</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -5540,9 +5540,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/holochain/transactor</loc>
+	<loc>http://localhost:4000/holochain/transactor</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -5555,9 +5555,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/trikke/inner-tubes</loc>
+	<loc>http://localhost:4000/trikke/inner-tubes</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -5570,9 +5570,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/gardeviance/two-speed</loc>
+	<loc>http://localhost:4000/gardeviance/two-speed</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -5585,9 +5585,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/holochain/unmute</loc>
+	<loc>http://localhost:4000/holochain/unmute</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -5600,9 +5600,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/metacurrency/upward-spiral</loc>
+	<loc>http://localhost:4000/metacurrency/upward-spiral</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -5615,9 +5615,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/facebook/value-reference-currencies</loc>
+	<loc>http://localhost:4000/facebook/value-reference-currencies</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -5630,9 +5630,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/new-currency-frontiers/value-values-new-economy</loc>
+	<loc>http://localhost:4000/new-currency-frontiers/value-values-new-economy</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -5645,9 +5645,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/bleach-report/video-games</loc>
+	<loc>http://localhost:4000/bleach-report/video-games</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -5660,9 +5660,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/targeted-currencies/vision</loc>
+	<loc>http://localhost:4000/targeted-currencies/vision</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -5675,9 +5675,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/amazon/wish-list</loc>
+	<loc>http://localhost:4000/amazon/wish-list</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -5690,9 +5690,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/thrivable/workshops</loc>
+	<loc>http://localhost:4000/thrivable/workshops</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -5705,9 +5705,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/jane-mcgonigal/world-without-oil</loc>
+	<loc>http://localhost:4000/jane-mcgonigal/world-without-oil</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -5720,9 +5720,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/ashley-kingsley/world-without-small-business</loc>
+	<loc>http://localhost:4000/ashley-kingsley/world-without-small-business</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -5735,9 +5735,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/david-sandusky/world-without-small-business</loc>
+	<loc>http://localhost:4000/david-sandusky/world-without-small-business</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -5750,9 +5750,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/github/zippy</loc>
+	<loc>http://localhost:4000/github/zippy</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -5775,9 +5775,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/blog/page2/</loc>
+	<loc>http://localhost:4000/blog/page2/</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -5790,9 +5790,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/blog/page3/</loc>
+	<loc>http://localhost:4000/blog/page3/</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -5805,9 +5805,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/blog/page4/</loc>
+	<loc>http://localhost:4000/blog/page4/</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -5820,9 +5820,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/blog/page5/</loc>
+	<loc>http://localhost:4000/blog/page5/</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -5835,9 +5835,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/blog/page6/</loc>
+	<loc>http://localhost:4000/blog/page6/</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -5850,9 +5850,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/blog/page7/</loc>
+	<loc>http://localhost:4000/blog/page7/</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -5865,9 +5865,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/blog/page8/</loc>
+	<loc>http://localhost:4000/blog/page8/</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -5880,9 +5880,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/blog/page9/</loc>
+	<loc>http://localhost:4000/blog/page9/</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -5895,9 +5895,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/blog/page10/</loc>
+	<loc>http://localhost:4000/blog/page10/</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -5910,9 +5910,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/blog/page11/</loc>
+	<loc>http://localhost:4000/blog/page11/</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -5925,9 +5925,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/blog/page12/</loc>
+	<loc>http://localhost:4000/blog/page12/</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -5940,9 +5940,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/blog/page13/</loc>
+	<loc>http://localhost:4000/blog/page13/</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -5955,9 +5955,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/blog/page14/</loc>
+	<loc>http://localhost:4000/blog/page14/</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -5970,9 +5970,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/blog/page15/</loc>
+	<loc>http://localhost:4000/blog/page15/</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -5985,9 +5985,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/assets/css/extra.css.map</loc>
+	<loc>http://localhost:4000/assets/css/extra.css.map</loc>
 	
-		<lastmod>2019-10-18T18:22:16+11:00</lastmod>
+		<lastmod>2020-01-09T20:37:10+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -6003,9 +6003,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2019/02/20/what-to-expect-with-your-holoport</loc>
+	<loc>http://localhost:4000/2019/02/20/what-to-expect-with-your-holoport</loc>
 	
-		<lastmod>2019-03-01T13:54:50+11:00</lastmod>
+		<lastmod>2019-03-01T03:54:50+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -6018,9 +6018,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2019/02/20/happ-dev-cookbook</loc>
+	<loc>http://localhost:4000/2019/02/20/happ-dev-cookbook</loc>
 	
-		<lastmod>2019-02-21T13:54:50+11:00</lastmod>
+		<lastmod>2019-02-21T03:54:50+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -6033,9 +6033,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2019/02/18/confidentiality-integrity-availability</loc>
+	<loc>http://localhost:4000/2019/02/18/confidentiality-integrity-availability</loc>
 	
-		<lastmod>2019-02-19T13:54:50+11:00</lastmod>
+		<lastmod>2019-02-19T03:54:50+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -6048,9 +6048,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2019/02/14/holo-fuel-accounts-vs-wallets</loc>
+	<loc>http://localhost:4000/2019/02/14/holo-fuel-accounts-vs-wallets</loc>
 	
-		<lastmod>2019-02-15T13:54:50+11:00</lastmod>
+		<lastmod>2019-02-15T03:54:50+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -6063,9 +6063,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2019/01/25/did-holochain-lose-its-way</loc>
+	<loc>http://localhost:4000/2019/01/25/did-holochain-lose-its-way</loc>
 	
-		<lastmod>2019-01-27T13:54:50+11:00</lastmod>
+		<lastmod>2019-01-27T03:54:50+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -6078,9 +6078,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2019/01/24/cryptographic-autonomy-license</loc>
+	<loc>http://localhost:4000/2019/01/24/cryptographic-autonomy-license</loc>
 	
-		<lastmod>2019-01-25T13:54:50+11:00</lastmod>
+		<lastmod>2019-01-25T03:54:50+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -6093,9 +6093,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2017/07/20/ico-craze</loc>
+	<loc>http://localhost:4000/2017/07/20/ico-craze</loc>
 	
-		<lastmod>2017-07-21T12:54:50+10:00</lastmod>
+		<lastmod>2017-07-21T04:54:50+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -6108,9 +6108,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2017/07/11/but-data-doesnt-exist</loc>
+	<loc>http://localhost:4000/2017/07/11/but-data-doesnt-exist</loc>
 	
-		<lastmod>2017-07-12T11:17:57+10:00</lastmod>
+		<lastmod>2017-07-12T03:17:57+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -6123,9 +6123,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2017/06/12/phase-shift</loc>
+	<loc>http://localhost:4000/2017/06/12/phase-shift</loc>
 	
-		<lastmod>2017-06-13T07:11:02+10:00</lastmod>
+		<lastmod>2017-06-12T23:11:02+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -6138,9 +6138,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2017/06/05/commons-engine</loc>
+	<loc>http://localhost:4000/2017/06/05/commons-engine</loc>
 	
-		<lastmod>2017-06-06T13:16:09+10:00</lastmod>
+		<lastmod>2017-06-06T05:16:09+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -6153,9 +6153,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2017/02/27/intro-to-currency-design</loc>
+	<loc>http://localhost:4000/2017/02/27/intro-to-currency-design</loc>
 	
-		<lastmod>2017-02-28T11:19:03+11:00</lastmod>
+		<lastmod>2017-02-28T01:19:03+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -6168,9 +6168,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2017/02/12/powerful-design-principles-for-next-gen-governance</loc>
+	<loc>http://localhost:4000/2017/02/12/powerful-design-principles-for-next-gen-governance</loc>
 	
-		<lastmod>2017-02-13T14:08:00+11:00</lastmod>
+		<lastmod>2017-02-13T04:08:00+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -6183,9 +6183,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2017/02/11/challenging-broken-assumptions-of-governance</loc>
+	<loc>http://localhost:4000/2017/02/11/challenging-broken-assumptions-of-governance</loc>
 	
-		<lastmod>2017-02-12T15:30:14+11:00</lastmod>
+		<lastmod>2017-02-12T05:30:14+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -6198,9 +6198,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2017/02/01/art-of-governance</loc>
+	<loc>http://localhost:4000/2017/02/01/art-of-governance</loc>
 	
-		<lastmod>2017-02-01T00:00:00+11:00</lastmod>
+		<lastmod>2017-02-01T00:00:00+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -6213,9 +6213,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2017/01/26/future-governance-is-not-governments</loc>
+	<loc>http://localhost:4000/2017/01/26/future-governance-is-not-governments</loc>
 	
-		<lastmod>2017-01-26T00:00:00+11:00</lastmod>
+		<lastmod>2017-01-26T00:00:00+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -6228,9 +6228,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2016/06/13/ode-to-ell-and-my-backlog</loc>
+	<loc>http://localhost:4000/2016/06/13/ode-to-ell-and-my-backlog</loc>
 	
-		<lastmod>2016-06-13T00:00:00+10:00</lastmod>
+		<lastmod>2016-06-13T00:00:00+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -6243,9 +6243,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2016/05/15/jerry-michalski-interviews-me-about-alternative-ccurrencies-iftf-futrecast-interview</loc>
+	<loc>http://localhost:4000/2016/05/15/jerry-michalski-interviews-me-about-alternative-ccurrencies-iftf-futrecast-interview</loc>
 	
-		<lastmod>2016-05-15T00:00:00+10:00</lastmod>
+		<lastmod>2016-05-15T00:00:00+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -6258,9 +6258,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2016/03/01/perspectives-on-blockchains-and-cryptocurrencies</loc>
+	<loc>http://localhost:4000/2016/03/01/perspectives-on-blockchains-and-cryptocurrencies</loc>
 	
-		<lastmod>2016-03-01T00:00:00+11:00</lastmod>
+		<lastmod>2016-03-01T00:00:00+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -6273,9 +6273,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2016/02/27/the-metacurrency-myth</loc>
+	<loc>http://localhost:4000/2016/02/27/the-metacurrency-myth</loc>
 	
-		<lastmod>2016-02-27T00:00:00+11:00</lastmod>
+		<lastmod>2016-02-27T00:00:00+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -6288,9 +6288,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2016/01/31/the-sovereign-accountable-commons</loc>
+	<loc>http://localhost:4000/2016/01/31/the-sovereign-accountable-commons</loc>
 	
-		<lastmod>2016-01-31T00:00:00+11:00</lastmod>
+		<lastmod>2016-01-31T00:00:00+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -6303,9 +6303,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2015/12/03/variable-rates-of-change-integration</loc>
+	<loc>http://localhost:4000/2015/12/03/variable-rates-of-change-integration</loc>
 	
-		<lastmod>2015-12-03T00:00:00+11:00</lastmod>
+		<lastmod>2015-12-03T00:00:00+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -6318,9 +6318,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2015/11/29/infrastructure-breakdown</loc>
+	<loc>http://localhost:4000/2015/11/29/infrastructure-breakdown</loc>
 	
-		<lastmod>2015-11-29T00:00:00+11:00</lastmod>
+		<lastmod>2015-11-29T00:00:00+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -6333,9 +6333,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2015/11/18/new-speech-act-spaces</loc>
+	<loc>http://localhost:4000/2015/11/18/new-speech-act-spaces</loc>
 	
-		<lastmod>2015-11-18T00:00:00+11:00</lastmod>
+		<lastmod>2015-11-18T00:00:00+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -6348,9 +6348,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2015/11/17/why-you-havent-heard-of-ceptr-metacurrency-has-been-underground</loc>
+	<loc>http://localhost:4000/2015/11/17/why-you-havent-heard-of-ceptr-metacurrency-has-been-underground</loc>
 	
-		<lastmod>2015-11-17T00:00:00+11:00</lastmod>
+		<lastmod>2015-11-17T00:00:00+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -6363,9 +6363,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2015/11/16/painting-a-picture-of-agile-learning-centers</loc>
+	<loc>http://localhost:4000/2015/11/16/painting-a-picture-of-agile-learning-centers</loc>
 	
-		<lastmod>2015-11-16T00:00:00+11:00</lastmod>
+		<lastmod>2015-11-16T00:00:00+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -6378,9 +6378,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2015/11/13/just-a-spoonful-of-ceptr</loc>
+	<loc>http://localhost:4000/2015/11/13/just-a-spoonful-of-ceptr</loc>
 	
-		<lastmod>2015-11-13T00:00:00+11:00</lastmod>
+		<lastmod>2015-11-13T00:00:00+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -6393,9 +6393,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2015/11/13/deep-wealth-breakout-session-recap</loc>
+	<loc>http://localhost:4000/2015/11/13/deep-wealth-breakout-session-recap</loc>
 	
-		<lastmod>2015-11-13T00:00:00+11:00</lastmod>
+		<lastmod>2015-11-13T00:00:00+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -6408,9 +6408,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2015/11/13/deep-wealth-and-how-we-build-it-together</loc>
+	<loc>http://localhost:4000/2015/11/13/deep-wealth-and-how-we-build-it-together</loc>
 	
-		<lastmod>2015-11-13T00:00:00+11:00</lastmod>
+		<lastmod>2015-11-13T00:00:00+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -6423,9 +6423,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2015/11/13/currency-interview</loc>
+	<loc>http://localhost:4000/2015/11/13/currency-interview</loc>
 	
-		<lastmod>2015-11-13T00:00:00+11:00</lastmod>
+		<lastmod>2015-11-13T00:00:00+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -6438,9 +6438,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2015/11/12/why-ceptr-or-transcending-maslows-hierarchy</loc>
+	<loc>http://localhost:4000/2015/11/12/why-ceptr-or-transcending-maslows-hierarchy</loc>
 	
-		<lastmod>2015-11-12T00:00:00+11:00</lastmod>
+		<lastmod>2015-11-12T00:00:00+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -6453,9 +6453,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2015/11/10/new-kind-of-commons-the-land-weaving-society</loc>
+	<loc>http://localhost:4000/2015/11/10/new-kind-of-commons-the-land-weaving-society</loc>
 	
-		<lastmod>2015-11-10T00:00:00+11:00</lastmod>
+		<lastmod>2015-11-10T00:00:00+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -6468,9 +6468,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2015/11/10/is-there-anything-that-cant-be-monetized</loc>
+	<loc>http://localhost:4000/2015/11/10/is-there-anything-that-cant-be-monetized</loc>
 	
-		<lastmod>2015-11-10T00:00:00+11:00</lastmod>
+		<lastmod>2015-11-10T00:00:00+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -6483,9 +6483,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2015/11/05/alcs-as-nextgen-self-directed-learning-pt-1</loc>
+	<loc>http://localhost:4000/2015/11/05/alcs-as-nextgen-self-directed-learning-pt-1</loc>
 	
-		<lastmod>2015-11-05T00:00:00+11:00</lastmod>
+		<lastmod>2015-11-05T00:00:00+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -6498,9 +6498,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2015/11/04/alc-starter-kit</loc>
+	<loc>http://localhost:4000/2015/11/04/alc-starter-kit</loc>
 	
-		<lastmod>2015-11-04T00:00:00+11:00</lastmod>
+		<lastmod>2015-11-04T00:00:00+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -6513,9 +6513,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2015/11/03/distributed-receptor-based-computing</loc>
+	<loc>http://localhost:4000/2015/11/03/distributed-receptor-based-computing</loc>
 	
-		<lastmod>2015-11-03T00:00:00+11:00</lastmod>
+		<lastmod>2015-11-03T00:00:00+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -6528,9 +6528,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2015/11/02/a-quantum-leap</loc>
+	<loc>http://localhost:4000/2015/11/02/a-quantum-leap</loc>
 	
-		<lastmod>2015-11-02T00:00:00+11:00</lastmod>
+		<lastmod>2015-11-02T00:00:00+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -6543,9 +6543,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2015/11/01/another-active-november</loc>
+	<loc>http://localhost:4000/2015/11/01/another-active-november</loc>
 	
-		<lastmod>2015-11-01T00:00:00+11:00</lastmod>
+		<lastmod>2015-11-01T00:00:00+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -6558,9 +6558,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2015/08/26/mit-webinar-on-ceptr</loc>
+	<loc>http://localhost:4000/2015/08/26/mit-webinar-on-ceptr</loc>
 	
-		<lastmod>2015-08-26T00:00:00+10:00</lastmod>
+		<lastmod>2015-08-26T00:00:00+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -6573,9 +6573,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2015/07/13/dream-team-technologies-founding-documents</loc>
+	<loc>http://localhost:4000/2015/07/13/dream-team-technologies-founding-documents</loc>
 	
-		<lastmod>2015-07-13T00:00:00+10:00</lastmod>
+		<lastmod>2015-07-13T00:00:00+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -6588,9 +6588,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2015/06/30/currencies-for-disaster-assistance-and-economic-development</loc>
+	<loc>http://localhost:4000/2015/06/30/currencies-for-disaster-assistance-and-economic-development</loc>
 	
-		<lastmod>2015-06-30T00:00:00+10:00</lastmod>
+		<lastmod>2015-06-30T00:00:00+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -6603,9 +6603,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2015/06/01/financing-for-local-business</loc>
+	<loc>http://localhost:4000/2015/06/01/financing-for-local-business</loc>
 	
-		<lastmod>2015-06-01T00:00:00+10:00</lastmod>
+		<lastmod>2015-06-01T00:00:00+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -6618,9 +6618,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2015/06/01/designing-for-social-flows-designing-incentives</loc>
+	<loc>http://localhost:4000/2015/06/01/designing-for-social-flows-designing-incentives</loc>
 	
-		<lastmod>2015-06-01T00:00:00+10:00</lastmod>
+		<lastmod>2015-06-01T00:00:00+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -6633,9 +6633,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2015/03/18/draft-proposal-for-a-currency-commons</loc>
+	<loc>http://localhost:4000/2015/03/18/draft-proposal-for-a-currency-commons</loc>
 	
-		<lastmod>2015-03-18T00:00:00+11:00</lastmod>
+		<lastmod>2015-03-18T00:00:00+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -6648,9 +6648,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2014/12/15/deep-wealth-talk-at-new-economy-conference</loc>
+	<loc>http://localhost:4000/2014/12/15/deep-wealth-talk-at-new-economy-conference</loc>
 	
-		<lastmod>2014-12-15T00:00:00+11:00</lastmod>
+		<lastmod>2014-12-15T00:00:00+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -6663,9 +6663,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2014/11/30/the-end-of-a-month-of-daily-publishing-and-loose-ends</loc>
+	<loc>http://localhost:4000/2014/11/30/the-end-of-a-month-of-daily-publishing-and-loose-ends</loc>
 	
-		<lastmod>2014-11-30T00:00:00+11:00</lastmod>
+		<lastmod>2014-11-30T00:00:00+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -6678,9 +6678,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2014/11/30/building-meaning-through-semantic-alternation</loc>
+	<loc>http://localhost:4000/2014/11/30/building-meaning-through-semantic-alternation</loc>
 	
-		<lastmod>2014-11-30T00:00:00+11:00</lastmod>
+		<lastmod>2014-11-30T00:00:00+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -6693,9 +6693,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2014/11/28/todays-writing-update</loc>
+	<loc>http://localhost:4000/2014/11/28/todays-writing-update</loc>
 	
-		<lastmod>2014-11-28T00:00:00+11:00</lastmod>
+		<lastmod>2014-11-28T00:00:00+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -6708,9 +6708,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2014/11/27/the-pervasiveness-of-consciousness-and-language</loc>
+	<loc>http://localhost:4000/2014/11/27/the-pervasiveness-of-consciousness-and-language</loc>
 	
-		<lastmod>2014-11-27T00:00:00+11:00</lastmod>
+		<lastmod>2014-11-27T00:00:00+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -6723,9 +6723,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2014/11/26/ceptr-design-receptive-capacity-breakthrough</loc>
+	<loc>http://localhost:4000/2014/11/26/ceptr-design-receptive-capacity-breakthrough</loc>
 	
-		<lastmod>2014-11-26T00:00:00+11:00</lastmod>
+		<lastmod>2014-11-26T00:00:00+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -6738,9 +6738,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2014/11/25/living-in-community</loc>
+	<loc>http://localhost:4000/2014/11/25/living-in-community</loc>
 	
-		<lastmod>2014-11-25T00:00:00+11:00</lastmod>
+		<lastmod>2014-11-25T00:00:00+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -6753,9 +6753,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2014/11/25/building-with-the-earth</loc>
+	<loc>http://localhost:4000/2014/11/25/building-with-the-earth</loc>
 	
-		<lastmod>2014-11-25T00:00:00+11:00</lastmod>
+		<lastmod>2014-11-25T00:00:00+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -6768,9 +6768,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2014/11/23/what-im-learning-from-publishing-daily</loc>
+	<loc>http://localhost:4000/2014/11/23/what-im-learning-from-publishing-daily</loc>
 	
-		<lastmod>2014-11-23T00:00:00+11:00</lastmod>
+		<lastmod>2014-11-23T00:00:00+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -6783,9 +6783,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2014/11/22/answers-are-truly-no-better-than-questions</loc>
+	<loc>http://localhost:4000/2014/11/22/answers-are-truly-no-better-than-questions</loc>
 	
-		<lastmod>2014-11-22T00:00:00+11:00</lastmod>
+		<lastmod>2014-11-22T00:00:00+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -6798,9 +6798,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2014/11/21/designing-social-flows-chapter-6-on-designing-incentives</loc>
+	<loc>http://localhost:4000/2014/11/21/designing-social-flows-chapter-6-on-designing-incentives</loc>
 	
-		<lastmod>2014-11-21T00:00:00+11:00</lastmod>
+		<lastmod>2014-11-21T00:00:00+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -6813,9 +6813,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2014/11/20/the-laws-of-thermodynamics-reinterpreted</loc>
+	<loc>http://localhost:4000/2014/11/20/the-laws-of-thermodynamics-reinterpreted</loc>
 	
-		<lastmod>2014-11-20T00:00:00+11:00</lastmod>
+		<lastmod>2014-11-20T00:00:00+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -6828,9 +6828,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2014/11/20/hacking-my-productivity</loc>
+	<loc>http://localhost:4000/2014/11/20/hacking-my-productivity</loc>
 	
-		<lastmod>2014-11-20T00:00:00+11:00</lastmod>
+		<lastmod>2014-11-20T00:00:00+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -6843,9 +6843,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2014/11/18/the-unfolding-story-of-a-life-affirming-economy</loc>
+	<loc>http://localhost:4000/2014/11/18/the-unfolding-story-of-a-life-affirming-economy</loc>
 	
-		<lastmod>2014-11-18T00:00:00+11:00</lastmod>
+		<lastmod>2014-11-18T00:00:00+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -6858,9 +6858,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2014/11/17/currency-design-training-materials</loc>
+	<loc>http://localhost:4000/2014/11/17/currency-design-training-materials</loc>
 	
-		<lastmod>2014-11-17T00:00:00+11:00</lastmod>
+		<lastmod>2014-11-17T00:00:00+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -6873,9 +6873,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2014/11/16/returning-from-nyc</loc>
+	<loc>http://localhost:4000/2014/11/16/returning-from-nyc</loc>
 	
-		<lastmod>2014-11-16T00:00:00+11:00</lastmod>
+		<lastmod>2014-11-16T00:00:00+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -6888,9 +6888,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2014/11/16/reputation-is-orthogonal-to-exchange</loc>
+	<loc>http://localhost:4000/2014/11/16/reputation-is-orthogonal-to-exchange</loc>
 	
-		<lastmod>2014-11-16T00:00:00+11:00</lastmod>
+		<lastmod>2014-11-16T00:00:00+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -6903,9 +6903,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2014/11/15/i-am-a-strange-loop-youre-a-strange-loop-wouldnt-ceptr-likely-be-strange-loop-too</loc>
+	<loc>http://localhost:4000/2014/11/15/i-am-a-strange-loop-youre-a-strange-loop-wouldnt-ceptr-likely-be-strange-loop-too</loc>
 	
-		<lastmod>2014-11-15T00:00:00+11:00</lastmod>
+		<lastmod>2014-11-15T00:00:00+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -6918,9 +6918,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2014/11/13/fantasies-dreams-harebrained-schemes</loc>
+	<loc>http://localhost:4000/2014/11/13/fantasies-dreams-harebrained-schemes</loc>
 	
-		<lastmod>2014-11-13T00:00:00+11:00</lastmod>
+		<lastmod>2014-11-13T00:00:00+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -6933,9 +6933,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2014/11/12/magical-power-objects-and-sociopaths</loc>
+	<loc>http://localhost:4000/2014/11/12/magical-power-objects-and-sociopaths</loc>
 	
-		<lastmod>2014-11-12T00:00:00+11:00</lastmod>
+		<lastmod>2014-11-12T00:00:00+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -6948,9 +6948,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2014/11/11/arriving-to-where-you-love-freedom-vs-agency</loc>
+	<loc>http://localhost:4000/2014/11/11/arriving-to-where-you-love-freedom-vs-agency</loc>
 	
-		<lastmod>2014-11-11T00:00:00+11:00</lastmod>
+		<lastmod>2014-11-11T00:00:00+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -6963,9 +6963,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2014/11/10/a-scattered-conglomeration</loc>
+	<loc>http://localhost:4000/2014/11/10/a-scattered-conglomeration</loc>
 	
-		<lastmod>2014-11-10T00:00:00+11:00</lastmod>
+		<lastmod>2014-11-10T00:00:00+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -6978,9 +6978,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2014/11/09/stream-of-consciousness-writing</loc>
+	<loc>http://localhost:4000/2014/11/09/stream-of-consciousness-writing</loc>
 	
-		<lastmod>2014-11-09T00:00:00+11:00</lastmod>
+		<lastmod>2014-11-09T00:00:00+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -6993,9 +6993,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2014/11/09/conscious-culture-creation-and-the-community-mastery-board</loc>
+	<loc>http://localhost:4000/2014/11/09/conscious-culture-creation-and-the-community-mastery-board</loc>
 	
-		<lastmod>2014-11-09T00:00:00+11:00</lastmod>
+		<lastmod>2014-11-09T00:00:00+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -7008,9 +7008,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2014/11/08/gameshifting-tools-for-group-self-facilitation</loc>
+	<loc>http://localhost:4000/2014/11/08/gameshifting-tools-for-group-self-facilitation</loc>
 	
-		<lastmod>2014-11-08T00:00:00+11:00</lastmod>
+		<lastmod>2014-11-08T00:00:00+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -7023,9 +7023,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2014/11/07/those-kids-and-their-darn-gadgets-grumble-grumble</loc>
+	<loc>http://localhost:4000/2014/11/07/those-kids-and-their-darn-gadgets-grumble-grumble</loc>
 	
-		<lastmod>2014-11-07T00:00:00+11:00</lastmod>
+		<lastmod>2014-11-07T00:00:00+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -7038,9 +7038,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2014/11/05/a-thought-experiment</loc>
+	<loc>http://localhost:4000/2014/11/05/a-thought-experiment</loc>
 	
-		<lastmod>2014-11-05T00:00:00+11:00</lastmod>
+		<lastmod>2014-11-05T00:00:00+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -7053,9 +7053,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2014/11/04/monetizing-my-daughter-a-modest-proposal</loc>
+	<loc>http://localhost:4000/2014/11/04/monetizing-my-daughter-a-modest-proposal</loc>
 	
-		<lastmod>2014-11-04T00:00:00+11:00</lastmod>
+		<lastmod>2014-11-04T00:00:00+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -7068,9 +7068,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2014/11/03/some-thoughts-about-feedback-loops</loc>
+	<loc>http://localhost:4000/2014/11/03/some-thoughts-about-feedback-loops</loc>
 	
-		<lastmod>2014-11-03T00:00:00+11:00</lastmod>
+		<lastmod>2014-11-03T00:00:00+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -7083,9 +7083,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2014/11/02/understanding-commonwealth-economies-and-re-interpreting-darwinism</loc>
+	<loc>http://localhost:4000/2014/11/02/understanding-commonwealth-economies-and-re-interpreting-darwinism</loc>
 	
-		<lastmod>2014-11-02T00:00:00+11:00</lastmod>
+		<lastmod>2014-11-02T00:00:00+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -7098,9 +7098,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2014/11/01/who-should-issue-our-currency</loc>
+	<loc>http://localhost:4000/2014/11/01/who-should-issue-our-currency</loc>
 	
-		<lastmod>2014-11-01T00:00:00+11:00</lastmod>
+		<lastmod>2014-11-01T00:00:00+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -7113,9 +7113,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2014/11/01/overdue-personal-update</loc>
+	<loc>http://localhost:4000/2014/11/01/overdue-personal-update</loc>
 	
-		<lastmod>2014-11-01T00:00:00+11:00</lastmod>
+		<lastmod>2014-11-01T00:00:00+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -7128,9 +7128,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2014/11/01/an-explosion-of-new-writing</loc>
+	<loc>http://localhost:4000/2014/11/01/an-explosion-of-new-writing</loc>
 	
-		<lastmod>2014-11-01T00:00:00+11:00</lastmod>
+		<lastmod>2014-11-01T00:00:00+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -7143,9 +7143,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2013/08/20/ell-gratitude</loc>
+	<loc>http://localhost:4000/2013/08/20/ell-gratitude</loc>
 	
-		<lastmod>2013-08-20T00:00:00+10:00</lastmod>
+		<lastmod>2013-08-20T00:00:00+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -7158,9 +7158,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2013/02/25/emerging-leader-labs</loc>
+	<loc>http://localhost:4000/2013/02/25/emerging-leader-labs</loc>
 	
-		<lastmod>2013-02-25T00:00:00+11:00</lastmod>
+		<lastmod>2013-02-25T00:00:00+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -7173,9 +7173,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2012/08/23/emerging-leader-labs-seed-project</loc>
+	<loc>http://localhost:4000/2012/08/23/emerging-leader-labs-seed-project</loc>
 	
-		<lastmod>2012-08-23T00:00:00+10:00</lastmod>
+		<lastmod>2012-08-23T00:00:00+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -7188,9 +7188,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2012/08/21/emerging-leader-labs-seed-project</loc>
+	<loc>http://localhost:4000/2012/08/21/emerging-leader-labs-seed-project</loc>
 	
-		<lastmod>2012-08-21T00:00:00+10:00</lastmod>
+		<lastmod>2012-08-21T00:00:00+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -7203,9 +7203,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2011/10/29/arthur-brock-and-eric-harris-braun-speak-at-occupy-wall-st</loc>
+	<loc>http://localhost:4000/2011/10/29/arthur-brock-and-eric-harris-braun-speak-at-occupy-wall-st</loc>
 	
-		<lastmod>2011-10-29T00:00:00+11:00</lastmod>
+		<lastmod>2011-10-29T00:00:00+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -7218,9 +7218,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2011/08/29/future-trajectory-for-our-species</loc>
+	<loc>http://localhost:4000/2011/08/29/future-trajectory-for-our-species</loc>
 	
-		<lastmod>2011-08-29T00:00:00+10:00</lastmod>
+		<lastmod>2011-08-29T00:00:00+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -7233,9 +7233,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2011/07/21/the-deepest-importance-of-currencies</loc>
+	<loc>http://localhost:4000/2011/07/21/the-deepest-importance-of-currencies</loc>
 	
-		<lastmod>2011-07-21T00:00:00+10:00</lastmod>
+		<lastmod>2011-07-21T00:00:00+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -7248,9 +7248,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2011/04/27/introduction-to-metacurrency</loc>
+	<loc>http://localhost:4000/2011/04/27/introduction-to-metacurrency</loc>
 	
-		<lastmod>2011-04-27T00:00:00+10:00</lastmod>
+		<lastmod>2011-04-27T00:00:00+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -7263,9 +7263,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2011/04/25/welcome</loc>
+	<loc>http://localhost:4000/2011/04/25/welcome</loc>
 	
-		<lastmod>2011-04-25T00:00:00+10:00</lastmod>
+		<lastmod>2011-04-25T00:00:00+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -7278,9 +7278,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2011/04/24/milk-and-honey-tracks-in-the-snow</loc>
+	<loc>http://localhost:4000/2011/04/24/milk-and-honey-tracks-in-the-snow</loc>
 	
-		<lastmod>2011-04-24T00:00:00+10:00</lastmod>
+		<lastmod>2011-04-24T00:00:00+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -7293,9 +7293,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2011/04/24/currency-resources-section-for-life-inc</loc>
+	<loc>http://localhost:4000/2011/04/24/currency-resources-section-for-life-inc</loc>
 	
-		<lastmod>2011-04-24T00:00:00+10:00</lastmod>
+		<lastmod>2011-04-24T00:00:00+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -7308,9 +7308,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2011/04/24/arthur-brock-transitioning-to-the-new-economy</loc>
+	<loc>http://localhost:4000/2011/04/24/arthur-brock-transitioning-to-the-new-economy</loc>
 	
-		<lastmod>2011-04-24T00:00:00+10:00</lastmod>
+		<lastmod>2011-04-24T00:00:00+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -7323,9 +7323,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2011/04/23/transitioning-to-the-new-economy</loc>
+	<loc>http://localhost:4000/2011/04/23/transitioning-to-the-new-economy</loc>
 	
-		<lastmod>2011-04-23T00:00:00+10:00</lastmod>
+		<lastmod>2011-04-23T00:00:00+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -7338,9 +7338,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2011/04/23/new-economy-new-wealth</loc>
+	<loc>http://localhost:4000/2011/04/23/new-economy-new-wealth</loc>
 	
-		<lastmod>2011-04-23T00:00:00+10:00</lastmod>
+		<lastmod>2011-04-23T00:00:00+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -7353,9 +7353,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2011/04/23/media-squat-with-arthur-brock-on-currencies</loc>
+	<loc>http://localhost:4000/2011/04/23/media-squat-with-arthur-brock-on-currencies</loc>
 	
-		<lastmod>2011-04-23T00:00:00+10:00</lastmod>
+		<lastmod>2011-04-23T00:00:00+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -7368,9 +7368,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2011/04/23/currencies-for-21st-century-success</loc>
+	<loc>http://localhost:4000/2011/04/23/currencies-for-21st-century-success</loc>
 	
-		<lastmod>2011-04-23T00:00:00+10:00</lastmod>
+		<lastmod>2011-04-23T00:00:00+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -7383,9 +7383,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2011/04/05/the-central-covenants-of-successful-economies</loc>
+	<loc>http://localhost:4000/2011/04/05/the-central-covenants-of-successful-economies</loc>
 	
-		<lastmod>2011-04-05T00:00:00+10:00</lastmod>
+		<lastmod>2011-04-05T00:00:00+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -7398,9 +7398,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2011/02/21/gift-transactions-vs-commercial-transactions</loc>
+	<loc>http://localhost:4000/2011/02/21/gift-transactions-vs-commercial-transactions</loc>
 	
-		<lastmod>2011-02-21T00:00:00+11:00</lastmod>
+		<lastmod>2011-02-21T00:00:00+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -7413,9 +7413,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2011/01/21/money-cant-buy-you-love-or-trust</loc>
+	<loc>http://localhost:4000/2011/01/21/money-cant-buy-you-love-or-trust</loc>
 	
-		<lastmod>2011-01-21T00:00:00+11:00</lastmod>
+		<lastmod>2011-01-21T00:00:00+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -7428,9 +7428,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2010/12/13/artbrocks-wish-list</loc>
+	<loc>http://localhost:4000/2010/12/13/artbrocks-wish-list</loc>
 	
-		<lastmod>2010-12-13T00:00:00+11:00</lastmod>
+		<lastmod>2010-12-13T00:00:00+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -7443,9 +7443,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2010/04/23/local-flavors</loc>
+	<loc>http://localhost:4000/2010/04/23/local-flavors</loc>
 	
-		<lastmod>2010-04-23T00:00:00+10:00</lastmod>
+		<lastmod>2010-04-23T00:00:00+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -7458,9 +7458,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2010/03/23/evolution-of-productive-efficiency</loc>
+	<loc>http://localhost:4000/2010/03/23/evolution-of-productive-efficiency</loc>
 	
-		<lastmod>2010-03-23T00:00:00+11:00</lastmod>
+		<lastmod>2010-03-23T00:00:00+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -7473,9 +7473,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2010/02/23/colorado-local-first</loc>
+	<loc>http://localhost:4000/2010/02/23/colorado-local-first</loc>
 	
-		<lastmod>2010-02-23T00:00:00+11:00</lastmod>
+		<lastmod>2010-02-23T00:00:00+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -7488,9 +7488,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2009/10/29/critical-reasons-to-expand-our-perception-of-currencies</loc>
+	<loc>http://localhost:4000/2009/10/29/critical-reasons-to-expand-our-perception-of-currencies</loc>
 	
-		<lastmod>2009-10-29T00:00:00+11:00</lastmod>
+		<lastmod>2009-10-29T00:00:00+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -7503,9 +7503,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2009/08/21/currency-quips-for-later-development</loc>
+	<loc>http://localhost:4000/2009/08/21/currency-quips-for-later-development</loc>
 	
-		<lastmod>2009-08-21T00:00:00+10:00</lastmod>
+		<lastmod>2009-08-21T00:00:00+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -7518,9 +7518,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2009/05/12/differences-between-open-source-and-open-currency</loc>
+	<loc>http://localhost:4000/2009/05/12/differences-between-open-source-and-open-currency</loc>
 	
-		<lastmod>2009-05-12T00:00:00+10:00</lastmod>
+		<lastmod>2009-05-12T00:00:00+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -7533,9 +7533,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2009/05/04/we-use-currencies-to-keep-records-of-currents</loc>
+	<loc>http://localhost:4000/2009/05/04/we-use-currencies-to-keep-records-of-currents</loc>
 	
-		<lastmod>2009-05-04T00:00:00+10:00</lastmod>
+		<lastmod>2009-05-04T00:00:00+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -7548,9 +7548,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2009/04/26/currencies-as-dna-of-social-organisms</loc>
+	<loc>http://localhost:4000/2009/04/26/currencies-as-dna-of-social-organisms</loc>
 	
-		<lastmod>2009-04-26T00:00:00+10:00</lastmod>
+		<lastmod>2009-04-26T00:00:00+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -7563,9 +7563,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2009/04/08/value-values-and-the-new-economy</loc>
+	<loc>http://localhost:4000/2009/04/08/value-values-and-the-new-economy</loc>
 	
-		<lastmod>2009-04-08T00:00:00+10:00</lastmod>
+		<lastmod>2009-04-08T00:00:00+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -7578,9 +7578,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2009/03/21/the-footprints-of-flow</loc>
+	<loc>http://localhost:4000/2009/03/21/the-footprints-of-flow</loc>
 	
-		<lastmod>2009-03-21T00:00:00+11:00</lastmod>
+		<lastmod>2009-03-21T00:00:00+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -7593,9 +7593,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2009/01/28/predictable-living-systems</loc>
+	<loc>http://localhost:4000/2009/01/28/predictable-living-systems</loc>
 	
-		<lastmod>2009-01-28T00:00:00+11:00</lastmod>
+		<lastmod>2009-01-28T00:00:00+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -7608,9 +7608,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2008/10/29/critical-to-expand-perception-of-currencies</loc>
+	<loc>http://localhost:4000/2008/10/29/critical-to-expand-perception-of-currencies</loc>
 	
-		<lastmod>2008-10-29T00:00:00+11:00</lastmod>
+		<lastmod>2008-10-29T00:00:00+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -7623,9 +7623,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2008/10/08/triple-bottom-line-currency</loc>
+	<loc>http://localhost:4000/2008/10/08/triple-bottom-line-currency</loc>
 	
-		<lastmod>2008-10-08T00:00:00+11:00</lastmod>
+		<lastmod>2008-10-08T00:00:00+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -7638,9 +7638,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2008/04/26/a-world-without-small-business</loc>
+	<loc>http://localhost:4000/2008/04/26/a-world-without-small-business</loc>
 	
-		<lastmod>2008-04-26T00:00:00+10:00</lastmod>
+		<lastmod>2008-04-26T00:00:00+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -7653,9 +7653,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2006/04/17/on-the-passing-of-my-father</loc>
+	<loc>http://localhost:4000/2006/04/17/on-the-passing-of-my-father</loc>
 	
-		<lastmod>2006-04-17T00:00:00+10:00</lastmod>
+		<lastmod>2006-04-17T00:00:00+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -7668,9 +7668,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2006/01/21/a-new-myspace-experiment-new-for-me-anyway</loc>
+	<loc>http://localhost:4000/2006/01/21/a-new-myspace-experiment-new-for-me-anyway</loc>
 	
-		<lastmod>2006-01-21T00:00:00+11:00</lastmod>
+		<lastmod>2006-01-21T00:00:00+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -7683,9 +7683,9 @@
 
 	
 	<url>
-	<loc>https://jekyll.arthurbrock.com/2004/11/15/feminist-gift-economy-conference</loc>
+	<loc>http://localhost:4000/2004/11/15/feminist-gift-economy-conference</loc>
 	
-		<lastmod>2004-11-15T00:00:00+11:00</lastmod>
+		<lastmod>2004-11-15T00:00:00+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>

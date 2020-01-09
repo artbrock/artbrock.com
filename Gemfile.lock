@@ -1,7 +1,7 @@
 GIT
-  remote: https://github.com/Phlow/feeling-responsive
-  revision: 2b1d3f888933b6a5fc7f332881351cab8320a4c3
-  branch: bare-bones-version
+  remote: https://github.com/thedavidmeister/feeling-responsive
+  revision: 647c15e5b62e113607cc0730e060b691884cfcd4
+  branch: 2020-01-09-art
   specs:
     jekyll-theme-feeling-responsive (1.0.2)
 

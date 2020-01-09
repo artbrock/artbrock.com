@@ -8,7 +8,6 @@ header:
 categories:
 - targettedcurrencies
 ---
-# Our Vision
 
 ## The Evolution of Targeted Currencies and an Introduction to OS-Earth
 
@@ -80,7 +79,7 @@ We've been identifying the dynamics of currencies and building the tools to impl
 
 ## Essential Components to Build a Market
 
-![market stool image](/images/2019/09/Market-Stool_0.png)
+![market stool image](/images/Market-Stool_0.png)
 
 This graphic illustrates the components necessary to creating a market
 
@@ -122,13 +121,13 @@ What exactly are the properties of a currency? How do they work? How can they be
 
 ## Designing the FlowSpace within a Marketplace
 
-![flowspace map image](/images/2019/09/topographic-illustration.preview.png)
+![flowspace map image](/images/topographic-illustration.preview.png)
 
 Using the metaphor of a landscape is one way of representing how multiple flow systems can occur within the same market. This map depicts two distinct flow systems: water & traffic. Each flow path follows different rules. Just as you can design the traffic and water flows, you can design the properties of a currency to create natural tendencies of flow within a marketplace.
 
 ## Designing Flows as Circuits
 
-![burlington flow diagram](/images/2019/09/burlington diagram_0.gif)
+![burlington flow diagram](/images/burlington diagram_0.gif)
 
 You can design circuits in a more engineered approach, such as an electrical circuit flow, with switches to turn things on and off.
 
@@ -140,7 +139,7 @@ The blue paths represent a separate currency for repuation and good citizenship.
 
 We have been building a currency platform that is customizable to create currencies (flow systems) that provide the opportunity for new markets to emerge. The following are screen shots from this platform, code-named the "Configurator."
 
-![configurator screen shots collage](/images/2019/09/configurator-screens.preview.gif)
+![configurator screen shots collage](/images/configurator-screens.preview.gif)
 
 ## Rules vs. Rewards – Aligning our Incentives
 
@@ -152,14 +151,14 @@ Take a look at this diagram which provides a quick overview of Spiral Dynamics a
 
 ## Layers and Dimensions of Human Incentives
 
-![incentive layers diagram](/images/2019/09/layers-of-incentives_0.gif)
+![incentive layers diagram](/images/layers-of-incentives_0.gif)
 
 There are multiple layers that are simultaneously present in motivating people and groups. As humans, we are ever driven to learn - about our environment and the rules in which we operate. The experience of Fun & Pleasure encourages continued participation.
 
 We focus on the Survive & Thrive layer for the application of currencies as incentives that appeal to multiple dimensions of human incentives:
 
 ![simple dimensions diagram
-](/images/2019/09/simple-dimensions_0.png)
+](/images/simple-dimensions_0.png)
 
 This diagram represents four quadrants of imperatives that are at work at all times. They appeal to people to varying degrees based on their worldview.
 
@@ -173,13 +172,13 @@ This diagram represents four quadrants of imperatives that are at work at all ti
 
 The next diagram expands the quadrants to include how we interact with people we know and love. We add the Inter-personal layers identified as the **Appreciation Imperative** (doing good works to experience yourself as being known by others) and the **Contribution Imperative** (doing something so that you can see the impact out there)
 
-![dimensions diagram expanded](/images/2019/09/dimensions-expanded_0.png)
+![dimensions diagram expanded](/images/dimensions-expanded_0.png)
 
 ## ...and their Appeal to Different Levels of Consciousness in Spiral Dynamics
 
 So back to the previous mention of Spiral Dynamics. This next diagram includes the colors used to identify various levels of consciousness in Spiral Dynamics, and associates them with these dimensions of incentives.
 
-![dimensions diagram with spiral colors](/images/2019/09/dimensions-and-spiral-colors_0.png)
+![dimensions diagram with spiral colors](/images/dimensions-and-spiral-colors_0.png)
 
 Keep in mind that this is simply a framework we have created to help understand which motivations resonate most strongly with different people and groups, based on the level of consciousness they have acheived.
 
