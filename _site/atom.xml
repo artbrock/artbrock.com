@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>http://localhost:4000/</id>
 	<title>Arthur Brock's Personal Site</title>
-	<updated>2020-01-09T20:37:10+01:00</updated>
+	<updated>2020-01-09T15:27:02-05:00</updated>
 
 	<subtitle>Culture-Hacking, Alt.Education, Targeted Currency Design, NextNet Technologies.</subtitle>
 
@@ -31,7 +31,7 @@
 			<id>http://localhost:4000/2019/02/20/what-to-expect-with-your-holoport</id>
 			<title>What to Expect with Your HoloPort</title>
 			<link href="http://localhost:4000/2019/02/20/what-to-expect-with-your-holoport" rel="alternate" type="text/html" title="What to Expect with Your HoloPort" />
-			<updated>2019-03-01T03:54:50+01:00</updated>
+			<updated>2019-02-28T21:54:50-05:00</updated>
 
 			
 				
@@ -94,14 +94,14 @@
 				<category term="Distributed Apps" />
 			
 
-			<published>2019-03-01T03:54:50+01:00</published>
+			<published>2019-02-28T21:54:50-05:00</published>
 		</entry>
 	
 		<entry>
 			<id>http://localhost:4000/2019/02/20/happ-dev-cookbook</id>
 			<title>hApp Dev Cookbook</title>
 			<link href="http://localhost:4000/2019/02/20/happ-dev-cookbook" rel="alternate" type="text/html" title="hApp Dev Cookbook" />
-			<updated>2019-02-21T03:54:50+01:00</updated>
+			<updated>2019-02-20T21:54:50-05:00</updated>
 
 			
 				
@@ -160,14 +160,14 @@
 				<category term="Distributed Apps" />
 			
 
-			<published>2019-02-21T03:54:50+01:00</published>
+			<published>2019-02-20T21:54:50-05:00</published>
 		</entry>
 	
 		<entry>
 			<id>http://localhost:4000/2019/02/18/confidentiality-integrity-availability</id>
 			<title>CIA on Holo Hosting (Confidentiality, Integrity, &amp; Availability)</title>
 			<link href="http://localhost:4000/2019/02/18/confidentiality-integrity-availability" rel="alternate" type="text/html" title="CIA on Holo Hosting (Confidentiality, Integrity, &amp; Availability)" />
-			<updated>2019-02-19T03:54:50+01:00</updated>
+			<updated>2019-02-18T21:54:50-05:00</updated>
 
 			
 				
@@ -224,14 +224,14 @@ Private host groups:&lt;/p&gt;
 				<category term="High Availability" />
 			
 
-			<published>2019-02-19T03:54:50+01:00</published>
+			<published>2019-02-18T21:54:50-05:00</published>
 		</entry>
 	
 		<entry>
 			<id>http://localhost:4000/2019/02/14/holo-fuel-accounts-vs-wallets</id>
 			<title>Holo Fuel Accounts vs. Crypto Wallets vs. Exchange Accounts</title>
 			<link href="http://localhost:4000/2019/02/14/holo-fuel-accounts-vs-wallets" rel="alternate" type="text/html" title="Holo Fuel Accounts vs. Crypto Wallets vs. Exchange Accounts" />
-			<updated>2019-02-15T03:54:50+01:00</updated>
+			<updated>2019-02-14T21:54:50-05:00</updated>
 
 			
 				
@@ -271,14 +271,14 @@ Private host groups:&lt;/p&gt;
 				<category term="Crypto Wallets" />
 			
 
-			<published>2019-02-15T03:54:50+01:00</published>
+			<published>2019-02-14T21:54:50-05:00</published>
 		</entry>
 	
 		<entry>
 			<id>http://localhost:4000/2019/01/25/did-holochain-lose-its-way</id>
 			<title>Did Holochain Go Astray</title>
 			<link href="http://localhost:4000/2019/01/25/did-holochain-lose-its-way" rel="alternate" type="text/html" title="Did Holochain Go Astray" />
-			<updated>2019-01-27T03:54:50+01:00</updated>
+			<updated>2019-01-26T21:54:50-05:00</updated>
 
 			
 				
@@ -483,14 +483,14 @@ Private host groups:&lt;/p&gt;
 				<category term="Software Development" />
 			
 
-			<published>2019-01-27T03:54:50+01:00</published>
+			<published>2019-01-26T21:54:50-05:00</published>
 		</entry>
 	
 		<entry>
 			<id>http://localhost:4000/2019/01/24/cryptographic-autonomy-license</id>
 			<title>Basics of the Cryptographic Autonomy License</title>
 			<link href="http://localhost:4000/2019/01/24/cryptographic-autonomy-license" rel="alternate" type="text/html" title="Basics of the Cryptographic Autonomy License" />
-			<updated>2019-01-25T03:54:50+01:00</updated>
+			<updated>2019-01-24T21:54:50-05:00</updated>
 
 			
 				
@@ -592,14 +592,14 @@ Private host groups:&lt;/p&gt;
 				<category term="Distributed Applications" />
 			
 
-			<published>2019-01-25T03:54:50+01:00</published>
+			<published>2019-01-24T21:54:50-05:00</published>
 		</entry>
 	
 		<entry>
 			<id>http://localhost:4000/2017/07/20/ico-craze</id>
 			<title>ICO Craze</title>
 			<link href="http://localhost:4000/2017/07/20/ico-craze" rel="alternate" type="text/html" title="ICO Craze" />
-			<updated>2017-07-21T04:54:50+02:00</updated>
+			<updated>2017-07-20T22:54:50-04:00</updated>
 
 			
 				
@@ -648,14 +648,14 @@ Private host groups:&lt;/p&gt;
 				<category term="Funding" />
 			
 
-			<published>2017-07-21T04:54:50+02:00</published>
+			<published>2017-07-20T22:54:50-04:00</published>
 		</entry>
 	
 		<entry>
 			<id>http://localhost:4000/2017/07/11/but-data-doesnt-exist</id>
 			<title>But Data Doesn't Exist</title>
 			<link href="http://localhost:4000/2017/07/11/but-data-doesnt-exist" rel="alternate" type="text/html" title="But Data Doesn't Exist" />
-			<updated>2017-07-12T03:17:57+02:00</updated>
+			<updated>2017-07-11T21:17:57-04:00</updated>
 
 			
 				
@@ -701,14 +701,14 @@ Private host groups:&lt;/p&gt;
 				<category term="Tag2" />
 			
 
-			<published>2017-07-12T03:17:57+02:00</published>
+			<published>2017-07-11T21:17:57-04:00</published>
 		</entry>
 	
 		<entry>
 			<id>http://localhost:4000/2017/06/12/phase-shift</id>
 			<title>A major phase shift</title>
 			<link href="http://localhost:4000/2017/06/12/phase-shift" rel="alternate" type="text/html" title="A major phase shift" />
-			<updated>2017-06-12T23:11:02+02:00</updated>
+			<updated>2017-06-12T17:11:02-04:00</updated>
 
 			
 				
@@ -781,14 +781,14 @@ Private host groups:&lt;/p&gt;
 				<category term="Ceptr" />
 			
 
-			<published>2017-06-12T23:11:02+02:00</published>
+			<published>2017-06-12T17:11:02-04:00</published>
 		</entry>
 	
 		<entry>
 			<id>http://localhost:4000/2017/06/05/commons-engine</id>
 			<title>Commons Engine</title>
 			<link href="http://localhost:4000/2017/06/05/commons-engine" rel="alternate" type="text/html" title="Commons Engine" />
-			<updated>2017-06-06T05:16:09+02:00</updated>
+			<updated>2017-06-05T23:16:09-04:00</updated>
 
 			
 				
@@ -839,7 +839,7 @@ Private host groups:&lt;/p&gt;
 				<category term="Value Accounting" />
 			
 
-			<published>2017-06-06T05:16:09+02:00</published>
+			<published>2017-06-05T23:16:09-04:00</published>
 		</entry>
 	
 </feed>

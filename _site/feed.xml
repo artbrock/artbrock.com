@@ -11,7 +11,7 @@
 			<item>
 				<title>What to Expect with Your HoloPort</title>
 				<link>http://localhost:4000/2019/02/20/what-to-expect-with-your-holoport</link>
-				<pubDate>Fri, 01 Mar 2019 03:54:50 +0100</pubDate>
+				<pubDate>Thu, 28 Feb 2019 21:54:50 -0500</pubDate>
 				<description>&lt;h2 id=&quot;status-of-holo-network&quot;&gt;Status of Holo Network&lt;/h2&gt;
 
 &lt;ul&gt;
@@ -48,7 +48,7 @@
 			<item>
 				<title>hApp Dev Cookbook</title>
 				<link>http://localhost:4000/2019/02/20/happ-dev-cookbook</link>
-				<pubDate>Thu, 21 Feb 2019 03:54:50 +0100</pubDate>
+				<pubDate>Wed, 20 Feb 2019 21:54:50 -0500</pubDate>
 				<description>&lt;h2 id=&quot;design-patterns-for-happ-dev-cookbook&quot;&gt;Design Patterns for hApp Dev Cookbook&lt;/h2&gt;
 
 &lt;h3 id=&quot;membranes&quot;&gt;Membranes&lt;/h3&gt;
@@ -81,7 +81,7 @@
 			<item>
 				<title>CIA on Holo Hosting (Confidentiality, Integrity, &amp; Availability)</title>
 				<link>http://localhost:4000/2019/02/18/confidentiality-integrity-availability</link>
-				<pubDate>Tue, 19 Feb 2019 03:54:50 +0100</pubDate>
+				<pubDate>Mon, 18 Feb 2019 21:54:50 -0500</pubDate>
 				<description>&lt;p&gt;People are wondering about Holochain apps hosted via Holo, and just what kind of guarantees there are about High Availability of access, Data Integrity and Confidentiality of personal data.&lt;/p&gt;
 
 &lt;h2 id=&quot;availability&quot;&gt;Availability&lt;/h2&gt;
@@ -116,7 +116,7 @@ Private host groups:&lt;/p&gt;
 			<item>
 				<title>Holo Fuel Accounts vs. Crypto Wallets vs. Exchange Accounts</title>
 				<link>http://localhost:4000/2019/02/14/holo-fuel-accounts-vs-wallets</link>
-				<pubDate>Fri, 15 Feb 2019 03:54:50 +0100</pubDate>
+				<pubDate>Thu, 14 Feb 2019 21:54:50 -0500</pubDate>
 				<description>&lt;p&gt;As we get approach launch of the Holo Network, we’ve been getting some questions about how wallets, keys, and transactions will work for Holo Fuel.&lt;/p&gt;
 
 &lt;ul&gt;
@@ -134,7 +134,7 @@ Private host groups:&lt;/p&gt;
 			<item>
 				<title>Did Holochain Go Astray</title>
 				<link>http://localhost:4000/2019/01/25/did-holochain-lose-its-way</link>
-				<pubDate>Sun, 27 Jan 2019 03:54:50 +0100</pubDate>
+				<pubDate>Sat, 26 Jan 2019 21:54:50 -0500</pubDate>
 				<description>&lt;p&gt;Note: I need to overwrite this entry with the completed entry from my Medium blog.&lt;/p&gt;
 
 &lt;h2 id=&quot;fast-strong-and-easy-start&quot;&gt;Fast, Strong, and Easy Start&lt;/h2&gt;
@@ -315,7 +315,7 @@ Private host groups:&lt;/p&gt;
 			<item>
 				<title>Basics of the Cryptographic Autonomy License</title>
 				<link>http://localhost:4000/2019/01/24/cryptographic-autonomy-license</link>
-				<pubDate>Fri, 25 Jan 2019 03:54:50 +0100</pubDate>
+				<pubDate>Thu, 24 Jan 2019 21:54:50 -0500</pubDate>
 				<description>&lt;p&gt;In this article, I boil the Cryptographic Autonomy License down to its most basic salient points to try to make it clear why we need a new kind of open source license for distributed P2P software, and how we seek to achieve protections for end users by leveraging a novel application of existing copyright law.&lt;/p&gt;
 
 &lt;h2 id=&quot;tldr-copyleft--performance&quot;&gt;TL;DR; Copyleft + Performance&lt;/h2&gt;
@@ -395,7 +395,7 @@ Private host groups:&lt;/p&gt;
 			<item>
 				<title>ICO Craze</title>
 				<link>http://localhost:4000/2017/07/20/ico-craze</link>
-				<pubDate>Fri, 21 Jul 2017 04:54:50 +0200</pubDate>
+				<pubDate>Thu, 20 Jul 2017 22:54:50 -0400</pubDate>
 				<description>&lt;h2 id=&quot;raising-the-bar-on-integrity-amidst-an-ico-craze&quot;&gt;Raising the Bar on Integrity Amidst an ICO Craze&lt;/h2&gt;
 
 &lt;p&gt;There has been some hoopla going on in the cryptocurrency crowdfunding space. A $30 million raise in 24 seconds one day! $152 million in one hour on the next! (Okay, a bit more than an hour.) $200 million for this one! $232 million for that one!&lt;/p&gt;
@@ -426,7 +426,7 @@ Private host groups:&lt;/p&gt;
 			<item>
 				<title>But Data Doesn't Exist</title>
 				<link>http://localhost:4000/2017/07/11/but-data-doesnt-exist</link>
-				<pubDate>Wed, 12 Jul 2017 03:17:57 +0200</pubDate>
+				<pubDate>Tue, 11 Jul 2017 21:17:57 -0400</pubDate>
 				<description>&lt;h2 id=&quot;true-fallacies-of-distributed-computing&quot;&gt;True Fallacies of Distributed Computing&lt;/h2&gt;
 
 &lt;p&gt;There’s a wikipedia article about the fallacies of distributed computing.&lt;/p&gt;
@@ -456,7 +456,7 @@ Private host groups:&lt;/p&gt;
 			<item>
 				<title>A major phase shift</title>
 				<link>http://localhost:4000/2017/06/12/phase-shift</link>
-				<pubDate>Mon, 12 Jun 2017 23:11:02 +0200</pubDate>
+				<pubDate>Mon, 12 Jun 2017 17:11:02 -0400</pubDate>
 				<description>&lt;p&gt;You’ve probably seen a lot more activity around the MetaCurrency Project in recent months: a new Ceptr web site, Ceptr broken down into clearer sub-projects, blockchain alternatives, lots of code releases, Hackathons, virtual potlucks, online presentations, etc. I guess we ought to make it clearer what’s going on.&lt;/p&gt;
 
 &lt;p&gt;For a long time we’ve operated as one of those fringy open source projects like some mad scientists experimenting in their garage. But now we must navigate the transition from a tech hobby project to a scalable business, in part, because we’ve been approached by funders.&lt;/p&gt;
@@ -513,7 +513,7 @@ Private host groups:&lt;/p&gt;
 			<item>
 				<title>Commons Engine</title>
 				<link>http://localhost:4000/2017/06/05/commons-engine</link>
-				<pubDate>Tue, 06 Jun 2017 05:16:09 +0200</pubDate>
+				<pubDate>Mon, 05 Jun 2017 23:16:09 -0400</pubDate>
 				<description>&lt;h2 id=&quot;commons-engine&quot;&gt;Commons Engine&lt;/h2&gt;
 
 &lt;p&gt;We intend to turn the management of Ceptr and its software ecosystem over to a Sovereign Accountable Commons (our counterpart to a DAO - decentralized autonomous organization). For us this means building:&lt;/p&gt;
