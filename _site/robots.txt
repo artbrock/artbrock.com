@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://jekyll.arthurbrock.com/sitemap.xml
+Sitemap: https://www.artbrock.com//sitemap.xml

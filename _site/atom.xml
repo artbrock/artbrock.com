@@ -2,9 +2,9 @@
 <?xml-stylesheet type="text/xsl" href="/assets/xslt/atom.xslt" ?>
 <?xml-stylesheet type="text/css" href="/assets/css/atom.css" ?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-	<id>https://jekyll.arthurbrock.com/</id>
+	<id>https://www.artbrock.com//</id>
 	<title>Arthur Brock's Personal Site</title>
-	<updated>2020-01-12T21:16:53+01:00</updated>
+	<updated>2020-01-12T21:18:33+01:00</updated>
 
 	<subtitle>Culture-Hacking, Alt.Education, Targeted Currency Design, NextNet Technologies.</subtitle>
 
@@ -21,16 +21,16 @@
 		</author>
 	
 
-	<link href="https://jekyll.arthurbrock.com/atom.xml" rel="self" type="application/rss+xml" />
-	<link href="https://jekyll.arthurbrock.com/" rel="alternate" type="text/html" />
+	<link href="https://www.artbrock.com//atom.xml" rel="self" type="application/rss+xml" />
+	<link href="https://www.artbrock.com//" rel="alternate" type="text/html" />
 
 	<generator uri="http://jekyllrb.com" version="4.0.0">Jekyll</generator>
 
 	
 		<entry>
-			<id>https://jekyll.arthurbrock.com/2019/02/20/what-to-expect-with-your-holoport</id>
+			<id>https://www.artbrock.com//2019/02/20/what-to-expect-with-your-holoport</id>
 			<title>What to Expect with Your HoloPort</title>
-			<link href="https://jekyll.arthurbrock.com/2019/02/20/what-to-expect-with-your-holoport" rel="alternate" type="text/html" title="What to Expect with Your HoloPort" />
+			<link href="https://www.artbrock.com//2019/02/20/what-to-expect-with-your-holoport" rel="alternate" type="text/html" title="What to Expect with Your HoloPort" />
 			<updated>2019-03-01T03:54:50+01:00</updated>
 
 			
@@ -44,7 +44,7 @@
 				</author>
 			
 			<summary></summary>
-			<content type="html" xml:base="https://jekyll.arthurbrock.com/2019/02/20/what-to-expect-with-your-holoport">&lt;h2 id=&quot;status-of-holo-network&quot;&gt;Status of Holo Network&lt;/h2&gt;
+			<content type="html" xml:base="https://www.artbrock.com//2019/02/20/what-to-expect-with-your-holoport">&lt;h2 id=&quot;status-of-holo-network&quot;&gt;Status of Holo Network&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;link to posts about Alpha launches&lt;/li&gt;
@@ -98,9 +98,9 @@
 		</entry>
 	
 		<entry>
-			<id>https://jekyll.arthurbrock.com/2019/02/20/happ-dev-cookbook</id>
+			<id>https://www.artbrock.com//2019/02/20/happ-dev-cookbook</id>
 			<title>hApp Dev Cookbook</title>
-			<link href="https://jekyll.arthurbrock.com/2019/02/20/happ-dev-cookbook" rel="alternate" type="text/html" title="hApp Dev Cookbook" />
+			<link href="https://www.artbrock.com//2019/02/20/happ-dev-cookbook" rel="alternate" type="text/html" title="hApp Dev Cookbook" />
 			<updated>2019-02-21T03:54:50+01:00</updated>
 
 			
@@ -114,7 +114,7 @@
 				</author>
 			
 			<summary></summary>
-			<content type="html" xml:base="https://jekyll.arthurbrock.com/2019/02/20/happ-dev-cookbook">&lt;h2 id=&quot;design-patterns-for-happ-dev-cookbook&quot;&gt;Design Patterns for hApp Dev Cookbook&lt;/h2&gt;
+			<content type="html" xml:base="https://www.artbrock.com//2019/02/20/happ-dev-cookbook">&lt;h2 id=&quot;design-patterns-for-happ-dev-cookbook&quot;&gt;Design Patterns for hApp Dev Cookbook&lt;/h2&gt;
 
 &lt;h3 id=&quot;membranes&quot;&gt;Membranes&lt;/h3&gt;
 
@@ -164,9 +164,9 @@
 		</entry>
 	
 		<entry>
-			<id>https://jekyll.arthurbrock.com/2019/02/18/confidentiality-integrity-availability</id>
+			<id>https://www.artbrock.com//2019/02/18/confidentiality-integrity-availability</id>
 			<title>CIA on Holo Hosting (Confidentiality, Integrity, &amp; Availability)</title>
-			<link href="https://jekyll.arthurbrock.com/2019/02/18/confidentiality-integrity-availability" rel="alternate" type="text/html" title="CIA on Holo Hosting (Confidentiality, Integrity, &amp; Availability)" />
+			<link href="https://www.artbrock.com//2019/02/18/confidentiality-integrity-availability" rel="alternate" type="text/html" title="CIA on Holo Hosting (Confidentiality, Integrity, &amp; Availability)" />
 			<updated>2019-02-19T03:54:50+01:00</updated>
 
 			
@@ -180,7 +180,7 @@
 				</author>
 			
 			<summary></summary>
-			<content type="html" xml:base="https://jekyll.arthurbrock.com/2019/02/18/confidentiality-integrity-availability">&lt;p&gt;People are wondering about Holochain apps hosted via Holo, and just what kind of guarantees there are about High Availability of access, Data Integrity and Confidentiality of personal data.&lt;/p&gt;
+			<content type="html" xml:base="https://www.artbrock.com//2019/02/18/confidentiality-integrity-availability">&lt;p&gt;People are wondering about Holochain apps hosted via Holo, and just what kind of guarantees there are about High Availability of access, Data Integrity and Confidentiality of personal data.&lt;/p&gt;
 
 &lt;h2 id=&quot;availability&quot;&gt;Availability&lt;/h2&gt;
 
@@ -228,9 +228,9 @@ Private host groups:&lt;/p&gt;
 		</entry>
 	
 		<entry>
-			<id>https://jekyll.arthurbrock.com/2019/02/14/holo-fuel-accounts-vs-wallets</id>
+			<id>https://www.artbrock.com//2019/02/14/holo-fuel-accounts-vs-wallets</id>
 			<title>Holo Fuel Accounts vs. Crypto Wallets vs. Exchange Accounts</title>
-			<link href="https://jekyll.arthurbrock.com/2019/02/14/holo-fuel-accounts-vs-wallets" rel="alternate" type="text/html" title="Holo Fuel Accounts vs. Crypto Wallets vs. Exchange Accounts" />
+			<link href="https://www.artbrock.com//2019/02/14/holo-fuel-accounts-vs-wallets" rel="alternate" type="text/html" title="Holo Fuel Accounts vs. Crypto Wallets vs. Exchange Accounts" />
 			<updated>2019-02-15T03:54:50+01:00</updated>
 
 			
@@ -244,7 +244,7 @@ Private host groups:&lt;/p&gt;
 				</author>
 			
 			<summary></summary>
-			<content type="html" xml:base="https://jekyll.arthurbrock.com/2019/02/14/holo-fuel-accounts-vs-wallets">&lt;p&gt;As we get approach launch of the Holo Network, we’ve been getting some questions about how wallets, keys, and transactions will work for Holo Fuel.&lt;/p&gt;
+			<content type="html" xml:base="https://www.artbrock.com//2019/02/14/holo-fuel-accounts-vs-wallets">&lt;p&gt;As we get approach launch of the Holo Network, we’ve been getting some questions about how wallets, keys, and transactions will work for Holo Fuel.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;How do wallets work on Holo fuel?&lt;/li&gt;
@@ -275,9 +275,9 @@ Private host groups:&lt;/p&gt;
 		</entry>
 	
 		<entry>
-			<id>https://jekyll.arthurbrock.com/2019/01/25/did-holochain-lose-its-way</id>
+			<id>https://www.artbrock.com//2019/01/25/did-holochain-lose-its-way</id>
 			<title>Did Holochain Go Astray</title>
-			<link href="https://jekyll.arthurbrock.com/2019/01/25/did-holochain-lose-its-way" rel="alternate" type="text/html" title="Did Holochain Go Astray" />
+			<link href="https://www.artbrock.com//2019/01/25/did-holochain-lose-its-way" rel="alternate" type="text/html" title="Did Holochain Go Astray" />
 			<updated>2019-01-27T03:54:50+01:00</updated>
 
 			
@@ -291,7 +291,7 @@ Private host groups:&lt;/p&gt;
 				</author>
 			
 			<summary></summary>
-			<content type="html" xml:base="https://jekyll.arthurbrock.com/2019/01/25/did-holochain-lose-its-way">&lt;p&gt;Note: I need to overwrite this entry with the completed entry from my Medium blog.&lt;/p&gt;
+			<content type="html" xml:base="https://www.artbrock.com//2019/01/25/did-holochain-lose-its-way">&lt;p&gt;Note: I need to overwrite this entry with the completed entry from my Medium blog.&lt;/p&gt;
 
 &lt;h2 id=&quot;fast-strong-and-easy-start&quot;&gt;Fast, Strong, and Easy Start&lt;/h2&gt;
 
@@ -487,9 +487,9 @@ Private host groups:&lt;/p&gt;
 		</entry>
 	
 		<entry>
-			<id>https://jekyll.arthurbrock.com/2019/01/24/cryptographic-autonomy-license</id>
+			<id>https://www.artbrock.com//2019/01/24/cryptographic-autonomy-license</id>
 			<title>Basics of the Cryptographic Autonomy License</title>
-			<link href="https://jekyll.arthurbrock.com/2019/01/24/cryptographic-autonomy-license" rel="alternate" type="text/html" title="Basics of the Cryptographic Autonomy License" />
+			<link href="https://www.artbrock.com//2019/01/24/cryptographic-autonomy-license" rel="alternate" type="text/html" title="Basics of the Cryptographic Autonomy License" />
 			<updated>2019-01-25T03:54:50+01:00</updated>
 
 			
@@ -503,7 +503,7 @@ Private host groups:&lt;/p&gt;
 				</author>
 			
 			<summary></summary>
-			<content type="html" xml:base="https://jekyll.arthurbrock.com/2019/01/24/cryptographic-autonomy-license">&lt;p&gt;In this article, I boil the Cryptographic Autonomy License down to its most basic salient points to try to make it clear why we need a new kind of open source license for distributed P2P software, and how we seek to achieve protections for end users by leveraging a novel application of existing copyright law.&lt;/p&gt;
+			<content type="html" xml:base="https://www.artbrock.com//2019/01/24/cryptographic-autonomy-license">&lt;p&gt;In this article, I boil the Cryptographic Autonomy License down to its most basic salient points to try to make it clear why we need a new kind of open source license for distributed P2P software, and how we seek to achieve protections for end users by leveraging a novel application of existing copyright law.&lt;/p&gt;
 
 &lt;h2 id=&quot;tldr-copyleft--performance&quot;&gt;TL;DR; Copyleft + Performance&lt;/h2&gt;
 
@@ -596,9 +596,9 @@ Private host groups:&lt;/p&gt;
 		</entry>
 	
 		<entry>
-			<id>https://jekyll.arthurbrock.com/2017/07/20/ico-craze</id>
+			<id>https://www.artbrock.com//2017/07/20/ico-craze</id>
 			<title>ICO Craze</title>
-			<link href="https://jekyll.arthurbrock.com/2017/07/20/ico-craze" rel="alternate" type="text/html" title="ICO Craze" />
+			<link href="https://www.artbrock.com//2017/07/20/ico-craze" rel="alternate" type="text/html" title="ICO Craze" />
 			<updated>2017-07-21T04:54:50+02:00</updated>
 
 			
@@ -612,7 +612,7 @@ Private host groups:&lt;/p&gt;
 				</author>
 			
 			<summary></summary>
-			<content type="html" xml:base="https://jekyll.arthurbrock.com/2017/07/20/ico-craze">&lt;h2 id=&quot;raising-the-bar-on-integrity-amidst-an-ico-craze&quot;&gt;Raising the Bar on Integrity Amidst an ICO Craze&lt;/h2&gt;
+			<content type="html" xml:base="https://www.artbrock.com//2017/07/20/ico-craze">&lt;h2 id=&quot;raising-the-bar-on-integrity-amidst-an-ico-craze&quot;&gt;Raising the Bar on Integrity Amidst an ICO Craze&lt;/h2&gt;
 
 &lt;p&gt;There has been some hoopla going on in the cryptocurrency crowdfunding space. A $30 million raise in 24 seconds one day! $152 million in one hour on the next! (Okay, a bit more than an hour.) $200 million for this one! $232 million for that one!&lt;/p&gt;
 
@@ -652,9 +652,9 @@ Private host groups:&lt;/p&gt;
 		</entry>
 	
 		<entry>
-			<id>https://jekyll.arthurbrock.com/2017/07/11/but-data-doesnt-exist</id>
+			<id>https://www.artbrock.com//2017/07/11/but-data-doesnt-exist</id>
 			<title>But Data Doesn't Exist</title>
-			<link href="https://jekyll.arthurbrock.com/2017/07/11/but-data-doesnt-exist" rel="alternate" type="text/html" title="But Data Doesn't Exist" />
+			<link href="https://www.artbrock.com//2017/07/11/but-data-doesnt-exist" rel="alternate" type="text/html" title="But Data Doesn't Exist" />
 			<updated>2017-07-12T03:17:57+02:00</updated>
 
 			
@@ -668,7 +668,7 @@ Private host groups:&lt;/p&gt;
 				</author>
 			
 			<summary></summary>
-			<content type="html" xml:base="https://jekyll.arthurbrock.com/2017/07/11/but-data-doesnt-exist">&lt;h2 id=&quot;true-fallacies-of-distributed-computing&quot;&gt;True Fallacies of Distributed Computing&lt;/h2&gt;
+			<content type="html" xml:base="https://www.artbrock.com//2017/07/11/but-data-doesnt-exist">&lt;h2 id=&quot;true-fallacies-of-distributed-computing&quot;&gt;True Fallacies of Distributed Computing&lt;/h2&gt;
 
 &lt;p&gt;There’s a wikipedia article about the fallacies of distributed computing.&lt;/p&gt;
 
@@ -705,9 +705,9 @@ Private host groups:&lt;/p&gt;
 		</entry>
 	
 		<entry>
-			<id>https://jekyll.arthurbrock.com/2017/06/12/phase-shift</id>
+			<id>https://www.artbrock.com//2017/06/12/phase-shift</id>
 			<title>A major phase shift</title>
-			<link href="https://jekyll.arthurbrock.com/2017/06/12/phase-shift" rel="alternate" type="text/html" title="A major phase shift" />
+			<link href="https://www.artbrock.com//2017/06/12/phase-shift" rel="alternate" type="text/html" title="A major phase shift" />
 			<updated>2017-06-12T23:11:02+02:00</updated>
 
 			
@@ -721,7 +721,7 @@ Private host groups:&lt;/p&gt;
 				</author>
 			
 			<summary></summary>
-			<content type="html" xml:base="https://jekyll.arthurbrock.com/2017/06/12/phase-shift">&lt;p&gt;You’ve probably seen a lot more activity around the MetaCurrency Project in recent months: a new Ceptr web site, Ceptr broken down into clearer sub-projects, blockchain alternatives, lots of code releases, Hackathons, virtual potlucks, online presentations, etc. I guess we ought to make it clearer what’s going on.&lt;/p&gt;
+			<content type="html" xml:base="https://www.artbrock.com//2017/06/12/phase-shift">&lt;p&gt;You’ve probably seen a lot more activity around the MetaCurrency Project in recent months: a new Ceptr web site, Ceptr broken down into clearer sub-projects, blockchain alternatives, lots of code releases, Hackathons, virtual potlucks, online presentations, etc. I guess we ought to make it clearer what’s going on.&lt;/p&gt;
 
 &lt;p&gt;For a long time we’ve operated as one of those fringy open source projects like some mad scientists experimenting in their garage. But now we must navigate the transition from a tech hobby project to a scalable business, in part, because we’ve been approached by funders.&lt;/p&gt;
 
@@ -785,9 +785,9 @@ Private host groups:&lt;/p&gt;
 		</entry>
 	
 		<entry>
-			<id>https://jekyll.arthurbrock.com/2017/06/05/commons-engine</id>
+			<id>https://www.artbrock.com//2017/06/05/commons-engine</id>
 			<title>Commons Engine</title>
-			<link href="https://jekyll.arthurbrock.com/2017/06/05/commons-engine" rel="alternate" type="text/html" title="Commons Engine" />
+			<link href="https://www.artbrock.com//2017/06/05/commons-engine" rel="alternate" type="text/html" title="Commons Engine" />
 			<updated>2017-06-06T05:16:09+02:00</updated>
 
 			
@@ -801,7 +801,7 @@ Private host groups:&lt;/p&gt;
 				</author>
 			
 			<summary></summary>
-			<content type="html" xml:base="https://jekyll.arthurbrock.com/2017/06/05/commons-engine">&lt;h2 id=&quot;commons-engine&quot;&gt;Commons Engine&lt;/h2&gt;
+			<content type="html" xml:base="https://www.artbrock.com//2017/06/05/commons-engine">&lt;h2 id=&quot;commons-engine&quot;&gt;Commons Engine&lt;/h2&gt;
 
 &lt;p&gt;We intend to turn the management of Ceptr and its software ecosystem over to a Sovereign Accountable Commons (our counterpart to a DAO - decentralized autonomous organization). For us this means building:&lt;/p&gt;
 
