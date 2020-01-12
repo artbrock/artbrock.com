@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="https://www.artbrock.com//assets/xslt/rss.xslt" ?>
-<?xml-stylesheet type="text/css" href="https://www.artbrock.com//assets/css/rss.css" ?>
+<?xml-stylesheet type="text/xsl" href="https://www.artbrock.com/assets/xslt/rss.xslt" ?>
+<?xml-stylesheet type="text/css" href="https://www.artbrock.com/assets/css/rss.css" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Arthur Brock's Personal Site</title>
 		<description>Culture-Hacking, Alt.Education, Targeted Currency Design, NextNet Technologies.</description>
-		<link>https://www.artbrock.com//</link>
-		<atom:link href="https://www.artbrock.com//feed.xml" rel="self" type="application/rss+xml" />
+		<link>https://www.artbrock.com/</link>
+		<atom:link href="https://www.artbrock.com/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
 				<title>What to Expect with Your HoloPort</title>
-				<link>https://www.artbrock.com//2019/02/20/what-to-expect-with-your-holoport</link>
+				<link>https://www.artbrock.com/2019/02/20/what-to-expect-with-your-holoport</link>
 				<pubDate>Fri, 01 Mar 2019 03:54:50 +0100</pubDate>
 				<description>&lt;h2 id=&quot;status-of-holo-network&quot;&gt;Status of Holo Network&lt;/h2&gt;
 
@@ -42,12 +42,12 @@
   &lt;li&gt;Reducing and simplifying updates and upgrades&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-				<guid isPermaLink="true">https://www.artbrock.com//2019/02/20/what-to-expect-with-your-holoport</guid>
+				<guid isPermaLink="true">https://www.artbrock.com/2019/02/20/what-to-expect-with-your-holoport</guid>
 			</item>
 		
 			<item>
 				<title>hApp Dev Cookbook</title>
-				<link>https://www.artbrock.com//2019/02/20/happ-dev-cookbook</link>
+				<link>https://www.artbrock.com/2019/02/20/happ-dev-cookbook</link>
 				<pubDate>Thu, 21 Feb 2019 03:54:50 +0100</pubDate>
 				<description>&lt;h2 id=&quot;design-patterns-for-happ-dev-cookbook&quot;&gt;Design Patterns for hApp Dev Cookbook&lt;/h2&gt;
 
@@ -75,12 +75,12 @@
   &lt;li&gt;Reducing and simplifying updates and upgrades&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-				<guid isPermaLink="true">https://www.artbrock.com//2019/02/20/happ-dev-cookbook</guid>
+				<guid isPermaLink="true">https://www.artbrock.com/2019/02/20/happ-dev-cookbook</guid>
 			</item>
 		
 			<item>
 				<title>CIA on Holo Hosting (Confidentiality, Integrity, &amp; Availability)</title>
-				<link>https://www.artbrock.com//2019/02/18/confidentiality-integrity-availability</link>
+				<link>https://www.artbrock.com/2019/02/18/confidentiality-integrity-availability</link>
 				<pubDate>Tue, 19 Feb 2019 03:54:50 +0100</pubDate>
 				<description>&lt;p&gt;People are wondering about Holochain apps hosted via Holo, and just what kind of guarantees there are about High Availability of access, Data Integrity and Confidentiality of personal data.&lt;/p&gt;
 
@@ -110,12 +110,12 @@ Contract with Hosts/Providers:
 Trust metrics:
 Private host groups:&lt;/p&gt;
 </description>
-				<guid isPermaLink="true">https://www.artbrock.com//2019/02/18/confidentiality-integrity-availability</guid>
+				<guid isPermaLink="true">https://www.artbrock.com/2019/02/18/confidentiality-integrity-availability</guid>
 			</item>
 		
 			<item>
 				<title>Holo Fuel Accounts vs. Crypto Wallets vs. Exchange Accounts</title>
-				<link>https://www.artbrock.com//2019/02/14/holo-fuel-accounts-vs-wallets</link>
+				<link>https://www.artbrock.com/2019/02/14/holo-fuel-accounts-vs-wallets</link>
 				<pubDate>Fri, 15 Feb 2019 03:54:50 +0100</pubDate>
 				<description>&lt;p&gt;As we get approach launch of the Holo Network, we’ve been getting some questions about how wallets, keys, and transactions will work for Holo Fuel.&lt;/p&gt;
 
@@ -128,12 +128,12 @@ Private host groups:&lt;/p&gt;
 
 &lt;p&gt;Let’s start by clearing up some confusion about the word “wallet” as it applies to typical cryptocurrencies. &lt;strong&gt;Crypto wallets hold cryptographic keys, not money.&lt;/strong&gt;&lt;/p&gt;
 </description>
-				<guid isPermaLink="true">https://www.artbrock.com//2019/02/14/holo-fuel-accounts-vs-wallets</guid>
+				<guid isPermaLink="true">https://www.artbrock.com/2019/02/14/holo-fuel-accounts-vs-wallets</guid>
 			</item>
 		
 			<item>
 				<title>Did Holochain Go Astray</title>
-				<link>https://www.artbrock.com//2019/01/25/did-holochain-lose-its-way</link>
+				<link>https://www.artbrock.com/2019/01/25/did-holochain-lose-its-way</link>
 				<pubDate>Sun, 27 Jan 2019 03:54:50 +0100</pubDate>
 				<description>&lt;p&gt;Note: I need to overwrite this entry with the completed entry from my Medium blog.&lt;/p&gt;
 
@@ -309,12 +309,12 @@ Private host groups:&lt;/p&gt;
 
 &lt;p&gt;SLAs and resilience patterns of the Holo hosting network&lt;/p&gt;
 </description>
-				<guid isPermaLink="true">https://www.artbrock.com//2019/01/25/did-holochain-lose-its-way</guid>
+				<guid isPermaLink="true">https://www.artbrock.com/2019/01/25/did-holochain-lose-its-way</guid>
 			</item>
 		
 			<item>
 				<title>Basics of the Cryptographic Autonomy License</title>
-				<link>https://www.artbrock.com//2019/01/24/cryptographic-autonomy-license</link>
+				<link>https://www.artbrock.com/2019/01/24/cryptographic-autonomy-license</link>
 				<pubDate>Fri, 25 Jan 2019 03:54:50 +0100</pubDate>
 				<description>&lt;p&gt;In this article, I boil the Cryptographic Autonomy License down to its most basic salient points to try to make it clear why we need a new kind of open source license for distributed P2P software, and how we seek to achieve protections for end users by leveraging a novel application of existing copyright law.&lt;/p&gt;
 
@@ -389,12 +389,12 @@ Private host groups:&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Closing Notes:&lt;/strong&gt; As we worked with &lt;a href=&quot;#&quot;&gt;Van&lt;/a&gt; and distilled everything down to this core issue of Cryptographic Autonomy, the name of the license evolved, so this supercedes &lt;a href=&quot;#&quot;&gt;my previous post about the Human Commons License&lt;/a&gt;.&lt;/p&gt;
 </description>
-				<guid isPermaLink="true">https://www.artbrock.com//2019/01/24/cryptographic-autonomy-license</guid>
+				<guid isPermaLink="true">https://www.artbrock.com/2019/01/24/cryptographic-autonomy-license</guid>
 			</item>
 		
 			<item>
 				<title>ICO Craze</title>
-				<link>https://www.artbrock.com//2017/07/20/ico-craze</link>
+				<link>https://www.artbrock.com/2017/07/20/ico-craze</link>
 				<pubDate>Fri, 21 Jul 2017 04:54:50 +0200</pubDate>
 				<description>&lt;h2 id=&quot;raising-the-bar-on-integrity-amidst-an-ico-craze&quot;&gt;Raising the Bar on Integrity Amidst an ICO Craze&lt;/h2&gt;
 
@@ -420,12 +420,12 @@ Private host groups:&lt;/p&gt;
   &lt;li&gt;Money supply which expands/contracts&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-				<guid isPermaLink="true">https://www.artbrock.com//2017/07/20/ico-craze</guid>
+				<guid isPermaLink="true">https://www.artbrock.com/2017/07/20/ico-craze</guid>
 			</item>
 		
 			<item>
 				<title>But Data Doesn't Exist</title>
-				<link>https://www.artbrock.com//2017/07/11/but-data-doesnt-exist</link>
+				<link>https://www.artbrock.com/2017/07/11/but-data-doesnt-exist</link>
 				<pubDate>Wed, 12 Jul 2017 03:17:57 +0200</pubDate>
 				<description>&lt;h2 id=&quot;true-fallacies-of-distributed-computing&quot;&gt;True Fallacies of Distributed Computing&lt;/h2&gt;
 
@@ -450,12 +450,12 @@ Private host groups:&lt;/p&gt;
 
 &lt;h3 id=&quot;time-exists&quot;&gt;Time Exists&lt;/h3&gt;
 </description>
-				<guid isPermaLink="true">https://www.artbrock.com//2017/07/11/but-data-doesnt-exist</guid>
+				<guid isPermaLink="true">https://www.artbrock.com/2017/07/11/but-data-doesnt-exist</guid>
 			</item>
 		
 			<item>
 				<title>A major phase shift</title>
-				<link>https://www.artbrock.com//2017/06/12/phase-shift</link>
+				<link>https://www.artbrock.com/2017/06/12/phase-shift</link>
 				<pubDate>Mon, 12 Jun 2017 23:11:02 +0200</pubDate>
 				<description>&lt;p&gt;You’ve probably seen a lot more activity around the MetaCurrency Project in recent months: a new Ceptr web site, Ceptr broken down into clearer sub-projects, blockchain alternatives, lots of code releases, Hackathons, virtual potlucks, online presentations, etc. I guess we ought to make it clearer what’s going on.&lt;/p&gt;
 
@@ -507,12 +507,12 @@ Private host groups:&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Biz:&lt;/strong&gt; Currently our fastest area of growth has been in the domain of growing our business infrastructure. Mary Camacho has started bringing some much needed leadership to augment Arthur in this domain. Matthew Schutte has invested significant work into creating a work and live space for our &lt;a href=&quot;/ceptr/residency&quot;&gt;summer residency program&lt;/a&gt;. Jarod Holtz has essentially taken on full-time administration and support functions for Arthur, Mary, Matthew, Ferananda which amplifies everyone’s results. Also, a secret team with more new leadership has assembled to explore options related to doing an ICO for our next major phase of development.&lt;/p&gt;
 </description>
-				<guid isPermaLink="true">https://www.artbrock.com//2017/06/12/phase-shift</guid>
+				<guid isPermaLink="true">https://www.artbrock.com/2017/06/12/phase-shift</guid>
 			</item>
 		
 			<item>
 				<title>Commons Engine</title>
-				<link>https://www.artbrock.com//2017/06/05/commons-engine</link>
+				<link>https://www.artbrock.com/2017/06/05/commons-engine</link>
 				<pubDate>Tue, 06 Jun 2017 05:16:09 +0200</pubDate>
 				<description>&lt;h2 id=&quot;commons-engine&quot;&gt;Commons Engine&lt;/h2&gt;
 
@@ -530,7 +530,7 @@ Private host groups:&lt;/p&gt;
 
 &lt;p&gt;Expect to see more about this, our new partnerships in the space, and maybe even a crowdfunding campaign to help get it launched.&lt;/p&gt;
 </description>
-				<guid isPermaLink="true">https://www.artbrock.com//2017/06/05/commons-engine</guid>
+				<guid isPermaLink="true">https://www.artbrock.com/2017/06/05/commons-engine</guid>
 			</item>
 		
 	</channel>
