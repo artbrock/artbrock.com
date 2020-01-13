@@ -2,7 +2,7 @@
 
 This is the source code repository for [Arthur's web site](http://artbrock.com).  
 
-It uses [Jekyll](http://jekyllrb.com) to produce static HTML pages served out by [GitHub](http://github.com) and currently uses the [Feeling Responsive](https://github.com/Phlow/feeling-responsive) Theme.
+It uses [Jekyll](http://jekyllrb.com) to produce static HTML pages served out by [GitHub](http://github.com) and currently uses the [Feeling Responsive](https://github.com/Phlow/feeling-responsive) Theme. 
 
 ## Install
 
