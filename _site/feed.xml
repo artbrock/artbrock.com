@@ -11,7 +11,7 @@
 			<item>
 				<title>But Data Doesn't Exist</title>
 				<link>https://www.artbrock.com/2017/07/11/but-data-doesnt-exist</link>
-				<pubDate>Tue, 11 Jul 2017 21:17:57 -0400</pubDate>
+				<pubDate>Wed, 12 Jul 2017 01:17:57 +0000</pubDate>
 				<description>&lt;h2 id=&quot;true-fallacies-of-distributed-computing&quot;&gt;True Fallacies of Distributed Computing&lt;/h2&gt;
 
 &lt;p&gt;There’s a wikipedia article about the fallacies of distributed computing.&lt;/p&gt;
@@ -41,7 +41,7 @@
 			<item>
 				<title>A major phase shift</title>
 				<link>https://www.artbrock.com/2017/06/12/phase-shift</link>
-				<pubDate>Mon, 12 Jun 2017 17:11:02 -0400</pubDate>
+				<pubDate>Mon, 12 Jun 2017 21:11:02 +0000</pubDate>
 				<description>&lt;p&gt;You’ve probably seen a lot more activity around the MetaCurrency Project in recent months: a new Ceptr web site, Ceptr broken down into clearer sub-projects, blockchain alternatives, lots of code releases, Hackathons, virtual potlucks, online presentations, etc. I guess we ought to make it clearer what’s going on.&lt;/p&gt;
 
 &lt;p&gt;For a long time we’ve operated as one of those fringy open source projects like some mad scientists experimenting in their garage. But now we must navigate the transition from a tech hobby project to a scalable business, in part, because we’ve been approached by funders.&lt;/p&gt;
@@ -98,7 +98,7 @@
 			<item>
 				<title>Commons Engine</title>
 				<link>https://www.artbrock.com/2017/06/05/commons-engine</link>
-				<pubDate>Mon, 05 Jun 2017 23:16:09 -0400</pubDate>
+				<pubDate>Tue, 06 Jun 2017 03:16:09 +0000</pubDate>
 				<description>&lt;h2 id=&quot;commons-engine&quot;&gt;Commons Engine&lt;/h2&gt;
 
 &lt;p&gt;We intend to turn the management of Ceptr and its software ecosystem over to a Sovereign Accountable Commons (our counterpart to a DAO - decentralized autonomous organization). For us this means building:&lt;/p&gt;
@@ -121,7 +121,7 @@
 			<item>
 				<title>Intro to Currency Design</title>
 				<link>https://www.artbrock.com/2017/02/27/intro-to-currency-design</link>
-				<pubDate>Mon, 27 Feb 2017 19:19:03 -0500</pubDate>
+				<pubDate>Tue, 28 Feb 2017 00:19:03 +0000</pubDate>
 				<description>&lt;h2 id=&quot;ferananda&quot;&gt;Ferananda&lt;/h2&gt;
 
 &lt;p&gt;What if there was a currency that could be used to enslave you, without you even realizing it? Wouldn’t you want to know? Wouldn’t you want to learn to see how it works? How it does that?&lt;/p&gt;
@@ -292,7 +292,7 @@ Check it out at MetaCurrency.org&lt;/p&gt;
 			<item>
 				<title>Powerful Design Principles for Next-Gen Governance</title>
 				<link>https://www.artbrock.com/2017/02/12/powerful-design-principles-for-next-gen-governance</link>
-				<pubDate>Sun, 12 Feb 2017 22:08:00 -0500</pubDate>
+				<pubDate>Mon, 13 Feb 2017 03:08:00 +0000</pubDate>
 				<description>&lt;p&gt;In &lt;a href=&quot;/2017/02/11/challenging-broken-assumptions-of-governance&quot;&gt;my last post&lt;/a&gt;, I deconstructed a number of core assumptions that we tend to take for granted as true, and that most of our tools of governance are built around. I didn’t mean to just stop there without getting to the good news, but the post was getting long.&lt;/p&gt;
 
 &lt;p&gt;If things we’re used to leaning on to organize ourselves don’t work, what can we count on? Let’s establish some powerful principles to work from.&lt;/p&gt;
@@ -409,7 +409,7 @@ Awareness(Values/Reason/Intent)/Protocol&lt;/p&gt;
 			<item>
 				<title>Challenging Broken Assumptions of Governance</title>
 				<link>https://www.artbrock.com/2017/02/11/challenging-broken-assumptions-of-governance</link>
-				<pubDate>Sat, 11 Feb 2017 23:30:14 -0500</pubDate>
+				<pubDate>Sun, 12 Feb 2017 04:30:14 +0000</pubDate>
 				<description>&lt;h1 id=&quot;broken-assumptions-of-governance&quot;&gt;Broken Assumptions of Governance&lt;/h1&gt;
 
 &lt;!-- TOC START min:1 max:3 link:true update:true --&gt;
@@ -589,7 +589,7 @@ Awareness(Values/Reason/Intent)/Protocol&lt;/p&gt;
 			<item>
 				<title>The Art of Governance</title>
 				<link>https://www.artbrock.com/2017/02/01/art-of-governance</link>
-				<pubDate>Wed, 01 Feb 2017 00:00:00 -0500</pubDate>
+				<pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
 				<description>&lt;!-- TOC START min:1 max:3 link:true update:true --&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;#clarity-about-governance&quot;&gt;Clarity about Governance&lt;/a&gt;&lt;/li&gt;
@@ -677,7 +677,7 @@ Awareness(Values/Reason/Intent)/Protocol&lt;/p&gt;
 			<item>
 				<title>The Future of Governance is not Governments</title>
 				<link>https://www.artbrock.com/2017/01/26/future-governance-is-not-governments</link>
-				<pubDate>Thu, 26 Jan 2017 00:00:00 -0500</pubDate>
+				<pubDate>Thu, 26 Jan 2017 00:00:00 +0000</pubDate>
 				<description>&lt;p&gt;Living systems on every scale have &lt;strong&gt;governance&lt;/strong&gt; – methods of self-regulation to manage the coherence and continuity of the system. Also, for steering toward goals or away from dangers.&lt;/p&gt;
 
 &lt;p&gt;This governance is not the same as a government. Government as we know it is a blunt instrument designed to enforce the will of the many over the few (although at this point it enforces the will of few on the many) It is a monolithic bureaucracy. And frankly, it isn’t very good at governance, at least not as defined in the first paragraph.&lt;/p&gt;
@@ -770,7 +770,7 @@ Awareness(Values/Reason/Intent)/Protocol&lt;/p&gt;
 			<item>
 				<title>Ode to ELL and my Backlog</title>
 				<link>https://www.artbrock.com/2016/06/13/ode-to-ell-and-my-backlog</link>
-				<pubDate>Mon, 13 Jun 2016 00:00:00 -0400</pubDate>
+				<pubDate>Mon, 13 Jun 2016 00:00:00 +0000</pubDate>
 				<description>&lt;p&gt;Crap… it all got deleted and I have to re-write it.  Awesome.&lt;/p&gt;
 
 </description>
@@ -780,7 +780,7 @@ Awareness(Values/Reason/Intent)/Protocol&lt;/p&gt;
 			<item>
 				<title>Jerry Michalski interviews me about Alternative Currencies IFTF FutureCast Interview</title>
 				<link>https://www.artbrock.com/2016/05/15/jerry-michalski-interviews-me-about-alternative-ccurrencies-iftf-futrecast-interview</link>
-				<pubDate>Sun, 15 May 2016 00:00:00 -0400</pubDate>
+				<pubDate>Sun, 15 May 2016 00:00:00 +0000</pubDate>
 				<description>
 </description>
 				<guid isPermaLink="true">https://www.artbrock.com/2016/05/15/jerry-michalski-interviews-me-about-alternative-ccurrencies-iftf-futrecast-interview</guid>

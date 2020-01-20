@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://www.artbrock.com/</id>
 	<title>Arthur Brock's Personal Site</title>
-	<updated>2020-01-20T15:05:33-05:00</updated>
+	<updated>2020-01-20T21:45:00+00:00</updated>
 
 	<subtitle>Culture-Hacking, Alt.Education, Targeted Currency Design, NextNet Technologies.</subtitle>
 
@@ -31,7 +31,7 @@
 			<id>https://www.artbrock.com/2017/07/11/but-data-doesnt-exist</id>
 			<title>But Data Doesn't Exist</title>
 			<link href="https://www.artbrock.com/2017/07/11/but-data-doesnt-exist" rel="alternate" type="text/html" title="But Data Doesn't Exist" />
-			<updated>2017-07-11T21:17:57-04:00</updated>
+			<updated>2017-07-12T01:17:57+00:00</updated>
 
 			
 				
@@ -77,14 +77,14 @@
 				<category term="Tag2" />
 			
 
-			<published>2017-07-11T21:17:57-04:00</published>
+			<published>2017-07-12T01:17:57+00:00</published>
 		</entry>
 	
 		<entry>
 			<id>https://www.artbrock.com/2017/06/12/phase-shift</id>
 			<title>A major phase shift</title>
 			<link href="https://www.artbrock.com/2017/06/12/phase-shift" rel="alternate" type="text/html" title="A major phase shift" />
-			<updated>2017-06-12T17:11:02-04:00</updated>
+			<updated>2017-06-12T21:11:02+00:00</updated>
 
 			
 				
@@ -157,14 +157,14 @@
 				<category term="Ceptr" />
 			
 
-			<published>2017-06-12T17:11:02-04:00</published>
+			<published>2017-06-12T21:11:02+00:00</published>
 		</entry>
 	
 		<entry>
 			<id>https://www.artbrock.com/2017/06/05/commons-engine</id>
 			<title>Commons Engine</title>
 			<link href="https://www.artbrock.com/2017/06/05/commons-engine" rel="alternate" type="text/html" title="Commons Engine" />
-			<updated>2017-06-05T23:16:09-04:00</updated>
+			<updated>2017-06-06T03:16:09+00:00</updated>
 
 			
 				
@@ -215,14 +215,14 @@
 				<category term="Value Accounting" />
 			
 
-			<published>2017-06-05T23:16:09-04:00</published>
+			<published>2017-06-06T03:16:09+00:00</published>
 		</entry>
 	
 		<entry>
 			<id>https://www.artbrock.com/2017/02/27/intro-to-currency-design</id>
 			<title>Intro to Currency Design</title>
 			<link href="https://www.artbrock.com/2017/02/27/intro-to-currency-design" rel="alternate" type="text/html" title="Intro to Currency Design" />
-			<updated>2017-02-27T19:19:03-05:00</updated>
+			<updated>2017-02-28T00:19:03+00:00</updated>
 
 			
 				
@@ -409,14 +409,14 @@ Check it out at MetaCurrency.org&lt;/p&gt;
 				<category term="Tag2" />
 			
 
-			<published>2017-02-27T19:19:03-05:00</published>
+			<published>2017-02-28T00:19:03+00:00</published>
 		</entry>
 	
 		<entry>
 			<id>https://www.artbrock.com/2017/02/12/powerful-design-principles-for-next-gen-governance</id>
 			<title>Powerful Design Principles for Next-Gen Governance</title>
 			<link href="https://www.artbrock.com/2017/02/12/powerful-design-principles-for-next-gen-governance" rel="alternate" type="text/html" title="Powerful Design Principles for Next-Gen Governance" />
-			<updated>2017-02-12T22:08:00-05:00</updated>
+			<updated>2017-02-13T03:08:00+00:00</updated>
 
 			
 				
@@ -549,14 +549,14 @@ Awareness(Values/Reason/Intent)/Protocol&lt;/p&gt;
 				<category term="Tag2" />
 			
 
-			<published>2017-02-12T22:08:00-05:00</published>
+			<published>2017-02-13T03:08:00+00:00</published>
 		</entry>
 	
 		<entry>
 			<id>https://www.artbrock.com/2017/02/11/challenging-broken-assumptions-of-governance</id>
 			<title>Challenging Broken Assumptions of Governance</title>
 			<link href="https://www.artbrock.com/2017/02/11/challenging-broken-assumptions-of-governance" rel="alternate" type="text/html" title="Challenging Broken Assumptions of Governance" />
-			<updated>2017-02-11T23:30:14-05:00</updated>
+			<updated>2017-02-12T04:30:14+00:00</updated>
 
 			
 				
@@ -752,14 +752,14 @@ Awareness(Values/Reason/Intent)/Protocol&lt;/p&gt;
 				<category term="Government" />
 			
 
-			<published>2017-02-11T23:30:14-05:00</published>
+			<published>2017-02-12T04:30:14+00:00</published>
 		</entry>
 	
 		<entry>
 			<id>https://www.artbrock.com/2017/02/01/art-of-governance</id>
 			<title>The Art of Governance</title>
 			<link href="https://www.artbrock.com/2017/02/01/art-of-governance" rel="alternate" type="text/html" title="The Art of Governance" />
-			<updated>2017-02-01T00:00:00-05:00</updated>
+			<updated>2017-02-01T00:00:00+00:00</updated>
 
 			
 				
@@ -867,14 +867,14 @@ Awareness(Values/Reason/Intent)/Protocol&lt;/p&gt;
 			
 			
 
-			<published>2017-02-01T00:00:00-05:00</published>
+			<published>2017-02-01T00:00:00+00:00</published>
 		</entry>
 	
 		<entry>
 			<id>https://www.artbrock.com/2017/01/26/future-governance-is-not-governments</id>
 			<title>The Future of Governance is not Governments</title>
 			<link href="https://www.artbrock.com/2017/01/26/future-governance-is-not-governments" rel="alternate" type="text/html" title="The Future of Governance is not Governments" />
-			<updated>2017-01-26T00:00:00-05:00</updated>
+			<updated>2017-01-26T00:00:00+00:00</updated>
 
 			
 				
@@ -989,14 +989,14 @@ Awareness(Values/Reason/Intent)/Protocol&lt;/p&gt;
 			
 			
 
-			<published>2017-01-26T00:00:00-05:00</published>
+			<published>2017-01-26T00:00:00+00:00</published>
 		</entry>
 	
 		<entry>
 			<id>https://www.artbrock.com/2016/06/13/ode-to-ell-and-my-backlog</id>
 			<title>Ode to ELL and my Backlog</title>
 			<link href="https://www.artbrock.com/2016/06/13/ode-to-ell-and-my-backlog" rel="alternate" type="text/html" title="Ode to ELL and my Backlog" />
-			<updated>2016-06-13T00:00:00-04:00</updated>
+			<updated>2016-06-13T00:00:00+00:00</updated>
 
 			
 				
@@ -1026,14 +1026,14 @@ Awareness(Values/Reason/Intent)/Protocol&lt;/p&gt;
 			
 			
 
-			<published>2016-06-13T00:00:00-04:00</published>
+			<published>2016-06-13T00:00:00+00:00</published>
 		</entry>
 	
 		<entry>
 			<id>https://www.artbrock.com/2016/05/15/jerry-michalski-interviews-me-about-alternative-ccurrencies-iftf-futrecast-interview</id>
 			<title>Jerry Michalski interviews me about Alternative Currencies IFTF FutureCast Interview</title>
 			<link href="https://www.artbrock.com/2016/05/15/jerry-michalski-interviews-me-about-alternative-ccurrencies-iftf-futrecast-interview" rel="alternate" type="text/html" title="Jerry Michalski interviews me about Alternative Currencies IFTF FutureCast Interview" />
-			<updated>2016-05-15T00:00:00-04:00</updated>
+			<updated>2016-05-15T00:00:00+00:00</updated>
 
 			
 				
@@ -1060,7 +1060,7 @@ Awareness(Values/Reason/Intent)/Protocol&lt;/p&gt;
 			
 			
 
-			<published>2016-05-15T00:00:00-04:00</published>
+			<published>2016-05-15T00:00:00+00:00</published>
 		</entry>
 	
 </feed>
