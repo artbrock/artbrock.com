@@ -1,24 +1,25 @@
 version: 2.1
 
-# THIS IS SECURITY SENSITVE
-# READ THESE
-# https://circleci.com/blog/deploying-documentation-to-github-pages-with-continuous-integration/
-# https://discuss.circleci.com/t/adding-ssh-keys-fails/7747/24
-deploy-github-pages:
- docker:
-  - image: FROM nixorg/nix:circleci
- steps:
-  # - add_ssh_keys:
-  #    fingerprints:
-  #     - "52:70:20:1e:fe:e3:1c:74:cc:b9:5e:b4:04:30:03:e6"
-  - checkout
-  - run:
-     name: Deploy github pages
-     command: |
-      nix-shell --run 'echo "foo"'
-      git config user.name "$GITHUB_PAGES_DEPLOY_USER"
-      git config user.email "$GITHUB_PAGES_DEPLOY_EMAIL"
-      nix-shell --run nix-deploy
+jobs:
+ # THIS IS SECURITY SENSITVE
+ # READ THESE
+ # https://circleci.com/blog/deploying-documentation-to-github-pages-with-continuous-integration/
+ # https://discuss.circleci.com/t/adding-ssh-keys-fails/7747/24
+ deploy-github-pages:
+  docker:
+   - image: FROM nixorg/nix:circleci
+  steps:
+   # - add_ssh_keys:
+   #    fingerprints:
+   #     - "52:70:20:1e:fe:e3:1c:74:cc:b9:5e:b4:04:30:03:e6"
+   - checkout
+   - run:
+      name: Deploy github pages
+      command: |
+       nix-shell --run 'echo "foo"'
+       git config user.name "$GITHUB_PAGES_DEPLOY_USER"
+       git config user.email "$GITHUB_PAGES_DEPLOY_EMAIL"
+       nix-shell --run nix-deploy
 
 workflows:
  version: 2.1
