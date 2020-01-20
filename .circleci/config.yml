@@ -9,14 +9,13 @@ jobs:
   docker:
    - image: nixorg/nix:circleci
   steps:
-   # - add_ssh_keys:
-   #    fingerprints:
-   #     - "52:70:20:1e:fe:e3:1c:74:cc:b9:5e:b4:04:30:03:e6"
+   - add_ssh_keys:
+      fingerprints:
+       - "f2:36:f2:f9:71:9d:8f:bb:50:31:0b:ab:0e:b4:75:10"
    - checkout
    - run:
       name: Deploy github pages
       command: |
-       nix-shell --run 'echo "foo"'
        git config user.name "$GITHUB_PAGES_DEPLOY_USER"
        git config user.email "$GITHUB_PAGES_DEPLOY_EMAIL"
        nix-shell --run nix-deploy
