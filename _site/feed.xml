@@ -9,424 +9,9 @@
 		<atom:link href="https://www.artbrock.com/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
-				<title>What to Expect with Your HoloPort</title>
-				<link>https://www.artbrock.com/2019/02/20/what-to-expect-with-your-holoport</link>
-				<pubDate>Fri, 01 Mar 2019 03:54:50 +0100</pubDate>
-				<description>&lt;h2 id=&quot;status-of-holo-network&quot;&gt;Status of Holo Network&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;link to posts about Alpha launches&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;membranes&quot;&gt;Membranes&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Privacy of address spaces&lt;/li&gt;
-  &lt;li&gt;Composability of bridges&lt;/li&gt;
-  &lt;li&gt;Validation of new agents&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;agent-centric-design&quot;&gt;Agent-Centric Design&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Global discoverability of local state changes&lt;/li&gt;
-  &lt;li&gt;Countersigning state changes of multiple agents (fuel example)&lt;/li&gt;
-  &lt;li&gt;Deterministic Proofs amidst eventual consistency (election example)&lt;/li&gt;
-  &lt;li&gt;CRDTs&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;micro-services&quot;&gt;Micro-Services&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Single data integrity engine, many UIs&lt;/li&gt;
-  &lt;li&gt;Reducing and simplifying updates and upgrades&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-				<guid isPermaLink="true">https://www.artbrock.com/2019/02/20/what-to-expect-with-your-holoport</guid>
-			</item>
-		
-			<item>
-				<title>hApp Dev Cookbook</title>
-				<link>https://www.artbrock.com/2019/02/20/happ-dev-cookbook</link>
-				<pubDate>Thu, 21 Feb 2019 03:54:50 +0100</pubDate>
-				<description>&lt;h2 id=&quot;design-patterns-for-happ-dev-cookbook&quot;&gt;Design Patterns for hApp Dev Cookbook&lt;/h2&gt;
-
-&lt;h3 id=&quot;membranes&quot;&gt;Membranes&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Privacy of address spaces&lt;/li&gt;
-  &lt;li&gt;Composability of bridges&lt;/li&gt;
-  &lt;li&gt;Validation of new agents&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;agent-centric-design&quot;&gt;Agent-Centric Design&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Global discoverability of local state changes&lt;/li&gt;
-  &lt;li&gt;Countersigning state changes of multiple agents (fuel example)&lt;/li&gt;
-  &lt;li&gt;Deterministic Proofs amidst eventual consistency (election example)&lt;/li&gt;
-  &lt;li&gt;CRDTs&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;micro-services&quot;&gt;Micro-Services&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Single data integrity engine, many UIs&lt;/li&gt;
-  &lt;li&gt;Reducing and simplifying updates and upgrades&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-				<guid isPermaLink="true">https://www.artbrock.com/2019/02/20/happ-dev-cookbook</guid>
-			</item>
-		
-			<item>
-				<title>CIA on Holo Hosting (Confidentiality, Integrity, &amp; Availability)</title>
-				<link>https://www.artbrock.com/2019/02/18/confidentiality-integrity-availability</link>
-				<pubDate>Tue, 19 Feb 2019 03:54:50 +0100</pubDate>
-				<description>&lt;p&gt;People are wondering about Holochain apps hosted via Holo, and just what kind of guarantees there are about High Availability of access, Data Integrity and Confidentiality of personal data.&lt;/p&gt;
-
-&lt;h2 id=&quot;availability&quot;&gt;Availability&lt;/h2&gt;
-
-&lt;p&gt;One of the keys to creating high availability systems is ensuring redundancy such that there is no single point of failure possible to bring down a running service. Since Holochain apps are fully distributed and each node runs the complete application code, and multiple copies of data gets stored in a self-healing DHT, redundancy and resiliency is ridiculously high. Let’s drill into the details.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Number of Hosts:&lt;/strong&gt; We’ve already sold about 3,000 HoloPorts in 65 countries which will come online quickly. I figure there’ll be another couple thousand downloads of Holo by people who want to run hosts on their own hardware or on cloud hosting. So we’ll probably start with around 5,000 hosts and a dozen apps.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Calculating Uptime:&lt;/strong&gt; Each app can set specific filters and weights for requirements on host performance and characteristics. I’m going to use sample numbers here for calculations. Suppose an app requires hosts that have at least a 90% uptime record. First, this seems ample, even for boxes in homes, as it allows for 72 hours (3 days) of downtime per month and that should be plenty for locales with reliable electricity and Internet infrastructure. If your app was hosted on a single centralized host, you could have up to 10% chance of downtime, but if we can assume a broad distribution of hosts, not likely to be effected by local outages, then each successive host we add cuts that again by 10%. So if 5 hosts are running your app you are at .1 * .1 * .1 * .1 * .1 = 0.00001 or 99.999% uptime. We’ve reached 5 nines uptime with just 5 independent hosts. What happens when your app is running on 1,000 hosts? At what point do you just round those nines to 100% availability?&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Centralized Aspects of Holo:&lt;/strong&gt; Of course, there are some parts of Holo which are more centralized because we have to interface with existing Internet protocols. For example, your app’s domain name must use DNS services to resolve to a host (or in our case we return a batch of 5 hosts). We’re using service workers on Cloudflare for all of these “centralized” services and Cloudflare has such high redundancy and reliability across their 155 data centers, that they promise their enterprise customers (like us) &lt;strong&gt;100% uptime in their SLAs&lt;/strong&gt;. In other words, even the centralized parts of Holo are many times more reliable and decentralized than platforms like NEO, EOS, or TRON which rely on a very small number of block producers (with 7, 21, and 27 nodes respectively).&lt;/p&gt;
-
-&lt;p&gt;This assumes there is no fatal bug in Holochain or in your app, which is running on all the nodes, and in either case, such a bug would need to be found and fixed to achieve 100% availability.&lt;/p&gt;
-
-&lt;h2 id=&quot;integrity&quot;&gt;Integrity&lt;/h2&gt;
-
-&lt;p&gt;Content addressable and signed
-Mutual enforcement of rules via randomized peer validation&lt;/p&gt;
-
-&lt;h2 id=&quot;confidentiality&quot;&gt;Confidentiality&lt;/h2&gt;
-
-&lt;p&gt;Encrypted over the wire: encrypted P2P tunnels inside HTTPS
-Encrypted at rest:
-Sharded across many nodes:
-Contract with Hosts/Providers:
-Trust metrics:
-Private host groups:&lt;/p&gt;
-</description>
-				<guid isPermaLink="true">https://www.artbrock.com/2019/02/18/confidentiality-integrity-availability</guid>
-			</item>
-		
-			<item>
-				<title>Holo Fuel Accounts vs. Crypto Wallets vs. Exchange Accounts</title>
-				<link>https://www.artbrock.com/2019/02/14/holo-fuel-accounts-vs-wallets</link>
-				<pubDate>Fri, 15 Feb 2019 03:54:50 +0100</pubDate>
-				<description>&lt;p&gt;As we get approach launch of the Holo Network, we’ve been getting some questions about how wallets, keys, and transactions will work for Holo Fuel.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;How do wallets work on Holo fuel?&lt;/li&gt;
-  &lt;li&gt;Can I use a hardware wallet for Holo fuel?&lt;/li&gt;
-  &lt;li&gt;Why does Holo fuel use “accounts” instead of wallets?&lt;/li&gt;
-  &lt;li&gt;Where are “coins” stored on Holo fuel&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Let’s start by clearing up some confusion about the word “wallet” as it applies to typical cryptocurrencies. &lt;strong&gt;Crypto wallets hold cryptographic keys, not money.&lt;/strong&gt;&lt;/p&gt;
-</description>
-				<guid isPermaLink="true">https://www.artbrock.com/2019/02/14/holo-fuel-accounts-vs-wallets</guid>
-			</item>
-		
-			<item>
-				<title>Did Holochain Go Astray</title>
-				<link>https://www.artbrock.com/2019/01/25/did-holochain-lose-its-way</link>
-				<pubDate>Sun, 27 Jan 2019 03:54:50 +0100</pubDate>
-				<description>&lt;p&gt;Note: I need to overwrite this entry with the completed entry from my Medium blog.&lt;/p&gt;
-
-&lt;h2 id=&quot;fast-strong-and-easy-start&quot;&gt;Fast, Strong, and Easy Start&lt;/h2&gt;
-
-&lt;p&gt;On New Years Eve, the last day of 2016, Eric Harris-Braun and I &lt;a href=&quot;/holochain/proto&quot;&gt;started building Holochain&lt;/a&gt;. The basic design came from one part of &lt;a href=&quot;/ceptr&quot;&gt;Ceptr&lt;/a&gt; an advanced computing and currencies platform we’d been working on for years.&lt;/p&gt;
-
-&lt;p&gt;Two months later, on the first week of March 2017, we had our &lt;a href=&quot;/ceptr/hackathons&quot;&gt;first Hackathon in San Francisco&lt;/a&gt; for people to build apps on Holochain.&lt;/p&gt;
-
-&lt;p&gt;It was an invitation only event for friends who understood our tools were not yet mature. Yet even then, people built complete P2P &lt;a href=&quot;#&quot;&gt;dApps&lt;/a&gt; in just a few days in JavaScript and Lisp that essentially worked.&lt;/p&gt;
-
-&lt;p&gt;The people who came expressed shock and surprise. Folks who had wrestled with launching tokens and dApps on Ethereum praised the ease of building on Holochain. They also felt safer of launching a dApp on it, knowing they could start it invitation-only and then expand the reach and scope of live-tested versions, instead of being “written in stone” on a permanent blockchain.&lt;/p&gt;
-
-&lt;p&gt;They said: &lt;em&gt;“Wow, its a distributed app platform that’s actually distributed!”&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;And” &lt;em&gt;“It feels like we’re building the plane while flying it, but it’s exciting that actually flies!”&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Our first weekend hackathon yielded &lt;a href=&quot;/holochain/holochat&quot;&gt;HoloChat&lt;/a&gt; (a multichannel Slack-like chat), &lt;a href=&quot;#&quot;&gt;TrustGraph&lt;/a&gt; (for making decentralized, censor-proof, reputational claims), and two versions of Clutter, a twitter clone – &lt;a href=&quot;/holochain/clutter&quot;&gt;one in JavaScript&lt;/a&gt; and &lt;a href=&quot;/holochain/cludder&quot;&gt;one in Lisp&lt;/a&gt;, which both used the same UI.&lt;/p&gt;
-
-&lt;h2 id=&quot;the-power-of-holochain-grows&quot;&gt;The Power of Holochain Grows&lt;/h2&gt;
-
-&lt;p&gt;Making apps was possible, but there were a bunch more features to implement for permisisons, security, sharding of the DHT, etc.&lt;/p&gt;
-
-&lt;p&gt;We worked over the next six months improving networking, enhancing testing, benchmarking performance, and learning the &lt;a href=&quot;/holochain/mixins&quot;&gt;design patterns&lt;/a&gt; and idioms of building agent-centric dApps on an eventually-consistent, sharded, validating DHT.&lt;/p&gt;
-
-&lt;p&gt;And after some official Alpha releases, we held &lt;strong&gt;LOTS more Hackathons:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Barcelona Spain,&lt;/li&gt;
-  &lt;li&gt;Vaduz Liechtenstein,&lt;/li&gt;
-  &lt;li&gt;Riga Latvia,&lt;/li&gt;
-  &lt;li&gt;Bristol UK,&lt;/li&gt;
-  &lt;li&gt;Porto Portugal,&lt;/li&gt;
-  &lt;li&gt;Sebastapol California,&lt;/li&gt;
-  &lt;li&gt;London UK,&lt;/li&gt;
-  &lt;li&gt;Copenhagen Denmark,&lt;/li&gt;
-  &lt;li&gt;Sydney Australia,&lt;/li&gt;
-  &lt;li&gt;Melbourne Australia,&lt;/li&gt;
-  &lt;li&gt;Vancouver BC,&lt;/li&gt;
-  &lt;li&gt;Austin Texas,&lt;/li&gt;
-  &lt;li&gt;New York City (twice),&lt;/li&gt;
-  &lt;li&gt;Denver Colorado,&lt;/li&gt;
-  &lt;li&gt;Sao Paolo Brazil,&lt;/li&gt;
-  &lt;li&gt;Amsterdam Netherlands,&lt;/li&gt;
-  &lt;li&gt;Pittsburgh PA (CMU), etc.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;viable-holochain-apps&quot;&gt;Viable Holochain Apps&lt;/h2&gt;
-
-&lt;p&gt;Out of those events came about 60 pretty cool Holochain apps to various stages of completion. They ranged from proof-of-concept of back-end features to pretty polished experiences with a full UI. Some noteworthy ones that come to mind:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;/holochain/dpki&quot;&gt;DPKI&lt;/a&gt;: Distribute Public Key Infrastructure – crypto-key management,&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/holochain/holodex&quot;&gt;HoloDex&lt;/a&gt;: Indexing overlay app for searching a sharded DHT,&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/holochain/HCHC&quot;&gt;hAppStore&lt;/a&gt;: A distributed directory for distributing distributed apps),&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/holochain/fractal-wiki&quot;&gt;Fractal Wiki&lt;/a&gt;: structure wiki of nexted cards (like Decko),&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/holochain/transactor&quot;&gt;Transactor&lt;/a&gt;: A basic mutual credit currency,&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/holochain/touchpoints&quot;&gt;Touchpoints&lt;/a&gt;: Mobile NFC enabled interaction logging system,&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/holochain/fedwiki&quot;&gt;Federated Wiki&lt;/a&gt;,&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Community Book Sharing Library&lt;/a&gt; &amp;lt;– self-explanatory,&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;RaveMaker&lt;/a&gt; Party announcement and support system,&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Arcade City P2P&lt;/a&gt;: Ridesharing app,&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Prediction/Betting market&lt;/a&gt;, Augur-like,&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Comet&lt;/a&gt; P2P Reddit site,&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;P2P Credit Clearing Network&lt;/a&gt;: ,&lt;/li&gt;
-  &lt;li&gt;Medical drug provenance / Supply Chain tracking system,&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/holochain/smart-meter-mgmt&quot;&gt;Electric Smart Meter Mgt&lt;/a&gt;: IoT data recording /  sharing / kilowatt balancing&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/holochain/unmute&quot;&gt;UnMute&lt;/a&gt; censor-proof blogging like Medium.com (later evolved into &lt;a href=&quot;https://humm.earth&quot;&gt;humm.earth&lt;/a&gt;),&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/holochain/holovault&quot;&gt;HoloVault / Personas&lt;/a&gt; personal data and identity management,&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/holochain/craigs-list&quot;&gt;New Craigslist&lt;/a&gt;: self-explanatory – *also implemented in OCaml,&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/holochain/holochess&quot;&gt;HoloChess&lt;/a&gt;,&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Battleship&lt;/a&gt;,&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Massively Multiplayer Pong&lt;/a&gt;,&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;MinerSweeper&lt;/a&gt;: Real-time-ish multi-player minesweeper,&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/holochain/errand&quot;&gt;Errand&lt;/a&gt;: Trello-like kanban boards for tasks,&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/OmniProject/omni&quot;&gt;Omni&lt;/a&gt;: For publication of scholarly peer reviewed articles,&lt;/li&gt;
-  &lt;li&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Cannabis provenance and supply chain accountability&lt;/a&gt;,&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Shared To-Do List&lt;/a&gt;,&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Happy virus&lt;/a&gt;: Infect your friends with fun and beneficial activities.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Junto&lt;/a&gt;: Social network&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Whew! I’m sure there’s a bunch more I’m not remembering at the moment.&lt;/p&gt;
-
-&lt;p&gt;Notice how similar these dApps are to the kinds things we do on the web every day. Holochain is not relegated to slow crypto-gambling oand speculation as the only viable use-case. Storing data is cheap. Processing is efficient. Scaling is natural.&lt;/p&gt;
-
-&lt;p&gt;There are still many people saying the usefullness of dApps has not really ben demonstrated yet. That’s because they’re still looking at the kind of dApps that are viable on blockchain.&lt;/p&gt;
-
-&lt;h2 id=&quot;holochains-dapp-architecture-proven&quot;&gt;Holochain’s dApp Architecture Proven&lt;/h2&gt;
-
-&lt;p&gt;People still talk about Holochain as if it’s vaporware and doesn’t exist yet. This is in part because of confusion about expecting a MainNet or token. But Holochain is so efficient it doesn’t need to have a token to subsidize inefficiency.&lt;/p&gt;
-
-&lt;p&gt;Many people clearly don’t realize A LOT OF THINGS have been built on it and they have worked just fine. This is in part our failure to “hype” Holochain adequately and the apps built on it.&lt;/p&gt;
-
-&lt;p&gt;And more importantly, there are things that Holochain makes easy that are rather difficult to do on other decentralized platforms.&lt;/p&gt;
-
-&lt;p&gt;Show me another decentralized platform that can do real-time-ish games like MinerSweeper or Pong!&lt;/p&gt;
-
-&lt;p&gt;Try live-video-streaming on blockchain!&lt;/p&gt;
-
-&lt;p&gt;After 10 years of blockchain, where is an easy Decentralized Public Key Infrastructure?&lt;/p&gt;
-
-&lt;h2 id=&quot;going-mainstream-with-agent-centric-design&quot;&gt;Going Mainstream with Agent-Centric Design&lt;/h2&gt;
-
-&lt;p&gt;The main reason we broke Holochain out from Ceptr into a standalone framework that could go head-to-head with blockchain, was to P2P technology designs into mainstream use.&lt;/p&gt;
-
-&lt;p&gt;so we could establish long-term financial viability for both Holochain and Ceptr.&lt;/p&gt;
-
-&lt;p&gt;To achieve this we designed a commercial/fundable project of providing cloud-style hosting on top of Holochain as a scalabilty layer.&lt;/p&gt;
-
-&lt;p&gt;multi-stage funding strategy with the first phase involving a crowdfunding campaign for hardware and an ICO for the software, knowing its days were numbered, with a desire to raise the bar of integity for ICOs and their projects. We structured ours quite differently than most with specific attention on having it be &lt;a href=&quot;ethical ICO&quot;&gt;ethical&lt;/a&gt; and responsible as possible.&lt;/p&gt;
-
-&lt;p&gt;So we designed &lt;a href=&quot;/holo&quot;&gt;HOLO&lt;/a&gt; as a major project to be able to bridge obscure and marginalized crypto-apps to mainstream users by letting them just use their web browser as if it were any data-driven web site. We know Holochain has no inherent speed or scale bottlenecks, so that theoretically these Holo-hosted apps could scale to the size of Facebook or Twitter. And there wasn’t a blockchain-based project out there who could get anywhere near our performance or ease of devlopment.&lt;/p&gt;
-
-&lt;p&gt;So &lt;a href=&quot;https://IndieGoGo.com/….&quot;&gt;we sold Holo hosting boxes on IndieGoGo&lt;/a&gt; and did an Initional Community Offering pre-selling hosting power on the Holo hosting network.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Clarification:&lt;/strong&gt; Holochain does not have a token or currency built in. It is designed for scalable P2P apps that people self-host so they can control their identity and data… not for tokens. Blockchain is so inefficient it has to pay people to run it and burn through those hashes in Proof-of-Work or place stakes in Proof-of-Stake. But Holochain apps are lightweight enough to run on your phone. We tested between 75-100 full nodes running on a Raspberry Pi with just 2Gb of RAM.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Clarification Part II:&lt;/strong&gt; Holo does have a currency. It has to have one that can do billions of micro-transactions daily so it can run an edge-based app hosting network. In other words, like AirBnB sells more room-nights than the largest hotel chains, but has never built a hotel. Holo seeks to compete with the big cloud hosting companies without ever having to build a data center by using the efficency and scalability of Holochain to tap into computing power wherever it already is. This computing power is to form the basis of Holo’s cryptocurrency with the currency always being backed/redeemable for the tangible asset of computing power. And the 1% transaction fees could fund Holochain and possibly even some of the development of Ceptr.&lt;/p&gt;
-
-&lt;h2 id=&quot;bulletproofing-is-expensive&quot;&gt;Bulletproofing is Expensive&lt;/h2&gt;
-
-&lt;p&gt;Once we sold out our ICO for around 30,000 ETH (when ETH was worth a little over $600), we needed to refactor Holochain for increased security and to run in browsers and on mobile phones and tablets so we could truly go mainstream.&lt;/p&gt;
-
-&lt;p&gt;We decided to rebuild in Rust so we could get the strong security, stability, and concurrency safety it provides, as well as be able to compile to Web Assembly (WASM) to run on browsers and light-clients. In mid-May, with funding and a larger development team, we estimated we needed 3 months to rebuild the Holochain prototype which had been built in Go.&lt;/p&gt;
-
-&lt;p&gt;We had been planning the rebuild for a while, and some of our developers we very excited about it. We targeted August 15th for our first Alpha release with all the features of the Go prototype.&lt;/p&gt;
-
-&lt;h2 id=&quot;dev-targets-missed&quot;&gt;Dev Targets Missed&lt;/h2&gt;
-
-&lt;p&gt;Five months later, as of January 15th, we still don’t have ALL the features of the original prototype. In fairness, we have a lot of other improvements to security, testing, troubleshooting, and the underlying infrastructure, but we still haven’t implemented all the features of the original. Now we’re poised to launch a Closed Alpha version of the Holo network on top of this partial functionality.&lt;/p&gt;
-
-&lt;p&gt;The learning curve and slowdown from building on Rust may not be as bad as it seems. Theoretically, it should save us a lot grief later and be significantly more secure. Rust is so strict that it won’t let you compile until you handle all sorts of possible vulnerabilities that most other languages just let you get away with. So it could be saving us later time and pain in fixing issues.&lt;/p&gt;
-
-&lt;p&gt;However, that’s not the part that concerns me the most – &lt;strong&gt;Holochain has gotten harder to use.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;usability-for-web-developers&quot;&gt;Usability for Web Developers&lt;/h2&gt;
-
-&lt;p&gt;We positioned Holo to be a web app hosting framework, but now have a version of Holochain that only lets you build apps in Rust. And how many web developers code in Rust?&lt;/p&gt;
-
-&lt;p&gt;After this Closed Alpha launch so that we have some kind of hosting network for the micro-servers we sold on IndieGoGo to be able to run something, we will probably scramble a bit to pop up V8 or SpiderMonkey so that web developers can build apps in JavaScript and a familiar context. Either framework can run any Rust apps compiled to WASM. (Note: We don’t have widespread agreement from our devs on exactly what approach to take here.)&lt;/p&gt;
-
-&lt;p&gt;Luckily, web developers can still use whatever frameworks they’re comfortable with for building the UI (React, Vue, Angular, Vanilla JS, whatever). That usability feature of Holochain has still carried over.&lt;/p&gt;
-
-&lt;p&gt;But here we are over a half year later, and instead of having a thriving ecosystem of apps on Holochain, we are starting over in a language that few devs have experience with.&lt;/p&gt;
-
-&lt;h2 id=&quot;bootstrapping-the-app-ecosystem&quot;&gt;Bootstrapping the App Ecosystem&lt;/h2&gt;
-
-&lt;p&gt;I’m concerned we underplayed the maturity of the prototype and discouraged people who were ready to build on it to wait for the Rust version. Now much of the world thinks Holochain is still vaporware when we have had a framework for almost 2 years that outperforms every other crypto platform that I’ve seen.&lt;/p&gt;
-
-&lt;p&gt;Should we have spun off sup ome cadre of devs, trainers, and marketers to get a bunch of apps up and running beyond the proof-of-concept phase? Yes, it seems we probably should have.&lt;/p&gt;
-
-&lt;p&gt;Luckily, there are few projects (like &lt;a href=&quot;/humm&quot;&gt;Humm.Earth&lt;/a&gt;) that ignored our warnings and did go live on the Go version of Holochain.  But there were not enough of these for the community at large to take Holochain seriously.&lt;/p&gt;
-
-&lt;p&gt;Is it too late to leverage the Go version? Probably. We haven’t supported it or made updates in almost 6 months.&lt;/p&gt;
-
-&lt;h2 id=&quot;recovering-from-misfire&quot;&gt;Recovering from Misfire&lt;/h2&gt;
-
-&lt;p&gt;So, how do we recover from essentially holding the community back for 6 months telling them to wait for the next great thing?&lt;/p&gt;
-
-&lt;p&gt;We are poised to launch Holo, but don’t have an ecosystem of apps to host on it yet. The Closed Alpha will pretty much only have apps made by the Holo/chain dev team. We hope to get more apps going once people see this infrastructure is for real. But if we do a slight reset (to JavaScript as mentioned above), does that add more delay? Or does it accelerate adoption because of familiarity for web devs?&lt;/p&gt;
-
-&lt;p&gt;Realistically, the last 6 months have not been not all bad. We still have a strong core base of supporters, and word has been spreading over the past year. In places like Turkey, there seems to be an explosion of support stemming from some vocal and respected thought leaders. However, some people (myself included) are tired of the &lt;em&gt;talk&lt;/em&gt; of how great Holo/chain will be and just want to see it running.&lt;/p&gt;
-
-&lt;p&gt;I’ve probably blathered on long enough here…&lt;/p&gt;
-
-&lt;p&gt;I’m just trying to be transparent about the fact that we don’t have all the answers, and in retrospect, have probably made some strategic mistakes. I’ve opened a lot of inquiries in this post, and I hope community members will weigh in with thoughts and feedback in the comments. How do we best serve you?&lt;/p&gt;
-
-&lt;p&gt;I think I’ll start a new post to highlight how seriously scalable and resilient the Holo hosting network architecture is. I’m really excited about getting some Alpha going so we can see what speeds and performance are like!&lt;/p&gt;
-
-&lt;p&gt;=======&lt;/p&gt;
-
-&lt;p&gt;SLAs and resilience patterns of the Holo hosting network&lt;/p&gt;
-</description>
-				<guid isPermaLink="true">https://www.artbrock.com/2019/01/25/did-holochain-lose-its-way</guid>
-			</item>
-		
-			<item>
-				<title>Basics of the Cryptographic Autonomy License</title>
-				<link>https://www.artbrock.com/2019/01/24/cryptographic-autonomy-license</link>
-				<pubDate>Fri, 25 Jan 2019 03:54:50 +0100</pubDate>
-				<description>&lt;p&gt;In this article, I boil the Cryptographic Autonomy License down to its most basic salient points to try to make it clear why we need a new kind of open source license for distributed P2P software, and how we seek to achieve protections for end users by leveraging a novel application of existing copyright law.&lt;/p&gt;
-
-&lt;h2 id=&quot;tldr-copyleft--performance&quot;&gt;TL;DR; Copyleft + Performance&lt;/h2&gt;
-
-&lt;p&gt;You can use Holochain as free and open source software with a couple of conditions:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;The source code of Holochain or any derivative works must be provided under compatible open source terms which include this condition and the following condition regarding privacy of cryptographic keys.&lt;/li&gt;
-  &lt;li&gt;You only have permission for “public performance” of Holochain and use of its APIs for managing data integrity of distributed applications if you maintain End-User privacy and autonomy of their private cryptographic keys.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;public-performance-of-software&quot;&gt;Public Performance of Software?&lt;/h2&gt;
-
-&lt;p&gt;Software licenses are a part of copyright law where you are granted the right to copy and run “our work” (software code) under specific conditions. Music rights are also a part of copyright law, but include constraints not just about the distribution of copies, but about the public performance of “our work.”  For example, Artist A may need to get permission from Artist B to perform B’s song at A’s concert.&lt;/p&gt;
-
-&lt;p&gt;I’ve never seen a software license invoke this “public performance” clause, and it will likely stir up some controversy and present us with challenges getting our license accepted as an authorized Open Source license, but it is the only way we’ve been able to find to release our software with appropriate protections for end-users.&lt;/p&gt;
-
-&lt;h2 id=&quot;why-do-end-users-need-special-protection&quot;&gt;Why do End-Users need Special Protection?&lt;/h2&gt;
-
-&lt;p&gt;What if someone released a cryptocurrency which identifies itself as peer-to-peer app that is extremely easy to use? You just install it on your phone, tablet, or computer, and using the power of cryptographic keys to control your account/wallet, you can do direct transactions with any other account without the need for centralized servers.&lt;/p&gt;
-
-&lt;p&gt;That sounds pretty good so far, but this particular application generates the crypto keys for your account from a key server from software developer. It turns out the developer ALSO has a copy of everyone’s private keys that control their accounts and can spend your funds whenever they want. Would you consider this a valid or honest version decentralized cryptocurrency?&lt;/p&gt;
-
-&lt;p&gt;Holochain is designed to give end-users control of their identity, their data, and their participation. However, this is accomplished by peer-to-peer validation rules for data integrity across a shared and sharded data store which are orchestrated by cryptographic keys. And most end-users of software have no realistic way of knowing whether they are the sole controller of their cryptographic autonomy.&lt;/p&gt;
-
-&lt;h2 id=&quot;okay-but-why-the-weird-performance-clause&quot;&gt;Okay, but Why the Weird Performance Clause?&lt;/h2&gt;
-
-&lt;p&gt;Legally, our license can only protect the code that WE wrote. Our software is being licensed by a DEVELOPER to run their app (the currency, chat, or social network they just built). We are trying to say the only valid way to use our code is if their app’s END-USERS are the sole authors and controllers of their own private keys.&lt;/p&gt;
-
-&lt;p&gt;That is hard to shoehorn into the legal frameworks available to us today. We can’t apply copyright protections to the keys that our licensee’s end users create. So our attorney suggested a creative work-around leveraging the public performance dimension of copyright. You don’t need permission from a musician to perform their work in private, but performing in public is another issue.&lt;/p&gt;
-
-&lt;p&gt;A corporation might want to implement a serverless P2P Slack chat where the company still controls the keys, seeds, or revocation keys so that they could read everyone’s chats and private messages, post as if they were some person, or revoke someone’s keys and access. I see why a company might want to do that for their internal employees, and as long as they keep it internal, we probably can’t stop them.&lt;/p&gt;
-
-&lt;p&gt;However, if they want to run their online community, on a PUBLIC network such as the Internet, where they have each user providing a little server power to orchestrate the whole thing so the company now has zero costs for servers or infrastructure, well now maybe we can assert some protections on behalf of those end-users to make sure they at least control their own data on their own device.&lt;/p&gt;
-
-&lt;h2 id=&quot;avoiding-false-security-and-advertising&quot;&gt;Avoiding False Security and Advertising&lt;/h2&gt;
-
-&lt;p&gt;We want “Holochain” apps to be trusted as maximizing end-user autonomy and control, and as that starts to happen, we can’t let someone claim their software is a “Holochain” app if they are actually maintaining central control of end-user cryptographic keys. Otherwise, people will think they’re in control of their accounts, money, personal information, or communications without realizing, at any moment, someone could strip them of their autonomy via revocation keys or a master seed.&lt;/p&gt;
-
-&lt;p&gt;Frankly, we don’t see any way to freely share Holochain with integrity, that does not include these protections for the people who are not technical enough to make this determination for themselves.&lt;/p&gt;
-
-&lt;p&gt;You might think you are one of the people who can tell for yourself. You bought a Trezor or Ledger hardware wallet and the key never leaves the device! Except of course if the device is ever left unsupervised and someone pulls it, or a “man in the middle” changed the seed before you received it, or maybe Trezor or Ledger actually keep generate all user seeds from a secret master seed so they can easily compromise everyone’s private keys.&lt;/p&gt;
-
-&lt;p&gt;The point is it can be challenging even for technical experts, so if someone launches a fraudulent cryptocurrency that they’re marketing as running on Holochain and under the control of end users, they’re rights to the license should be nullified if they are defrauding their end users by maintaining central cryptographic control.&lt;/p&gt;
-
-&lt;h2 id=&quot;what-does-this-mean-for-your-app&quot;&gt;What Does this Mean for Your App?&lt;/h2&gt;
-
-&lt;p&gt;So you want to build an app on Holochain, and want to know how this effects you.&lt;/p&gt;
-
-&lt;p&gt;First, we’re NOT saying a dApp which uses the Holochain APIs must be released under an open source license. While we might encourage that, the copyleft nature of the Holochain license is not intended to force everyone who uses Holochain for their app, to be forced to release it as open source.&lt;/p&gt;
-
-&lt;p&gt;However, if you rewrite parts of Holochain itself, the source code for those elements need to be shared. In part, this is vital to ensuring the private key protections for end users. We need to be able to see you’re not building things into Holochain to circumvent, leak, or harvest user’s keys.&lt;/p&gt;
-
-&lt;h2 id=&quot;new-frontiers-of-p2p-law-and-software-licensing&quot;&gt;New Frontiers of P2P Law and Software Licensing&lt;/h2&gt;
-
-&lt;p&gt;For distributed apps, cryptographic keys fall into a strange middle zone between code and user data. Code is &lt;strong&gt;&lt;em&gt;functional&lt;/em&gt;&lt;/strong&gt; and provides the processes for routing and transforming user data as inputs or outputs in a computing system. Data is typically more like passive content, which may be created by end users, processed, and stored by the code.&lt;/p&gt;
-
-&lt;p&gt;Cryptographic Keys are both user data and functional. In Holochain they orchestrate proof of authorship of data, where data is stored, who controls data, who validates the data, security and encryption of communications and storage, operation of chain structures for progressive hashing and signing which establishes its sequence and integrity, etc. But end-users must be the AUTHOR of their own private keys, because compromising their sole AUTHORship literally compromises their AUTHORity and AUTHORizations within the system.&lt;/p&gt;
-
-&lt;p&gt;Software licenses to date apply to centralized implementations of programs as either standalone or client-server systems. A P2P dApp on Holochain is an integrated whole, with processing and storage divided across all user’s machines.&lt;/p&gt;
-
-&lt;p&gt;Without integrity of keys this whole architecture unravels. If our license can’t provide protections which maximize end-user cryptographic autonomy, then we fall right back into centralized patterns of control.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;We are sharing Holochain freely as open source software to give people back control of their identity and data, not to fool them into thinking they’re in control when they’re not.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;If it means reclaiming the Internet from the Facebooks of the world, we think it’s worth a little stretching of software licensing into the performance protections already provided by copyright law.&lt;/p&gt;
-
-&lt;p&gt;Do you see a better way to accomplish this?&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Closing Notes:&lt;/strong&gt; As we worked with &lt;a href=&quot;#&quot;&gt;Van&lt;/a&gt; and distilled everything down to this core issue of Cryptographic Autonomy, the name of the license evolved, so this supercedes &lt;a href=&quot;#&quot;&gt;my previous post about the Human Commons License&lt;/a&gt;.&lt;/p&gt;
-</description>
-				<guid isPermaLink="true">https://www.artbrock.com/2019/01/24/cryptographic-autonomy-license</guid>
-			</item>
-		
-			<item>
-				<title>ICO Craze</title>
-				<link>https://www.artbrock.com/2017/07/20/ico-craze</link>
-				<pubDate>Fri, 21 Jul 2017 04:54:50 +0200</pubDate>
-				<description>&lt;h2 id=&quot;raising-the-bar-on-integrity-amidst-an-ico-craze&quot;&gt;Raising the Bar on Integrity Amidst an ICO Craze&lt;/h2&gt;
-
-&lt;p&gt;There has been some hoopla going on in the cryptocurrency crowdfunding space. A $30 million raise in 24 seconds one day! $152 million in one hour on the next! (Okay, a bit more than an hour.) $200 million for this one! $232 million for that one!&lt;/p&gt;
-
-&lt;p&gt;It’s like the cryptocurrency rollercoaster ride has whole new twists and loops. People afraid they’re going to miss out on winning it big&lt;/p&gt;
-
-&lt;p&gt;It feels like people are playing fast and loose with cryptocurrencies&lt;/p&gt;
-
-&lt;p&gt;In launching Holochain and our currency for application&lt;/p&gt;
-
-&lt;p&gt;Capitalization:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Not for raising your forever capital (just once), but for funding the first year of operations&lt;/li&gt;
-  &lt;li&gt;Funding amount not just made up, but responsive to actual demand to use the system&lt;/li&gt;
-  &lt;li&gt;ICO based on proof of concept, not a marketing pitch in a white paper&lt;/li&gt;
-  &lt;li&gt;A structure which reflects the truth/reality of the process, not pretending people are making a donation for gambling tokens&lt;/li&gt;
-  &lt;li&gt;Design the currency for value stability and lastingness, not for promises of 1000x returns and set up for pump and dumps.&lt;/li&gt;
-  &lt;li&gt;An ICO is a type of crowdfunding, and we want the CROWD at least as much as the funding. If you let all your coins get eaten by bitcoin whales, you’re probably not reaching your important stakeholders and early adopters. (And also making most of your supply subject to manipulation by those whales.)&lt;/li&gt;
-  &lt;li&gt;We think it is possible to set up an ICO which is truly not a security, so you can successfully navigate the SEC and include users in the US.&lt;/li&gt;
-  &lt;li&gt;Design for accountability – Giving yourself millions of tokens vs. being accountable to your community for what they have invested by having that debt.&lt;/li&gt;
-  &lt;li&gt;Money supply which expands/contracts&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-				<guid isPermaLink="true">https://www.artbrock.com/2017/07/20/ico-craze</guid>
-			</item>
-		
-			<item>
 				<title>But Data Doesn't Exist</title>
 				<link>https://www.artbrock.com/2017/07/11/but-data-doesnt-exist</link>
-				<pubDate>Wed, 12 Jul 2017 03:17:57 +0200</pubDate>
+				<pubDate>Tue, 11 Jul 2017 21:17:57 -0400</pubDate>
 				<description>&lt;h2 id=&quot;true-fallacies-of-distributed-computing&quot;&gt;True Fallacies of Distributed Computing&lt;/h2&gt;
 
 &lt;p&gt;There’s a wikipedia article about the fallacies of distributed computing.&lt;/p&gt;
@@ -456,7 +41,7 @@ Private host groups:&lt;/p&gt;
 			<item>
 				<title>A major phase shift</title>
 				<link>https://www.artbrock.com/2017/06/12/phase-shift</link>
-				<pubDate>Mon, 12 Jun 2017 23:11:02 +0200</pubDate>
+				<pubDate>Mon, 12 Jun 2017 17:11:02 -0400</pubDate>
 				<description>&lt;p&gt;You’ve probably seen a lot more activity around the MetaCurrency Project in recent months: a new Ceptr web site, Ceptr broken down into clearer sub-projects, blockchain alternatives, lots of code releases, Hackathons, virtual potlucks, online presentations, etc. I guess we ought to make it clearer what’s going on.&lt;/p&gt;
 
 &lt;p&gt;For a long time we’ve operated as one of those fringy open source projects like some mad scientists experimenting in their garage. But now we must navigate the transition from a tech hobby project to a scalable business, in part, because we’ve been approached by funders.&lt;/p&gt;
@@ -513,7 +98,7 @@ Private host groups:&lt;/p&gt;
 			<item>
 				<title>Commons Engine</title>
 				<link>https://www.artbrock.com/2017/06/05/commons-engine</link>
-				<pubDate>Tue, 06 Jun 2017 05:16:09 +0200</pubDate>
+				<pubDate>Mon, 05 Jun 2017 23:16:09 -0400</pubDate>
 				<description>&lt;h2 id=&quot;commons-engine&quot;&gt;Commons Engine&lt;/h2&gt;
 
 &lt;p&gt;We intend to turn the management of Ceptr and its software ecosystem over to a Sovereign Accountable Commons (our counterpart to a DAO - decentralized autonomous organization). For us this means building:&lt;/p&gt;
@@ -531,6 +116,674 @@ Private host groups:&lt;/p&gt;
 &lt;p&gt;Expect to see more about this, our new partnerships in the space, and maybe even a crowdfunding campaign to help get it launched.&lt;/p&gt;
 </description>
 				<guid isPermaLink="true">https://www.artbrock.com/2017/06/05/commons-engine</guid>
+			</item>
+		
+			<item>
+				<title>Intro to Currency Design</title>
+				<link>https://www.artbrock.com/2017/02/27/intro-to-currency-design</link>
+				<pubDate>Mon, 27 Feb 2017 19:19:03 -0500</pubDate>
+				<description>&lt;h2 id=&quot;ferananda&quot;&gt;Ferananda&lt;/h2&gt;
+
+&lt;p&gt;What if there was a currency that could be used to enslave you, without you even realizing it? Wouldn’t you want to know? Wouldn’t you want to learn to see how it works? How it does that?&lt;/p&gt;
+
+&lt;p&gt;Guess what? That’s how the existing monetary system works because of rules that are invisible to most of us.&lt;/p&gt;
+
+&lt;p&gt;All currencies operate at two levels. There the level of the tokens – how they’re earned or exchanged, and then level of the currency system itself – what patterns are forged by its rules… rules on both levels. Some of the rules are visible to everybody, and some of them are hidden.&lt;/p&gt;
+
+&lt;p&gt;Monopoly game example: Jesus, Buddha, Gandhi, enlightened people… the same outcome. One of them takes everything from everyone else.&lt;/p&gt;
+
+&lt;p&gt;How is that outcome written into the rules? Each person just takes their turn, rolls the dice, lands on a square, buys properties, charges people to stay at their property…&lt;/p&gt;
+
+&lt;p&gt;These are the rules at the level of tokens and players, but what are “social physics” they create? The forces, as reliable as gravity, that are at play…										
+In this video, we want to: 1) show you the two levels that currencies operate on, 2) how to see the rules and patterns on each level, and hopefully, 3) awaken the currency designer in you with the capability to build currencies that help build a world we all want to live in.&lt;/p&gt;
+
+&lt;h2 id=&quot;arthur&quot;&gt;Arthur&lt;/h2&gt;
+
+&lt;p&gt;We’re going to start by expanding our understanding of “CURRENCY” to be something much bigger and more powerful than “money.”
+We already know money is powerful, but if you truly understand how we’re using the word currency, you’ll have access to something even bigger.&lt;/p&gt;
+
+&lt;p&gt;Yes…. I know that in everyday English those two words are used pretty interchangeably, but even if just for this video, I invite you to try on a new perspective.&lt;/p&gt;
+
+&lt;p&gt;I need to warn you. This is one of those Red Pill / Blue Pill moments that once you’ve been able to see the matrix, you may not easily be able to go back from.&lt;/p&gt;
+
+&lt;p&gt;For now, lets say currencies are symbol systems we create to manage currents or flows.– Money, which we use to manage flows of goods and services is just a small part of the landscape of currencies.										
+Of course, we also use other kinds of currencies… Reputation currencies like credit ratings or college degrees, Measurement currencies like grades in school, certified Organic, or Fair trade. And a wide range of niche currencies for shaping specific flows like even.							
+This may sound like I’m mixing together a lot of different things, but that’s because there truly are lots of different currencies. Hopefully it will soon be clear what is and what isn’t a currency.&lt;/p&gt;
+
+&lt;p&gt;Let’s look more carefully at some of examples of currencies which are not money.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;College degrees&lt;/strong&gt; are a reputation currency which we’re led to believe you need to get good job. But let’s closer at how you get a college degree?
+Well, you need to fulfill the degree requirements which means 12 credits of this thing, 15 credits of that thing, and 25 credits in another category. The &lt;strong&gt;Credits&lt;/strong&gt; are a unit of account currency just counting the number of course hours you have in different categories.
+But the credits only count if you get good enough &lt;strong&gt;grades&lt;/strong&gt;. Grades are a performance metric currency… designed to measure how well you’re learning the content of the course.&lt;/p&gt;
+
+&lt;p&gt;Together, these three non-monetary currencies shape the behavior of millions of students. These currencies are even used to divide up power within the school, with the university issuing the degree, departments issuing credits and professors issuing grades.&lt;/p&gt;
+
+&lt;p&gt;There’s an interesting little example in here… &lt;strong&gt;Tutors:&lt;/strong&gt; Why would you pay for a tutor to teach you something when you’re already paying a university to teach it to you? Grades. Grades create the market for tutors.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Olympic medals&lt;/strong&gt; shape behavior of millions of athletes all over the world competing to be recognized as the best. And its certainly not because of the monetary value of the gold or silver or bronze plating on the medal.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ratings:&lt;/strong&gt; Ebay beat out other online auctions sites because it created a reputation currency. The reputation currency started being necessary to sell big ticket items.	 People turn to Amazon for product ratings, Yelp for restaurant ratings, and so on.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Pedigrees:&lt;/strong&gt; Purebred Dogs with a pedigree sell for more in the marketplace. In some places, humans with the right pedigree are called royalty, get immense power and/or wealth.&lt;/p&gt;
+
+&lt;p&gt;Whoa! It seems even NON-monetary currencies effect monetary power, control, and create markets. 										
+What other kinds of power might they have?&lt;/p&gt;
+
+&lt;p&gt;As individuals, unsurprisingly we tend to focus a lot on the level of individuals and how we’re doing in the game compared to other individuals. This can make it hard to see how currencies shape patterns at much larger levels.&lt;/p&gt;
+
+&lt;p&gt;For example, we tell a story about evolution that places us at the top of an evolutionary ladder as the pinnacle of evolutionary achievement.&lt;/p&gt;
+
+&lt;p&gt;This story fails to recognize how evolution builds new levels of complexity out of prior successes. The green algae that mastered photosynthesis is now built into the DNA of every plant, and is exactly what makes them have green leaves.&lt;/p&gt;
+
+&lt;p&gt;Just like that algae got built into the cells of plants, we have become cells in larger social organisms like corporations, governments, and institutions…&lt;/p&gt;
+
+&lt;p&gt;Yes.. organisms… with their own patterns of behavior and intelligence distinct from our own as individuals.  They seek self-preservation, can spin off offspring, and have a pattern of existence that continues even as cells(people) within it are replaced.&lt;/p&gt;
+
+&lt;p&gt;This is hard for us to see for a few reasons. 1) We don’t like to think of ourselves as cells in an organism. and 2) because we’re not used to differentiating between the aggregate behavior of individuals, and individuals whose behavior has become organ-ized by a larger organ-ism. But this is definitely organized behavior.&lt;/p&gt;
+
+&lt;p&gt;When was the last time you were hanging out with some friends and said: “Hey, I know what we should do this evening. Let’s go dig for coal!” (said nobody ever). The behavior of digging for coal, and many more, happen not so much from individual choice, but from operating in the “body” of a social organism.&lt;/p&gt;
+
+&lt;p&gt;The nervous system, feedback loops, and “intelligence” of these corporate bodies… all run on currencies.&lt;/p&gt;
+
+&lt;p&gt;If you want to change the behavior of a corporation and all the people in it, all you have to do is change its currencies.  It will immediately start to optimize itself to new incentives. Everything else ripples out from there.&lt;/p&gt;
+
+&lt;p&gt;Let’s see what this looks like…&lt;/p&gt;
+
+&lt;h2 id=&quot;ferananda-1&quot;&gt;Ferananda&lt;/h2&gt;
+
+&lt;p&gt;You go to the DMV to get a drivers license. Even though you might be able to prove to a person behind the counter that you can drive, they won’t give you a license without a special kind of currency.										
+You need a birth certificate, passport, or license from another state. 										
+Even though the human your interacting with can obviously see you, the state cannot. The State “sees” your existence by virtue of those forms identifying currencies.&lt;/p&gt;
+
+&lt;p&gt;We know humans are born and that they die, but as far as the nervous system of the social organisms of the State is concerned, humans are issued through birth certificates, and expired through death certs.										
+Sounds crazy? Try to get someone at a bank or IRS to interact with you without your Tax ID# / SSN…!!										
+Maybe now you can understand how we’re using the word currency. Think of it as “Current-See.” A symbol system for making particular currents or flows visible.&lt;/p&gt;
+
+&lt;p&gt;We can’t really interact with something if we can’t “see” it. Social organisms can only “see” the world through current-sees. Decisions are made based on these. Just think of the government, if they can’t measure it, they can’t see it.&lt;/p&gt;
+
+&lt;p&gt;So how do these currencies work?&lt;/p&gt;
+
+&lt;h2 id=&quot;arthur-1&quot;&gt;Arthur&lt;/h2&gt;
+
+&lt;p&gt;Let’s go back to the two levels. 1) The currency tokens or symbols themselves. 2) The system which establishes and maintains the rules for the curreny tokens. 										
+Each of these levels follow a specific pattern. Knowing what’s involved with these patterns is one of your tickets in to SEE forces controlling the players and plays.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Currency Token Life Cycle: Rules for a) Issuance b) Transaction c) Interplay with other currencies d) Expiration, Redemption, Retiremernt										
+&lt;strong&gt;Issuance:&lt;/strong&gt; Who gets to create the tokens and how? Are they fiat (spoken into being from nothing .. like dollars and bitcoins)? Are they created as they are backed by something of value? Are they mutual credit (created via extending credit to each other via double-entry accounting)?									
+&lt;strong&gt;Transaction:&lt;/strong&gt; Can be be traded? How are transactions structured? Who can transact? Special triggers? Limits? Are there tax conseqeunces? What accounting methods? Transaction fees… interest-bearing									
+&lt;strong&gt;Interplay:&lt;/strong&gt; Are there dependencies on other currencies? (grades and credits to get a degree. HS to get into College) Dependent on others? Other dependent on this? Conversions? Thresholds?									
+&lt;strong&gt;Retirement:&lt;/strong&gt; How are units of the currency retired/redeemed/expired? Expiration of flyer miles. Revokation of college credits, gades or degrees. Redemptoin in backed currencies									
+When you know the life cycle of currency tokens you can identify the rules that govern each phase to grasp the dynamics of the whole cycle.										
+Everyone can create value, but if you make it illegal for any but a small group to create money (counterfeiting), you can use that ability to issue money, to control the everyone’s value										
+Take dollars for example, most people only know the rules for the transaction phase. They don’t know who issues them (bankers) or how (as loans and accounting for deposits as asset not lability). Or realize when you pay back principle on a loan, those dollars are being retired. Or that the cash sitting in a bank’s vault is actually not in circulation… It is parked in limbo, under the bank’s guardianship, but not under their ownership. Credit ratings effecting cost and avalability of money, etc.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;ferananda-2&quot;&gt;Ferananda&lt;/h2&gt;
+
+&lt;p&gt;Obviously the currency token rules establish certain patterns of power by saying how they are created, used, and destroyed, but there’s hidden power behind all that.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Currency SYSTEM Life Cycle: Who decides the rules of the game? How are they reviewed, changed, or perpetuated? See diagram										
+&lt;strong&gt;Roots:&lt;/strong&gt; What are the origins of the system? Who conceived, designed, or built it? All currencies have historical and political origins. What agenda was it designed to serve? For whom?									
+&lt;strong&gt;Operation:&lt;/strong&gt; Who manages the system? Oversees its changes? Evaluates its success?  How do they do these things? Through what entities or mechanisms?									
+&lt;strong&gt;Evolution:&lt;/strong&gt; Who decides what needs to change? Implements those changes? Enforces adoption or compliance? Through what entities or mechanisms?									
+&lt;strong&gt;Governance:&lt;/strong&gt; Is there a group who exerts signicant control or influence over the Managers, Change-makers, Enforcers, or Evaluators even if they are not actively in those roles?									
+&lt;strong&gt;Closure:&lt;/strong&gt; Is there a plan for end-of-life of the currency system? Winding it down? 									
+You may have already figured this out, but it is worth making explicit, the people in the role of governance at the system level, essentially control the dynamics on both levels.										
+Given most people aren’t aware of much beyond the transaction domain on the token level, most folks need to dig a lot deeper to see the full spectrum of currency dynamics&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;art&quot;&gt;Art&lt;/h2&gt;
+
+&lt;p&gt;Before we go even deeper, let’s look at some currency innovations, and their blind spots, to see why this matters so much.										
+Community Currencies: Most community currencies express an economic ideology of a small group in the governance role. They may object to centralized issuance and opt for mutual credit. Or they don’t like debt, and do a value backed scheme. Or they don’t like the growth imperative which comes from issuing all money as debt which bears interest. Occasionally, someone will swing way out there and set a value reference to hours and maybe even remove pricing (1 hr = 1 hr).&lt;/p&gt;
+
+&lt;p&gt;Cryptocurrencies: Most cryptocurrencies encode a monetary function as envisioned by an individual or small group in the governance role. They typically object to centralized issuance by fiat, choosing instead to implement semi-randomized issuance by fiat using a PoW or PoS. They also implement transparent accounting on a blockchain, which they consider decentralized because there is not one master copy, everyone that can afford the cost of the hardware has a full copy of the whole economy.										
+If you look at a large scope of hundreds of design choices, most of these currencies are stuck on just a few variables (mostly about issuance) at the Token level.&lt;/p&gt;
+
+&lt;p&gt;They duplicate the artificial scarcity of interest with requiring massive compute power for PoW. They duplicate the currency being locked into a growth trajectory, of pre-ordained design. and Without decentralized governance of the rules of the currency (or the versioning of software in a digital currency), is a currency actually decentralized?										
+These systems are stuck in a monetary frame, completely missing the boat on Current-Sees as nervous systems of social organisms.										
+So… how do we go beyond the monetary frame?&lt;/p&gt;
+
+&lt;h2 id=&quot;fer&quot;&gt;Fer&lt;/h2&gt;
+&lt;p&gt;To open our vision a little wider let’s look a “wealth.” Just as we expanded our perception of currency, we need to expand our understanding of wealth.										
+We typically think of wealth as accumulating lots of riches. 					But Wealth is not about accumulation – any more than health is about maximizing your weight					
+Wealth is about capacity: To move things to where they’re needed. To solve problems. To provide for a quality of life or experience. The resilience to adapt to change.										
+Wealth isn’t an individual bank balance, it is the collective configuration which enables healthy patterns of flow. It is truly COMMONwealth.										
+Think about it as economic health. Your health is not about having massive stockpiles of calories, but strength, speed, flexibility, resilience to adverse circumstances.&lt;/p&gt;
+
+&lt;h2 id=&quot;art-1&quot;&gt;Art&lt;/h2&gt;
+
+&lt;p&gt;Every living system, whether a cell, a human, an ecosystem, a corporation, or an economy has particular dimensions thru which we can see patterns of flow.										
+These different dimensions use different type of currencies as signaling systems for maintaining healthy patterns of flow.										
+Separate from the living system is the speculative economy… the gambling market about the living systems. We’ve mistaken those gambling chips, like dollars, for real wealth.										
+Let’s look at currencies which connect in with the feedback loops in each dimension… like commodities, goods, or services in the parts and products layer. Various measurements and metrics in the properties layer.										
+… Rankings at the performance layer, and Names, Titles, Certifications at the relational layer. We’re not going to dive in too deep in this video. We’ll get into that in our currency design webinar.&lt;/p&gt;
+
+&lt;p&gt;I want to share a few last things to clear up some common sources of confusion. When people first try to expand their vision of currencies and wealth they start to think we’re saying: 										
+“Everything is a currency!” Flows of value, love, time, attention, sharing, caring, etc… No! Those are flows. We use currencies to help shape healthy patterns of those flows.										
+It’s a map vs. territory thing. Currencies are symbols. they are information about flows. Your college degree is just an indication about some learning, it is not the learning itself.										
+You might use page hits to measure attention, but page hits are not attention. You might use Olympic medals to rank athletes, but they just point to athletic skill, they are not the skills.										
+The title “President of the US” points to a bunch of relationships and power dynamics, but it is not those relationships. 										
+Money flows in the opposite direction of value, it is not the value itself, just a marker of the value that moves the opposite direction.										
+Maps are extremely useful ! Especially when we want to arrange or coordinate collective behavior. But they are not the territory. 										
+But unlike a paper map which is an object, currency tokens also flow, so they create living maps that we are always responding to and interacting with.										
+So what kind of wealth or capacites are you trying to create? And what kind of living map will enable people to orchestrate themselves into that healthy pattern?&lt;/p&gt;
+
+&lt;h2 id=&quot;ferananda-3&quot;&gt;Ferananda&lt;/h2&gt;
+
+&lt;p&gt;My hope is that this has cracked open new possibilities and perspectives on the power of currencies…										
+…and specifically how currencies shape the capacities of social organisms like corporations and economies, because the patterns we’ve been using are wreaking some havoc&lt;/p&gt;
+
+&lt;p&gt;You can check our web site for more helpful resources. In particular, we are offering some online webinars to dive deep into this stuff.										
+There are three different series or tracks: 										
+One for monetary design and cryptocurrencies.									
+Another for going beyond sustainability into deisigning for thrivability.									
+The third is for building community, doing culture-hacking, designing social flows.									
+Speak about us been open to different possibilities for investment  - 50% money - 50% open to other forms of contribution that can be measured									
+Check it out at MetaCurrency.org&lt;/p&gt;
+
+&lt;p&gt;Thanks for listening. And here’s to your wealth.&lt;/p&gt;
+</description>
+				<guid isPermaLink="true">https://www.artbrock.com/2017/02/27/intro-to-currency-design</guid>
+			</item>
+		
+			<item>
+				<title>Powerful Design Principles for Next-Gen Governance</title>
+				<link>https://www.artbrock.com/2017/02/12/powerful-design-principles-for-next-gen-governance</link>
+				<pubDate>Sun, 12 Feb 2017 22:08:00 -0500</pubDate>
+				<description>&lt;p&gt;In &lt;a href=&quot;/2017/02/11/challenging-broken-assumptions-of-governance&quot;&gt;my last post&lt;/a&gt;, I deconstructed a number of core assumptions that we tend to take for granted as true, and that most of our tools of governance are built around. I didn’t mean to just stop there without getting to the good news, but the post was getting long.&lt;/p&gt;
+
+&lt;p&gt;If things we’re used to leaning on to organize ourselves don’t work, what can we count on? Let’s establish some powerful principles to work from.&lt;/p&gt;
+
+&lt;h2 id=&quot;baseline-governance-is-for-and-by-humans&quot;&gt;Baseline: Governance is for and by Humans&lt;/h2&gt;
+
+&lt;p&gt;Let’s just tell the truth about ourselves as humans. We’re not perfect. We’re not rational. We even often have conflicting beliefs, desires and commitments. We’re kind of a mess.&lt;/p&gt;
+
+&lt;p&gt;I know, most of us imagine ourselves as on less messy end of that spectrum, and stare slack-jawed at the craziness of others. Yet, there are others looking at us that way on occasion too. So, let’s be clear, governance for people who are a mess will be messy too.&lt;/p&gt;
+
+&lt;p&gt;If you think I’m going to provide some neat and tidy, mathematical, mechanistic, or computational solution for the perfect model of governance, than I’m pretty sure you haven’t been tracking my work. I’m never about ONE way of doing things, but favor having the adaptive capacity to choose between a number of ways as circumstances require.&lt;/p&gt;
+
+&lt;p&gt;I know that might sound complicated, actually, it’s beyond complicated it’s complex.&lt;/p&gt;
+
+&lt;p&gt;Any system of governance that does not work well FOR people will  If you think machines are going to solve the problem…&lt;/p&gt;
+
+&lt;p&gt;If you think arriving at an answer which an algorithm says is best, but doesn’t feel right to people…&lt;/p&gt;
+
+&lt;h2 id=&quot;baseline-governance-is-for-and-by-humans-1&quot;&gt;Baseline: Governance is for and by Humans&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;We’re messy&lt;/li&gt;
+  &lt;li&gt;Governance will be messy too&lt;/li&gt;
+  &lt;li&gt;I am not going to propose a tidy solution, because the way we need to operate with the world is too complex for any prefabricated structure (including our Constitution).&lt;/li&gt;
+  &lt;li&gt;Cynefin quadrants&lt;/li&gt;
+  &lt;li&gt;Cynefin S curves&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;guidelines-and-principles&quot;&gt;Guidelines and Principles&lt;/h2&gt;
+
+&lt;h3 id=&quot;self-selection-and-levels-of-participation&quot;&gt;Self-Selection and Levels of Participation&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Pull Not Push
+signal/noise&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;building-alignment-before-agreement&quot;&gt;Building Alignment before Agreement&lt;/h3&gt;
+
+&lt;h3 id=&quot;feelings-are-as-valid-as-reason&quot;&gt;Feelings are as valid as Reason&lt;/h3&gt;
+
+&lt;p&gt;Values before Facts&lt;/p&gt;
+
+&lt;h3 id=&quot;optimize-for-wisdom&quot;&gt;Optimize for Wisdom&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;decisions are not in isolation&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;optimize-for-agency&quot;&gt;Optimize for Agency&lt;/h3&gt;
+
+&lt;p&gt;Cascading Logarithmic Proxies&lt;/p&gt;
+
+&lt;h3 id=&quot;fail-fast-then-iterate&quot;&gt;Fail Fast then Iterate!&lt;/h3&gt;
+
+&lt;p&gt;Context &amp;amp; Culture (for trans)
+Awareness(Values/Reason/Intent)/Protocol&lt;/p&gt;
+
+&lt;h2 id=&quot;objections&quot;&gt;Objections:&lt;/h2&gt;
+
+&lt;h3 id=&quot;youre-just-a-techno-utopian&quot;&gt;You’re just a techno-utopian!&lt;/h3&gt;
+
+&lt;p&gt;Yeah, yeah… If you need to throw some label on my to invalidate what I’m saying rather than consider it, do what you must. You might want to check if you’re blindly clinging to &lt;a href=&quot;/2017/02/11/challenging-broken-assumptions-of-governance&quot;&gt;assumptions about governance that are simply not true&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I don’t think technology will magically solve our problems. PEOPLE have to do that work. Remember, language and currencies are technologies we use every day to coordinate on massive scales, just like DNA is a technology our cells use to coordinate on massive scales.&lt;/p&gt;
+
+&lt;p&gt;You’ve got to use the right tools for the job. In the case of P2P governance, some of those are new computing and cryptographic technologies. It’s probably a good idea to get used to it.&lt;/p&gt;
+
+&lt;h3 id=&quot;its-oversimplified&quot;&gt;It’s Oversimplified&lt;/h3&gt;
+
+&lt;p&gt;This is an introductory article. For most people reading it, these ideas and approaches are novel and probably seem complex. Please don’t assume that because I don’t drill into great detail about every piece, that there are no supporting details. I’d invite you into the inquiry with me about those tangible details, just because I have some, doesn’t mean they’re right.&lt;/p&gt;
+
+&lt;h3 id=&quot;its-too-complicated--youll-never-get-people-on-board&quot;&gt;It’s too Complicated / You’ll never get people on board&lt;/h3&gt;
+
+&lt;p&gt;When our current system comes down, they’ll have to choose something to believe in. Let’s look at some indicators of how hard it would be to get people onboard for something like this, using Moore’s model of crossing the chasm.&lt;/p&gt;
+
+&lt;h4 id=&quot;crossing-the-chasm--distributed-tech&quot;&gt;Crossing the chasm – distributed tech&lt;/h4&gt;
+
+&lt;p&gt;78% of the US Population are active Facebook users. That is a much higher level of participation than happens in government, even just voting, even in controversial presidential election years.&lt;/p&gt;
+
+&lt;p&gt;100 million bitcoin users not to mention other blockchain tech. Billions going into it this year. Banks… etc. Decentralized crypto systems have reached mainstream.&lt;/p&gt;
+
+&lt;h3 id=&quot;so-you-get-to-decide-the-algorithms&quot;&gt;So you get to decide the algorithms?&lt;/h3&gt;
+
+&lt;p&gt;No. You do.&lt;/p&gt;
+
+&lt;p&gt;For me the point of this approach is not to establish some new technocracy where the geeks rule the world through their manipulation of the technology everyone uses for decision-making. Replacing the current banksters with geeksters won’t really solve our problems.&lt;/p&gt;
+
+&lt;p&gt;In fact, this is why I’ve spent much of the past decade designing and building decentralized, uncorruptable architectures with no dependancies on centralized services of any kind. This is our greatest protection from corruption.&lt;/p&gt;
+
+&lt;h3 id=&quot;target-alignment-before-agreement&quot;&gt;Target Alignment before Agreement&lt;/h3&gt;
+
+&lt;h3 id=&quot;optimize-for-wisdom-1&quot;&gt;Optimize for Wisdom&lt;/h3&gt;
+
+&lt;p&gt;So much of political theory is about POWER. Checks and balances to prevent its abuse. How to seize it. How to hold it.&lt;/p&gt;
+
+&lt;p&gt;concentrations of power, wealth, information&lt;/p&gt;
+
+&lt;h3 id=&quot;pull-not-push&quot;&gt;Pull Not Push&lt;/h3&gt;
+
+&lt;p&gt;Not about pushing your voice, but pulling who’s input we really need for good decisions.&lt;/p&gt;
+
+&lt;h3 id=&quot;optimize-for-agency-1&quot;&gt;Optimize for Agency&lt;/h3&gt;
+
+&lt;h3 id=&quot;context&quot;&gt;Context&lt;/h3&gt;
+
+&lt;h3 id=&quot;culture&quot;&gt;Culture&lt;/h3&gt;
+
+&lt;h3 id=&quot;cascading-logarithmic-proxies&quot;&gt;Cascading Logarithmic Proxies&lt;/h3&gt;
+</description>
+				<guid isPermaLink="true">https://www.artbrock.com/2017/02/12/powerful-design-principles-for-next-gen-governance</guid>
+			</item>
+		
+			<item>
+				<title>Challenging Broken Assumptions of Governance</title>
+				<link>https://www.artbrock.com/2017/02/11/challenging-broken-assumptions-of-governance</link>
+				<pubDate>Sat, 11 Feb 2017 23:30:14 -0500</pubDate>
+				<description>&lt;h1 id=&quot;broken-assumptions-of-governance&quot;&gt;Broken Assumptions of Governance&lt;/h1&gt;
+
+&lt;!-- TOC START min:1 max:3 link:true update:true --&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;#broken-assumptions-of-governance&quot;&gt;Broken Assumptions of Governance&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#lets-get-real&quot;&gt;Let’s Get Real&lt;/a&gt;
+        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#people-make-rational-decisions&quot;&gt;People Make Rational Decisions&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#people-follow-procedures&quot;&gt;People Follow Procedures&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#governance-should-treat-everyone-equally&quot;&gt;Governance Should Treat Everyone Equally&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#voting-works&quot;&gt;Voting Works&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#we-can-have-more-parties--elect-better-representatives&quot;&gt;We Can Have more Parties / Elect Better Representatives&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#we-know-what-decisions-to-make&quot;&gt;We Know What Decisions To Make&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#laws-should-be-carefully-deliberated-and-made-to-last&quot;&gt;Laws Should Be Carefully Deliberated and Made to Last&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#transparency-blockchain-will-save-us&quot;&gt;Transparency (Blockchain Will Save Us)&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#so-is-there-no-hope&quot;&gt;So, Is There No Hope?&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- TOC END --&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Disclaimer:&lt;/strong&gt; I challenge a lot of sacred cows about governance here. If you’ve been working or building something in that space, you may find this article disturbing.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Before you post an angry comment, please know that I recognize the commitments behind these assumptions as beautiful and maybe even something to strive for, but it doesn’t make them true. Also, in an effort to keep this short, a handful of sentences will not “prove” anything beyond a doubt. Just see if you can consider a larger possibility.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;I believe we need to do a reset, and stop limiting next-gen governance by the tools and assumptions of our past approaches. To meet the huge challenges confronting us, we need more than incremental digital tweaks, we need a breakthrough in large-scale collective wisdom. I hope to provide a sense of how that is possible.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;lets-get-real&quot;&gt;Let’s Get Real&lt;/h2&gt;
+
+&lt;p&gt;If your primary experience with governance is the morass of gridlock and corruption that passes for politics today, you’d be justified in being dismissive of ungrounded theories  However, if you are willing to consider the things I point out in this post, you might discover that it’s our CURRENT models and practices of governance that fail to be grounded in reality.&lt;/p&gt;
+
+&lt;p&gt;I have experienced a wide gamut of approaches and settings for governance ranging from do-acracy, adhocracy, sociocracy, corporate hierarchies of some of the largest companies, bureaucracies of the educational system, egomaniacal tyrants, churches and religious societies, agile start-ups, anarchy, Quaker communities, hippy ecovillages, political organizing and activism, Occupy Wall Street assemblies, benificent dictators, online communities, and schools run by kids.&lt;/p&gt;
+
+&lt;p&gt;I’m not saying I’m the expert, I’m just saying I’ve tried a lot of things, gotten my hands dirty, and experienced some stuff that works. I’ve also observed a lot of stuff that doesn’t work, or at least where the measure of working pales in comparison to the effectiveness of things that actually do.&lt;/p&gt;
+
+&lt;p&gt;It doesn’t matter what brilliant ancient or modern political philosopher set forth the ideals we’ve followed, if we build next-gen solutions on broken assumptions, we’ll stay stuck patterns of dysfunction.&lt;/p&gt;
+
+&lt;p&gt;So, let’s shake up some of our assumptions about governance we mostly take for granted.&lt;/p&gt;
+
+&lt;h3 id=&quot;people-make-rational-decisions&quot;&gt;People Make Rational Decisions&lt;/h3&gt;
+
+&lt;p&gt;Sorry, but we don’t.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/wired/decision-making&quot;&gt;Neurologically speaking&lt;/a&gt;, the ability to decide is an emotional capacity. The rational weighing of pros and cons continues ad infinitum without the emotional will to bring it to closure and act. But that’s just the tip of the iceberg of this problem.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/Cognitive_Bias_Codex_-_180+_biases,_designed_by_John_Manoogian_III_(jm3).jpg&quot; alt=&quot;cognitive biases&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We have to oversimplify issues for people to understand them. Our reasoning is impaired by hundreds of cognitive biases. We say and do things to be accepted by our peers and groups, and let our need for acceptance or preoccupation with immediate desires overshadow our ability to perceive things rationally.&lt;/p&gt;
+
+&lt;p&gt;We’ve been perfecting the manipulation of people using human irrationality for many decades. Advertising firms use it to make you buy junk. Political campaigns use it to alienate you from opponents, or mobilize people with angering ballot initiatives. The Trump campaign leverages your social media activity and uses it for fine-tuned, &lt;a href=&quot;/vice/cambridge-analytica&quot;&gt;fully individualized manipulation&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Governance which relies on the notion that people are inclined to make rational decisions falls victim to our own frailties. However, since we know about our limitations, we could incorporate them into good designs.&lt;/p&gt;
+
+&lt;h3 id=&quot;people-follow-procedures&quot;&gt;People Follow Procedures&lt;/h3&gt;
+
+&lt;p&gt;Interestingly, it’s possible to create social processes which help keep our irrationality in check. For example, models like Holocracy, have you speak from a role or responsibility that you have, rather than from your personal beliefs or preferences.&lt;/p&gt;
+
+&lt;p&gt;Good social processes are compelling and following them can become deeply embedded into the culture of a group. However, humans aren’t robots, and the more contrived, structured, and rational you make a process, the less people tend to enjoy or adhere to it. If the conversation is limited only to rational discourse, people don’t end up &lt;em&gt;feeling&lt;/em&gt; heard, seen, or acknowledged. Even the most rational among us need not only to speak, but to FEEL heard.&lt;/p&gt;
+
+&lt;p&gt;Even when people mostly follow a procedure, they won’t follow it consistently. We all agree driving on the correct side of the road is important, yet we bend that rule when we think circumstances warrant it. When people know the system is preventing them from doing what the feel is right, they find ways to get around the system, even when they agree with most of its workings.&lt;/p&gt;
+
+&lt;p&gt;Will &lt;a href=&quot;wp def&quot;&gt;Smart Contracts&lt;/a&gt; solve this? Not really. The art of next-gen governance design isn’t to automate away all choices, but provide support (via technical process, social process, or physical structures) for parts where tend to be most irrational. Yet include ways that people can exercise choice (opt-in, opt-out, or work-around) in places where human judgment tends to be as good or better than prefab designs. Humans won’t just follow software anyway, we demand an emotional experience of choice.&lt;/p&gt;
+
+&lt;h3 id=&quot;governance-should-treat-everyone-equally&quot;&gt;Governance Should Treat Everyone Equally&lt;/h3&gt;
+
+&lt;p&gt;We are not equal. We have differences – interests, attention spans, beliefs, expectations, strengths, weaknesses, skills, habits, languages, etc. The real goal is to be treated equitably and fairly, not as identical interchangeable units.&lt;/p&gt;
+
+&lt;p&gt;In an era of massive customization – of media, products, art, and experiences – why should we be stuck with one-size-fits-all governance?&lt;/p&gt;
+
+&lt;p&gt;What if the game wasn’t just “one person, one vote” which is rooted in equalizing the power of your vote or your voice, but was instead about finding the highest wisdom or best path? To achieve that, we might have to recognize different people bring different skills, knowledge, competencies, and figure out how to optimize everyone’s unique contribution.&lt;/p&gt;
+
+&lt;p&gt;Some modern tools make good steps in this direction. Direct democracy, enables people to participate directly in discussion and voting on individual issues rather than isolating everyone from direct participation through representatives. Liquid democracy enables people to delegate their votes to people based on specific topics or domains.&lt;/p&gt;
+
+&lt;p&gt;I know this is touchy subject likely to trigger people’s fears of elitism or abuse of power, but I am convinced that it is possible to responsibly wield tools like the &lt;a href=&quot;/vice/cambridge-analytica&quot;&gt;extreme targeting used in Trump’s campaign&lt;/a&gt; not to manipulate people, but to optimize participation.&lt;/p&gt;
+
+&lt;p&gt;Your “governance feed” becomes tailored to your interests, attention span, ways you like to contribute or participate. You could also be directly tagged by a friend or colleague to bring something to your attention that might not fit your typical interests. We might be able to keep governance fun and call out the best in people – but not if can’t include difference and must pretend equality.&lt;/p&gt;
+
+&lt;p&gt;Is someone more or less important because they choose to participate in environmental decisions instead health care or communications?&lt;/p&gt;
+
+&lt;h3 id=&quot;voting-works&quot;&gt;Voting Works&lt;/h3&gt;
+
+&lt;p&gt;Actually, voting mostly sucks.&lt;/p&gt;
+
+&lt;p&gt;It reduces rich, nuanced discourse to one dimensional sums of numbers. Even if you use more advanced runoff techniques or pairwise comparison algorithms, you basically reduce issues to a popularity contest.&lt;/p&gt;
+
+&lt;p&gt;Don’t get me wrong, I sometimes use voting, but it is important to know that popularity is not wisdom. Just because something is currently popular doesn’t make it good or wise. Knowing how popular something is can be extremely useful, especially for understanding paths to adoption, but aren’t their better ways of making good decisions?&lt;/p&gt;
+
+&lt;p&gt;“But you can’t have democracy without voting!” – Not true.&lt;/p&gt;
+
+&lt;p&gt;Speaking from my experience, every setting where voting was used to decide things was less satisfying (in terms of quality of decisions, experience of participation, and belief you could effect needed changes) than groups where the process for discourse went deep enough that alignment was clear without a need for counting votes.&lt;/p&gt;
+
+&lt;p&gt;That is still “rule by the people” (democracy).&lt;/p&gt;
+
+&lt;h3 id=&quot;we-can-have-more-parties--elect-better-representatives&quot;&gt;We Can Have more Parties / Elect Better Representatives&lt;/h3&gt;
+
+&lt;div class=&quot;flex-video youtube widescreen&quot; style=&quot;height: px; width: 100%; background: black;&quot;&gt;
+  &lt;iframe src=&quot;https://www.youtube.com/embed/5tu32CCA_Ig&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+&lt;p&gt;Putting aside the fact that concentrating power into the hands of a small number of representatives makes it easy for the wealthy to target their influence and manipulate those “representatives.”&lt;/p&gt;
+
+&lt;p&gt;Representatives can’t represent us.&lt;/p&gt;
+
+&lt;p&gt;At least not in the general sense, that across all issues someone who doesn’t even know me could be said to represent my perspective or interest in: net neutrality, military spending, drug enforcement, funding for arts, immigration policy, etc. On a specific issue, I certainly might say: “Hey, the things that person is saying really represent what I think about that.”&lt;/p&gt;
+
+&lt;p&gt;So that kind of delegation of narrow representation may be feasible, like in liquid democracy. But what about this concentrating of power effect? Doesn’t it still warp outcomes? &lt;a href=&quot;Something I've written&quot;&gt;Yes it does&lt;/a&gt;. Ideally, the more power becomes aggregated or concentrated, a system ends up with poorer discourse and is easier to manipulate.&lt;/p&gt;
+
+&lt;h3 id=&quot;we-know-what-decisions-to-make&quot;&gt;We Know What Decisions To Make&lt;/h3&gt;
+
+&lt;p&gt;It might have been much easier to address sustainable energy use or C02 emissions if we designed all our technology with that in mind from the beginning. But we didn’t yet know it mattered. And now that we’re addicted to convenience and certain lifestyles, it’s much harder to change course.&lt;/p&gt;
+
+&lt;p&gt;See the deeper problem is that decisions are discrete, but the world is wholly interconnected. When me make a decision, we &lt;a href=&quot;/etym/decide&quot;&gt;cut off&lt;/a&gt; a scope of reality that we’re considering, and what we think could make it work better (who to date, a better job, a CO2 policy, use of resources on state lands)&lt;/p&gt;
+
+&lt;p&gt;When we cut out that little segment of reality, we did using a bunch of assumptions about how things work, and beliefs about how they are separate or independent of each other. Unfortunately, this is already a faulty model. Everything is connected, but our decision making processes can’t deal with the complexity of “everything.” So we chop the world into arbitrary parts and convince ourselves our cutting, and our understanding of that segment is good enough to make useful decisions about it.&lt;/p&gt;
+
+&lt;p&gt;Chances are good, that we’re fooling ourselves.&lt;/p&gt;
+
+&lt;h3 id=&quot;laws-should-be-carefully-deliberated-and-made-to-last&quot;&gt;Laws Should Be Carefully Deliberated and Made to Last&lt;/h3&gt;
+
+&lt;p&gt;So we’ve taken some piece of the world that we’re going to make a decision about (funding for head start programs, health care insurance, a military action overseas), and now we’re going to darn well sure to make a GOOD decision about it, right?&lt;/p&gt;
+
+&lt;p&gt;Let me first admit, some decisions are certainly better than others, and many of the things I’ve written this post so far are about ways to maximize the chances of better decisions rather than worse ones. Yet, we significantly overestimate our ability to predict the outcomes of our decisions, while underestimating our cognitive biases and corruption by self-serving influence of special interests feeding those biases.&lt;/p&gt;
+
+&lt;p&gt;Many of you may be familiar with the field of genetic algorithms (GA) – basically computer programs that randomly evolve offspring which compete to for better fitness for a solution to a problem. In many contexts, GAs &lt;a href=&quot;/human-competetive&quot;&gt;outperform human programmers&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;In my experience, agile/adaptive governance approaches outperform structures which focus heavily on the decision-making process. When we minimize the cost of trying something and learning from it, we’re leveraging human intelligence in the learning, rather than in predicting an unknown future. Those organizations also tend to have more fun, and much shorter meetings! :)&lt;/p&gt;
+
+&lt;h3 id=&quot;transparency-blockchain-will-save-us&quot;&gt;Transparency (Blockchain Will Save Us)&lt;/h3&gt;
+
+&lt;p&gt;I favor transparency, and see a commitment to transparency as admirable. Yet transparency often doesn’t accomplish what we hope. In some cases, people feel &lt;a href=&quot;/geek-feminism/gittip-crisis&quot;&gt;vulnerable to attacks or persecution&lt;/a&gt; from disagreeing parties. In others, tension between personal inclinations and social pressures.&lt;/p&gt;
+
+&lt;p&gt;But the sticky point for me is that &lt;a href=&quot;/wikipedia/DIKW_pyramid&quot;&gt;data taken out of context is not information&lt;/a&gt;, it is misinformation.&lt;/p&gt;
+
+&lt;p&gt;When you have attained the level of expertise to be involved with making decisions about a complex issue, then you are using specialized language in your discourse which is inherently opaque to people outside. People outside of your context and domain of specialization can hear/see the same words, but they don’t have the same meaning.&lt;/p&gt;
+
+&lt;p&gt;This inaccessible jargon is an unavoidable part of “compressing” the massive complexity of a problem into sentences we can actually speak. You could listen to recordings of MetaCurrency design conversations, but almost nobody would know what we’re saying. They might think they do, because we’re using familiar words, but we’ve refined their use in our context to have meanings others don’t share.&lt;/p&gt;
+
+&lt;p&gt;So, as far as decision making goes, transparency doesn’t make that accessible in the ways we’d hope, and in fact can fuel massive misunderstanding or misinformation campaigns by taking things said out of context. But what about transparent recordkeeping on something like a blockchain?&lt;/p&gt;
+
+&lt;p&gt;First, far as governance goes, &lt;a href=&quot;/metacurrency/cryptocurrencies-are-dead&quot;&gt;blockchain doesn’t have any&lt;/a&gt;. They skipped the step of building social processes for decision-making for changes to the underlying technology, so even the blockchain is vulnerable to all the challenges of human irrationality as it evolves.&lt;/p&gt;
+
+&lt;p&gt;However, it is certainly a step in the right direction to establish open record-keeping with &lt;a href=&quot;/p2p-foundation/blockchains-major-design-flaw&quot;&gt;data integrity assured&lt;/a&gt; by cryptographic hashes, and &lt;a href=&quot;/ceptr/holochain&quot;&gt;data provenance verified&lt;/a&gt; by cryptographic signatures.&lt;/p&gt;
+
+&lt;!---As someone building blockchain alternatives, I'm biased, but I'm dubious about building governance on an architecture only decentralized not fully distributed. Also, forcing a single perspective to record as a global consensus involves significant loss of resolution, while requiring massive processing. (Sorry, blockchain geeks, I love you and what you're trying to do but think we have to take another approach.) --&gt;
+
+&lt;h2 id=&quot;so-is-there-no-hope&quot;&gt;So, Is There No Hope?&lt;/h2&gt;
+
+&lt;p&gt;If bankrupt assumptions are built into today’s governments and even most leading-edge digital governance tools, aren’t we screwed?&lt;/p&gt;
+
+&lt;p&gt;No. We’re in pretty good shape. The hidden benefit of the current crises happening in numerous governments is that people are loosening their irrational faith the system, and opening to new possibilities they couldn’t have considered even just a year ago.&lt;/p&gt;
+
+&lt;p&gt;So, although this could all seem like discouraging news, to me it is heartening, because it means that gnawing desire we’ve had in our guts for something better, is justified. I can tell you, there are approaches to governance which are actually fun, easy, agile, and deeply satisfying. But we do have to confront the challenges of taking them to large scales.&lt;/p&gt;
+
+&lt;p&gt;So let’s &lt;a href=&quot;/art-of-gov&quot;&gt;design them together&lt;/a&gt;!&lt;/p&gt;
+
+&lt;p&gt;This post has gotten too long, so I’ll have to finish by making this a series of posts:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Challenging Broken Assumptions&lt;/a&gt; of Governance (this post)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Powerful Design Principles&lt;/a&gt; for Next-Gen Governance&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Healthy Feedback Loops&lt;/a&gt;: The 90% of Governance Beyond Decision Making&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+				<guid isPermaLink="true">https://www.artbrock.com/2017/02/11/challenging-broken-assumptions-of-governance</guid>
+			</item>
+		
+			<item>
+				<title>The Art of Governance</title>
+				<link>https://www.artbrock.com/2017/02/01/art-of-governance</link>
+				<pubDate>Wed, 01 Feb 2017 00:00:00 -0500</pubDate>
+				<description>&lt;!-- TOC START min:1 max:3 link:true update:true --&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;#clarity-about-governance&quot;&gt;Clarity about Governance&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#what-is-possible&quot;&gt;What is Possible&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#healthy-feedback-loops-the-90-of-governance-beyond-decision-making&quot;&gt;Healthy Feedback Loops: The 90% of Governance Beyond Decision Making&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#humans-and-their-big-brains&quot;&gt;Humans and Their Big Brains&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#the-overwhelming-portion-of-governance&quot;&gt;The Overwhelming Portion of Governance&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#flows-set-in-motion-stay-in-motion&quot;&gt;Flows Set in Motion Stay in Motion&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#governance-is-much-more-than-decision-making&quot;&gt;Governance is much more than Decision Making&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- TOC END --&gt;
+
+&lt;p&gt;It has been a long-time intention to shift our focus toward better governance and collective intelligence AFTER addressing some fundamental infrastructure needed for it go well. Good governance infrastructure needs to be decentralized, interoperable, mashable into new workflows, quickly evolvable, and the tech for that hasn’t been quite ready.&lt;/p&gt;
+
+&lt;p&gt;Now I feel like we’re getting close enough with Ceptr that these capacities are just around the corner. So, although I’d like to wait till we have the tools ready, the rising buzz of energy that the Trump administration is triggering makes me feel like I have a responsibility to create a collaborative space for this work pronto.&lt;/p&gt;
+
+&lt;h2 id=&quot;clarity-about-governance&quot;&gt;Clarity about Governance&lt;/h2&gt;
+
+&lt;p&gt;Governance is not the same as a government. Government as we know it is a monolithic bureaucracy. And frankly, it isn’t very adept at governance – at least not as understood as follows.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Governance has two faces:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Managing continuity and coherence of healthy patterns&lt;/li&gt;
+  &lt;li&gt;Steering toward goals and away from dangers.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;In &lt;a href=&quot;&quot;&gt;this post&lt;/a&gt; I talked about how those two faces have been falsely dichotomized into conservative and progressive candidates and platforms. This&lt;/p&gt;
+
+&lt;h2 id=&quot;what-is-possible&quot;&gt;What is Possible&lt;/h2&gt;
+
+&lt;p&gt;Many are understandably skeptical about utopian visions of what is possible given the gridlock and corruption we call politics.&lt;/p&gt;
+
+&lt;h2 id=&quot;healthy-feedback-loops-the-90-of-governance-beyond-decision-making&quot;&gt;Healthy Feedback Loops: The 90% of Governance Beyond Decision Making&lt;/h2&gt;
+
+&lt;h3 id=&quot;humans-and-their-big-brains&quot;&gt;Humans and Their Big Brains&lt;/h3&gt;
+
+&lt;p&gt;As big-brained, symbol-using animals, we tend to over-value the importance of the tiny rational portion of ourselves. For example, we put kids in over 12 years of school which focuses on rational storage and retrieval of information in the mind. In school, most are never taught how to collaborate (It’s called cheating.), or how to listen compassionately, establish friendship or trust, express their deepest commitments (That stuff is all a distraction called “talking in class.”).&lt;/p&gt;
+
+&lt;p&gt;Sorry… I’m ranting. This isn’t about &lt;a href=&quot;/agile-learning-centers&quot;&gt;better alternatives to our broken educational system&lt;/a&gt;, it’s about our misplaced emphasis on rationality in our selves and our ideas of governance.&lt;/p&gt;
+
+&lt;p&gt;See way back in the first post in this series, we identified problems with the assumption that humans are rational. And since most strategies for governance revolve around this false assumption it probably seemed like pretty bad news.&lt;/p&gt;
+
+&lt;p&gt;So here’s the good news, even though the decision-making part of governance receives most our attention in designing systems, it’s a tiny part of governance. Let’s be generous and call it 10% of the system.&lt;/p&gt;
+
+&lt;p&gt;So what’s the other 90%?&lt;/p&gt;
+
+&lt;h2 id=&quot;the-overwhelming-portion-of-governance&quot;&gt;The Overwhelming Portion of Governance&lt;/h2&gt;
+
+&lt;p&gt;I defined &lt;a href=&quot;#&quot;&gt;governance in the context of living systems&lt;/a&gt; as having two faces:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Preserving the integrity of what’s working, and&lt;/li&gt;
+  &lt;li&gt;Moving toward goals or away from dangers.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Making good decisions is almost completely about #2. I’m not saying it’s not important, but it is truthfully nowhere near as important as #1. Let’s look at why.&lt;/p&gt;
+
+&lt;p&gt;In the course of a day, the attention of your rational brain is mostly on #2: getting to work, accomplishing tasks, choosing what to eat, who to hang out with, etc. However, luckily for you, your autonomic system is doing most of the work: keeping you breathing, muscles contracting, heart pumping, feet walking, eyes scanning, even neurons learning new patterns of navigating your environment &lt;strong&gt;un&lt;/strong&gt;-consciously.&lt;/p&gt;
+
+&lt;p&gt;The body is incredibly complex, it’s handling millions of interactions every moment, while your rational brain deals with one, maybe three. A social organism, such as a corporation, institution, or government, is fundamentally the same. The CEO is certainly not micro-managing every operation of the organism. If she is, then she’s probably not doing her job.&lt;/p&gt;
+
+&lt;h2 id=&quot;flows-set-in-motion-stay-in-motion&quot;&gt;Flows Set in Motion Stay in Motion&lt;/h2&gt;
+
+&lt;p&gt;Okay, this isn’t necessarily true, but I like the sound it stated like &lt;a href=&quot;&quot;&gt;Newtonian Physics&lt;/a&gt;. This is really the goal of building good self-regulating governance, establishing healthy patterns of flows that sustain themselves.&lt;/p&gt;
+
+&lt;p&gt;doesn’t happen just automatically, but&lt;/p&gt;
+
+&lt;h2 id=&quot;governance-is-much-more-than-decision-making&quot;&gt;Governance is much more than Decision Making&lt;/h2&gt;
+
+&lt;p&gt;How are needs or problems identified, goals selected, dangers foreseen?&lt;/p&gt;
+
+&lt;p&gt;How are shared values identified, healthy patterns recognized and maintained?&lt;/p&gt;
+
+&lt;p&gt;How is research conducted, information collected, evidence gathered?&lt;/p&gt;
+
+&lt;p&gt;How are&lt;/p&gt;
+
+&lt;p&gt;End with teaser about upcoming currency design webinars&lt;/p&gt;
+</description>
+				<guid isPermaLink="true">https://www.artbrock.com/2017/02/01/art-of-governance</guid>
+			</item>
+		
+			<item>
+				<title>The Future of Governance is not Governments</title>
+				<link>https://www.artbrock.com/2017/01/26/future-governance-is-not-governments</link>
+				<pubDate>Thu, 26 Jan 2017 00:00:00 -0500</pubDate>
+				<description>&lt;p&gt;Living systems on every scale have &lt;strong&gt;governance&lt;/strong&gt; – methods of self-regulation to manage the coherence and continuity of the system. Also, for steering toward goals or away from dangers.&lt;/p&gt;
+
+&lt;p&gt;This governance is not the same as a government. Government as we know it is a blunt instrument designed to enforce the will of the many over the few (although at this point it enforces the will of few on the many) It is a monolithic bureaucracy. And frankly, it isn’t very good at governance, at least not as defined in the first paragraph.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-nature-of-change&quot;&gt;The Nature of Change&lt;/h2&gt;
+
+&lt;p&gt;Notice that governance includes both conserving continuity and making progress. All living systems have this tension between being conservative and progressive.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Progressive:&lt;/strong&gt; Adapt or die – change is required. A system which cannot adapt to changing circumstances, will get steam-rolled by them. Furthermore, we want more than just adapting to survive, but evolving to improve and thrive. We want to move toward goals, and higher quality of life. And we want to be able perceive and avoid dangers, and respond deftly when confronted by them.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Conservative:&lt;/strong&gt; Maintain integrity or fly apart. What makes a system work is the pattern of self-regulation it has established: feedback loops, dynamic balances, flows which nourish all the parts of whole, so the whole can function. Disruption of these integrity of these patterns brings death even more quickly than a failure to evolve.&lt;/p&gt;
+
+&lt;h2 id=&quot;false-enemies&quot;&gt;False Enemies&lt;/h2&gt;
+
+&lt;p&gt;Globally, politics polarizes around that tension: conservative vs. progressive. This is a false choice. Both are mandatory. It doesn’t matter whether we like it or not. When the world around you is changing, and that change is accelerating, the question is never whether to change or stay the same.&lt;/p&gt;
+
+&lt;p&gt;The questions we must confront are:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;What changes are vital? (to survival and goals)&lt;/li&gt;
+  &lt;li&gt;How do we implement those changes in a way that doesn’t destroy the integrity of what works?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Selecting a conservative vs. a progressive candidate is a false choice that we are forced to make because of broken architectures of governments.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-failure-of-representative-democracy&quot;&gt;The Failure of Representative Democracy&lt;/h2&gt;
+
+&lt;p&gt;Representative Democracy may have been a breakthrough 2000 years ago. It even made sense 200 years ago when the U.S. Constitution was written. The only way to discuss and deliberate was to go meet someplace, and everyone can’t ride hundreds of miles by horseback or carriage to participate, so you choose representatives to bring your local news and concerns to the table. There are many alternatives in an Internet age.&lt;/p&gt;
+
+&lt;p&gt;Fine – except for a few major problems.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;One person can’t actually represent many.&lt;/strong&gt; Maybe if we sit down and you tell me your concerns and commitments about an issue, then I could represent you (and myself) on that issue. But as you add a few more people, that gets increasingly difficult. Now make it millions of people that I don’t talk to directly and make it apply across all issues. What are the chances I’m really representing you? Is it even possible that I could come close to representing that kind of population across the complex range of issues that officials are supposed to make decisions about?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Party Affiliation:&lt;/strong&gt; A two-party system reduces politics down to voting for a conservative or progressive. Multi-party politics isn’t much better as still reduces the range of discourse down to the ideological platform of the party. Voter choices go from 2 to 3 or 5, which is nowhere near the level of complexity of choice that we need for navigating the world we’re in.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Non-Local Issues:&lt;/strong&gt; Particularly, at the level of the Federal government, most of the decisions made have little to do with locale. Local decisions are certainly made on neighborhood, municipal, and loosely state levels. (Many states are too big be “local” ) So we are constrained to voting by party and locale. These factors map very poorly to the real world challenges we need to collectively navigate.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;a-world-too-big-fast-and-complex&quot;&gt;A World too Big, Fast, and Complex&lt;/h3&gt;
+
+&lt;p&gt;The Constitution was written for an Agrarian Republic. The level of complexity that officials were expected to confront absolutely did not include things like Nuclear Power and Weaponry, Electronic Surveillance, Climate Change, Net Neutrality, Air Traffic Control, etc. If you’ve gotten a glimpse of CSPAN, you probably have exposure to how poor a grasp politicians have on even basic workings of some of these issues.&lt;/p&gt;
+
+&lt;p&gt;They can’t be experts on everything, especially when their job security is mostly tied to schmoozing influential funders. We have politicians without the right expertise, with inherent conflicts of interest by who they have please to keep getting campaign funds, who can’t possibly represent the complexity of their constituency, and are elected by association with ideological simplifications … and we pretend there’s a chance of good governance from this setup.&lt;/p&gt;
+
+&lt;p&gt;The Constitutional Government fared fairly well for nearly a hundred agrarian years. Yet as the country moved into a more industrial era, the government had no good way to integrate major shift in economic power. I would assert that the Civil War was a symptom of that failure to integrate the northern industrial and southern agrarian economic needs and patterns except by military force.&lt;/p&gt;
+
+&lt;p&gt;After this point, the U.S. Government appeared to continue on smoothly but increasingly became controlled by the banks and corporations of the industrial economy. As the U.S. economy has been transitioning into information age dynamics, it gets harder to even maintain the appearance of relevance.&lt;/p&gt;
+
+&lt;p&gt;The bureaucracy simply doesn’t have the throughput to keep up with the increased complexity of issues and the pace that the world is changing.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-end-of-old-world-order&quot;&gt;The End of Old World Order&lt;/h2&gt;
+
+&lt;p&gt;The government was already dying. The gap between what it had become and what we need it to be was becoming intolerable for too many people. That is part of what enabled Trump to get his foot into the door of the presidency, and if his first week in office is any indication, his team will dismantle much, and quickly.&lt;/p&gt;
+
+&lt;p&gt;This is not business as usual. They are not playing by the old rules. There is a good chance that they won’t acknowledge any established means of reclaiming the power they’ve seized. Not by impeachment. Not by the next election. Not by constitutional convention. Spending your energy on those things will likely be energy lost.&lt;/p&gt;
+
+&lt;p&gt;We’ll see if I’m right about this, but if I am, that means our only real alternative is build the next generation of self-governance that reclaims the powers we’ve surrendered to the government.&lt;/p&gt;
+
+&lt;p&gt;It will need to a P2P, fully-distributed, digital democracy that will be so different from how we think of government, that it may better be thought of as a kind of social network. You jump on, scan your feed, participate in conversations you’re interested in, weigh in with “likes” or other similar feedback, etc.&lt;/p&gt;
+
+&lt;h2 id=&quot;feasibility&quot;&gt;Feasibility&lt;/h2&gt;
+
+&lt;p&gt;For many, the reality of this will sound far-fetched. Remember, the cells in our body figured out how to do extremely sophisticated self-governance on scales of trillions. Fully P2P governance. No cell is President or Dictator of the system.&lt;/p&gt;
+
+&lt;p&gt;If cells can do it, we can too. Unfortunately, we don’t have millions of years to figure it out, we’ve escalated the situation to create the crises we needed to force our own hands.&lt;/p&gt;
+
+&lt;p&gt;I’m not saying this kind of transition will be easy for people to accept. No change on this magnitude is easy. However, I don’t see any better alternatives.&lt;/p&gt;
+
+&lt;h2 id=&quot;invitation&quot;&gt;Invitation&lt;/h2&gt;
+
+&lt;p&gt;People are agitated. Energy is emerging to connect for change. People need to be connecting and having new conversations about what to do. I’d like to channel some of that energy into building real alternatives instead of chasing expired political strategies.&lt;/p&gt;
+
+&lt;p&gt;This is an invitation to all who have the capacities to contribute to building the world we need.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Community organizers&lt;/li&gt;
+  &lt;li&gt;Social process wonks&lt;/li&gt;
+  &lt;li&gt;Programmers and Crypto geeks&lt;/li&gt;
+  &lt;li&gt;UX, UI, and Graphic Designers&lt;/li&gt;
+  &lt;li&gt;All people willing to leave old pictures of government behind and experiment with new self-governance&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For the technology side of things, please check out &lt;a href=&quot;/ceptr&quot;&gt;Ceptr&lt;/a&gt; and how you might be able to participate there. For the reinvention of governance, check out the &lt;a href=&quot;/2017/02/01/art-of-governance&quot;&gt;Art of Governance&lt;/a&gt; site I’m building this week.&lt;/p&gt;
+
+&lt;p&gt;Art of Governance, and the collaborative tools for sharing ideas and up-voting and such, will initially be on a normal (centralized) web site, but we’ll move it to fully-distributed tools as quickly as we are able.&lt;/p&gt;
+
+&lt;p&gt;Come play!&lt;/p&gt;
+</description>
+				<guid isPermaLink="true">https://www.artbrock.com/2017/01/26/future-governance-is-not-governments</guid>
+			</item>
+		
+			<item>
+				<title>Ode to ELL and my Backlog</title>
+				<link>https://www.artbrock.com/2016/06/13/ode-to-ell-and-my-backlog</link>
+				<pubDate>Mon, 13 Jun 2016 00:00:00 -0400</pubDate>
+				<description>&lt;p&gt;Crap… it all got deleted and I have to re-write it.  Awesome.&lt;/p&gt;
+
+</description>
+				<guid isPermaLink="true">https://www.artbrock.com/2016/06/13/ode-to-ell-and-my-backlog</guid>
+			</item>
+		
+			<item>
+				<title>Jerry Michalski interviews me about Alternative Currencies IFTF FutureCast Interview</title>
+				<link>https://www.artbrock.com/2016/05/15/jerry-michalski-interviews-me-about-alternative-ccurrencies-iftf-futrecast-interview</link>
+				<pubDate>Sun, 15 May 2016 00:00:00 -0400</pubDate>
+				<description>
+</description>
+				<guid isPermaLink="true">https://www.artbrock.com/2016/05/15/jerry-michalski-interviews-me-about-alternative-ccurrencies-iftf-futrecast-interview</guid>
 			</item>
 		
 	</channel>
