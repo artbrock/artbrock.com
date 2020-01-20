@@ -7,7 +7,7 @@ jobs:
  # https://discuss.circleci.com/t/adding-ssh-keys-fails/7747/24
  deploy-github-pages:
   docker:
-   - image: FROM nixorg/nix:circleci
+   - image: nixorg/nix:circleci
   steps:
    # - add_ssh_keys:
    #    fingerprints:
