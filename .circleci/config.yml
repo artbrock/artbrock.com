@@ -9,10 +9,10 @@ jobs:
   docker:
    - image: nixorg/nix:circleci
   steps:
+   - checkout
    - add_ssh_keys:
       fingerprints:
        - "6c:4d:7f:d4:f6:f5:89:13:21:c4:77:98:38:28:82:ca"
-   - checkout
    - run:
       name: Deploy github pages
       command: |
