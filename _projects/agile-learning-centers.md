@@ -1,5 +1,5 @@
 ---
-title: "Agile learning centers"
+title: "Agile Learning Centers"
 image: ALCs_web_header_retina.png
 permalink: /agile-learning-centers
 ---

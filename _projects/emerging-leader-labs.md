@@ -1,5 +1,5 @@
 ---
-title: "Emerging leader labs"
+title: "Emerging Leader Labs"
 image: Group-Photo-Mural.png
 permalink: /emerging-leader-labs
 ---

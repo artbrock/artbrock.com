@@ -1,6 +1,6 @@
 ---
-title: "The geek gene"
+title: "The Geek Gene"
 image: GGlogo.png
 permalink: /geek-gene
 ---
-[{{ page.title }}]({{ page.permalink }}) offers strategic IT planning, solution design and software development, graphic design and web site implementation, internet application development, and interactive community-building tools.
+[{{ page.title }}]({{ page.permalink }}) offers strategic IT planning, custom currency solution design distributed application development, and interactive community-building tools.
