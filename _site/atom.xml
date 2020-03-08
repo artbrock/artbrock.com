@@ -2,9 +2,9 @@
 <?xml-stylesheet type="text/xsl" href="/assets/xslt/atom.xslt" ?>
 <?xml-stylesheet type="text/css" href="/assets/css/atom.css" ?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-	<id>https://www.artbrock.com/</id>
+	<id>http://localhost:4000/</id>
 	<title>Arthur Brock's Personal Site</title>
-	<updated>2020-01-20T21:45:00+00:00</updated>
+	<updated>2020-01-21T17:21:12-05:00</updated>
 
 	<subtitle>Culture-Hacking, Alt.Education, Targeted Currency Design, NextNet Technologies.</subtitle>
 
@@ -21,17 +21,17 @@
 		</author>
 	
 
-	<link href="https://www.artbrock.com/atom.xml" rel="self" type="application/rss+xml" />
-	<link href="https://www.artbrock.com/" rel="alternate" type="text/html" />
+	<link href="http://localhost:4000/atom.xml" rel="self" type="application/rss+xml" />
+	<link href="http://localhost:4000/" rel="alternate" type="text/html" />
 
 	<generator uri="http://jekyllrb.com" version="4.0.0">Jekyll</generator>
 
 	
 		<entry>
-			<id>https://www.artbrock.com/2017/07/11/but-data-doesnt-exist</id>
+			<id>http://localhost:4000/2017/07/11/but-data-doesnt-exist</id>
 			<title>But Data Doesn't Exist</title>
-			<link href="https://www.artbrock.com/2017/07/11/but-data-doesnt-exist" rel="alternate" type="text/html" title="But Data Doesn't Exist" />
-			<updated>2017-07-12T01:17:57+00:00</updated>
+			<link href="http://localhost:4000/2017/07/11/but-data-doesnt-exist" rel="alternate" type="text/html" title="But Data Doesn't Exist" />
+			<updated>2017-07-11T21:17:57-04:00</updated>
 
 			
 				
@@ -44,7 +44,7 @@
 				</author>
 			
 			<summary></summary>
-			<content type="html" xml:base="https://www.artbrock.com/2017/07/11/but-data-doesnt-exist">&lt;h2 id=&quot;true-fallacies-of-distributed-computing&quot;&gt;True Fallacies of Distributed Computing&lt;/h2&gt;
+			<content type="html" xml:base="http://localhost:4000/2017/07/11/but-data-doesnt-exist">&lt;h2 id=&quot;true-fallacies-of-distributed-computing&quot;&gt;True Fallacies of Distributed Computing&lt;/h2&gt;
 
 &lt;p&gt;There’s a wikipedia article about the fallacies of distributed computing.&lt;/p&gt;
 
@@ -77,14 +77,14 @@
 				<category term="Tag2" />
 			
 
-			<published>2017-07-12T01:17:57+00:00</published>
+			<published>2017-07-11T21:17:57-04:00</published>
 		</entry>
 	
 		<entry>
-			<id>https://www.artbrock.com/2017/06/12/phase-shift</id>
+			<id>http://localhost:4000/2017/06/12/phase-shift</id>
 			<title>A major phase shift</title>
-			<link href="https://www.artbrock.com/2017/06/12/phase-shift" rel="alternate" type="text/html" title="A major phase shift" />
-			<updated>2017-06-12T21:11:02+00:00</updated>
+			<link href="http://localhost:4000/2017/06/12/phase-shift" rel="alternate" type="text/html" title="A major phase shift" />
+			<updated>2017-06-12T17:11:02-04:00</updated>
 
 			
 				
@@ -97,7 +97,7 @@
 				</author>
 			
 			<summary></summary>
-			<content type="html" xml:base="https://www.artbrock.com/2017/06/12/phase-shift">&lt;p&gt;You’ve probably seen a lot more activity around the MetaCurrency Project in recent months: a new Ceptr web site, Ceptr broken down into clearer sub-projects, blockchain alternatives, lots of code releases, Hackathons, virtual potlucks, online presentations, etc. I guess we ought to make it clearer what’s going on.&lt;/p&gt;
+			<content type="html" xml:base="http://localhost:4000/2017/06/12/phase-shift">&lt;p&gt;You’ve probably seen a lot more activity around the MetaCurrency Project in recent months: a new Ceptr web site, Ceptr broken down into clearer sub-projects, blockchain alternatives, lots of code releases, Hackathons, virtual potlucks, online presentations, etc. I guess we ought to make it clearer what’s going on.&lt;/p&gt;
 
 &lt;p&gt;For a long time we’ve operated as one of those fringy open source projects like some mad scientists experimenting in their garage. But now we must navigate the transition from a tech hobby project to a scalable business, in part, because we’ve been approached by funders.&lt;/p&gt;
 
@@ -157,14 +157,14 @@
 				<category term="Ceptr" />
 			
 
-			<published>2017-06-12T21:11:02+00:00</published>
+			<published>2017-06-12T17:11:02-04:00</published>
 		</entry>
 	
 		<entry>
-			<id>https://www.artbrock.com/2017/06/05/commons-engine</id>
+			<id>http://localhost:4000/2017/06/05/commons-engine</id>
 			<title>Commons Engine</title>
-			<link href="https://www.artbrock.com/2017/06/05/commons-engine" rel="alternate" type="text/html" title="Commons Engine" />
-			<updated>2017-06-06T03:16:09+00:00</updated>
+			<link href="http://localhost:4000/2017/06/05/commons-engine" rel="alternate" type="text/html" title="Commons Engine" />
+			<updated>2017-06-05T23:16:09-04:00</updated>
 
 			
 				
@@ -177,7 +177,7 @@
 				</author>
 			
 			<summary></summary>
-			<content type="html" xml:base="https://www.artbrock.com/2017/06/05/commons-engine">&lt;h2 id=&quot;commons-engine&quot;&gt;Commons Engine&lt;/h2&gt;
+			<content type="html" xml:base="http://localhost:4000/2017/06/05/commons-engine">&lt;h2 id=&quot;commons-engine&quot;&gt;Commons Engine&lt;/h2&gt;
 
 &lt;p&gt;We intend to turn the management of Ceptr and its software ecosystem over to a Sovereign Accountable Commons (our counterpart to a DAO - decentralized autonomous organization). For us this means building:&lt;/p&gt;
 
@@ -215,14 +215,14 @@
 				<category term="Value Accounting" />
 			
 
-			<published>2017-06-06T03:16:09+00:00</published>
+			<published>2017-06-05T23:16:09-04:00</published>
 		</entry>
 	
 		<entry>
-			<id>https://www.artbrock.com/2017/02/27/intro-to-currency-design</id>
+			<id>http://localhost:4000/2017/02/27/intro-to-currency-design</id>
 			<title>Intro to Currency Design</title>
-			<link href="https://www.artbrock.com/2017/02/27/intro-to-currency-design" rel="alternate" type="text/html" title="Intro to Currency Design" />
-			<updated>2017-02-28T00:19:03+00:00</updated>
+			<link href="http://localhost:4000/2017/02/27/intro-to-currency-design" rel="alternate" type="text/html" title="Intro to Currency Design" />
+			<updated>2017-02-27T19:19:03-05:00</updated>
 
 			
 				
@@ -235,7 +235,7 @@
 				</author>
 			
 			<summary></summary>
-			<content type="html" xml:base="https://www.artbrock.com/2017/02/27/intro-to-currency-design">&lt;h2 id=&quot;ferananda&quot;&gt;Ferananda&lt;/h2&gt;
+			<content type="html" xml:base="http://localhost:4000/2017/02/27/intro-to-currency-design">&lt;h2 id=&quot;ferananda&quot;&gt;Ferananda&lt;/h2&gt;
 
 &lt;p&gt;What if there was a currency that could be used to enslave you, without you even realizing it? Wouldn’t you want to know? Wouldn’t you want to learn to see how it works? How it does that?&lt;/p&gt;
 
@@ -409,14 +409,14 @@ Check it out at MetaCurrency.org&lt;/p&gt;
 				<category term="Tag2" />
 			
 
-			<published>2017-02-28T00:19:03+00:00</published>
+			<published>2017-02-27T19:19:03-05:00</published>
 		</entry>
 	
 		<entry>
-			<id>https://www.artbrock.com/2017/02/12/powerful-design-principles-for-next-gen-governance</id>
+			<id>http://localhost:4000/2017/02/12/powerful-design-principles-for-next-gen-governance</id>
 			<title>Powerful Design Principles for Next-Gen Governance</title>
-			<link href="https://www.artbrock.com/2017/02/12/powerful-design-principles-for-next-gen-governance" rel="alternate" type="text/html" title="Powerful Design Principles for Next-Gen Governance" />
-			<updated>2017-02-13T03:08:00+00:00</updated>
+			<link href="http://localhost:4000/2017/02/12/powerful-design-principles-for-next-gen-governance" rel="alternate" type="text/html" title="Powerful Design Principles for Next-Gen Governance" />
+			<updated>2017-02-12T22:08:00-05:00</updated>
 
 			
 				
@@ -429,7 +429,7 @@ Check it out at MetaCurrency.org&lt;/p&gt;
 				</author>
 			
 			<summary></summary>
-			<content type="html" xml:base="https://www.artbrock.com/2017/02/12/powerful-design-principles-for-next-gen-governance">&lt;p&gt;In &lt;a href=&quot;/2017/02/11/challenging-broken-assumptions-of-governance&quot;&gt;my last post&lt;/a&gt;, I deconstructed a number of core assumptions that we tend to take for granted as true, and that most of our tools of governance are built around. I didn’t mean to just stop there without getting to the good news, but the post was getting long.&lt;/p&gt;
+			<content type="html" xml:base="http://localhost:4000/2017/02/12/powerful-design-principles-for-next-gen-governance">&lt;p&gt;In &lt;a href=&quot;/2017/02/11/challenging-broken-assumptions-of-governance&quot;&gt;my last post&lt;/a&gt;, I deconstructed a number of core assumptions that we tend to take for granted as true, and that most of our tools of governance are built around. I didn’t mean to just stop there without getting to the good news, but the post was getting long.&lt;/p&gt;
 
 &lt;p&gt;If things we’re used to leaning on to organize ourselves don’t work, what can we count on? Let’s establish some powerful principles to work from.&lt;/p&gt;
 
@@ -549,14 +549,14 @@ Awareness(Values/Reason/Intent)/Protocol&lt;/p&gt;
 				<category term="Tag2" />
 			
 
-			<published>2017-02-13T03:08:00+00:00</published>
+			<published>2017-02-12T22:08:00-05:00</published>
 		</entry>
 	
 		<entry>
-			<id>https://www.artbrock.com/2017/02/11/challenging-broken-assumptions-of-governance</id>
+			<id>http://localhost:4000/2017/02/11/challenging-broken-assumptions-of-governance</id>
 			<title>Challenging Broken Assumptions of Governance</title>
-			<link href="https://www.artbrock.com/2017/02/11/challenging-broken-assumptions-of-governance" rel="alternate" type="text/html" title="Challenging Broken Assumptions of Governance" />
-			<updated>2017-02-12T04:30:14+00:00</updated>
+			<link href="http://localhost:4000/2017/02/11/challenging-broken-assumptions-of-governance" rel="alternate" type="text/html" title="Challenging Broken Assumptions of Governance" />
+			<updated>2017-02-11T23:30:14-05:00</updated>
 
 			
 				
@@ -569,7 +569,7 @@ Awareness(Values/Reason/Intent)/Protocol&lt;/p&gt;
 				</author>
 			
 			<summary></summary>
-			<content type="html" xml:base="https://www.artbrock.com/2017/02/11/challenging-broken-assumptions-of-governance">&lt;h1 id=&quot;broken-assumptions-of-governance&quot;&gt;Broken Assumptions of Governance&lt;/h1&gt;
+			<content type="html" xml:base="http://localhost:4000/2017/02/11/challenging-broken-assumptions-of-governance">&lt;h1 id=&quot;broken-assumptions-of-governance&quot;&gt;Broken Assumptions of Governance&lt;/h1&gt;
 
 &lt;!-- TOC START min:1 max:3 link:true update:true --&gt;
 &lt;ul&gt;
@@ -752,14 +752,14 @@ Awareness(Values/Reason/Intent)/Protocol&lt;/p&gt;
 				<category term="Government" />
 			
 
-			<published>2017-02-12T04:30:14+00:00</published>
+			<published>2017-02-11T23:30:14-05:00</published>
 		</entry>
 	
 		<entry>
-			<id>https://www.artbrock.com/2017/02/01/art-of-governance</id>
+			<id>http://localhost:4000/2017/02/01/art-of-governance</id>
 			<title>The Art of Governance</title>
-			<link href="https://www.artbrock.com/2017/02/01/art-of-governance" rel="alternate" type="text/html" title="The Art of Governance" />
-			<updated>2017-02-01T00:00:00+00:00</updated>
+			<link href="http://localhost:4000/2017/02/01/art-of-governance" rel="alternate" type="text/html" title="The Art of Governance" />
+			<updated>2017-02-01T00:00:00-05:00</updated>
 
 			
 				
@@ -774,7 +774,7 @@ Awareness(Values/Reason/Intent)/Protocol&lt;/p&gt;
 				</author>
 			
 			<summary></summary>
-			<content type="html" xml:base="https://www.artbrock.com/2017/02/01/art-of-governance">&lt;!-- TOC START min:1 max:3 link:true update:true --&gt;
+			<content type="html" xml:base="http://localhost:4000/2017/02/01/art-of-governance">&lt;!-- TOC START min:1 max:3 link:true update:true --&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;#clarity-about-governance&quot;&gt;Clarity about Governance&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#what-is-possible&quot;&gt;What is Possible&lt;/a&gt;&lt;/li&gt;
@@ -867,14 +867,14 @@ Awareness(Values/Reason/Intent)/Protocol&lt;/p&gt;
 			
 			
 
-			<published>2017-02-01T00:00:00+00:00</published>
+			<published>2017-02-01T00:00:00-05:00</published>
 		</entry>
 	
 		<entry>
-			<id>https://www.artbrock.com/2017/01/26/future-governance-is-not-governments</id>
+			<id>http://localhost:4000/2017/01/26/future-governance-is-not-governments</id>
 			<title>The Future of Governance is not Governments</title>
-			<link href="https://www.artbrock.com/2017/01/26/future-governance-is-not-governments" rel="alternate" type="text/html" title="The Future of Governance is not Governments" />
-			<updated>2017-01-26T00:00:00+00:00</updated>
+			<link href="http://localhost:4000/2017/01/26/future-governance-is-not-governments" rel="alternate" type="text/html" title="The Future of Governance is not Governments" />
+			<updated>2017-01-26T00:00:00-05:00</updated>
 
 			
 				
@@ -889,7 +889,7 @@ Awareness(Values/Reason/Intent)/Protocol&lt;/p&gt;
 				</author>
 			
 			<summary></summary>
-			<content type="html" xml:base="https://www.artbrock.com/2017/01/26/future-governance-is-not-governments">&lt;p&gt;Living systems on every scale have &lt;strong&gt;governance&lt;/strong&gt; – methods of self-regulation to manage the coherence and continuity of the system. Also, for steering toward goals or away from dangers.&lt;/p&gt;
+			<content type="html" xml:base="http://localhost:4000/2017/01/26/future-governance-is-not-governments">&lt;p&gt;Living systems on every scale have &lt;strong&gt;governance&lt;/strong&gt; – methods of self-regulation to manage the coherence and continuity of the system. Also, for steering toward goals or away from dangers.&lt;/p&gt;
 
 &lt;p&gt;This governance is not the same as a government. Government as we know it is a blunt instrument designed to enforce the will of the many over the few (although at this point it enforces the will of few on the many) It is a monolithic bureaucracy. And frankly, it isn’t very good at governance, at least not as defined in the first paragraph.&lt;/p&gt;
 
@@ -989,14 +989,14 @@ Awareness(Values/Reason/Intent)/Protocol&lt;/p&gt;
 			
 			
 
-			<published>2017-01-26T00:00:00+00:00</published>
+			<published>2017-01-26T00:00:00-05:00</published>
 		</entry>
 	
 		<entry>
-			<id>https://www.artbrock.com/2016/06/13/ode-to-ell-and-my-backlog</id>
+			<id>http://localhost:4000/2016/06/13/ode-to-ell-and-my-backlog</id>
 			<title>Ode to ELL and my Backlog</title>
-			<link href="https://www.artbrock.com/2016/06/13/ode-to-ell-and-my-backlog" rel="alternate" type="text/html" title="Ode to ELL and my Backlog" />
-			<updated>2016-06-13T00:00:00+00:00</updated>
+			<link href="http://localhost:4000/2016/06/13/ode-to-ell-and-my-backlog" rel="alternate" type="text/html" title="Ode to ELL and my Backlog" />
+			<updated>2016-06-13T00:00:00-04:00</updated>
 
 			
 				
@@ -1011,7 +1011,7 @@ Awareness(Values/Reason/Intent)/Protocol&lt;/p&gt;
 				</author>
 			
 			<summary></summary>
-			<content type="html" xml:base="https://www.artbrock.com/2016/06/13/ode-to-ell-and-my-backlog">&lt;p&gt;Crap… it all got deleted and I have to re-write it.  Awesome.&lt;/p&gt;
+			<content type="html" xml:base="http://localhost:4000/2016/06/13/ode-to-ell-and-my-backlog">&lt;p&gt;Crap… it all got deleted and I have to re-write it.  Awesome.&lt;/p&gt;
 
 </content>
 
@@ -1026,14 +1026,14 @@ Awareness(Values/Reason/Intent)/Protocol&lt;/p&gt;
 			
 			
 
-			<published>2016-06-13T00:00:00+00:00</published>
+			<published>2016-06-13T00:00:00-04:00</published>
 		</entry>
 	
 		<entry>
-			<id>https://www.artbrock.com/2016/05/15/jerry-michalski-interviews-me-about-alternative-ccurrencies-iftf-futrecast-interview</id>
+			<id>http://localhost:4000/2016/05/15/jerry-michalski-interviews-me-about-alternative-ccurrencies-iftf-futrecast-interview</id>
 			<title>Jerry Michalski interviews me about Alternative Currencies IFTF FutureCast Interview</title>
-			<link href="https://www.artbrock.com/2016/05/15/jerry-michalski-interviews-me-about-alternative-ccurrencies-iftf-futrecast-interview" rel="alternate" type="text/html" title="Jerry Michalski interviews me about Alternative Currencies IFTF FutureCast Interview" />
-			<updated>2016-05-15T00:00:00+00:00</updated>
+			<link href="http://localhost:4000/2016/05/15/jerry-michalski-interviews-me-about-alternative-ccurrencies-iftf-futrecast-interview" rel="alternate" type="text/html" title="Jerry Michalski interviews me about Alternative Currencies IFTF FutureCast Interview" />
+			<updated>2016-05-15T00:00:00-04:00</updated>
 
 			
 				
@@ -1048,7 +1048,7 @@ Awareness(Values/Reason/Intent)/Protocol&lt;/p&gt;
 				</author>
 			
 			<summary></summary>
-			<content type="html" xml:base="https://www.artbrock.com/2016/05/15/jerry-michalski-interviews-me-about-alternative-ccurrencies-iftf-futrecast-interview">
+			<content type="html" xml:base="http://localhost:4000/2016/05/15/jerry-michalski-interviews-me-about-alternative-ccurrencies-iftf-futrecast-interview">
 </content>
 
 			
@@ -1060,7 +1060,7 @@ Awareness(Values/Reason/Intent)/Protocol&lt;/p&gt;
 			
 			
 
-			<published>2016-05-15T00:00:00+00:00</published>
+			<published>2016-05-15T00:00:00-04:00</published>
 		</entry>
 	
 </feed>
