@@ -5,6 +5,7 @@ let
 
   path = " _site";
   upstream = "origin";
+  deploy = "deploy";
   from-branch = "master";
   to-branch = "gh-pages";
 
@@ -24,8 +25,8 @@ if [[ -n $(git status --porcelain) ]]
     then
      echo "Pushing to github pages"
      git add . && git commit -am'jekyll build docs [skip ci]'
-     git push ${upstream} ${from-branch}
-     git push ${upstream} `git subtree split --prefix ${path} ${from-branch} --message 'github pages push [skip ci]'`:${to-branch} --force
+     # git push ${upstream} ${from-branch}
+     git push ${deploy} `git subtree split --prefix ${path} ${from-branch} --message 'github pages push [skip ci]'`:${to-branch} --force
     else
      echo 'failed git status check'
    fi
