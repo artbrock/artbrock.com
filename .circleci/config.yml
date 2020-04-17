@@ -12,7 +12,7 @@ jobs:
    - checkout
    - add_ssh_keys:
       fingerprints:
-       - "f3:2b:02:e4:71:8f:fc:8b:85:33:c7:34:4f:40:bd:64"
+       - "0b:fd:8f:62:37:9f:5f:54:f8:3d:7e:c6:f1:17:fd:57"
    - run:
       name: Deploy github pages
       command: |
