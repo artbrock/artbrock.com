@@ -3,11 +3,11 @@ let
 
   name = "nix-deploy";
 
-  path = " _site";
+  path = "_site";
   upstream = "origin";
   deploy = "deploy";
   from-branch = "master";
-  to-branch = "gh-pages";
+  to-branch = "master";
 
   # https://stackoverflow.com/questions/36782467/set-subdirectory-as-website-root-on-github-pages#36782614
   # https://clontz.org/blog/2014/05/08/git-subtree-push-for-deployment/
