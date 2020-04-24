@@ -6,11 +6,11 @@ header:
 permalink: /projects/
 ---
 
+
+
 ## Current projects
 {% assign sorted = site.projects | reverse %}
-{% if current=true %}
 {% include _grid-tile.html size=6 media-height=200 object-fit='contain' items=sorted %}
-{% endif %}
 
 ## Past Projects
 {% assign sorted = site.past_projects | reverse %}
