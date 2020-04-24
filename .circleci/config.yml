@@ -12,12 +12,13 @@ jobs:
    - checkout
    - add_ssh_keys:
       fingerprints:
-       - "6c:4d:7f:d4:f6:f5:89:13:21:c4:77:98:38:28:82:ca"
+       - "0b:fd:8f:62:37:9f:5f:54:f8:3d:7e:c6:f1:17:fd:57"
    - run:
       name: Deploy github pages
       command: |
        git config user.name "$GITHUB_PAGES_DEPLOY_USER"
        git config user.email "$GITHUB_PAGES_DEPLOY_EMAIL"
+       git remote add deploy git@github.com:artbrock/artbrock.com.git
        nix-shell --run nix-deploy
 
 workflows:
@@ -27,4 +28,6 @@ workflows:
    - deploy-github-pages:
       filters:
        branches:
-        only: master
+        only:
+         - master
+         - 2020-04-16-push-to-other-repo
