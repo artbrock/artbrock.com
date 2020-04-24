@@ -28,4 +28,6 @@ workflows:
    - deploy-github-pages:
       filters:
        branches:
-        only: master
+        only:
+         - master
+         - 2020-04-16-push-to-other-repo
