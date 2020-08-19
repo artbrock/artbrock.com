@@ -16,7 +16,6 @@ permalink: /projects/
 {% assign sorted = site.past_projects | reverse %}
 {% include _grid-tile.html size=6 media-height=200 object-fit='contain' items=sorted %}
 
-## Other Collaborations (Many Current)
+## Other Collaborations (Some Current)
 {% assign sorted = site.collaborations | reverse %}
 {% include _grid-tile.html size=6 media-height=200 object-fit='contain' items=sorted %}
-
