@@ -21,15 +21,15 @@ if [[ -n $(git status --porcelain) ]]
    echo "Building jekyll docs"
    nix-build
 
-   if [[ $(git status --porcelain) ]]
-    then
+   # if [[ $(git status --porcelain) ]]
+   #  then
      echo "Pushing to github pages"
      git add . && git commit -am'jekyll build docs [skip ci]'
      # git push ${upstream} ${from-branch}
      git push ${deploy} `git subtree split --prefix ${path} ${from-branch} --message 'github pages push [skip ci]'`:${to-branch} --force
-    else
-     echo 'failed git status check'
-   fi
+   #  else
+   #   echo 'failed git status check'
+   # fi
 fi
   '';
 in
