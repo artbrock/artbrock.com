@@ -24,7 +24,7 @@ if [[ -n $(git status --porcelain) ]]
    # we don't want to be ignoring the thing we're supposed to be deploying
    # if you deploy from local rather than CI you'll need to be careful that you
    # don't push this change to master on the main repo
-   cat '!_site' >> .gitignore
+   echo '!_site' >> .gitignore
 
    if [[ $(git status --porcelain) ]]
     then
