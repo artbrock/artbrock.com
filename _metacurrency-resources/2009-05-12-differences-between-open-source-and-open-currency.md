@@ -10,4 +10,4 @@ categories:
 - open currency
 - open
 ---
-Drilling down into the murky depths of definitions and designs of openness
+Drilling down into the murky depths of definitions and designs of openness.

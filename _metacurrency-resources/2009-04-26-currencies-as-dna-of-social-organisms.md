@@ -8,4 +8,4 @@ categories:
 - currency
 ---
 
-Elaborating on a central metaphor for understanding currencies
+Elaborating on a central metaphor for understanding currencies.

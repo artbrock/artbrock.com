@@ -11,4 +11,4 @@ categories:
 - currency design
 - currency system
 ---
-Understanding currencies as means by which to facilitate the flows, which are more important than the currencies themselves
+Understanding currencies as means by which to facilitate the flows, which are more important than the currencies themselves.

@@ -9,4 +9,4 @@ categories:
 - gifts
 - currency
 ---
-Discussing money and power pathologies, gift economies, and money and anti-inflation
+Discussing money and power pathologies, gift economies, and money and anti-inflation.

@@ -8,4 +8,4 @@ categories:
 - new economy
 - gifts
 ---
-Clarifying the features of, and differences between, two types of transaction games
+Clarifying the features of, and differences between, two types of transaction games.
