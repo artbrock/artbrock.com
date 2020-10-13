@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+<head>
+<title>Currency Design Decisions</title>
+</head>
+<body>
+<outline text="Currency 
+Design 
+Decisions"><outline text="Currency TOKEN Life-Cycle "><outline text="Token Life Cycle Diagram"><outline text="http://LifebloodDesign.com/currencymap/Currency_Life_Cycle.png (http://lifeblooddesign.com/currencymap/Currency_Life_Cycle.png)"></outline>
+</outline>
+<outline text="Issuance"><outline text="Type"><outline text="Mutual Credit (created with a credit and offsetting debit)"></outline>
+<outline text="Backed (credited based on another credit or commodity - e.g. dollars deposited to purchase Berkshares)"><outline text="Partially Backed"></outline>
+<outline text="Reserve Requirements"></outline>
+</outline>
+<outline text="Fiat (only credited, no offset)"></outline>
+<outline text="Meta-Currency (non-credited, solely derived from other currencies - e.g. Dow Jones Index)"></outline>
+</outline>
+<outline text="Means"><outline text="Issuer Promise"><outline text="Secured"></outline>
+<outline text="Unsecured"></outline>
+</outline>
+<outline text="Recipient Promise"><outline text="Secured"></outline>
+<outline text="Unsecured"></outline>
+</outline>
+<outline text="Triggered Event / Conditional"></outline>
+<outline text="Arbitrary"></outline>
+</outline>
+<outline text="Authority"><outline text="Centralized (one participant class can issue)"><outline text="Authorized User or Class"></outline>
+</outline>
+<outline text="Selective (some participant classes can issue, some can&apos;t)"><outline text="Authorized Class(es)"></outline>
+</outline>
+<outline text="Fully-Distributed (all participants can issue)"></outline>
+</outline>
+</outline>
+<outline text="Transactions"><outline text="Circulation"><outline text="Freely Circulating (most monetary currencies)"></outline>
+<outline text="Non-Transferable (most reputation currencies)"></outline>
+<outline text="Controlled Transfer (certain people or conditions required. Think stock brokers or estates)"><outline text="Authorized participant class(es)"></outline>
+<outline text="Conditions for transfer"></outline>
+</outline>
+<outline text="Approved Transfer (approval required for all transfers - e.g. private stock or LLC membership)"><outline text="Approval workflow"></outline>
+</outline>
+</outline>
+<outline text="Media"><outline text="Tokens / Coins / Bills"><outline text="Anti-Counterfeiting Measures"><outline text="Precious metal standards, weights, alloys"></outline>
+<outline text="Serialization /  Bar Codes / QR Codes"></outline>
+<outline text="Rare Material (specialized paper, etc.)"></outline>
+<outline text="Watermarking"></outline>
+<outline text="Entaglio Printing / Microprinting"></outline>
+<outline text="Holograms"></outline>
+<outline text="Security Stripes"></outline>
+</outline>
+</outline>
+<outline text="Vouchers / Checks /  Certificates"><outline text="(see above anti-counterfeiting measures)"><outline text="Magnetic Ink / Character Recognition"></outline>
+</outline>
+<outline text="assignable (as in writing a check TO somebody)"></outline>
+<outline text="endorsement requirements"></outline>
+<outline text="re-assignability options"></outline>
+</outline>
+<outline text="Smart Cards"><outline text="Anti-Counterfeiting"><outline text="encrypted data, PINs, public/private keys"></outline>
+</outline>
+</outline>
+<outline text="Voice / DTMF Phone call"><outline text="CallerID authentication, passwords, Account#s, PINs"></outline>
+</outline>
+<outline text="Portable Device"><outline text="Cell Phone"></outline>
+<outline text="Handheld"></outline>
+</outline>
+<outline text="Paper Ledgers / Passbooks"><outline text="Serialized"></outline>
+</outline>
+<outline text="Digital Bits"><outline text="Proprietary Network (e.g. Visa, Amex, etc.)"></outline>
+<outline text="Open Network (web / Internet / email / messaging)"><outline text="Authentication Methods"><outline text="certs, keys, PINs, passwords, etc."></outline>
+</outline>
+</outline>
+<outline text="Account ID / Swipe Cards"><outline text="Anti-Counterfeiting Measures"><outline text="Holograms"></outline>
+</outline>
+</outline>
+<outline text="Electronic Accounting"><outline text="[See Accounting Methods]"></outline>
+</outline>
+</outline>
+</outline>
+<outline text="Types"><outline text="must complete 
+for each transaction 
+type below"><outline text="Commissionable?"></outline>
+<outline text="Roles"><outline text="Single Party"><outline text="Role Name"></outline>
+</outline>
+<outline text="Dual Party"><outline text="Role 1 Name"></outline>
+<outline text="Role 2 Name"></outline>
+</outline>
+<outline text="Multi-Party"><outline text="Role Names X, Y, Z, P, D, Q (e.g. buyer, seller, buyer&apos;s broker, seller&apos;s broker)"></outline>
+</outline>
+</outline>
+<outline text="Operation"><outline text="Credit only - Entity A gets B of Currency C"></outline>
+<outline text="Credit &amp; Debit - Transfer Currency C from X to Y"><outline text="Balance pre-authorization requirements?"></outline>
+</outline>
+<outline text="Multiple Credits / Multiple Debits"><outline text="Certain Roles Receiving Fixed Amounts"></outline>
+<outline text="...Receiving Fixed Percentages"></outline>
+</outline>
+<outline text="Debit only - Entity A loses B of C"></outline>
+<outline text="Rating (numeric but not +/-)"></outline>
+<outline text="Multiplicative (Non-Debit/Credit)"></outline>
+</outline>
+<outline text="Transaction Permissions"><outline text="Pre-Validate Availability of &quot;funds&quot;"><outline text="Earmark to &quot;hold&quot; funds"></outline>
+</outline>
+<outline text="Conditions Required"><outline text="Validation requirements"></outline>
+</outline>
+<outline text="Approvals Required"></outline>
+</outline>
+<outline text="Authorization Requirements"><outline text="None"></outline>
+<outline text="Single Party Authentication"></outline>
+<outline text="Single Party Password / PIN"></outline>
+<outline text="Dual Party Password / PIN"></outline>
+</outline>
+<outline text="Immediacy"><outline text="Immediate Transfer"></outline>
+<outline text="Scheduled Transfer"></outline>
+<outline text="Hold in Escrow"></outline>
+<outline text="Release from Escrow"></outline>
+<outline text="Payment Period (like for loans)"></outline>
+<outline text="Recurring Payment Schedule (like for loans)"></outline>
+</outline>
+<outline text="Transparency (who can 
+see the transaction data)"><outline text="Transaction Amount"><outline text="Select, Admins, Participating Parties, Specific Participant Classes, All Classes, Public"></outline>
+</outline>
+<outline text="Transaction Date"><outline text="Select, Admins, Participating Parties, Specific Participant Classes, All Classes, Public"></outline>
+</outline>
+<outline text="Transaction Description"><outline text="Select, Admins, Participating Parties, Specific Participant Classes, All Classes, Public"></outline>
+</outline>
+<outline text="Transaction Parties &amp; Roles"><outline text="Select, Admins, Participating Parties, Specific Participant Classes, All Classes, Public"></outline>
+</outline>
+<outline text="Aggregated Data"><outline text="Select, Admins, Participating Parties, Specific Participant Classes, All Classes, Public"></outline>
+</outline>
+</outline>
+<outline text="Limits"><outline text="For each Role / Participant Class"><outline text="min. amt., max. amt., frequency limit, # of transactions, # trans per cycle, amt. per cycle, total lifetime #"></outline>
+</outline>
+<outline text="Per relationship limit"><outline text="e.g. Each user can have one (and only one) rating in reputation currency N for each entity"></outline>
+</outline>
+</outline>
+<outline text="Fees"><outline text="Time Period Usage Fees"><outline text="Paid by which roles"></outline>
+</outline>
+<outline text="Per Transaction Fees"><outline text="Fixed Amount, Percent or Amount + Percent"><outline text="paid by which role(s)"></outline>
+</outline>
+<outline text="Formulaic (custom formula)"><outline text="paid by which role(s)"></outline>
+</outline>
+</outline>
+</outline>
+<outline text="Tax Consequences 
+(required reporting for 
+most trade networks)"><outline text="Sales Tax?"></outline>
+<outline text="Income Tax?"></outline>
+<outline text="VAT?"></outline>
+<outline text="Deductable?"></outline>
+</outline>
+</outline>
+<outline text="Gift"></outline>
+<outline text="Donation"></outline>
+<outline text="Loan"></outline>
+<outline text="Rating"></outline>
+<outline text="Praise"></outline>
+<outline text="Reproach"></outline>
+<outline text="Rebate"></outline>
+<outline text="Discount / Coupon"></outline>
+<outline text="Interest / Demmurage"></outline>
+<outline text="Fee (membership, transaction, others)"></outline>
+<outline text="Purchase (possible sub-types: Retail, Wholesale, Hard Goods, Soft Goods, Service)"></outline>
+<outline text="State Change (see Life Cycle - Conversion)"></outline>
+<outline text="other transaction types..."></outline>
+</outline>
+<outline text="Composition Constraints"><outline text="Just this single currency"></outline>
+<outline text="Other Allowed Currencies"><outline text="Currency Minimums (e.g. min. 50% in dollars)"></outline>
+<outline text="Currency Maximums"></outline>
+<outline text="Percentages Allowed of each"></outline>
+</outline>
+</outline>
+<outline text="Auto Compounding"><outline text="Time-Cycle"><outline text="# of years/months/weeks/days/hours"></outline>
+</outline>
+<outline text="Rate"><outline text="for Positive Balances"></outline>
+<outline text="for Negative Balances"></outline>
+</outline>
+</outline>
+<outline text="Accounting Method"><outline text="Single-Entry"></outline>
+<outline text="Double-Entry"></outline>
+<outline text="Triple-Entry (double plus digitally signed transaction receipt)"><outline text="Signed Chains (Intrinsic Data Integrity)"></outline>
+<outline text="Signed Block Chains (e.g. bitcoin)"></outline>
+</outline>
+</outline>
+<outline text="Audit Requirements"><outline text="No audit trail"></outline>
+<outline text="Adjustments require reversing or adjusting entries"></outline>
+<outline text="Adjustments must be authorized by all parties effected"></outline>
+<outline text="Adjustments must be digitally signed by all parties effected"></outline>
+</outline>
+<outline text="Thresholds"><outline text="Named"><outline text="e.g. think white belt, yellow belt, green, orange, brown, black, etc."></outline>
+<outline text="Employee of the Month"></outline>
+<outline text="Bachelors, Masters, Phd"></outline>
+</outline>
+<outline text="Ranked"><outline text="Gold, Silver Bronze Medals"></outline>
+<outline text="Top X %"></outline>
+</outline>
+<outline text="Numerical"></outline>
+</outline>
+<outline text="Triggered Events"><outline text="Time Triggers"><outline text="Calendar Time"><outline text="Annual, Day of Year, Semi-Annual, Quarterly, 
+Monthly, Day of Month, Weekly, Day of Week, 
+Daily, Hour of Day, Minute of Hour "></outline>
+</outline>
+<outline text="Elapsed Time"><outline text="90 days, 30 days, 24 hours, etc."></outline>
+</outline>
+</outline>
+<outline text="Internal Condition/Trigger"></outline>
+<outline text="External Condition/Trigger"></outline>
+</outline>
+</outline>
+<outline text="Conversion or Co-Function"><outline text="Conversion Limits"><outline text="Currency 1"><outline text="Cumulative Conversion Cap"></outline>
+<outline text="Caps for Participant Class"><outline text="Class 1"><outline text="Per Transaction"></outline>
+<outline text="Per User per Period/Cycle"></outline>
+<outline text="Per User Cumulative Limit"></outline>
+<outline text="Total Limit for Participant Class"></outline>
+</outline>
+<outline text="... Class n"></outline>
+</outline>
+</outline>
+<outline text="...Currency n"></outline>
+</outline>
+<outline text="Conversion Method"><outline text="Blended Conversion"></outline>
+</outline>
+<outline text="Co-Functionality"><outline text="Parallel Reputation Currency"><outline text="Example: Credit Ratings are a reputation currency 
+which operate in parallel with dollars. This Co-Functioning
+rating determines a users cost and availability of dollars. 
+(i.e. credit limits, interest rates, transaction fees, etc.)"></outline>
+</outline>
+<outline text="Combined Thresholds"><outline text="Example: You get a college degree (reputation currency issued by 
+University) by fulfilling degree requirements through credits (unit of account 
+currency issued by departments) which only count if you received an 
+adequate grade (performance metric currency issued by professors)"></outline>
+</outline>
+</outline>
+</outline>
+<outline text="Retirement"><outline text="Methods"><outline text="Repayment / Zeroed Balance"></outline>
+<outline text="Attrition / Degradation"><outline text="(It is often smart to include methods for reclaiming value of leakage / lost currency units)"></outline>
+</outline>
+<outline text="Redemption"><outline text="Requirements"><outline text="Min. Amount"></outline>
+<outline text="Min. Thresholds (based on another currency...like repuation)"></outline>
+</outline>
+<outline text="Limits"><outline text="Max. Amount"><outline text="Per Participant Class"></outline>
+<outline text="Per User"></outline>
+<outline text="Per Time Cycle"></outline>
+</outline>
+<outline text=""></outline>
+</outline>
+<outline text="Rate"><outline text="Discounted Backing"></outline>
+<outline text="Blended"></outline>
+</outline>
+</outline>
+<outline text="Expiration"><outline text="Calendar Date"></outline>
+<outline text="Elapsed Period"></outline>
+<outline text="Inactivity Period"></outline>
+</outline>
+<outline text="Triggered Event"></outline>
+<outline text="Persistent / Non-Retiring"></outline>
+</outline>
+<outline text="I still have to finish conversion 
+&amp; retirement sections."></outline>
+</outline>
+</outline>
+<outline text="Currency SYSTEM Life-Cycle "><outline text="System Life Cycle Diagram"><outline text="http://LifebloodDesign.com/currencymap/Currency_System_Life_Cycle.png (http://lifeblooddesign.com/currencymap/Currency_System_Life_Cycle.png)"></outline>
+</outline>
+<outline text="Conceive
+&amp; Design"><outline text="Targeted Issue or Problem to be Addressed"></outline>
+<outline text="Targeted Community of Users (early adopters w/ shared values)"></outline>
+<outline text="Intentions/Purpose"><outline text="Desired flows to catalyze"></outline>
+<outline text="Indicators of flow"></outline>
+<outline text="Currency Complex 
+(A currency COMPLEX 
+contains a set of multiple 
+inter-related currencies --
+like dollars + credit ratings)"><outline text="Currency System Name"></outline>
+<outline text="Currency 1"><outline text="Name"></outline>
+<outline text="Description"></outline>
+<outline text="Formalization Method"><outline text="Nominal / Named Threshold - e.g. Bachelors/Masters/Ph.D"></outline>
+<outline text="Ordinal / Ranked - e.g. Gold/Silver/Bronze medalists"></outline>
+<outline text="Interval / Whole Units - e.g. FF miles, Buy 9 get 10th free card"></outline>
+<outline text="Rational / Divisible Parts - e.g. dollars/cents/fractional interest rates"></outline>
+</outline>
+<outline text="Currency Symbol"><outline text="Display format (e.g. USD $X,XXX.00)"></outline>
+</outline>
+<outline text="Intended Role"><outline text="Commercial Exchange"></outline>
+<outline text="Gift Economy / Non-Commercial Exchange"></outline>
+<outline text="Incentive / Reward / Penalty"></outline>
+<outline text="Trust / Reputation / Status"></outline>
+<outline text="Measure"></outline>
+</outline>
+<outline text="Intended Users"><outline text="Target Demographics"><outline text="Targeted Messaging to those Groups"></outline>
+</outline>
+<outline text="Participant Classes"><outline text="Definition (must be completed 
+for each valid participant class)"><outline text="Name of Class"></outline>
+<outline text="Description (Definition, Role &amp; Purpose of class)"></outline>
+<outline text="Participant Type"><outline text="Any Individual"></outline>
+<outline text="Qualified Individual"><outline text="Qualification Criteria"></outline>
+</outline>
+<outline text="Any Business"></outline>
+<outline text="Qualified Business"><outline text="Qualification Criteria"></outline>
+</outline>
+<outline text="Any Community / Association / Non-Profit"></outline>
+<outline text="Qualified Comm / Assoc / NPO"><outline text="Qualification Criteria"></outline>
+</outline>
+<outline text="Governmental Body"></outline>
+</outline>
+<outline text="Activation Triggers"><outline text="under what conditions might someone automatically become a member of this class"></outline>
+</outline>
+<outline text="Termination Triggers"><outline text="under what conditions might someones membership be terminated in this class"></outline>
+</outline>
+<outline text="Membership Fees"><outline text="Time Period"></outline>
+<outline text="Fee Amount"><outline text="Valid currencies for payment &amp; percentages"></outline>
+</outline>
+</outline>
+<outline text="Referral Bonus"><outline text="for signing up a new member of this class"></outline>
+</outline>
+<outline text="Balance Calculation"><outline text="[See Formalization Method]"></outline>
+<outline text="Summation"></outline>
+<outline text="Average"></outline>
+<outline text="Bounded Average"><outline text="Time Boundary"></outline>
+<outline text="Upper / Lower Bounds"></outline>
+</outline>
+<outline text="Multiplicative"></outline>
+<outline text="SumProduct"></outline>
+<outline text="Ratio"></outline>
+<outline text="Percent of Target"></outline>
+<outline text="Current Rank"></outline>
+<outline text="Percentile Rank"></outline>
+<outline text="Name (by named threshold levels)"><outline text="includes True/False, On/Off conditions"></outline>
+</outline>
+<outline text="Custom Formula"></outline>
+</outline>
+<outline text="Balance Transparency"><outline text="Classes who can see current balance of a user"><outline text="All"></outline>
+<outline text="Selective"></outline>
+<outline text="None"></outline>
+</outline>
+</outline>
+<outline text="Interest Rate"><outline text="Derived from a formula"></outline>
+</outline>
+<outline text="Demurrage Rate"><outline text="Derived from a formula"></outline>
+</outline>
+<outline text="Starting Balance"></outline>
+<outline text="Maximum Balance"></outline>
+<outline text="Initial Credit Limit"></outline>
+<outline text="Maximum Credit Limit"></outline>
+<outline text="Formula for Moving Credit Limit (bounded by Initial and Max above)"></outline>
+<outline text="Currency Issuer? (can put new currency into circulation)"></outline>
+<outline text="Currency Redeemer? (can take currency out of circulation)"></outline>
+</outline>
+<outline text="Individuals"></outline>
+<outline text="Businesses"><outline text="Employee Sub-Accounts / Expense Accounts"><outline text="Default Spending Policies"></outline>
+<outline text="Default Limits"></outline>
+<outline text="Individual Policies"></outline>
+<outline text="Individual Limits"></outline>
+</outline>
+</outline>
+<outline text="Members"></outline>
+<outline text="Non-Profits"><outline text="Employee Sub-Accounts / Expense Accounts"></outline>
+</outline>
+<outline text="Communities"></outline>
+<outline text="Governments"><outline text="Employee Sub-Accounts / Expense Accounts"></outline>
+</outline>
+<outline text="&quot;Foreign&quot; Currencies (conversion accounts)"></outline>
+<outline text="Other Custom Classes"></outline>
+</outline>
+</outline>
+<outline text="Supply"><outline text="Scarce (supply below demand)"></outline>
+<outline text="Sufficient (available on demand)"></outline>
+<outline text="Abundant (supply greater than demand)"></outline>
+<outline text="Other (uncorrelated to demand)"></outline>
+</outline>
+<outline text="Functions"><outline text="Unit of Account"></outline>
+<outline text="Medium of Exchange"><outline text="Liquidity Enhancers"><outline text="Convertible to other Currencies"></outline>
+<outline text="High Value / Anchor Vendors"></outline>
+<outline text="Tax Payment"></outline>
+<outline text="Legal Tender"></outline>
+<outline text="(Near) Universal Acceptance"></outline>
+</outline>
+</outline>
+<outline text="Store of Value"></outline>
+<outline text="Token of Status"></outline>
+<outline text="Performance Metric"></outline>
+</outline>
+<outline text="Value Reference"><outline text="Other Currency (dollars, etc.)"></outline>
+<outline text="Unit of time (e.g. hours)"></outline>
+<outline text="Measurable Quantity (oz. of gold, barrels of oil, kilowatts of electricity, etc.)"></outline>
+<outline text="Basket (specific combination of above items)"></outline>
+</outline>
+<outline text="Redundancy Requirements"><outline text="Centrally hosted / managed"></outline>
+<outline text="Mirrored"></outline>
+<outline text="Fully Distributed"></outline>
+</outline>
+</outline>
+<outline text="Currency 2"><outline text="(same sub-sections as above)"></outline>
+</outline>
+<outline text="...Currency n"><outline text="(same sub-sections as above for each additional currency)"></outline>
+</outline>
+</outline>
+</outline>
+<outline text="Outcomes / Goal / End Game"><outline text="Shut Down Conditions"><outline text="e.g. A currency used for temporary funding"></outline>
+</outline>
+<outline text="Shut Down Process"></outline>
+</outline>
+</outline>
+<outline text="Build"><outline text="Who is originating/sponsoring the currency project"><outline text="Individual"></outline>
+<outline text="Community"></outline>
+<outline text="Corporation"></outline>
+<outline text="NPO / NGO"></outline>
+<outline text="Government"></outline>
+</outline>
+<outline text="Establish Key Partnerships"><outline text="Needed for Credibility"><outline text="Examples"><outline text="Local Foundation"></outline>
+<outline text="Community Leaders"></outline>
+<outline text="Anchor Businesses"></outline>
+<outline text="Local Banks/Credit Union"></outline>
+<outline text="State/Local Agencies"></outline>
+</outline>
+</outline>
+<outline text="Needed for Resources"><outline text="501c3 fiscal sponsor"></outline>
+<outline text="Funding Sources"></outline>
+</outline>
+<outline text="Needed for Execution"><outline text="Groups w/ access to your targeted users"></outline>
+</outline>
+</outline>
+<outline text="Resources &amp; Funding"></outline>
+<outline text="Infrastructure"></outline>
+</outline>
+<outline text="Launch"><outline text="Marketing &amp; Message"></outline>
+<outline text="Outreach &amp; Registration"></outline>
+<outline text="Adoption Assistance"></outline>
+</outline>
+<outline text="Manage
+&amp; Govern"><outline text="Decision Making Methodology"></outline>
+<outline text="Stakeholder Involvment"></outline>
+<outline text="Financial Viability"><outline text="Sustainable Revenue"><outline text="for Infrastructure"></outline>
+<outline text="for Adequate Staffing"></outline>
+</outline>
+</outline>
+<outline text="Refinement of Currency Design"><outline text="Committee/Team"><outline text="Transparent Meetings/Communications"></outline>
+<outline text="Closed Meetings/Communications (if needed)"></outline>
+</outline>
+<outline text="Evaluation Process"><outline text="Measurement of Metrics &amp; Targets"></outline>
+<outline text="Evaluation of Impact"></outline>
+<outline text="Refinement of Metrics, Targets &amp; Criteria"></outline>
+</outline>
+<outline text="Redesign Cycles"><outline text="New Plans / Designs"></outline>
+<outline text="Re-Building"></outline>
+<outline text="Relaunching / Re-educating"></outline>
+</outline>
+</outline>
+<outline text="Holding Vision &amp; Purpose"></outline>
+</outline>
+<outline text="Terminate"><outline text="Acknowledge Conditions"><outline text="Success"><outline text="Currency accomplish desired results"><outline text="Goals met"></outline>
+<outline text="Timeline Complete"></outline>
+<outline text="Flow Patterns Established"></outline>
+</outline>
+</outline>
+<outline text="Collapse"><outline text="Unable to sustain infrastructure"></outline>
+<outline text="Unable to sustain staff / support"></outline>
+<outline text="Loss of Leadership (schism, split, loss of focus)"></outline>
+<outline text="Shut down by outside agency"></outline>
+</outline>
+<outline text="Failure"><outline text="Currency is not &amp; will not meet desired goals"></outline>
+</outline>
+</outline>
+<outline text="Communicate with Stakeholders"></outline>
+<outline text="Fulfill Obligations"></outline>
+</outline>
+</outline>
+</outline>
+</body>
+</opml>

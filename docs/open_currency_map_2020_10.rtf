@@ -1,0 +1,776 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2573
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\froman\fcharset0 Times-Roman;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red22\green170\blue44;\red133\green0\blue2;
+\red14\green14\blue14;\red14\green14\blue14;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\cssrgb\c0\c70588\c22353;\cssrgb\c60000\c0\c0;
+\cssrgb\c6667\c6667\c6667;\cssrgb\c6667\c6667\c6667;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}}
+\paperw11900\paperh16840
+{\*\background {\shp{\*\shpinst\shpleft0\shptop0\shpright0\shpbottom0\shpfhdr0\shpbxmargin\shpbymargin\shpwr0\shpwrk0\shpfblwtxt1\shpz0\shplid1025{\sp{\sn shapeType}{\sv 1}}{\sp{\sn fFlipH}{\sv 0}}{\sp{\sn fFlipV}{\sv 0}}{\sp{\sn fillColor}{\sv 15788778}}{\sp{\sn fFilled}{\sv 1}}{\sp{\sn lineWidth}{\sv 0}}{\sp{\sn fLine}{\sv 0}}{\sp{\sn bWMode}{\sv 9}}{\sp{\sn fBackground}{\sv 1}}}}}
+\pard\tx360\tx640\li560\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0
+\f0\fs40 \cf2 \ulnone {\listtext	\uc0\u8226 	}\ulnone Currency \
+Design \
+Decisions\ulnone \
+\pard\tx920\tx1120\li1120\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0
+\f1\fs24 \cf2 {\listtext	\uc0\u8226 	}\ulnone Currency\uc0\u8232 TOKEN\u8232 Life-Cycle \ulnone \
+\pard\tx1480\tx1680\li1680\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0
+\fs32 \cf3 {\listtext	\uc0\u8226 	}\ulnone Token Life Cycle Diagram\ulnone \
+\pard\tx2040\tx2240\li2240\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf3 {\listtext	\uc0\u8226 	}{\field{\*\fldinst{HYPERLINK "http://lifeblooddesign.com/currencymap/Currency_Life_Cycle.png"}}{\fldrslt \ulnone http://LifebloodDesign.com/currencymap/Currency_Life_Cycle.png}}\
+\pard\tx1480\tx1680\li1680\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf3 {\listtext	\uc0\u8226 	}\ulnone Issuance\ulnone \
+\pard\tx2040\tx2240\li2240\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0
+\fs28 \cf4 {\listtext	\uc0\u8226 	}\ulnone Type\ulnone \
+\pard\tx2600\tx2800\li2800\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Mutual Credit (created with a credit and offsetting debit)\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Backed (credited based on another credit or commodity - e.g. dollars deposited to purchase Berkshares)\ulnone \
+\pard\tx3160\tx3360\li3360\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Partially Backed\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Reserve Requirements\ulnone \
+\pard\tx2600\tx2800\li2800\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Fiat (only credited, no offset)\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Meta-Currency (non-credited, solely derived from other currencies - e.g. Dow Jones Index)\ulnone \
+\pard\tx2040\tx2240\li2240\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf4 {\listtext	\uc0\u8226 	}\ulnone Means\ulnone \
+\pard\tx2600\tx2800\li2800\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Issuer Promise\ulnone \
+\pard\tx3160\tx3360\li3360\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Secured\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Unsecured\ulnone \
+\pard\tx2600\tx2800\li2800\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Recipient Promise\ulnone \
+\pard\tx3160\tx3360\li3360\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Secured\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Unsecured\ulnone \
+\pard\tx2600\tx2800\li2800\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Triggered Event / Conditional\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Arbitrary\ulnone \
+\pard\tx2040\tx2240\li2240\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf4 {\listtext	\uc0\u8226 	}\ulnone Authority\ulnone \
+\pard\tx2600\tx2800\li2800\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Centralized (one participant class can issue)\ulnone \
+\pard\tx3160\tx3360\li3360\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Authorized User or Class\ulnone \
+\pard\tx2600\tx2800\li2800\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Selective (some participant classes can issue, some can't)\ulnone \
+\pard\tx3160\tx3360\li3360\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Authorized Class(es)\ulnone \
+\pard\tx2600\tx2800\li2800\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Fully-Distributed (all participants can issue)\ulnone \
+\pard\tx1480\tx1680\li1680\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0
+\fs32 \cf3 {\listtext	\uc0\u8226 	}\ulnone Transactions\ulnone \
+\pard\tx2040\tx2240\li2240\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0
+\fs28 \cf4 {\listtext	\uc0\u8226 	}\ulnone Circulation\ulnone \
+\pard\tx2600\tx2800\li2800\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Freely Circulating (most monetary currencies)\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Non-Transferable (most reputation currencies)\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Controlled Transfer (certain people or conditions required. Think stock brokers or estates)\ulnone \
+\pard\tx3160\tx3360\li3360\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Authorized participant class(es)\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Conditions for transfer\ulnone \
+\pard\tx2600\tx2800\li2800\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Approved Transfer (approval required for all transfers - e.g. private stock or LLC membership)\ulnone \
+\pard\tx3160\tx3360\li3360\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Approval workflow\ulnone \
+\pard\tx2040\tx2240\li2240\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf4 {\listtext	\uc0\u8226 	}\ulnone Media\ulnone \
+\pard\tx2600\tx2800\li2800\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Tokens / Coins / Bills\ulnone \
+\pard\tx3160\tx3360\li3360\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Anti-Counterfeiting Measures\ulnone \
+\pard\tx3720\tx3920\li3920\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Precious metal standards, weights, alloys\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Serialization /  Bar Codes / QR Codes\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Rare Material (specialized paper, etc.)\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Watermarking\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Entaglio Printing / Microprinting\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Holograms\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Security Stripes\ulnone \
+\pard\tx2600\tx2800\li2800\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Vouchers / Checks /  Certificates\ulnone \
+\pard\tx3160\tx3360\li3360\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone (see above anti-counterfeiting measures)\ulnone \
+\pard\tx3720\tx3920\li3920\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Magnetic Ink / Character Recognition\ulnone \
+\pard\tx3160\tx3360\li3360\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone assignable (as in writing a check TO somebody)\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone endorsement requirements\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone re-assignability options\ulnone \
+\pard\tx2600\tx2800\li2800\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Smart Cards\ulnone \
+\pard\tx3160\tx3360\li3360\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Anti-Counterfeiting\ulnone \
+\pard\tx3720\tx3920\li3920\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone encrypted data, PINs, public/private keys\ulnone \
+\pard\tx2600\tx2800\li2800\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Voice / DTMF Phone call\ulnone \
+\pard\tx3160\tx3360\li3360\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone CallerID authentication, passwords, Account#s, PINs\ulnone \
+\pard\tx2600\tx2800\li2800\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Portable Device\ulnone \
+\pard\tx3160\tx3360\li3360\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Cell Phone\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Handheld\ulnone \
+\pard\tx2600\tx2800\li2800\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Paper Ledgers / Passbooks\ulnone \
+\pard\tx3160\tx3360\li3360\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Serialized\ulnone \
+\pard\tx2600\tx2800\li2800\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Digital Bits\ulnone \
+\pard\tx3160\tx3360\li3360\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Proprietary Network (e.g. Visa, Amex, etc.)\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Open Network (web / Internet / email / messaging)\ulnone \
+\pard\tx3720\tx3920\li3920\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Authentication Methods\ulnone \
+\pard\tx4280\tx4480\li4480\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone certs, keys, PINs, passwords, etc.\ulnone \
+\pard\tx3160\tx3360\li3360\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Account ID / Swipe Cards\ulnone \
+\pard\tx3720\tx3920\li3920\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Anti-Counterfeiting Measures\ulnone \
+\pard\tx4280\tx4480\li4480\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Holograms\ulnone \
+\pard\tx3160\tx3360\li3360\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Electronic Accounting\ulnone \
+\pard\tx3720\tx3920\li3920\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone [See Accounting Methods]\ulnone \
+\pard\tx2040\tx2240\li2240\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf4 {\listtext	\uc0\u8226 	}\ulnone Types\ulnone \
+\pard\tx2600\tx2800\li2800\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone must complete \
+for each transaction \
+type below\ulnone \
+\pard\tx3160\tx3360\li3360\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Commissionable?\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Roles\ulnone \
+\pard\tx3720\tx3920\li3920\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Single Party\ulnone \
+\pard\tx4280\tx4480\li4480\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Role Name\ulnone \
+\pard\tx3720\tx3920\li3920\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Dual Party\ulnone \
+\pard\tx4280\tx4480\li4480\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Role 1 Name\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Role 2 Name\ulnone \
+\pard\tx3720\tx3920\li3920\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Multi-Party\ulnone \
+\pard\tx4280\tx4480\li4480\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Role Names X, Y, Z, P, D, Q (e.g. buyer, seller, buyer's broker, seller's broker)\ulnone \
+\pard\tx3160\tx3360\li3360\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Operation\ulnone \
+\pard\tx3720\tx3920\li3920\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Credit only - Entity A gets B of Currency C\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Credit & Debit - Transfer Currency C from X to Y\ulnone \
+\pard\tx4280\tx4480\li4480\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Balance pre-authorization requirements?\ulnone \
+\pard\tx3720\tx3920\li3920\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Multiple Credits / Multiple Debits\ulnone \
+\pard\tx4280\tx4480\li4480\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Certain Roles Receiving Fixed Amounts\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone ...Receiving Fixed Percentages\ulnone \
+\pard\tx3720\tx3920\li3920\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Debit only - Entity A loses B of C\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Rating (numeric but not +/-)\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Multiplicative (Non-Debit/Credit)\ulnone \
+\pard\tx3160\tx3360\li3360\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Transaction Permissions\ulnone \
+\pard\tx3720\tx3920\li3920\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Pre-Validate Availability of "funds"\ulnone \
+\pard\tx4280\tx4480\li4480\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Earmark to "hold" funds\ulnone \
+\pard\tx3720\tx3920\li3920\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Conditions Required\ulnone \
+\pard\tx4280\tx4480\li4480\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Validation requirements\ulnone \
+\pard\tx3720\tx3920\li3920\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Approvals Required\ulnone \
+\pard\tx3160\tx3360\li3360\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Authorization Requirements\ulnone \
+\pard\tx3720\tx3920\li3920\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone None\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Single Party Authentication\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Single Party Password / PIN\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Dual Party Password / PIN\ulnone \
+\pard\tx3160\tx3360\li3360\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Immediacy\ulnone \
+\pard\tx3720\tx3920\li3920\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Immediate Transfer\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Scheduled Transfer\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Hold in Escrow\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Release from Escrow\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Payment Period (like for loans)\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Recurring Payment Schedule (like for loans)\ulnone \
+\pard\tx3160\tx3360\li3360\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Transparency (who can \
+see the transaction data)\ulnone \
+\pard\tx3720\tx3920\li3920\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Transaction Amount\ulnone \
+\pard\tx4280\tx4480\li4480\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Select, Admins, Participating Parties, Specific Participant Classes, All Classes, Public\ulnone \
+\pard\tx3720\tx3920\li3920\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Transaction Date\ulnone \
+\pard\tx4280\tx4480\li4480\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Select, Admins, Participating Parties, Specific Participant Classes, All Classes, Public\ulnone \
+\pard\tx3720\tx3920\li3920\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Transaction Description\ulnone \
+\pard\tx4280\tx4480\li4480\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Select, Admins, Participating Parties, Specific Participant Classes, All Classes, Public\ulnone \
+\pard\tx3720\tx3920\li3920\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Transaction Parties & Roles\ulnone \
+\pard\tx4280\tx4480\li4480\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Select, Admins, Participating Parties, Specific Participant Classes, All Classes, Public\ulnone \
+\pard\tx3720\tx3920\li3920\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Aggregated Data\ulnone \
+\pard\tx4280\tx4480\li4480\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Select, Admins, Participating Parties, Specific Participant Classes, All Classes, Public\ulnone \
+\pard\tx3160\tx3360\li3360\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Limits\ulnone \
+\pard\tx3720\tx3920\li3920\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone For each Role / Participant Class\ulnone \
+\pard\tx4280\tx4480\li4480\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone min. amt., max. amt., frequency limit, # of transactions, # trans per cycle, amt. per cycle, total lifetime #\ulnone \
+\pard\tx3720\tx3920\li3920\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Per relationship limit\ulnone \
+\pard\tx4280\tx4480\li4480\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone e.g. Each user can have one (and only one) rating in reputation currency N for each entity\ulnone \
+\pard\tx3160\tx3360\li3360\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Fees\ulnone \
+\pard\tx3720\tx3920\li3920\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Time Period Usage Fees\ulnone \
+\pard\tx4280\tx4480\li4480\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Paid by which roles\ulnone \
+\pard\tx3720\tx3920\li3920\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Per Transaction Fees\ulnone \
+\pard\tx4280\tx4480\li4480\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Fixed Amount, Percent or Amount + Percent\ulnone \
+\pard\tx4840\tx5040\li5040\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone paid by which role(s)\ulnone \
+\pard\tx4280\tx4480\li4480\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Formulaic (custom formula)\ulnone \
+\pard\tx4840\tx5040\li5040\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone paid by which role(s)\ulnone \
+\pard\tx3160\tx3360\li3360\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Tax Consequences \
+(required reporting for \
+most trade networks)\ulnone \
+\pard\tx3720\tx3920\li3920\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Sales Tax?\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Income Tax?\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone VAT?\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Deductable?\ulnone \
+\pard\tx2600\tx2800\li2800\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Gift\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Donation\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Loan\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Rating\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Praise\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Reproach\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Rebate\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Discount / Coupon\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Interest / Demmurage\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Fee (membership, transaction, others)\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Purchase (possible sub-types: Retail, Wholesale, Hard Goods, Soft Goods, Service)\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone State Change (see Life Cycle - Conversion)\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone other transaction types...\ulnone \
+\pard\tx2040\tx2240\li2240\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf4 {\listtext	\uc0\u8226 	}\ulnone Composition Constraints\ulnone \
+\pard\tx2600\tx2800\li2800\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Just this single currency\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Other Allowed Currencies\ulnone \
+\pard\tx3160\tx3360\li3360\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Currency Minimums (e.g. min. 50% in dollars)\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Currency Maximums\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Percentages Allowed of each\ulnone \
+\pard\tx2040\tx2240\li2240\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf4 {\listtext	\uc0\u8226 	}\ulnone Auto Compounding\ulnone \
+\pard\tx2600\tx2800\li2800\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Time-Cycle\ulnone \
+\pard\tx3160\tx3360\li3360\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone # of years/months/weeks/days/hours\ulnone \
+\pard\tx2600\tx2800\li2800\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Rate\ulnone \
+\pard\tx3160\tx3360\li3360\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone for Positive Balances\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone for Negative Balances\ulnone \
+\pard\tx2040\tx2240\li2240\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf4 {\listtext	\uc0\u8226 	}\ulnone Accounting Method\ulnone \
+\pard\tx2600\tx2800\li2800\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Single-Entry\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Double-Entry\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Triple-Entry (double plus digitally signed transaction receipt)\ulnone \
+\pard\tx3160\tx3360\li3360\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Signed Chains (Intrinsic Data Integrity)\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Signed Block Chains (e.g. bitcoin)\ulnone \
+\pard\tx2040\tx2240\li2240\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf4 {\listtext	\uc0\u8226 	}\ulnone Audit Requirements\ulnone \
+\pard\tx2600\tx2800\li2800\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone No audit trail\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Adjustments require reversing or adjusting entries\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Adjustments must be authorized by all parties effected\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Adjustments must be digitally signed by all parties effected\ulnone \
+\pard\tx2040\tx2240\li2240\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf4 {\listtext	\uc0\u8226 	}\ulnone Thresholds\ulnone \
+\pard\tx2600\tx2800\li2800\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Named\ulnone \
+\pard\tx3160\tx3360\li3360\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone e.g. think white belt, yellow belt, green, orange, brown, black, etc.\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Employee of the Month\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Bachelors, Masters, Phd\ulnone \
+\pard\tx2600\tx2800\li2800\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Ranked\ulnone \
+\pard\tx3160\tx3360\li3360\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Gold, Silver Bronze Medals\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Top X %\ulnone \
+\pard\tx2600\tx2800\li2800\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Numerical\ulnone \
+\pard\tx2040\tx2240\li2240\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf4 {\listtext	\uc0\u8226 	}\ulnone Triggered Events\ulnone \
+\pard\tx2600\tx2800\li2800\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Time Triggers\ulnone \
+\pard\tx3160\tx3360\li3360\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Calendar Time\ulnone \
+\pard\tx3720\tx3920\li3920\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Annual, Day of Year, Semi-Annual, Quarterly, \
+Monthly, Day of Month, Weekly, Day of Week, \
+Daily, Hour of Day, Minute of Hour \ulnone \
+\pard\tx3160\tx3360\li3360\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Elapsed Time\ulnone \
+\pard\tx3720\tx3920\li3920\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone 90 days, 30 days, 24 hours, etc.\ulnone \
+\pard\tx2600\tx2800\li2800\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Internal Condition/Trigger\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone External Condition/Trigger\ulnone \
+\pard\tx1480\tx1680\li1680\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0
+\fs32 \cf3 {\listtext	\uc0\u8226 	}\ulnone Conversion or Co-Function\ulnone \
+\pard\tx2040\tx2240\li2240\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0
+\fs28 \cf4 {\listtext	\uc0\u8226 	}\ulnone Conversion Limits\ulnone \
+\pard\tx2600\tx2800\li2800\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Currency 1\ulnone \
+\pard\tx3160\tx3360\li3360\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Cumulative Conversion Cap\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Caps for Participant Class\ulnone \
+\pard\tx3720\tx3920\li3920\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Class 1\ulnone \
+\pard\tx4280\tx4480\li4480\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Per Transaction\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Per User per Period/Cycle\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Per User Cumulative Limit\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Total Limit for Participant Class\ulnone \
+\pard\tx3720\tx3920\li3920\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone ... Class n\ulnone \
+\pard\tx2600\tx2800\li2800\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone ...Currency n\ulnone \
+\pard\tx2040\tx2240\li2240\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf4 {\listtext	\uc0\u8226 	}\ulnone Conversion Method\ulnone \
+\pard\tx2600\tx2800\li2800\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Blended Conversion\ulnone \
+\pard\tx2040\tx2240\li2240\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf4 {\listtext	\uc0\u8226 	}\ulnone Co-Functionality\ulnone \
+\pard\tx2600\tx2800\li2800\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Parallel Reputation Currency\ulnone \
+\pard\tx3160\tx3360\li3360\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Example: Credit Ratings are a reputation currency \
+which operate in parallel with dollars. This Co-Functioning\
+rating determines a users cost and availability of dollars. \
+(i.e. credit limits, interest rates, transaction fees, etc.)\ulnone \
+\pard\tx2600\tx2800\li2800\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Combined Thresholds\ulnone \
+\pard\tx3160\tx3360\li3360\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Example: You get a college degree (reputation currency issued by \
+University) by fulfilling degree requirements through credits (unit of account \
+currency issued by departments) which only count if you received an \
+adequate grade (performance metric currency issued by professors)\ulnone \
+\pard\tx1480\tx1680\li1680\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0
+\fs32 \cf3 {\listtext	\uc0\u8226 	}\ulnone Retirement\ulnone \
+\pard\tx2040\tx2240\li2240\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0
+\fs28 \cf4 {\listtext	\uc0\u8226 	}\ulnone Methods\ulnone \
+\pard\tx2600\tx2800\li2800\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Repayment / Zeroed Balance\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Attrition / Degradation\ulnone \
+\pard\tx3160\tx3360\li3360\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone (It is often smart to include methods for reclaiming value of leakage / lost currency units)\ulnone \
+\pard\tx2600\tx2800\li2800\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Redemption\ulnone \
+\pard\tx3160\tx3360\li3360\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Requirements\ulnone \
+\pard\tx3720\tx3920\li3920\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Min. Amount\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Min. Thresholds (based on another currency...like repuation)\ulnone \
+\pard\tx3160\tx3360\li3360\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Limits\ulnone \
+\pard\tx3720\tx3920\li3920\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Max. Amount\ulnone \
+\pard\tx4280\tx4480\li4480\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Per Participant Class\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Per User\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Per Time Cycle\ulnone \
+\pard\tx3720\tx3920\li3920\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf6 {\listtext	\uc0\u8226 	}\
+\pard\tx3160\tx3360\li3360\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Rate\ulnone \
+\pard\tx3720\tx3920\li3920\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Discounted Backing\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Blended\ulnone \
+\pard\tx2600\tx2800\li2800\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Expiration\ulnone \
+\pard\tx3160\tx3360\li3360\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Calendar Date\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Elapsed Period\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Inactivity Period\ulnone \
+\pard\tx2600\tx2800\li2800\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Triggered Event\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Persistent / Non-Retiring\ulnone \
+\pard\tx2040\tx2240\li2240\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0
+\fs32 \cf3 {\listtext	\uc0\u8226 	}\ulnone I still have to finish conversion \
+& retir\ulnone e\ulnone ment sections.\ulnone \
+\pard\tx920\tx1120\li1120\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0
+\fs24 \cf2 {\listtext	\uc0\u8226 	}\ulnone Currency\uc0\u8232 SYSTEM\u8232 Life-Cycle \ulnone \
+\pard\tx1480\tx1680\li1680\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0
+\fs32 \cf3 {\listtext	\uc0\u8226 	}\ulnone System Life Cycle Diagram\ulnone \
+\pard\tx2040\tx2240\li2240\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf3 {\listtext	\uc0\u8226 	}{\field{\*\fldinst{HYPERLINK "http://lifeblooddesign.com/currencymap/Currency_System_Life_Cycle.png"}}{\fldrslt \ulnone http://LifebloodDesign.com/currencymap/Currency_System_Life_Cycle.png}}\
+\pard\tx1480\tx1680\li1680\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf3 {\listtext	\uc0\u8226 	}\ulnone Conceive\
+& Design\ulnone \
+\pard\tx2040\tx2240\li2240\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0
+\fs28 \cf4 {\listtext	\uc0\u8226 	}\ulnone Targeted Issue or Problem to be Addressed\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Targeted Community of Users (early adopters w/ shared values)\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Intentions/Purpose\ulnone \
+\pard\tx2600\tx2800\li2800\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0
+\fs24 \cf5 {\listtext	\uc0\u8226 	}\ulnone Desired flows to catalyze\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Indicators of flow\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Currency Complex \
+(A currency COMPLEX \
+contains a set of multiple \
+inter-related currencies --\
+like dollars + credit ratings)\ulnone \
+\pard\tx3160\tx3360\li3360\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Currency System Name\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Currency 1\ulnone \
+\pard\tx3720\tx3920\li3920\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Name\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Description\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Formalization Method\ulnone \
+\pard\tx4280\tx4480\li4480\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Nominal / Named Threshold - e.g. Bachelors/Masters/Ph.D\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Ordinal / Ranked - e.g. Gold/Silver/Bronze medalists\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Interval / Whole Units - e.g. FF miles, Buy 9 get 10th free card\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Rational / Divisible Parts - e.g. dollars/cents/fractional interest rates\ulnone \
+\pard\tx3720\tx3920\li3920\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Currency Symbol\ulnone \
+\pard\tx4280\tx4480\li4480\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Display format (e.g. USD $X,XXX.00)\ulnone \
+\pard\tx3720\tx3920\li3920\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Intended Role\ulnone \
+\pard\tx4280\tx4480\li4480\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Commercial Exchange\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Gift Economy / Non-Commercial Exchange\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Incentive / Reward / Penalty\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Trust / Reputation / Status\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Measure\ulnone \
+\pard\tx3720\tx3920\li3920\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Intended Users\ulnone \
+\pard\tx4280\tx4480\li4480\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Target Demographics\ulnone \
+\pard\tx4840\tx5040\li5040\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Targeted Messaging to those Groups\ulnone \
+\pard\tx4280\tx4480\li4480\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Participant Classes\ulnone \
+\pard\tx4840\tx5040\li5040\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Definition (must be completed \
+for each valid participant class)\ulnone \
+\pard\tx5400\tx5600\li5600\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Name of Class\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Description (Definition, Role & Purpose of class)\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Participant Type\ulnone \
+\pard\tx5960\tx6160\li6160\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Any Individual\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Qualified Individual\ulnone \
+\pard\tx6520\tx6720\li6720\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Qualification Criteria\ulnone \
+\pard\tx5960\tx6160\li6160\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Any Business\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Qualified Business\ulnone \
+\pard\tx6520\tx6720\li6720\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Qualification Criteria\ulnone \
+\pard\tx5960\tx6160\li6160\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Any Community / Association / Non-Profit\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Qualified Comm / Assoc / NPO\ulnone \
+\pard\tx6520\tx6720\li6720\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Qualification Criteria\ulnone \
+\pard\tx5960\tx6160\li6160\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Governmental Body\ulnone \
+\pard\tx5400\tx5600\li5600\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Activation Triggers\ulnone \
+\pard\tx5960\tx6160\li6160\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone under what conditions might someone automatically become a member of this class\ulnone \
+\pard\tx5400\tx5600\li5600\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Termination Triggers\ulnone \
+\pard\tx5960\tx6160\li6160\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone under what conditions might someones membership be terminated in this class\ulnone \
+\pard\tx5400\tx5600\li5600\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Membership Fees\ulnone \
+\pard\tx5960\tx6160\li6160\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Time Period\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Fee Amount\ulnone \
+\pard\tx6520\tx6720\li6720\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Valid currencies for payment & percentages\ulnone \
+\pard\tx5400\tx5600\li5600\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Referral Bonus\ulnone \
+\pard\tx5960\tx6160\li6160\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone for signing up a new member of this class\ulnone \
+\pard\tx5400\tx5600\li5600\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Balance Calculation\ulnone \
+\pard\tx5960\tx6160\li6160\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone [See Formalization Method]\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Summation\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Average\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Bounded Average\ulnone \
+\pard\tx6520\tx6720\li6720\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Time Boundary\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Upper / Lower Bounds\ulnone \
+\pard\tx5960\tx6160\li6160\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Multiplicative\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone SumProduct\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Ratio\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Percent of Target\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Current Rank\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Percentile Rank\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Name (by named threshold levels)\ulnone \
+\pard\tx6520\tx6720\li6720\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone includes True/False, On/Off conditions\ulnone \
+\pard\tx5960\tx6160\li6160\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Custom Formula\ulnone \
+\pard\tx5400\tx5600\li5600\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Balance Transparency\ulnone \
+\pard\tx5960\tx6160\li6160\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Classes who can see current balance of a user\ulnone \
+\pard\tx6520\tx6720\li6720\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone All\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Selective\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone None\ulnone \
+\pard\tx5400\tx5600\li5600\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Interest Rate\ulnone \
+\pard\tx5960\tx6160\li6160\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Derived from a formula\ulnone \
+\pard\tx5400\tx5600\li5600\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Demurrage Rate\ulnone \
+\pard\tx5960\tx6160\li6160\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Derived from a formula\ulnone \
+\pard\tx5400\tx5600\li5600\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Starting Balance\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Maximum Balance\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Initial Credit Limit\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Maximum Credit Limit\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Formula for Moving Credit Limit (bounded by Initial and Max above)\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Currency Issuer? (can put new currency into circulation)\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Currency Redeemer? (can take currency out of circulation)\ulnone \
+\pard\tx4840\tx5040\li5040\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Individuals\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Businesses\ulnone \
+\pard\tx5400\tx5600\li5600\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Employee Sub-Accounts / Expense Accounts\ulnone \
+\pard\tx5960\tx6160\li6160\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Default Spending Policies\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Default Limits\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Individual Policies\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Individual Limits\ulnone \
+\pard\tx4840\tx5040\li5040\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Members\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Non-Profits\ulnone \
+\pard\tx5400\tx5600\li5600\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Employee Sub-Accounts / Expense Accounts\ulnone \
+\pard\tx4840\tx5040\li5040\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Communities\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Governments\ulnone \
+\pard\tx5400\tx5600\li5600\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Employee Sub-Accounts / Expense Accounts\ulnone \
+\pard\tx4840\tx5040\li5040\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone "Foreign" Currencies (conversion accounts)\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Other Custom Classes\ulnone \
+\pard\tx3720\tx3920\li3920\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Supply\ulnone \
+\pard\tx4280\tx4480\li4480\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Scarce (supply below demand)\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Sufficient (available on demand)\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Abundant (supply greater than demand)\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Other (uncorrelated to demand)\ulnone \
+\pard\tx3720\tx3920\li3920\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Functions\ulnone \
+\pard\tx4280\tx4480\li4480\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Unit of Account\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Medium of Exchange\ulnone \
+\pard\tx4840\tx5040\li5040\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Liquidity Enhancers\ulnone \
+\pard\tx5400\tx5600\li5600\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Convertible to other Currencies\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone High Value / Anchor Vendors\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Tax Payment\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Legal Tender\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone (Near) Universal Acceptance\ulnone \
+\pard\tx4280\tx4480\li4480\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Store of Value\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Token of Status\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Performance Metric\ulnone \
+\pard\tx3720\tx3920\li3920\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Value Reference\ulnone \
+\pard\tx4280\tx4480\li4480\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Other Currency (dollars, etc.)\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Unit of time (e.g. hours)\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Measurable Quantity (oz. of gold, barrels of oil, kilowatts of electricity, etc.)\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Basket (specific combination of above items)\ulnone \
+\pard\tx3720\tx3920\li3920\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Redundancy Requirements\ulnone \
+\pard\tx4280\tx4480\li4480\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Centrally hosted / managed\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Mirrored\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Fully Distributed\ulnone \
+\pard\tx3160\tx3360\li3360\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Currency 2\ulnone \
+\pard\tx3720\tx3920\li3920\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone (same sub-sections as above)\ulnone \
+\pard\tx3160\tx3360\li3360\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone ...Currency n\ulnone \
+\pard\tx3720\tx3920\li3920\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone (same sub-sections as above for each additional currency)\ulnone \
+\pard\tx2040\tx2240\li2240\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0
+\fs28 \cf4 {\listtext	\uc0\u8226 	}\ulnone Outcomes / Goal / End Game\ulnone \
+\pard\tx2600\tx2800\li2800\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf4 {\listtext	\uc0\u8226 	}\ulnone Shut Down Conditions\ulnone \
+\pard\tx3160\tx3360\li3360\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf4 {\listtext	\uc0\u8226 	}\ulnone e.g. A currency used for temporary funding\ulnone \
+\pard\tx2600\tx2800\li2800\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf4 {\listtext	\uc0\u8226 	}\ulnone Shut Down Process\ulnone \
+\pard\tx1480\tx1680\li1680\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0
+\fs32 \cf3 {\listtext	\uc0\u8226 	}\ulnone Build\ulnone \
+\pard\tx2040\tx2240\li2240\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0
+\fs28 \cf4 {\listtext	\uc0\u8226 	}\ulnone Who is originating/sponsoring the currency project\ulnone \
+\pard\tx2600\tx2800\li2800\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0
+\fs24 \cf5 {\listtext	\uc0\u8226 	}\ulnone Individual\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Community\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Corporation\ulnone \
+\pard\tx2600\tx2800\li2800\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0
+\fs28 \cf4 {\listtext	\uc0\u8226 	}\ulnone NPO / NGO\ulnone \
+\pard\tx2600\tx2800\li2800\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0
+\fs24 \cf5 {\listtext	\uc0\u8226 	}\ulnone Government\ulnone \
+\pard\tx2040\tx2240\li2240\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0
+\fs28 \cf4 {\listtext	\uc0\u8226 	}\ulnone Establish Key Partnerships\ulnone \
+\pard\tx2600\tx2800\li2800\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf4 {\listtext	\uc0\u8226 	}\ulnone Needed for Credibility\ulnone \
+\pard\tx3160\tx3360\li3360\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf4 {\listtext	\uc0\u8226 	}\ulnone Examples\ulnone \
+\pard\tx3720\tx3920\li3920\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf4 {\listtext	\uc0\u8226 	}\ulnone Local Foundation\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Community Leaders\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Anchor Businesses\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Local Banks/Credit Union\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone State/Local Agencies\ulnone \
+\pard\tx2600\tx2800\li2800\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf4 {\listtext	\uc0\u8226 	}\ulnone Needed for Resources\ulnone \
+\pard\tx3160\tx3360\li3360\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf4 {\listtext	\uc0\u8226 	}\ulnone 501c3 fiscal sponsor\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Funding Sources\ulnone \
+\pard\tx2600\tx2800\li2800\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf4 {\listtext	\uc0\u8226 	}\ulnone Needed for Execution\ulnone \
+\pard\tx3160\tx3360\li3360\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf4 {\listtext	\uc0\u8226 	}\ulnone Groups w/ access to your targeted users\ulnone \
+\pard\tx2040\tx2240\li2240\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf4 {\listtext	\uc0\u8226 	}\ulnone Resources & Funding\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Infrastructure\ulnone \
+\pard\tx1480\tx1680\li1680\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0
+\fs32 \cf3 {\listtext	\uc0\u8226 	}\ulnone Launch\ulnone \
+\pard\tx2040\tx2240\li2240\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0
+\fs28 \cf4 {\listtext	\uc0\u8226 	}\ulnone Marketing & Message\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Outreach & Registration\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Adoption Assistance\ulnone \
+\pard\tx1480\tx1680\li1680\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0
+\fs32 \cf3 {\listtext	\uc0\u8226 	}\ulnone Manage\
+& Govern\ulnone \
+\pard\tx2040\tx2240\li2240\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0
+\fs28 \cf4 {\listtext	\uc0\u8226 	}\ulnone Decision Making Methodology\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Stakeholder Involvment\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Financial Viability\ulnone \
+\pard\tx2600\tx2800\li2800\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf4 {\listtext	\uc0\u8226 	}\ulnone Sustainable Revenue\ulnone \
+\pard\tx3160\tx3360\li3360\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf4 {\listtext	\uc0\u8226 	}\ulnone for Infrastructure\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone for Adequate Staffing\ulnone \
+\pard\tx2040\tx2240\li2240\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf4 {\listtext	\uc0\u8226 	}\ulnone Refinement of Currency Design\ulnone \
+\pard\tx2600\tx2800\li2800\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0
+\fs24 \cf5 {\listtext	\uc0\u8226 	}\ulnone Committee/Team\ulnone \
+\pard\tx3160\tx3360\li3360\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Transparent Meetings/Communications\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Closed Meetings/Communications (if needed)\ulnone \
+\pard\tx2600\tx2800\li2800\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Evaluation Process\ulnone \
+\pard\tx3160\tx3360\li3360\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Measurement of Metrics & Targets\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Evaluation of Impact\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Refinement of Metrics, Targets & Criteria\ulnone \
+\pard\tx2600\tx2800\li2800\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone Redesign Cycles\ulnone \
+\pard\tx3160\tx3360\li3360\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf5 {\listtext	\uc0\u8226 	}\ulnone New Plans / Designs\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Re-Building\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Relaunching / Re-educating\ulnone \
+\pard\tx2040\tx2240\li2240\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0
+\fs28 \cf4 {\listtext	\uc0\u8226 	}\ulnone Holding Vision & Purpose\ulnone \
+\pard\tx1480\tx1680\li1680\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0
+\fs32 \cf3 {\listtext	\uc0\u8226 	}\ulnone Terminate\ulnone \
+\pard\tx2040\tx2240\li2240\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0
+\fs28 \cf4 {\listtext	\uc0\u8226 	}\ulnone Acknowledge Conditions\ulnone \
+\pard\tx2600\tx2800\li2800\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf4 {\listtext	\uc0\u8226 	}\ulnone Success\ulnone \
+\pard\tx3160\tx3360\li3360\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf4 {\listtext	\uc0\u8226 	}\ulnone Currency accomplish desired results\ulnone \
+\pard\tx3720\tx3920\li3920\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf4 {\listtext	\uc0\u8226 	}\ulnone Goals met\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Timeline Complete\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Flow Patterns Established\ulnone \
+\pard\tx2600\tx2800\li2800\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf4 {\listtext	\uc0\u8226 	}\ulnone Collapse\ulnone \
+\pard\tx3160\tx3360\li3360\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf4 {\listtext	\uc0\u8226 	}\ulnone Unable to sustain infrastructure\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Unable to sustain staff / support\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Loss of Leadership (schism, split, loss of focus)\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Shut down by outside agency\ulnone \
+\pard\tx2600\tx2800\li2800\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf4 {\listtext	\uc0\u8226 	}\ulnone Failure\ulnone \
+\pard\tx3160\tx3360\li3360\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf4 {\listtext	\uc0\u8226 	}\ulnone Currency is not & will not meet desired goals\ulnone \
+\pard\tx2040\tx2240\li2240\fi-400\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf4 {\listtext	\uc0\u8226 	}\ulnone Communicate with Stakeholders\ulnone \
+{\listtext	\uc0\u8226 	}\ulnone Fulfill Obligations\ulnone \
+}
