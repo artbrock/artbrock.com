@@ -3,6 +3,7 @@ layout: page
 title: Value, Values and the New Economy
 created: 1239170400
 permalink: /2009/04/08/value-values-and-the-new-economy
+image: Screen Shot 2021-01-26 at 12.59.43.png
 categories:
 - new economy
 - flow
