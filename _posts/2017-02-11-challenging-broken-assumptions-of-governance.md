@@ -76,7 +76,7 @@ Good social processes are compelling and following them can become deeply embedd
 
 Even when people mostly follow a procedure, they won't follow it consistently. We all agree driving on the correct side of the road is important, yet we bend that rule when we think circumstances warrant it. When people know the system is preventing them from doing what the feel is right, they find ways to get around the system, even when they agree with most of its workings.
 
-Will [Smart Contracts](wp def) solve this? Not really. The art of next-gen governance design isn't to automate away all choices, but provide support (via technical process, social process, or physical structures) for parts where tend to be most irrational. Yet include ways that people can exercise choice (opt-in, opt-out, or work-around) in places where human judgment tends to be as good or better than prefab designs. Humans won't just follow software anyway, we demand an emotional experience of choice.
+Will Smart Contracts solve this? Not really. The art of next-gen governance design isn't to automate away all choices, but provide support (via technical process, social process, or physical structures) for parts where tend to be most irrational. Yet include ways that people can exercise choice (opt-in, opt-out, or work-around) in places where human judgment tends to be as good or better than prefab designs. Humans won't just follow software anyway, we demand an emotional experience of choice.
 
 ### Governance Should Treat Everyone Equally
 
@@ -118,7 +118,7 @@ Representatives can't represent us.
 
 At least not in the general sense, that across all issues someone who doesn't even know me could be said to represent my perspective or interest in: net neutrality, military spending, drug enforcement, funding for arts, immigration policy, etc. On a specific issue, I certainly might say: "Hey, the things that person is saying really represent what I think about that."
 
-So that kind of delegation of narrow representation may be feasible, like in liquid democracy. But what about this concentrating of power effect? Doesn't it still warp outcomes? [Yes it does](Something I've written). Ideally, the more power becomes aggregated or concentrated, a system ends up with poorer discourse and is easier to manipulate.
+So that kind of delegation of narrow representation may be feasible, like in liquid democracy. But what about this concentrating of power effect? Doesn't it still warp outcomes? Yes it does. Ideally, the more power becomes aggregated or concentrated, a system ends up with poorer discourse and is easier to manipulate.
 
 ### We Know What Decisions To Make
 
