@@ -2,7 +2,7 @@
 layout: page
 title: MetaCurrency Project Vision & Strategy
 created: 1472565600
-image: Screen-Shot-2016-08-31-at-10.39.40-PM.png
+image: Screen-Shot-2020-10-07-at-18.24.48.png
 permalink: /metacurrency/strategy-vision
 object-fit: contain
 ---
