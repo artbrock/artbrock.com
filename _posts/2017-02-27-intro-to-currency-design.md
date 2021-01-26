@@ -20,6 +20,9 @@ tags:
 - crypto
 - flow
 ---
+
+![](gina-smith-MazVRQL-7nk-unsplash.jpg){:class="img-responsive"}
+
 ## Ferananda
 
 What if there was a currency that could be used to enslave you, without you even realizing it? Wouldn't you want to know? Wouldn't you want to learn to see how it works? How it does that?
