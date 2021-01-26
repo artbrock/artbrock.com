@@ -11,6 +11,7 @@ author_email: artbrock@geekgene.com
 author_url: http://artbrock.com
 categories: [post]
 permalink: /2017/02/27/intro-to-currency-design
+image: gina-smith-MazVRQL-7nk-unsplash.jpg
 comments: []
 tags:
 - currency design

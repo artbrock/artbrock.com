@@ -11,6 +11,7 @@ author_email: artbrock@geekgene.com
 author_url: http://artbrock.com
 categories: [post]
 permalink: /2017/02/27/intro-to-currency-design
+image: gina-smith-MazVRQL-7nk-unsplash.jpg
 comments: []
 tags:
 - currency design
@@ -20,4 +21,4 @@ tags:
 - flow
 ---
 
-Transcript of the "Intro to Currency Design" conversation between me and Ferananda
+A transcript of the "Intro to Currency Design" conversation between me and Ferananda
