@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Currencies as DNA of Social Organisms
+title: Currencies are Records of Currents
 created: 2020-07-29
 permalink: /2020/07/29/currencies-are-records-of-currents
 vimeo: 9587432
