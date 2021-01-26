@@ -3,6 +3,7 @@ layout: page
 title: The Footprints of Flow
 created: 1237615200
 permalink: /2009/03/21/the-footprints-of-flow
+image: bruno-luz-SRWpQRSdjQc-unsplash.jpg
 categories:
 - open source software
 - metacurrency
