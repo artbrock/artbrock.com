@@ -4,7 +4,7 @@ title: The new currency landscape
 date: 2019-10-23
 date_gmt: 2019-10-23
 meta_description: 
-image: 		
+vimeo: 		17317074
 status: 	publish
 published: 	true
 author: 	Eric Harris-Braun
@@ -19,7 +19,7 @@ tags:
 - deep wealth
 ---
 
-https://vimeo.com/17317074
+{% include _vimeo.html vimeo=17317074 %}
 
 Working in the new world of currencies (or *current-sees*) gives one a sense of being a pioneer looking upon a new landscape for the first time. This is appropriate because the currency landscape that is coming into view from over the horizon is indeed completely new. Yet, a big part of pioneering is not just about discovering *the new*, but also about discovering that the familiar itself is also ready to be re-seen. The light of such re-seeing is much of what’s surprising and fresh about this currency frontier.
 
