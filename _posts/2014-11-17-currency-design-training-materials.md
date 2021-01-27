@@ -2,6 +2,7 @@
 layout: page
 title: Currency Design Training Materials
 permalink: /2014/11/17/currency-design-training-materials
+image: currency-design-map.png
 created: 1416286255
 categories:
 - currency design
@@ -12,7 +13,7 @@ The combination of the blog post about designing reputation currencies and a con
 
 [![Currency token life-cycle]({{ site.urlimg }}Currency_Life_Cycle.png)](/metacurrency/currency-map)
 
-I'm re-publishing one cool thing right now, though - a map of the currency design decision space (according my 2008 thinking)
+I'm re-publishing one cool thing right now, though - a map of the currency design decision space (according to my 2008 thinking)
 
 One of the things I encountered as I tried communicating with and working with people in the alternative currency space is that there was a lot of heated and emotional argument about fairly minor technicalities. Most people in the space focused on just a couple factors in currency design and seemed to ignore the whole rest of the decision landscape completely. This was my attempt to open up that landscape to everyone and hopefully move toward some shared language instead of getting tripped up over minor semantic differences.
 
