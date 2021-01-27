@@ -3,6 +3,7 @@ layout: page
 title: The Central Covenants of Successful Economies
 created: 1302041016
 permalink: /2011/04/05/the-central-covenants-of-successful-economies
+image: boris-smokrovic-gr7ZkoZnHXU-unsplash.jpg
 categories:
 - living systems
 - gifts
