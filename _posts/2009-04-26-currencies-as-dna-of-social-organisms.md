@@ -3,10 +3,12 @@ layout: page
 title: Currencies as DNA of Social Organisms
 created: 1240725600
 permalink: /2009/04/26/currencies-as-dna-of-social-organisms
+image: adrien-converse-z0FbhQhpimI-unsplash.jpg
 categories:
 - dna
 - currency
 ---
+![](../images/adrien-converse-z0FbhQhpimI-unsplash.jpg)
 
 I just posted a reply to a post about currencies as the DNA of social organisms on <a href="http://blog.newcurrencyfrontiers.com/">New Currency Frontiers Blog</a> and wanted to cross-post it here.
 
