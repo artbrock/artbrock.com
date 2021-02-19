@@ -9,7 +9,6 @@ categories:
 - currency
 - flows
 ---
-
 {% include _vimeo.html vimeo='9587432' %}
 
 We tend put a lot of focus on watching the flows of a currency as if that is the important portion of transactions. But maybe we should focus more on the flow of value (goods, services, resources, knowledge or participation) which flows in the ***opposite*** direction of money in an exchange. It is the fact of shaping and enabling those real-world currents is what make currency so powerful.
@@ -32,7 +31,7 @@ Different types of currencies track different types of things. The design of the
 
 LETS and Time Dollars have flows of currencies as units are transferred from account to account, even though they are a mutual credit currency with a net total of zero units at all times. Individual account balances are not necessarily zero, and the changes of these balances tell a story about relationships and resources as they moved within the community. It is those counter-flows which the currencies enabled by giving people who may be disenfranchised from dollar access the ability to issue credits by spending into a negative balance.
 
-![https://miro.medium.com/max/2048/1*_kow3e6tF91ikNgrco8tFw.png](https://miro.medium.com/max/2048/1*_kow3e6tF91ikNgrco8tFw.png)
+![]({{ site.urlimg }}1__kow3e6tF91ikNgrco8tFw.png)
 
 # **Money is Not the Only Currency**
 
@@ -46,6 +45,6 @@ Even though they can’t be traded, the points, scores and times achieved in eac
 
 Let me leave you with one thought. There is incredible power in this model of understanding currencies which is largely untapped. Money is so powerful, because it is a currency, not just because it is a medium of exchange. Currencies are the means by which we collectively interact with real flows of real resources. Healthy design and implementation of truly powerful currencies at all levels of endeavor gives us so much more than we get from money substitutes.
 
-![https://miro.medium.com/max/1500/1*P-YgrnhUmwss8GHXUaRCSg.png](https://miro.medium.com/max/1500/1*P-YgrnhUmwss8GHXUaRCSg.png)
+![]({{ site.urlimg }}1_P-YgrnhUmwss8GHXUaRCSg.png)
 
 > Dive into the world of Deep Wealth and Currency Design with our [self-paced masterclass](https://www.udemy.com/course/introduction-to-currency-design/)
