@@ -3,7 +3,7 @@ layout: page
 title: A major phase shift
 date:     2017-06-12 17:11:02 -0400
 date_gmt: 2017-06-12 21:11:02 -0000
-image: 		http://ceptr.org/images/chrysalis-butterfly.jpg
+image: 		chrysalis_butterfly.jpg
 status: 	publish
 published: 	true
 author: 	Arthur Brock
@@ -24,7 +24,7 @@ For a long time we've operated as one of those fringy open source projects like 
 
 Our focus is initially on Holochain, a scalable blockchain alternative which is part of the larger Ceptr social OS. Watch for updates on the [Ceptr blog](/ceptr/blog).
 
-![](http://ceptr.org/images/chrysalis_butterfly.jpg){:class="img-responsive"}
+![]({{ site.urlimg }}chrysalis_butterfly.jpg){:class="img-responsive"}
 _Transformation_
 
 ## Why now?
