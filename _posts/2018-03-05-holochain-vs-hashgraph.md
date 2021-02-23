@@ -13,7 +13,8 @@ categories:
 
 **…and when is consensus needed in distributed computing**
 
-![Is “consensus” even a sensible word for a proof-of-work random lottery?]({{ site.urlimg }}1_L9loWlLxrpmNCGWWqLETNg.jpeg)
+![]({{ site.urlimg }}1_L9loWlLxrpmNCGWWqLETNg.jpeg)
+_Is “consensus” even a sensible word for a proof-of-work random lottery?_
 
 There are many new platforms trying to make blockchains more scalable, or creating alternatives to the architecture of blockchain to fulfill on the aspirations of blockchain advocates, but that current blockchains fail to deliver on.
 
