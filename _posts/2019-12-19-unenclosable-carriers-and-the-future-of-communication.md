@@ -16,13 +16,13 @@ _The Nextnet Series: Part 1 of 3_
 
 **_In collaboration with_** [**_Josh Zemel_**](https://medium.com/@joshmzemel)
 
-![]({{ site.urlimg }}1_mdSmwm3UWcikD-z2kPQaoQ.jpeg)
+![]({{ site.urlimg }}1_mdSmwm3UWcikD-z2kPQaoQ.jpeg){:class="img-responsive"}
 
 All communication relies on one or more _carriers_. At the most basic level, when you’re speaking to a group of people in a room, the air is the carrier for the sound waves moving through it. You pass breath through your vocal chords and shape your mouth in funny ways, and a bunch of compression waves emerge and fill the room with information that others then decode. No one can just grab the words out of the air to stop them from reaching someone else. The carrier is _unenclosable_.
 
 For the sake of contrast, let’s say your boss puts out a suggestion box, in order to give you and fellow employees the opportunity to make a difference in the workplace. Sounds nice, right? And yet, the box is enclosed; there’s no way to see how many suggestions have been made, or which ones have been discarded before even reaching the person who could implement the suggestion. The system includes a filtering mechanism that allocates some degree of control to whoever is in charge of the box. And isn’t the suggestion box system designed, in part, to enable that layer of control? If they didn’t want the ability to filter, they might have just invited suggestions openly during a meeting with everyone present.
 
-![]({{ site.urlimg }}1_8e421RhZOpcMV2GTjExWOA.jpeg)
+![]({{ site.urlimg }}1_8e421RhZOpcMV2GTjExWOA.jpeg){:class="img-responsive"}
 
 A Brief History of Communication
 ================================
@@ -33,7 +33,7 @@ Where direct oral communication reaches its limits, of course, is as soon as it�
 
 And yet, most carriers we use to extend the reach of communication also introduce the possibility of enclosure, which in turn leads to power imbalances. Writing gave rise to the literate class, the clerical class, who by virtue of privilege or position suddenly had outsize power, with access to libraries and information and the ability to make deals or even laws that others couldn’t make, or at least couldn’t understand, without the help of the literate. The printing press gave rise to the editors, publishers, and booksellers who determined which books were published or promoted. Broadcast media gave rise to the media empires who today exert preferences over what is broadcast. The ability to control the carrier results in the ability to control the message.
 
-![]({{ site.urlimg }}1_DtrNs3jVIqSuN65w4OrkBw.jpeg)
+![]({{ site.urlimg }}1_DtrNs3jVIqSuN65w4OrkBw.jpeg){:class="img-responsive"}
 
 Covert and Overt Control
 ------------------------
@@ -51,7 +51,7 @@ Our ability to coordinate activity at scale has never been greater, but that coo
 
 If we want to move into an era of intelligent, mutually beneficial, worldwide coordination, we will have to address the problem of enclosability. But first, a word about money.
 
-![]({{ site.urlimg }}1_E5FaRx2qW0MxKaq-cXNISg.jpeg)
+![]({{ site.urlimg }}1_E5FaRx2qW0MxKaq-cXNISg.jpeg){:class="img-responsive"}
 
 The Enclosability of Money
 ==========================
@@ -85,7 +85,7 @@ But decentralized transactions and decentralized issuance are not equivalent to 
 
 The problem, though, is that global consensus mechanisms are still a form of carrier enclosure, and there are necessarily some nodes (or users) who have more say than others in determining the legitimacy of transactions and adopting updates to the rulesets.
 
-![]({{ site.urlimg }}1_9Eg9M-1-5OBI9oHOw_4AOA.jpeg)
+![]({{ site.urlimg }}1_9Eg9M-1-5OBI9oHOw_4AOA.jpeg){:class="img-responsive"}
 
 The two most common strategies for achieving consensus about global state, proof-of-work (POW) and proof-of-stake (POS), are very much enclosable and do converge toward enclosure. Those who have more money to buy more processing power (POW) or betting stakes (POS) win more money, which then enables them to buy more processing power or betting stakes. Both algorithms centralize power over time, allowing the rich to become richer and more influential.
 
@@ -104,7 +104,7 @@ Having It Both Ways
 
 In considering how a communication system might be both scalable and unenclosable, let’s look at the evolution of language itself. How does language arise? Who gets to change the rules of language? We do. Any one of us can create a new word, turn of phrase, or other language pattern that may or may not spread based upon whether others freely adopt it. If it spreads far enough, it becomes part of a language. There is no central committee that determines what you can say or not, or what gets adopted or not.
 
-![]({{ site.urlimg }}1_GkEt-BgxaXwAFyD7IFbEzg.jpeg)
+![]({{ site.urlimg }}1_GkEt-BgxaXwAFyD7IFbEzg.jpeg){:class="img-responsive"}
 
 So, our new ecosystem of communication might look something like the spaces of language itself. We can imagine a scenario in which anyone can spin up new protocols for interacting — protocols that can be voluntarily adopted by those who choose to participate in them. Everyone is free to transfer the rulesets of any given space into another space, just as anyone is free to populate an uninhabited island, start speaking any particular language there, and invent new words.
 
@@ -120,7 +120,7 @@ This leads us to another key ingredient of our unenclosable system: **forkabilit
 
 With these ingredients in place, no one can stop two people from freely associating.
 
-![]({{ site.urlimg }}1_ozoVi8EJJiF1fpZUHPBLHA.jpeg)
+![]({{ site.urlimg }}1_ozoVi8EJJiF1fpZUHPBLHA.jpeg){:class="img-responsive"}
 
 A Natural Selection
 -------------------
@@ -136,4 +136,4 @@ We believe that by providing an unenclosable carrier for an unlimited range of a
 
 Now you can jump into the [next piece in this series](https://medium.com/holochain/the-holocene-explosion-2-1-game-changing-possibilities-in-a-world-of-unenclosable-carriers-21ddbb15341a), where we explore the implications of an unenclosable NextNet for global systemic challenges.
 
-![]({{ site.urlimg }}1_rxubSY9QT2llxBQa27_iUA.jpeg)
+![]({{ site.urlimg }}1_rxubSY9QT2llxBQa27_iUA.jpeg){:class="img-responsive"}
