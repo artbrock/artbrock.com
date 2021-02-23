@@ -16,7 +16,7 @@ _The NextNet Series Part 2.4 of 3: Saving the Planet_
 
 **_In collaboration with_** [**_Josh Zemel_**](https://medium.com/@joshmzemel)
 
-![]({{ site.urlimg }}1_67eIxvKHtq3J-peyoV0GkA.jpeg)
+![]({{ site.urlimg }}1_67eIxvKHtq3J-peyoV0GkA.jpeg){:class="img-responsive"}
 
 Here we continue the exploration of how [unencloseable carriers](https://medium.com/holochain/unenclosable-carriers-and-the-future-of-communication-4ac6045ac894) could free us from critical limitations across a number of macro-systemic domains and help unleash an explosion of human creativity and social organizing. We recommend starting with [Part 1: Unencloseable Carriers and the Future of Communication](https://medium.com/holochain/unenclosable-carriers-and-the-future-of-communication-4ac6045ac894) — as well as [Part 2.1 on food systems](https://medium.com/holochain/the-holocene-explosion-2-1-game-changing-possibilities-in-a-world-of-unenclosable-carriers-21ddbb15341a), [Part 2.2 on energy systems](https://medium.com/holochain/the-holocene-explosion-2-2-game-changing-possibilities-in-a-world-of-unenclosable-carriers-a63efa3cd2a3), and [Part 2.3 on financial systems](https://medium.com/holochain/the-holocene-explosion-2-3-game-changing-possibilities-in-a-world-of-unenclosable-carriers-7c1a97f32e9c)— before reading Part 2.4 here.
 
@@ -27,7 +27,7 @@ The problem:
 
 There are many problems in this territory: we are outstripping the carrying capacity of our ecosystem, causing species extinctions, and polluting the oceans and atmosphere. So let’s narrow it down for illustration and focus on the fact that the planet’s rainforests are being destroyed at a rate faster than they can renew \[[1](https://www.nationalgeographic.com/environment/global-warming/deforestation/)\] \[[2](https://www.vox.com/science-and-health/2019/11/18/20970604/amazon-rainforest-2019-brazil-burning-deforestation-bolsonaro)\] \[[3](https://www.nytimes.com/2019/08/30/world/americas/amazon-rainforest.html)\] due to destructive policies that are out of touch with the importance of rainforests to our planet’s health, combined with the desirability of rainforest land for farming and oil exploration.
 
-![]({{ site.urlimg }}1_qRENTpuUaaa0A_esJC5xkA.jpeg)
+![]({{ site.urlimg }}1_qRENTpuUaaa0A_esJC5xkA.jpeg){:class="img-responsive"}
 
 But what if…
 ============
@@ -55,7 +55,7 @@ For example: How many hours of use per year does the average suburban lawnmower 
 
 Expanding outward, cars also seem ripe for this kind of exploration, as do kitchens and laundry spaces in many cases. In an extreme case, perhaps even land one day might not be individually owned, but rather commonly owned and privately leased. This is the basis of Georgist economics, or [Georgism](https://en.wikipedia.org/wiki/Georgism), which also imagines that lessees could reap benefits from improving the land and be taxed for extracting resources from the land.
 
-![]({{ site.urlimg }}1_vT4D64SpT5JdNwE0Zphdrw.jpeg)
+![]({{ site.urlimg }}1_vT4D64SpT5JdNwE0Zphdrw.jpeg){:class="img-responsive"}
 
 But we actually don’t need to go full Georgist to imagine hybrid systems that retain basic property ownership but increase sharing, which would still lead to more efficient use of resources. We’ve written in the past about a kind of [land-weaving society](http://artbrock.com/blog/new-kind-commons-land-weaving-society) in which land owners permit the use of their property for a variety of beneficial purposes, using reputation and certification to authorize access. If I have a permaculture certification, for example, I might be invited to farm your land, perhaps for a fee or a share of yield. Other certifications might permit me to sustainably harvest wood, gather food or medicinal herbs, hunt, or graze my livestock. “No Trespassing” signs could be replaced by technologically enabled “Enter Here” checkpoints, with RFID or smartphone-based tracking and micropayments automatically transferring if appropriate.
 
@@ -68,7 +68,7 @@ What’s typical today is that only those who own or fully rent a piece of land 
 
 The closest analog we have today to what something like this might look like might be national parks, but these exist mainly as nature preserves reliant on government subsidies (and a bit of tourism revenue). As a result, they are subject to all the complications of centralized power, including [lobbying](https://www.citylab.com/equity/2015/07/who-wants-disposable-plastic-water-bottles-in-national-parks/399113/), politically motivated [government shutdowns](https://www.npca.org/articles/2029-how-is-the-partial-government-shutdown-affecting-national-parks), and even [unilateral declassification](https://www.nytimes.com/2017/12/04/us/trump-bears-ears.html) by a single individual.
 
-![]({{ site.urlimg }}1_1matGZQbeoy2O0jlggW2vQ.jpeg)
+![]({{ site.urlimg }}1_1matGZQbeoy2O0jlggW2vQ.jpeg){:class="img-responsive"}
 
 In order to truly tip the balance such that preservation is advantageous, therefore, we need to imagine multiple land uses happening simultaneously: not just ecotourism, or harvesting edibles, or gathering medicinals, or sustainably gathering wood, but all of these and more, all gated through the appropriate membranes of access such as certifications, reputation systems, and fee structures.
 
@@ -81,7 +81,7 @@ Extrapolating from the idea of sharing economies, we might begin to completely r
 
 We call the first strategy “get mine”, and we call the second “grow ours”. And what’s fascinating is that if you look across natural history, it’s “grow ours” that evolution selects for over time, contrary to what we might infer from the “survival of the fittest” narrative dominant throughout our cultural understanding of evolution and dramatized in nature documentaries. **Natural selection is actually better understood as “**[**survival of the _fit_**](https://www.amazon.com/Seeing-Nature-Deliberate-Encounters-Visible/dp/189013242X)**”, as in “those whose characteristics are most fit for their environs are most likely to survive”.** And a great way of being highly fit to one’s environs is to require relatively few non-renewable resources (minimizing “getting mine”) while producing an abundance of valuable resources to the ecosystem (maximizing “growing ours”).
 
-![]({{ site.urlimg }}1_nzawpTZ6DoEsxQ0Xv_KY_Q.jpeg)
+![]({{ site.urlimg }}1_nzawpTZ6DoEsxQ0Xv_KY_Q.jpeg){:class="img-responsive"}
 
 This idea is supported by the fact that plants, who need only the abundantly renewable resources sunlight, air, and water to produce all the carbon-sugars that comprise our planetary food chain, are tremendously successful, making up the majority of biomass on the planet. Carnivorous mammals, at the other end of the food chain, are relatively rare. But even carnivores typically take only what they need, and not more than can be renewed, from their surroundings and from prey populations.
 
@@ -102,7 +102,7 @@ To hint at the scope of something like this, let’s tune in to one more thought
 
 But let’s say that this is the future, and you get your information very differently. What you’re looking at is not a 400-page report, but rather a nature scene depicted on a screen — maybe an aquarium of fish, a bit like the old screensavers. Each type of fish represents some part of the massive, complex system you’re managing, while the fishes’ behavior — like how fast or high they’re swimming, or how coordinated a school’s movements — represents some metrics, interpreted and compiled by the sort of advanced intelligence that’s already available today.
 
-![]({{ site.urlimg }}1_uRDJhnXgJfYCWfqRuN8Tug.jpeg)
+![]({{ site.urlimg }}1_uRDJhnXgJfYCWfqRuN8Tug.jpeg){:class="img-responsive"}
 
 What works so well about this scenario is not just that the data is delivered in real time, but also that it’s delivered in a format that is consistent with how the human perceptual system is designed to operate. You have on the wall in your office not paragraphs, charts, and graphs, but a simulated ecosystem acting as the real-time health monitor of a complex system, displayed in such a way that you can take in large amounts of information at a glance, millions of simultaneous data points even, by observing patterns among the fish or their environs: the rippling seaweed, the blooming algae, the bubbles, the water’s cloudiness, the current, the light. When something seems “off”, you open up an interface on your desktop, click on the item of interest, and drill in for more information.
 
