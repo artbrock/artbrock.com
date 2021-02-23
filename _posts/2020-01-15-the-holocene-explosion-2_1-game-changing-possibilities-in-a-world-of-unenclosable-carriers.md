@@ -16,7 +16,7 @@ _The NextNet Series Part 2.1 of 3: Restoring the Quality of Our Food_
 
 **In collaboration with** [**_Josh Zemel_**](https://medium.com/@joshmzemel)
 
-![]({{ site.urlimg }}1_Hxx7vXb-16P3H4PFf4dWkg.jpeg)
+![]({{ site.urlimg }}1_Hxx7vXb-16P3H4PFf4dWkg.jpeg){:class="img-responsive"}
 
 The [first chapter](https://medium.com/holochain/unenclosable-carriers-and-the-future-of-communication-4ac6045ac894) in this three-chapter series explored _unenclosability_ as an essential property of non-corruptible communication channels. We suggest heading there, if you haven’t already, before reading this article.
 
@@ -42,7 +42,7 @@ Independent family farming used to be much more common \[[1](https://www.washing
 
 Want to “buy local”? Good luck: you’re limited to what’s available during the growing season in your area, and you’ll pay [more than at the supermarket](https://www.fdrsinc.org/wp-content/uploads/2018/03/JFDR_49.1_4_Curtis.pdf) because local growers generally can’t come close to matching mass-produced pricing. Want to go organic? Studies suggest that the herbicides known as glyphosates — which Monsanto markets as Roundup, and which the World Health Organization has concluded is [“probably carcinogenic to humans”](https://www.thelancet.com/journals/lanonc/article/PIIS1470-2045(15)70134-8/fulltext) — make their way [into water supplies](https://toxics.usgs.gov/highlights/glyphosate02.html) and even [organic crops](https://www.producer.com/2019/01/glyphosate-residues-snare-organics/).
 
-![]({{ site.urlimg }}1_nWe_jralmnnhiXhDewjOnA.jpeg)
+![]({{ site.urlimg }}1_nWe_jralmnnhiXhDewjOnA.jpeg){:class="img-responsive"}
 
 Our access to food is controlled by centralized market players that we don’t get to choose. Mega-corporations like Kraft & Nestle control companies up and down the whole supply chain. Shelves at supermarket chains display the products that most serve the interests of the industry’s major stakeholders, and those products are filled with ingredients that do the same. Farmers are paid simply for pounds of yield, and so they understandably favor the cheapest way to achieve high outputs, without regard to the nutritional content of the food or the harmful effects of chemical herbicides or fertilizers.
 
@@ -55,7 +55,7 @@ There are alternatives.
 
 The explosion of labels and certifications like “organic/bio”, “fair trade”, “free-range”, “hormone-free”, “cage-free”, and so on point to the info-age demand for more visibility into the flows and processes that define our food production. These labels may be only partial indicators — organic food can still come from depleted soil, for example — but at least they move the industry in the right direction. And they point to an opportunity to create massively greater accountability in our food supply chains, incentivizing producers through market dynamics to do right by the consumers.
 
-![]({{ site.urlimg }}1_YgBwINFtJoQyQtC3du5t1w.jpeg)
+![]({{ site.urlimg }}1_YgBwINFtJoQyQtC3du5t1w.jpeg){:class="img-responsive"}
 
 Yet supply-chain transparency and consumer information works best — and really only works at scale — in the case of carrier unenclosability. Without it, certifications themselves can easily become stale or [corrupt](https://www.businessinsider.fr/us/organic-milk-may-not-be-organic-2017-5). The ability to create a new certification standard needs to be like creating a new turn of phrase in a language: anyone can do it, and the expression spreads if it’s useful, rather than being subject to central oversight over what takes hold. This way, any community can invent the kind of quality assurance that it needs.
 
@@ -65,7 +65,7 @@ And another new system directly incorporates regenerative certification into the
 
 JOOLES will provide a food-backed cryptocurrency based on the unenclosable carrier Holochain, which means that the currency can never be centralized. Thus, it’s the participants in the ecosystem who issue credit — the holders of the currency, rather than big banks — effectively paying qualifying farmers ahead of their seasons for the food they grow.
 
-![]({{ site.urlimg }}1_RP-nAs0Jt4VVh1efV4oAsg.jpeg)
+![]({{ site.urlimg }}1_RP-nAs0Jt4VVh1efV4oAsg.jpeg){:class="img-responsive"}
 
 This could be game-changing.
 ============================
