@@ -13,7 +13,7 @@ categories:
 
 **…and when is consensus needed in distributed computing**
 
-![]({{ site.urlimg }}1_L9loWlLxrpmNCGWWqLETNg.jpeg)
+![]({{ site.urlimg }}1_L9loWlLxrpmNCGWWqLETNg.jpeg){:class="img-responsive"}
 _Is “consensus” even a sensible word for a proof-of-work random lottery?_
 
 There are many new platforms trying to make blockchains more scalable, or creating alternatives to the architecture of blockchain to fulfill on the aspirations of blockchain advocates, but that current blockchains fail to deliver on.
@@ -34,7 +34,7 @@ The creators of Hashgraph made a partial mindshift from data-centric to agent-ce
 A Fixation on Consensus
 =======================
 
-![]({{ site.urlimg }}1_ZBkp9awdfHK0cHBPoKrORw.jpeg)
+![]({{ site.urlimg }}1_ZBkp9awdfHK0cHBPoKrORw.jpeg){:class="img-responsive"}
 
 If you hear blockchain people talk about distributed computing, it is all about consensus. In fact the Hashgraph folks even claim Byzantine Fault Tolerance is about consensus (and not the ability to tolerate a Byzantine Fault — actions from corrupt or malicious nodes). Why such a fixation on consensus?
 
