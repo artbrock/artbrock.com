@@ -11,7 +11,7 @@ categories:
 ---
 [Originally published on [Medium](https://medium.com/h-o-l-o/launching-an-ethical-ico-e21ed5738bb0)]
 
-![]({{ site.urlimg }}1_LsK22SKyngP0vB7X99b9zw.jpeg)
+![]({{ site.urlimg }}1_LsK22SKyngP0vB7X99b9zw.jpeg){:class="img-responsive"}
 _Banner from Holo [crowdfunding campaign](https://igg.me/at/h-o-l-o/x/308280)_
 
 Following up on my [prior posts about responsible cryptocurrencies](https://medium.com/h-o-l-o/building-responsible-cryptocurrencies-d45d7d2173ed) and [moving towards a more Ethical ICO](https://medium.com/h-o-l-o/toward-an-ethical-ico-419b9e961004), I want to dig into some of the nitty-gritty about what kinds of things can make an ICO more ethical than the norm. At the very least, I’d like to open up some dialogue about how to make this space safer, even if you disagree with strategies I suggest or have better ones.
@@ -66,7 +66,7 @@ In order to use accept cryptocurrency in an ICO and have bank accounts where we 
 
 For example, Holo fuel has transaction fees to sustain the infrastructure and app ecosystem. People immediately assume centralization — that transactions come through us, or that we’re party to every transaction. We’re not. In fact, we don’t even receive copies of every transaction. They’re distributed around the DHT so a bunch of people have them, but without a global ledger, we’re not holding them all.
 
-![]({{ site.urlimg }}1_9y_xqCZLlhEi8U0ZaTvZ9g.png)
+![]({{ site.urlimg }}1_9y_xqCZLlhEi8U0ZaTvZ9g.png){:class="img-responsive"}
 _Up to 1% fee on each transaction_
 
 Even though we know many cryptocurrency people are likely to have a negative reaction to these fees, it is actually the responsible thing to do in our design. So we’ll just have to bite the bullet and re-explain (in forums, chats, emails, etc.) how **our currency is actually less-centralized than most cryptocurrencies, even with transaction fees**.
@@ -78,7 +78,7 @@ Cryptography and decentralized computing is some pretty dense stuff. Many people
 
 So, even if your tech plan is solid, having a team that can work together and produce results is a whole other thing. Bringing complex tech from design, to build, to usability, and then into widescale adoption is something far more tech startups are failing at than succeeding. Before asking people to fund you, can you deliver something — a proof-of-concept, prototype, or alpha release? It doesn’t have to be bulletproof yet, but it can **demonstrate you have a team that can at least get something across the finish line**.
 
-![]({{ site.urlimg }}1_F5DxZg_Ss1S2N0-OPNVWCw.png)
+![]({{ site.urlimg }}1_F5DxZg_Ss1S2N0-OPNVWCw.png){:class="img-responsive"}
 _Holo team members_
 
 Remember, if you don’t limit your ICO to accredited investors who can afford the risk, then you’re asking regular folks for their cash. It’s only fair that you and your team put some skin in the game too. A white paper plus some marketing materials and angel funds for expensive ICO lawyers is not what I’m talking about. **Have your team do some work for which their payout is in the same currency created in the ICO.**
