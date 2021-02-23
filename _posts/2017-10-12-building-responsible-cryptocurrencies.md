@@ -11,7 +11,7 @@ categories:
 ---
 [Originally published on [Medium](https://medium.com/h-o-l-o/building-responsible-cryptocurrencies-d45d7d2173ed)]
 
-![]({{ site.urlimg }}1_HUJZouVvXOkGZyt-2SYt0g.jpeg)
+![]({{ site.urlimg }}1_HUJZouVvXOkGZyt-2SYt0g.jpeg){:class="img-responsive"}
 
 Making Crypto Safe for the Mainstream
 -------------------------------------
