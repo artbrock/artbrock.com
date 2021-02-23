@@ -16,7 +16,7 @@ _The NextNet Series Part 2.3 of 3: Creating Financial Systems That Work for Ever
 
 **_In collaboration with_** [**_Josh Zemel_**](https://medium.com/@joshmzemel)
 
-![]({{ site.urlimg }}1_3f1a6R0N5QQZqlo75-O7-g.jpeg)
+![]({{ site.urlimg }}1_3f1a6R0N5QQZqlo75-O7-g.jpeg){:class="img-responsive"}
 
 Here we continue the exploration of how [unencloseable carriers](https://medium.com/holochain/unenclosable-carriers-and-the-future-of-communication-4ac6045ac894) could free us from critical limitations across a number of macro-systemic domains and help unleash an explosion of human creativity and social organizing. We recommend starting with [Part 1: Unencloseable Carriers and the Future of Communication](https://medium.com/holochain/unenclosable-carriers-and-the-future-of-communication-4ac6045ac894) as well as [Part 2.1 on food systems](https://medium.com/holochain/the-holocene-explosion-2-1-game-changing-possibilities-in-a-world-of-unenclosable-carriers-21ddbb15341a) and [Part 2.2 on energy systems](https://medium.com/holochain/the-holocene-explosion-2-2-game-changing-possibilities-in-a-world-of-unenclosable-carriers-a63efa3cd2a3), before reading Part 2.3 here.
 
@@ -32,7 +32,7 @@ But what if…
 
 …running ever faster on the hamster wheel but still struggling to get by is a consequence of our money system being enclosable, which enables the rein-holders to rig the game so that only the house wins?
 
-![]({{ site.urlimg }}1_p4Hj0nS9yspVesXJA14syg.jpeg)
+![]({{ site.urlimg }}1_p4Hj0nS9yspVesXJA14syg.jpeg){:class="img-responsive"}
 
 In our enclosable, centralized system of currency, money is issued as debt by the banks \[[1](https://www.theguardian.com/commentisfree/2014/mar/18/truth-money-iou-bank-of-england-austerity)\] \[[2](https://www.youtube.com/watch?v=2nBPN-MKefA&list=PLmpODdsfprYH4Fhsso8PVPQBNxVDQSgb_&index=2&t=0s)\] \[[3](https://positivemoney.org/how-money-%20works/how-banks-%20create-money/)\] \[[4](https://www.sciencedirect.com/science/article/pii/S1057521914001434)\] \[[5](https://www.investopedia.com/articles/investing/022416/why-banks-dont-need-your-money-make-loans.asp)\], with more debt always being created than money issued. This forces the issuance of more money — and thus the creation of more and more debt — each year than the previous in order to avoid collapse due to foreclosures, defaults, and bankruptcies. Through compounding interest, this debt grows exponentially, ever widening the gap between money owed and the money supply available to repay it. The debt is owed by individuals, corporations, and governments who rely on borrowed money in order to invest in homes, infrastructure, and so on — all of whom then need to earn more and more as interest compounds on top of their living or operating expenses. The economy is literally forced to grow, or collapse.
 
@@ -43,7 +43,7 @@ There are alternatives.
 
 We may have so taken for granted that our currency is issued by central authorities and used to manipulate commerce that it’s hard to imagine alternatives taking hold at any kind of scale. And we [previously explored](https://medium.com/holochain/unenclosable-carriers-and-the-future-of-communication-4ac6045ac894) how blockchain-based cryptocurrencies, despite their rhetoric, are actually enclosable and inevitably subject to the same pitfalls of centralized power as corporations and governments. But if we toss out our traditional monetary assumptions, we can imagine currency taking on entirely new forms.
 
-![]({{ site.urlimg }}1_gS_VUSS9GCSYziRmELqBng.jpeg)
+![]({{ site.urlimg }}1_gS_VUSS9GCSYziRmELqBng.jpeg){:class="img-responsive"}
 
 **Mutual credit & net-zero currency supplies.**
 -----------------------------------------------
@@ -54,7 +54,7 @@ The rules for who can draw credit vary among mutual credit systems, but one prom
 
 Mutual credit may also bypass the problems that many alternative currencies face with regard to the enclosures known as securities laws. The U.S. Securities and Exchange Commission in particular has a penchant for shutting down blockchain-based projects that issue speculative tokens, but because mutual credit is issued only in the moments when value is actually exchanged, it is not a future-based investment and, as such, is difficult to classify as a security.
 
-![]({{ site.urlimg }}1_Amj4aX-SXUhtVzafFs2hkQ.jpeg)
+![]({{ site.urlimg }}1_Amj4aX-SXUhtVzafFs2hkQ.jpeg){:class="img-responsive"}
 
 **Triple-bottom-line currencies.**
 ----------------------------------
@@ -73,7 +73,7 @@ One possible approach to triple credit rating could be:
 2.  Your _planet rating_ affects your _transaction fees_, with the idea being that polluters and extractors pay a tax to the system to offset the environmental costs borne by everyone. If you have a reputation for positively impacting the planet, you could actually incur a negative tax, which means you’re essentially being paid to transact by the system, in reflection of the good you externalize.
 3.  Your _profit rating_ affects your _credit limits_, similar to existing credit ratings, with the idea being that your likelihood to pay back funds ought to remain a central factor in how much you can borrow.
 
-![]({{ site.urlimg }}1_5F-Tz5tepk0pa8Ao1NH_PA.jpeg)
+![]({{ site.urlimg }}1_5F-Tz5tepk0pa8Ao1NH_PA.jpeg){:class="img-responsive"}
 
 This could be game-changing.
 ============================
@@ -84,7 +84,7 @@ One mechanism by which today’s debt-driven economy has such a troubling effect
 
 No matter what business asset you own — land, a website, a factory — you have an incentive to milk (or sell) that asset for cash on as short a timeline as possible, even if it could produce _more_ cash later or on a longer timeline. The more cash you can get now, the more you can put that cash to work by putting it to work in high-return financial instruments. Plus, if you’re like most business owners, you’re paying interest yourself on the ways you capitalized your business — as well as on your personal debt (home, cars, college, and so on) — and cash could help pay off those loans.
 
-![]({{ site.urlimg }}1_dW8XwOxPOrC47u45WCRBpQ.jpeg)
+![]({{ site.urlimg }}1_dW8XwOxPOrC47u45WCRBpQ.jpeg){:class="img-responsive"}
 
 The time cost of money creates an imperative to convert real live assets into numbers in a bank account as quickly as possible, regardless of whether doing so is actually sustainable in any broader sense. Extracting more fossil fuel, catching more fish, and selling more plastic is not just profitable but _compoundingly_ profitable, even if we are completely outstripping the carrying capacity of our ecosystem.
 
