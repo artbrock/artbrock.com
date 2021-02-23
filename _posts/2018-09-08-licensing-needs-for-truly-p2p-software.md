@@ -11,7 +11,7 @@ categories:
 ---
 [Originally published on [Medium](https://medium.com/holochain/licensing-needs-for-truly-p2p-software-a3e0fa42be6c)]
 
-![]({{ site.urlimg }}1_7xNnvi_ou_gDuG0Qa6FmBQ.png)
+![]({{ site.urlimg }}1_7xNnvi_ou_gDuG0Qa6FmBQ.png){:class="img-responsive"}
 _Truly P2P Software brings unique licensing considerations about identity and data ownership_
 
 This article is preserved for historical purposes
