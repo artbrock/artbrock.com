@@ -13,7 +13,7 @@ categories:
 
 _In collaboration with_ [_Josh Zemel_](https://medium.com/@joshmzemel)
 
-![]({{ site.urlimg }}1_tM-TpUCEJpi_2DJx6_TgSA.png)
+![]({{ site.urlimg }}1_tM-TpUCEJpi_2DJx6_TgSA.png){:class="img-responsive"}
 
 Fast out of the Gate: From Conception to Use
 ============================================
@@ -61,7 +61,7 @@ And after some official Alpha releases, we held **lots more hackathons:**
 *   Amsterdam, Netherlands
 *   Pittsburgh, Pennsylvania (Carnegie Mellon University)
 
-![]({{ site.urlimg }}1_Pa035NtcTEFhgI4iCZZ3Fw.png)
+![]({{ site.urlimg }}1_Pa035NtcTEFhgI4iCZZ3Fw.png){:class="img-responsive"}
 
 Viable Holochain Apps
 =====================
@@ -142,7 +142,7 @@ Clarification: Holochain vs. Holo
 
 > It turns out that building the foundation for the next Internet to truly be a P2P approach, is not easy — especially while ensuring appropriate layers of security and privacy.
 
-![]({{ site.urlimg }}1_z9EgMxpDxZORUJXdCX-KDQ.png)
+![]({{ site.urlimg }}1_z9EgMxpDxZORUJXdCX-KDQ.png){:class="img-responsive"}
 
 Bulletproofing Holochain
 ========================
@@ -155,7 +155,7 @@ We also needed to staff up with developers, devops, and security and networking 
 
 In mid-May 2018, with funding and a larger development team in place, we were ready to begin rebuilding the Holochain prototype. We estimated we needed 3 months, targeting our August 15th for our first Alpha release with all the features of the Go prototype. Many of our developers were excited about the rebuild.
 
-![]({{ site.urlimg }}1_D6TzxSuTGx7G4OKKceMsUw.png)
+![]({{ site.urlimg }}1_D6TzxSuTGx7G4OKKceMsUw.png){:class="img-responsive"}
 
 The Inevitable Delays
 =====================
@@ -188,7 +188,7 @@ Should we have spun off some team of devs, trainers, and marketers to support th
 
 I’m grateful for the few projects (like [Humm.Earth](https://humm.earth/)) that ignored our suggestions and went live on the Go version of Holochain anyway. But there weren’t really enough projects like these for the world to take Holochain seriously.
 
-![]({{ site.urlimg }}1_wjCqv9CcJDDVnNEx8GFvMw.png)
+![]({{ site.urlimg }}1_wjCqv9CcJDDVnNEx8GFvMw.png){:class="img-responsive"}
 
 The Path Forward
 ================
