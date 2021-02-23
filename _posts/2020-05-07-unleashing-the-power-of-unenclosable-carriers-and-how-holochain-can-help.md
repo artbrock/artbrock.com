@@ -16,7 +16,7 @@ _The Nextnet Series: Part 3 of 3_
 
 **_In collaboration with_** [**_Josh Zemel_**](https://medium.com/@joshmzemel)
 
-![]({{ site.urlimg }}1_BESmuuqeyiNP4nmv8oBaJg.jpeg)
+![]({{ site.urlimg }}1_BESmuuqeyiNP4nmv8oBaJg.jpeg){:class="img-responsive"}
 
 The first and second chapters in this series explored the nature of unenclosable carriers and their potential to underpin an unprecedented explosion of human creativity and social flourishing. We suggest starting with parts [1](https://medium.com/holochain/unenclosable-carriers-and-the-future-of-communication-4ac6045ac894), [2.1](https://medium.com/holochain/the-holocene-explosion-2-1-game-changing-possibilities-in-a-world-of-unenclosable-carriers-21ddbb15341a), [2.2](https://medium.com/holochain/the-holocene-explosion-2-2-game-changing-possibilities-in-a-world-of-unenclosable-carriers-a63efa3cd2a3), [2.3](https://medium.com/holochain/the-holocene-explosion-2-3-game-changing-possibilities-in-a-world-of-unenclosable-carriers-7c1a97f32e9c), and [2.4](https://medium.com/holochain/the-holocene-explosion-2-4-game-changing-possibilities-in-a-world-of-unenclosable-carriers-cd8d39a2014c) if you haven’t already.
 
@@ -39,7 +39,7 @@ Rather than each user’s actions being validated by centralized entities (as in
 
 Each Holochain app is a collaborative platform within which users host themselves and also provide just a little extra computing power and storage so that extra copies of data are always online and agreements are mutually validated and enforced.
 
-![]({{ site.urlimg }}1_obCd6wnPxtiW0v1BroCkaA.jpeg)
+![]({{ site.urlimg }}1_obCd6wnPxtiW0v1BroCkaA.jpeg){:class="img-responsive"}
 
 What Makes Holochain Unenclosable
 =================================
@@ -54,7 +54,7 @@ Direct interaction also means that **Holochain functions on any transport protoc
 
 **Holochain is free to use.** Since all users host themselves on Holochain, there is no need for central hosting infrastructure as there is in web apps, nor any need for tax-like “gas” fees for miners or block producers as there is in blockchain apps. Each peer carries a bit of extra load to store and validate a portion of the information that’s distributed to the group. (This is not to be confused with Holo, which is an optional, peer-to-peer hosting framework that enables users who are _not_ hosting themselves to access Holochain apps through a web browser.) Any fees that occur in Holochain apps are designed, chosen, and mutually enforced by those freely participating within a given app space, with no revenues skimmed by the network.
 
-![]({{ site.urlimg }}1_AR6R9a8EfNVuokmR7wqeAA.jpeg)
+![]({{ site.urlimg }}1_AR6R9a8EfNVuokmR7wqeAA.jpeg){:class="img-responsive"}
 
 What You Can Do with It
 =======================
@@ -106,7 +106,7 @@ Unenclosable carriers could have game-changing effects on our food supply, energ
 
 Many of these projects have the potential to serve significant market needs and turn a profit, while others might be more philanthropic. We’ll save a discussion of peer-to-peer revenue models for another article, but for now, suffice it to say that if you’re looking to create a business on Holochain, that is a viable option.
 
-![]({{ site.urlimg }}1_IFaB6gQS6bYmzWqQw3fpNQ.jpeg)
+![]({{ site.urlimg }}1_IFaB6gQS6bYmzWqQw3fpNQ.jpeg){:class="img-responsive"}
 
 Why All of This Matters (a Recap)
 =================================
@@ -121,7 +121,7 @@ The good news is that such a shift is technologically possible in ways it hasn�
 
 Designed as a carrier for this Explosion, **Holochain preserves individual sovereignty by giving all agents the power to represent themselves in all interactions, and to voluntarily enter (or not) into spaces where mutually agreed-upon rules are mutually enforced.** If someone comes to have broader influence than someone else, it’s not because of carrier control, but because that person has gained capabilities according to rules voluntarily opted-into by the people participating in that app space. If anyone doesn’t like the rules of a given space, they are free to leave and join or start another, and since they own their data, they can take it with them.
 
-![]({{ site.urlimg }}1_1fX50rkOEUrmloGB7ua40Q.jpeg)
+![]({{ site.urlimg }}1_1fX50rkOEUrmloGB7ua40Q.jpeg){:class="img-responsive"}
 
 A Special Note on COVID-19
 ==========================
@@ -136,7 +136,7 @@ An exploration of all the ways that unenclosable carriers could help us respond 
 
 Then there’s the matter of remote work and digital collaboration, which has been vital for decades but has recently taken on a new level of importance. Meanwhile, government oversight in some places is reaching [what seem to be all-time highs](https://www.nytimes.com/2020/03/01/business/china-coronavirus-surveillance.html) in the name of combating the virus. Isn’t it critical that our remote collaboration systems be immune to acts of social control and cyberwarfare? In a communication system built on unenclosable carriers, there is no opportunity for centralized actors to conduct unwarranted surveillance, impose censorship, or disable infrastructure.
 
-![]({{ site.urlimg }}1_3ZWePaMi4lNPOFTT-wsH6A.jpeg)
+![]({{ site.urlimg }}1_3ZWePaMi4lNPOFTT-wsH6A.jpeg){:class="img-responsive"}
 
 Now what?
 =========
