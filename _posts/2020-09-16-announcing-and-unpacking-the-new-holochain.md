@@ -49,7 +49,8 @@ One of our top priorities was to make Holochain RSM’s codebase **easier to com
 
 So we began this overhaul with a [rewrite of Holochain’s formalization document](https://holo.hackmd.io/iFrWEJ0TREqO6iF5iuDcSg?view), including particular attention to the places where confusion had surfaced, such as transforming local chain data to sharded global DHT data. This formal document probably isn’t for everyone, but if you are someone who thinks in more academic terms, it could be helpful.
 
-![Table of how data is transformed from local source chain to shared DHT. For term definitions see the [formalization document](https://www.google.com/url?q=https://holo.hackmd.io/iFrWEJ0TREqO6iF5iuDcSg?view&sa=D&ust=1600270411403000&usg=AOvVaw2mkyCidtXiQvEpnQPT2rwC)]({{ site.urlimg }}1_hpP47IJ_wGpIyzDd3AjoEA.jpeg)
+![]({{ site.urlimg }}1_hpP47IJ_wGpIyzDd3AjoEA.jpeg)
+_Table of how data is transformed from local source chain to shared DHT. For term definitions see the [formalization document](https://www.google.com/url?q=https://holo.hackmd.io/iFrWEJ0TREqO6iF5iuDcSg?view&sa=D&ust=1600270411403000&usg=AOvVaw2mkyCidtXiQvEpnQPT2rwC)_
 
 Concurrent Workflows with Atomic Transactions
 ---------------------------------------------
@@ -58,7 +59,8 @@ The new version of Holochain is largely organized around **workflows** that tran
 
 Concurrency is also enhanced by causing workflows to **produce all their changes in a scratch space** and allowing them read-only access to Holochain while doing so. Then at the end of their processing, we grab a lock for a very brief, **atomic write transaction** to the data sources and flush the changes from the scratch space to the underlying tables. We also guarantee that if multiple processes are attempting to write to the source chain, only the one to finish first will succeed, requiring the others to retry their validation on top of the newly updated local state.
 
-![Diagram of workflows.]({{ site.urlimg }}1_4QHb4jEddc0ThoKhqkLVdg.png)
+![]({{ site.urlimg }}1_4QHb4jEddc0ThoKhqkLVdg.png)
+_Diagram of workflows._
 
 An additional benefit of defining clear workflow boundaries is ensuring that Holochain functions “local first,” which means a Holochain app can successfully change its local state and queue those state changes for synchronization with the DHT when it has network access again. As a result, asynchronous distributed apps **can function offline** and in regions with limited internet access. Offline functionality remains out of bounds for blockchain, but it is a natural fit for Holochain’s agent-centric state model.
 
@@ -97,7 +99,8 @@ Although it was technically possible to make direct system calls in the previous
 
 As a result, bypassing the HDK when needed to make a direct API call can now be accomplished with just a few lines, in contrast with the previous API, which took about 30 times more code as well as some difficult memory management. We are all thrilled to have optimized this into such a usable and maintainable form.
 
-![Sample code from three different system calls: HDK 3.0 (most efficient), RSM API (most flexible), Previous API (too complex).]({{ site.urlimg }}0_twD0lyJAnavSmIOp.jpeg)
+![]({{ site.urlimg }}0_twD0lyJAnavSmIOp.jpeg)
+_Sample code from three different system calls: HDK 3.0 (most efficient), RSM API (most flexible), Previous API (too complex)._
 
 An Upgraded HDK
 ---------------
@@ -106,7 +109,8 @@ HDK 3.0 provides **extremely efficient macros** so that you don’t even need th
 
 As you can see in the partial HDK snapshot below, the codebase is thoroughly self-documenting through Rust crate document generation. However, we aren’t publishing to crates.io until we resolve some namespace conflicts with the old version of Holochain, so until then you’ll need to generate them locally using the \`cargo doc — open\` command.
 
-![Partial list of HDK macros.]({{ site.urlimg }}0_oCwjqeoTRfm4TzkJ.png)
+![]({{ site.urlimg }}0_oCwjqeoTRfm4TzkJ.png)
+_Partial list of HDK macros._
 
 **Working with Elements, not just Entries:
 **All data in Holochain originates in someone’s source chain as a chunk of content, known as an entry, along with a header that chains the entry to all previous data by pointing to the previous header. Headers also contain important metadata about the entry such as its hash, a timestamp, the author’s key, the author’s signature, etc. In Holochain RSM, an entry plus its header are called an Element. When you \`get()\` data from the DHT, the result is not just the entry content, but a **header-entry pair**, which **automatically includes the timestamp, author’s ID, and author’s signature**.
@@ -123,27 +127,32 @@ Another aspect of this structural change is that headers, rather than entries, a
 **Entry Definitions:
 **Beyond the app-defined fields in the struct of an entry, entry definitions now require some additional fields such as visibility (public/private) and num\_validation\_receipts (how many validation receipts are required to build a receipt bundle).
 
-![Sample entry definitions]({{ site.urlimg }}0_JmWMBmk83oAYT1NV.png)
+![]({{ site.urlimg }}0_JmWMBmk83oAYT1NV.png)
+_Sample entry definitions_
 
 **Link Definitions:
 **The data structure for links is already defined by the Holochain system, so you can simply leverage that structure by using the create\_link() HDK function. Each zome simply needs a unified validate\_link() callback which can match on the link contents. The underlying API has unified the link “type” and “tag” fields, but the HDK still separates those out as distinct parameters.
 
-![Sample link validation.]({{ site.urlimg }}0_BmXzSNFSg1DqSFk_.png)
+![]({{ site.urlimg }}0_BmXzSNFSg1DqSFk_.png)
+_Sample link validation._
 
 **Validation Callbacks**:
 Holochain now provides a unified callback system which enables you to define familiar callbacks (such as zome initialization, entry validation, custom validation package construction, etc.) which will only call into WASM if they’ve been defined. Also, these calls are automatically tried based on **a layered approach starting with the most specific match and falling through to more general** conditions. For example, you could define default validation code for your app’s entry types to allow only the original author to update/edit it. The callback system would then check first by action (create, update, delete) for the specific entry type, but if the validation code has not been defined for that entry type, it will fall back to the general action case for all entry types.
 
-![Callback function for validation. This is the_ **_only_** _required callback in an app.]({{ site.urlimg }}0_3th6bmdBbEoBISOz.png)
+![]({{ site.urlimg }}0_3th6bmdBbEoBISOz.png)
+_Callback function for validation. This is the_ **_only_** _required callback in an app._
 
 **Many New Callbacks:
 **Have you ever wished you could put a hook inside Holochain’s workflows so that every time a new entry is created, you could call a fulltext indexing process? Well, now you can by creating a Post-Commit callback for that entry type. And that’s just one of many new callbacks available to provide **more nuanced triggers in Holochain’s underlying workflows**.
 
-![A variety of callback functions available in Holochain RSM.]({{ site.urlimg }}0_X-77g9EdaE-DvDdK.png)
+![]({{ site.urlimg }}0_X-77g9EdaE-DvDdK.png)
+_A variety of callback functions available in Holochain RSM._
 
 **Capabilities-Based Security Model:
 **Prior versions of Holochain never quite fully implemented the capabilities security we had intended. Now it has. The new Holochain confirms cryptographic source and permissions by checking for explicit capabilities on whatever function is being called **_before_** spinning up WASM to call your app code. **Security is enforced on all calls and connections** whether via local UI connections, remote UI connections, or remote calls from other nodes.
 
-![Sample capabilities grant sharing permission to query a source chain.]({{ site.urlimg }}0_Umo2qWjNdhFJeqV9.png)
+![]({{ site.urlimg }}0_Umo2qWjNdhFJeqV9.png)
+_Sample capabilities grant sharing permission to query a source chain._
 
 **Remote Call:
 **Holochain has always contained a direct messaging protocol between nodes, but instead of implementing it as send/receive as we did previously, we have now made it simply a \`remote\_call()\` function. You can still easily implement a send and a receive to mimic prior functionality, but now you can expand your app’s options to **enable the possibility of calling into any zome function from another node**. This lets you leverage Holochain’s unified, capabilities-based security model to do cool things like allowing my assistant to schedule directly in my calendar app (writing to my source chain on my behalf) because I’ve explicitly granted that capability.
