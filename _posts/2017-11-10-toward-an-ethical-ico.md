@@ -11,7 +11,8 @@ categories:
 ---
 [Originally published on [Medium](https://medium.com/h-o-l-o/toward-an-ethical-ico-419b9e961004)]
 
-![_Crypto whales feeding \[_[_source_](https://unsplash.com/photos/fs283LESUtc)_\]_]({{ site.urlimg }}0_2mfdw-TBrWfieKMT.jpeg)
+![]({{ site.urlimg }}0_2mfdw-TBrWfieKMT.jpeg)
+_Crypto whales feeding \[_[_source_](https://unsplash.com/photos/fs283LESUtc)_\]_
 
 It’s the wild west out there, folks!
 
