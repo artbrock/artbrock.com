@@ -18,7 +18,8 @@ Of course, this is why we've been building <a href="http://ceptr.org">Ceptr</a> 
 
 I'll start with a summary of highlights and then drill into greater detail in the next posts - providing some examples of ways to make these kinds of distributed applications and cryptocurrencies work on a large scale.
 
-![Cl says to H: How do I know you're not double-spending that electron?]({{ site.urlimg }}1_Dz70hK-Q_tihH94o74Qk6A.png)
+![]({{ site.urlimg }}1_Dz70hK-Q_tihH94o74Qk6A.png)
+_Cl says to H: How do I know you're not double-spending that electron?_
 
 **Stop the Nonsensus!** (Nonsense Consensus): Systems will never scale if you require global consensus for local actions by independent agents. For example, I should not have to know where every dollar in the economy is when I want to buy something from you. That adds an overhead of ridiculous complexity to something which needs to follow the principle of pushing intelligence and agency to the edges rather than center. Likewise, an atom should be able to bond with another atom (see cartoon below) without accounting for the status of every electron in the universe. However, Bitcoin and blockchains are built around authorized tokens embedded in every transaction/record, which embeds unnecessary complexity and limitations for scalability into every interaction. Tokens are not what makes a decentralized system work, cryptographic signatures and self-validating data structures are.
 
