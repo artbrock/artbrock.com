@@ -21,7 +21,7 @@ tags:
 - flow
 ---
 
-![](gina-smith-MazVRQL-7nk-unsplash.jpg){:class="img-responsive"}
+![]({{ site.urlimg }}gina-smith-MazVRQL-7nk-unsplash.jpg){:class="img-responsive"}
 
 ## Ferananda
 
