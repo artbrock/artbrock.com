@@ -24,7 +24,8 @@ For a long time we've operated as one of those fringy open source projects like 
 
 Our focus is initially on Holochain, a scalable blockchain alternative which is part of the larger Ceptr social OS. Watch for updates on the [Ceptr blog](/ceptr/blog).
 
-![Transformation](http://ceptr.org/images/chrysalis_butterfly.jpg){:class="img-responsive"}
+![](http://ceptr.org/images/chrysalis_butterfly.jpg){:class="img-responsive"}
+_Transformation_
 
 ## Why now?
 
