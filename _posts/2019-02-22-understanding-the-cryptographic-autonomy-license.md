@@ -15,7 +15,7 @@ categories:
 
 Other posts about this license have gone into more detail, but in this article, I boil the Cryptographic Autonomy License down to its most basic salient points to try to make it clear why we need a new kind of open source license for distributed P2P software, and how we seek to achieve protections for end users by leveraging a novel application of existing copyright law.
 
-![]({{ site.urlimg }}1_-SxXns7cOdJqm6owhaP9fQ.png)
+![]({{ site.urlimg }}1_-SxXns7cOdJqm6owhaP9fQ.png){:class="img-responsive"}
 _Keys… keys… who’s got the keys?_
 
 TL;DR; Copyleft + Performance
