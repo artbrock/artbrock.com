@@ -14,7 +14,8 @@ categories:
 You don’t SPEND reputation because ratings are orthogonal to exchange.
 ----------------------------------------------------------------------
 
-![Reputation is multi-dimensional and should not look like an account balance of funds]({{ site.urlimg }}1_Djk-aOmDSFvN6h-aue09rQ.png)
+![]({{ site.urlimg }}1_Djk-aOmDSFvN6h-aue09rQ.png)
+_Reputation is multi-dimensional and should not look like an account balance of funds_
 
 It seems like I don’t share often enough about the principles of currency design that I’ve discovered in designing, building and launching currencies over the past 10–20 years. However, this one seems worthy of mention, since I observe it as a frighteningly common mistake as people start to tackle reputation systems.
 
@@ -34,7 +35,8 @@ I’m not saying there is no relationship between the two. A college degree may 
 
 I would suggest that it is very much like the relationship between an electrical field and a magnetic field. The two are strongly related. **The magnitude of one affects the magnitude of the other, but they remain orthogonal**. They are at right angles to each other. They’re not opposites, but they are fundamentally different in many important and useful ways.
 
-![Like magnetic fields are orthogonal to electric fields, money and reputation must stay orthogonal to function.]({{ site.urlimg }}0_SftHA4o3VlU0nMO4.png)
+![]({{ site.urlimg }}0_SftHA4o3VlU0nMO4.png)
+_Like magnetic fields are orthogonal to electric fields, money and reputation must stay orthogonal to function._
 
 Some Design Principles for Reputation Currencies
 ================================================
