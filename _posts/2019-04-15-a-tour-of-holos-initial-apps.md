@@ -15,7 +15,7 @@ With the release of Holo’s Closed Alpha test network, I thought this would be 
 
 Let’s have a look at the apps and why they matter.
 
-![]({{ site.urlimg }}1_XT3Vrnp8AUMa1_cNgd7vow.png)
+![]({{ site.urlimg }}1_XT3Vrnp8AUMa1_cNgd7vow.png){:class="img-responsive"}
 
 **DeepKey** — Key Management
 ============================
