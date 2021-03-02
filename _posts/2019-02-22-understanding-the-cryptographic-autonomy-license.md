@@ -7,7 +7,8 @@ categories:
 - holochain
 - crypto
 - blockchain
-- distributed systems
+- law
+- privacy
 ---
 [Originally published on [Medium](https://medium.com/holochain/understanding-the-cryptographic-autonomy-license-172ac920966d)]
 

@@ -8,6 +8,7 @@ categories:
 - crypto
 - blockchain
 - distributed systems
+- unenclosability
 ---
 [Originally published on [Medium](https://medium.com/holochain/unleashing-the-power-of-unenclosable-carriers-and-how-holochain-can-help-1a4d443aa844)]
 

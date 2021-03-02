@@ -4,10 +4,10 @@ title: Building Responsible Cryptocurrencies
 permalink: 2017/10/12/building-responsible-cryptocurrencies
 image: 1_HUJZouVvXOkGZyt-2SYt0g.jpeg
 categories:
-- holochain
 - crypto
-- blockchain
-- distributed systems
+- cryptocurrencies
+- currency
+- currency design
 ---
 [Originally published on [Medium](https://medium.com/h-o-l-o/building-responsible-cryptocurrencies-d45d7d2173ed)]
 

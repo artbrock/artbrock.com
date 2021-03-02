@@ -7,7 +7,7 @@ categories:
 - holochain
 - crypto
 - blockchain
-- distributed systems
+- technology
 ---
 [Originally published on [Medium](https://medium.com/h-o-l-o/a-tour-of-holos-initial-apps-45b00f7e9054)]
 

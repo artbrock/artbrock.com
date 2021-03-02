@@ -3,11 +3,12 @@ layout: page
 title: Unenclosable Carriers and the Future of Communication
 permalink: 2019/12/19/unenclosable-carriers-and-the-future-of-communication
 image: 1_mdSmwm3UWcikD-z2kPQaoQ.jpeg
-categories:
+tags:
 - holochain
 - crypto
 - blockchain
 - distributed systems
+- unenclosability
 ---
 [Originally published on [Medium](https://medium.com/holochain/unenclosable-carriers-and-the-future-of-communication-4ac6045ac894)]
 

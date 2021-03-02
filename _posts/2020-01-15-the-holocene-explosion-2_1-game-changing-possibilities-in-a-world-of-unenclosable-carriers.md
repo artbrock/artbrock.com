@@ -8,6 +8,7 @@ categories:
 - crypto
 - blockchain
 - distributed systems
+- unenclosability
 ---
 [Originally published on [Medium](https://medium.com/holochain/the-holocene-explosion-2-1-game-changing-possibilities-in-a-world-of-unenclosable-carriers-21ddbb15341a)]
 

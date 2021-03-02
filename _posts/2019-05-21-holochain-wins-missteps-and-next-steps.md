@@ -7,7 +7,8 @@ categories:
 - holochain
 - crypto
 - blockchain
-- distributed systems
+- community
+- holo
 ---
 [Originally published on [Medium](https://medium.com/holochain/holochain-wins-missteps-and-next-steps-600812bc9ecc)]
 

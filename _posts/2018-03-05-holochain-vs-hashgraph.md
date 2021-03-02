@@ -8,6 +8,7 @@ categories:
 - crypto
 - blockchain
 - distributed systems
+- hashgraph
 ---
 [Originally published on [Medium](https://medium.com/holochain/hashgraph-vs-holochain-eb38d7dc1f8a)]
 

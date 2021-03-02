@@ -7,7 +7,8 @@ categories:
 - holochain
 - crypto
 - blockchain
-- distributed systems
+- ico
+- initial community offering
 ---
 [Originally published on [Medium](https://medium.com/h-o-l-o/toward-an-ethical-ico-419b9e961004)]
 

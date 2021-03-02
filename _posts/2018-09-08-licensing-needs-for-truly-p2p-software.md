@@ -8,6 +8,8 @@ categories:
 - crypto
 - blockchain
 - distributed systems
+- law
+- p2p
 ---
 [Originally published on [Medium](https://medium.com/holochain/licensing-needs-for-truly-p2p-software-a3e0fa42be6c)]
 

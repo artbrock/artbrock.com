@@ -4,10 +4,12 @@ title: Avoid Blunders in Designing Reputation Systems
 permalink: 2019/01/23/avoid-blunders-in-designing-reputation-systems
 image: 1_Djk-aOmDSFvN6h-aue09rQ.png
 categories:
-- holochain
+- reputation
 - crypto
-- blockchain
-- distributed systems
+- currencies
+- cryptocurrencies
+- design
+- systems
 ---
 [Originally published on [Medium](https://medium.com/metacurrency-project/reputation-is-orthogonal-to-exchange-f113a51dab6c)]
 

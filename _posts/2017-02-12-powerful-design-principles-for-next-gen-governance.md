@@ -13,8 +13,8 @@ categories: [post]
 permalink: /2017/02/12/powerful-design-principles-for-next-gen-governance
 comments: []
 tags:
-- Tag1
-- Tag2
+- governance
+- design
 ---
 In [my last post](/2017/02/11/challenging-broken-assumptions-of-governance), I deconstructed a number of core assumptions that we tend to take for granted as true, and that most of our tools of governance are built around. I didn't mean to just stop there without getting to the good news, but the post was getting long.
 
