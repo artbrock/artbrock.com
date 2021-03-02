@@ -19,7 +19,7 @@ _The NextNet Series Part 2.1 of 3: Restoring the Quality of Our Food_
 
 ![]({{ site.urlimg }}1_Hxx7vXb-16P3H4PFf4dWkg.jpeg){:class="img-responsive"}
 
-The [first chapter](2019/12/19/unenclosable-carriers-and-the-future-of-communication) in this three-chapter series explored _unenclosability_ as an essential property of non-corruptible communication channels. We suggest heading there, if you haven’t already, before reading this article.
+The [first chapter](_posts/2019-12-19-unenclosable-carriers-and-the-future-of-communication) in this three-chapter series explored _unenclosability_ as an essential property of non-corruptible communication channels. We suggest heading there, if you haven’t already, before reading this article.
 
 This chapter explores what becomes possible in a universe of unenclosable carriers. It’s the “why this matters” part of the series. For readability, we’re splitting this chapter into four posts — 2.1, 2.2, 2.3, and 2.4.
 
