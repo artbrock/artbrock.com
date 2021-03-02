@@ -19,7 +19,7 @@ _The NextNet Series Part 2.2 of 3: Solving the Energy Crisis_
 
 ![]({{ site.urlimg }}1_hkhiHsiwGBXN2q3bYbWKaA.jpeg){:class="img-responsive"}
 
-Here we continue the exploration of how [unencloseable carriers](https://medium.com/holochain/unenclosable-carriers-and-the-future-of-communication-4ac6045ac894) could free us from critical limitations across a number of macro-systemic domains and help unleash an explosion of human creativity and social organizing. We recommend starting with [Part 1: Unencloseable Carriers and the Future of Communication](https://medium.com/holochain/unenclosable-carriers-and-the-future-of-communication-4ac6045ac894) as well as [Part 2.1: Restoring the Quality of Our Food](https://medium.com/holochain/the-holocene-explosion-2-1-game-changing-possibilities-in-a-world-of-unenclosable-carriers-21ddbb15341a), before reading Part 2.2 here.
+Here we continue the exploration of how [unencloseable carriers](https://www.artbrock.com/2019/12/19/unenclosable-carriers-and-the-future-of-communication) could free us from critical limitations across a number of macro-systemic domains and help unleash an explosion of human creativity and social organizing. We recommend starting with [Part 1: Unencloseable Carriers and the Future of Communication](https://www.artbrock.com/2019/12/19/unenclosable-carriers-and-the-future-of-communication) as well as [Part 2.1: Restoring the Quality of Our Food](https://www.artbrock.com/2020/01/15/the-holocene-explosion-2_1-game-changing-possibilities-in-a-world-of-unenclosable-carriers), before reading Part 2.2 here.
 
 In this article, we look at solving the energy crisis.
 
@@ -73,4 +73,4 @@ As foreign as it may sound today, decentralized power production was once the no
 
 Of course, all of this would require a complete dismantling of the current enclosures around our energy systems. Existing patterns perpetuate because existing incentive structures perpetuate them. The future of energy production, like the future of nutrition, must be underpinned by the ability for groups to spin up new patterns of coordination at will.
 
-And spinning up new patterns at will, it turns out, requires unenclosability not just in our communication systems but also our transacting systems. We next turn to money in [part 2.3 of the series](https://medium.com/holochain/the-holocene-explosion-2-3-game-changing-possibilities-in-a-world-of-unenclosable-carriers-7c1a97f32e9c).
+And spinning up new patterns at will, it turns out, requires unenclosability not just in our communication systems but also our transacting systems. We next turn to money in [part 2.3 of the series](https://www.artbrock.com/2020/02/28/the-holocene-explosion-2_3-game-changing-possibilities-in-a-world-of-unenclosable-carriers).

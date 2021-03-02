@@ -135,6 +135,6 @@ Holochain is designed precisely to foster the kind of ecosystem we’ve been des
 
 We believe that by providing an unenclosable carrier for an unlimited range of applications, Holochain will enable the next internet — one that doesn’t involve corporations, governments, or surveillance systems in the middle of our communication and collaboration.
 
-Now you can jump into the [next piece in this series](https://medium.com/holochain/the-holocene-explosion-2-1-game-changing-possibilities-in-a-world-of-unenclosable-carriers-21ddbb15341a), where we explore the implications of an unenclosable NextNet for global systemic challenges.
+Now you can jump into the [next piece in this series](https://www.artbrock.com/2020/01/15/the-holocene-explosion-2_1-game-changing-possibilities-in-a-world-of-unenclosable-carriers), where we explore the implications of an unenclosable NextNet for global systemic challenges.
 
 ![]({{ site.urlimg }}1_rxubSY9QT2llxBQa27_iUA.jpeg){:class="img-responsive"}

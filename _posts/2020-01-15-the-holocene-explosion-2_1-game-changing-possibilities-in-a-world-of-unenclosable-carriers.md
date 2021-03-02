@@ -19,7 +19,7 @@ _The NextNet Series Part 2.1 of 3: Restoring the Quality of Our Food_
 
 ![]({{ site.urlimg }}1_Hxx7vXb-16P3H4PFf4dWkg.jpeg){:class="img-responsive"}
 
-The [first chapter](_posts/2019-12-19-unenclosable-carriers-and-the-future-of-communication) in this three-chapter series explored _unenclosability_ as an essential property of non-corruptible communication channels. We suggest heading there, if you haven’t already, before reading this article.
+The [first chapter](https://www.artbrock.com/2019/12/19/unenclosable-carriers-and-the-future-of-communication) in this three-chapter series explored _unenclosability_ as an essential property of non-corruptible communication channels. We suggest heading there, if you haven’t already, before reading this article.
 
 This chapter explores what becomes possible in a universe of unenclosable carriers. It’s the “why this matters” part of the series. For readability, we’re splitting this chapter into four posts — 2.1, 2.2, 2.3, and 2.4.
 
@@ -75,4 +75,4 @@ Even as healthier growing practices become theoretically more profitable as a re
 
 Projects like JOOLES turn these downward-spiral economics on their heads by providing funding needed for growers to tap into new, profitable markets based on high-quality (not just high-quantity) output metrics. And they help us **begin to imagine a world of unenclosable carriers in which consumers are empowered to reinvent incentive structures that encourage the existence of the nutrition they actually want**, free from the enclosures of entrenched interests that today serve to protect the status quo.
 
-Next up is [part 2.2 of the NextNet Series](https://medium.com/holochain/the-holocene-explosion-2-2-game-changing-possibilities-in-a-world-of-unenclosable-carriers-a63efa3cd2a3), where we take a look at our energy systems.
+Next up is [part 2.2 of the NextNet Series](https://www.artbrock.com/2020/01/28/the-holocene-explosion-2_2-game-changing-possibilities-in-a-world-of-unenclosable-carriers), where we take a look at our energy systems.
