@@ -1,1 +1,0 @@
-../_metacurrency-resources/2011-10-24-occupy-wall-street-occupy-money-talk.md

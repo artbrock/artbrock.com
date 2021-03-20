@@ -1,4 +1,0 @@
----
-layout: redirect
-redirect_to: http://99designs.com/other-design-tasks/contests/help-occupy-wall-street-design-101429/entries/10218452
-permalink: /occupy-wall-street/bill-design-competition
