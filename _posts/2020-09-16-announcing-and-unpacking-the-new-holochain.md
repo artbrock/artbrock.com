@@ -75,9 +75,9 @@ Also, since linear logs are difficult to read in highly concurrent systems, we h
 
 **Ghost Actor:** Ghost Actor is a small [actor](https://en.wikipedia.org/wiki/Actor_model) library we created when building lib3h for the prior version of Holochain. It has evolved through a number of iterations to become a lightweight, simple-to-use actor model. We use it in a number of places — for networking, launching WASM, calling workflows from interfaces — to make **efficient and clean execution boundaries** compatible with Rust’s strict management of data lifetimes.**LMDB:** We needed a **lightweight, super-fast key-value database** with unlimited connections for simultaneous read access for Holochain’s Content-Addressable Store (CAS). We chose Mozilla’s [rkv](https://github.com/mozilla/rkv) wrapper for [Lightning Memory-mapped DataBase (LMDB)](http://www.lmdb.tech/doc/) as the best fit for this stage. **Cascading State Engine for Content Addressable Storage (CAS):** We invested quite a lot of energy in wrapping some formalizations around the LMDB databases to provide consistent methods for workflows to interact with Holochain’s cryptographic state.
 
-*   _Strong Typing_**:** Although LMDB can store any type of value in a database entry, we’ve segmented our data into a number of different databases in order to have **strongly typed entries to deserialize to**. This also lets us lean on the strength of Rust’s compiler for consistent interaction with LMDB’s key-value stores.
-*   _Flushing Scratch Spaces_**:** We’ve created a consistent process for performing the atomic commits from the workflows’ scratch spaces to the databases holding the final cryptographic state. This lets us **constrain the scope of changes** workflows can make, and it lets us have a **consistent “finishing” process** at the end of their work.
-*   _Cascading Queries_**:** When a \`get(<hash>)\` command is called from within a workflow, we cascade through consistent layers of database queries to return the result, including (1) the workspace’s scratch space, (2) the local CAS (holding authored headers/entries to one’s source chain as well as the headers/entries in one’s shard of the DHT), (3) a local cache of data previously requested from the network, and (4) authorized nodes on the DHT via the network. This cascade **enables workflows to reuse data** that may have been loaded or cached by other workflows, as well as **increases responsiveness and performance**, while **shielding the workflows from the complexity** of interacting with these layers.
+*   **_Strong Typing_:** Although LMDB can store any type of value in a database entry, we’ve segmented our data into a number of different databases in order to have **strongly typed entries to deserialize to**. This also lets us lean on the strength of Rust’s compiler for consistent interaction with LMDB’s key-value stores.
+*   **_Flushing Scratch Spaces_:** We’ve created a consistent process for performing the atomic commits from the workflows’ scratch spaces to the databases holding the final cryptographic state. This lets us **constrain the scope of changes** workflows can make, and it lets us have a **consistent “finishing” process** at the end of their work.
+*   **_Cascading Queries_:** When a \`get(<hash>)\` command is called from within a workflow, we cascade through consistent layers of database queries to return the result, including (1) the workspace’s scratch space, (2) the local CAS (holding authored headers/entries to one’s source chain as well as the headers/entries in one’s shard of the DHT), (3) a local cache of data previously requested from the network, and (4) authorized nodes on the DHT via the network. This cascade **enables workflows to reuse data** that may have been loaded or cached by other workflows, as well as **increases responsiveness and performance**, while **shielding the workflows from the complexity** of interacting with these layers.
 
 **Wasmer vs. Wasmi:** A big shift we made was to shift from [wasmi](https://github.com/paritytech/wasmi), a web assembly interpreter, to [wasmer](https://wasmer.io/), which **recompiles web assembly to native machine code for much faster execution** (see details in the Performance section below). In this transition, we also changed a great deal of how everything interfaces at the Holochain/WASM boundary. These changes are too numerous and too detailed to be worth naming here, but the upshot is that they have enabled **faster calls, better memory management, and much higher memory safety/security**. Now, direct calls are simple enough that we can expose them as an API to the Holochain system (more about that in the HDK section below).
 
@@ -112,26 +112,26 @@ As you can see in the partial HDK snapshot below, the codebase is thoroughly sel
 ![]({{ site.urlimg }}0_oCwjqeoTRfm4TzkJ.png){:class="img-responsive"}
 _Partial list of HDK macros._
 
-**Working with Elements, not just Entries:
-**All data in Holochain originates in someone’s source chain as a chunk of content, known as an entry, along with a header that chains the entry to all previous data by pointing to the previous header. Headers also contain important metadata about the entry such as its hash, a timestamp, the author’s key, the author’s signature, etc. In Holochain RSM, an entry plus its header are called an Element. When you \`get()\` data from the DHT, the result is not just the entry content, but a **header-entry pair**, which **automatically includes the timestamp, author’s ID, and author’s signature**.
+**Working with Elements, not just Entries:** 
+All data in Holochain originates in someone’s source chain as a chunk of content, known as an entry, along with a header that chains the entry to all previous data by pointing to the previous header. Headers also contain important metadata about the entry such as its hash, a timestamp, the author’s key, the author’s signature, etc. In Holochain RSM, an entry plus its header are called an Element. When you \`get()\` data from the DHT, the result is not just the entry content, but a **header-entry pair**, which **automatically includes the timestamp, author’s ID, and author’s signature**.
 
 Update and Delete operations now also reference Elements instead of just the entry. This **eliminates ambiguity and prevents the “update loops”** in the DHT modifications that people experienced in the prior version of Holochain.
 
-**Changes to Headers:
-**The largest change to internal data structures in this version of Holochain is a shift in the importance of headers. Previously, each new addition to a source chain was a header-entry pair. The header tied the new entry into the chain by referencing the entry hash and created the chaining effect by referencing the hash of the previous header. In the new version of Holochain, we’ve made header structures more sophisticated such that the **system data is embedded directly in the header**, meaning that all system-defined entries — except for agent keys and private entries such as capabilities grants — no longer need entries at all.
+**Changes to Headers:**
+The largest change to internal data structures in this version of Holochain is a shift in the importance of headers. Previously, each new addition to a source chain was a header-entry pair. The header tied the new entry into the chain by referencing the entry hash and created the chaining effect by referencing the hash of the previous header. In the new version of Holochain, we’ve made header structures more sophisticated such that the **system data is embedded directly in the header**, meaning that all system-defined entries — except for agent keys and private entries such as capabilities grants — no longer need entries at all.
 
 This change may seem trivial, but it significantly alters the structure of local chains as well as increases overall performance. For every entry integrated into its header, Holochain no longer needs to publish and gossip _two_ items to the DHT (header & entry) but now just one (just the header with embedded data). This **cuts the amount of gossip and validation that the network needs to perform in half,** allowing for even faster performance and state consistency.
 
 Another aspect of this structural change is that headers, rather than entries, are signed. This fixes a security vulnerability which could have allowed an actor to counterfeit broken headers. It also means that if your app currently inspects signed provenances in headers, you will need to have it reference the multiple signed headers for the entry instead.
 
-**Entry Definitions:
-**Beyond the app-defined fields in the struct of an entry, entry definitions now require some additional fields such as visibility (public/private) and num\_validation\_receipts (how many validation receipts are required to build a receipt bundle).
+**Entry Definitions:**
+Beyond the app-defined fields in the struct of an entry, entry definitions now require some additional fields such as visibility (public/private) and num\_validation\_receipts (how many validation receipts are required to build a receipt bundle).
 
 ![]({{ site.urlimg }}0_JmWMBmk83oAYT1NV.png){:class="img-responsive"}
 _Sample entry definitions_
 
-**Link Definitions:
-**The data structure for links is already defined by the Holochain system, so you can simply leverage that structure by using the create\_link() HDK function. Each zome simply needs a unified validate\_link() callback which can match on the link contents. The underlying API has unified the link “type” and “tag” fields, but the HDK still separates those out as distinct parameters.
+**Link Definitions:**
+The data structure for links is already defined by the Holochain system, so you can simply leverage that structure by using the create\_link() HDK function. Each zome simply needs a unified validate\_link() callback which can match on the link contents. The underlying API has unified the link “type” and “tag” fields, but the HDK still separates those out as distinct parameters.
 
 ![]({{ site.urlimg }}0_BmXzSNFSg1DqSFk_.png){:class="img-responsive"}
 _Sample link validation._
@@ -142,26 +142,26 @@ Holochain now provides a unified callback system which enables you to define fam
 ![]({{ site.urlimg }}0_3th6bmdBbEoBISOz.png){:class="img-responsive"}
 _Callback function for validation. This is the_ **_only_** _required callback in an app._
 
-**Many New Callbacks:
-**Have you ever wished you could put a hook inside Holochain’s workflows so that every time a new entry is created, you could call a fulltext indexing process? Well, now you can by creating a Post-Commit callback for that entry type. And that’s just one of many new callbacks available to provide **more nuanced triggers in Holochain’s underlying workflows**.
+**Many New Callbacks:**
+Have you ever wished you could put a hook inside Holochain’s workflows so that every time a new entry is created, you could call a fulltext indexing process? Well, now you can by creating a Post-Commit callback for that entry type. And that’s just one of many new callbacks available to provide **more nuanced triggers in Holochain’s underlying workflows**.
 
 ![]({{ site.urlimg }}0_X-77g9EdaE-DvDdK.png){:class="img-responsive"}
 _A variety of callback functions available in Holochain RSM._
 
-**Capabilities-Based Security Model:
-**Prior versions of Holochain never quite fully implemented the capabilities security we had intended. Now it has. The new Holochain confirms cryptographic source and permissions by checking for explicit capabilities on whatever function is being called **_before_** spinning up WASM to call your app code. **Security is enforced on all calls and connections** whether via local UI connections, remote UI connections, or remote calls from other nodes.
+**Capabilities-Based Security Model:**
+Prior versions of Holochain never quite fully implemented the capabilities security we had intended. Now it has. The new Holochain confirms cryptographic source and permissions by checking for explicit capabilities on whatever function is being called **_before_** spinning up WASM to call your app code. **Security is enforced on all calls and connections** whether via local UI connections, remote UI connections, or remote calls from other nodes.
 
 ![]({{ site.urlimg }}0_Umo2qWjNdhFJeqV9.png){:class="img-responsive"}
 _Sample capabilities grant sharing permission to query a source chain._
 
-**Remote Call:
-**Holochain has always contained a direct messaging protocol between nodes, but instead of implementing it as send/receive as we did previously, we have now made it simply a \`remote\_call()\` function. You can still easily implement a send and a receive to mimic prior functionality, but now you can expand your app’s options to **enable the possibility of calling into any zome function from another node**. This lets you leverage Holochain’s unified, capabilities-based security model to do cool things like allowing my assistant to schedule directly in my calendar app (writing to my source chain on my behalf) because I’ve explicitly granted that capability.
+**Remote Call:**
+Holochain has always contained a direct messaging protocol between nodes, but instead of implementing it as send/receive as we did previously, we have now made it simply a \`remote\_call()\` function. You can still easily implement a send and a receive to mimic prior functionality, but now you can expand your app’s options to **enable the possibility of calling into any zome function from another node**. This lets you leverage Holochain’s unified, capabilities-based security model to do cool things like allowing my assistant to schedule directly in my calendar app (writing to my source chain on my behalf) because I’ve explicitly granted that capability.
 
-**More System Calls:
-**Based on requests from our user community, we’ve added a number of system calls to the HDK for functions like **random number generation**, **creating UUIDs**, and **generating timestamps** from local system time. We have some more HDK function requests under review in our pipeline.
+**More System Calls:**
+Based on requests from our user community, we’ve added a number of system calls to the HDK for functions like **random number generation**, **creating UUIDs**, and **generating timestamps** from local system time. We have some more HDK function requests under review in our pipeline.
 
-**Native Support for Countersigning:
-**While all changes in Holochain are changes to **_local_** state on someone’s source chain, some events involve multiple agents agreeing to coordinate simultaneous changes to their state (such as currency transactions: my account goes down by 10 credits while yours goes up 10 credits). It’s important that such actions be bound together as a kind of single atomic event. Previously, applications managed this process by having all parties countersign a single identical entry to each of their chains, and provide the other parties with their signed header as proof of the action.
+**Native Support for Countersigning:**
+While all changes in Holochain are changes to **_local_** state on someone’s source chain, some events involve multiple agents agreeing to coordinate simultaneous changes to their state (such as currency transactions: my account goes down by 10 credits while yours goes up 10 credits). It’s important that such actions be bound together as a kind of single atomic event. Previously, applications managed this process by having all parties countersign a single identical entry to each of their chains, and provide the other parties with their signed header as proof of the action.
 
 While that’s still possible through a series of remote function calls between the parties, doing so requires an advanced understanding of the workings of Holochain, and it can get particularly complicated if the parties are not online at the same time. We are dramatically simplifying this process by adding native support to Holochain for countersigning entries. There will be a ‘countersigner’ data type, and when you define fields in one of your entries using this type, **Holochain will manage the process of gathering the signatures** of all the parties for you.
 
