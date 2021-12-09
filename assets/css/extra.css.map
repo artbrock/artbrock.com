@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "extra.css",
+	"sources": [
+		"extra.scss"
+	],
+	"sourcesContent": [
+		"// hack [class] on to bump the specificity\nhtml[class], body[class] {\n font-size: 17px;\n}\n\nimg {\n display: block;\n}\n\n.right-image {\n margin: 2rem 0 3rem 60px;\n float: right;\n}\n\n.left-image {\n margin: 2rem 60px 3rem 0;\n float: left;\n}\n\n.frontpage-widget img {\n height: 250px;\n object-fit: cover;\n}\n\narticle img {\n margin: 1rem 0;\n}\n"
+	],
+	"names": [],
+	"mappings": "AACA,AAAA,IAAI,CAAA,AAAA,KAAC,AAAA,EAAQ,IAAI,CAAA,AAAA,KAAC,AAAA,CAAO,CACxB,SAAS,CAAE,IAAI,CACf,AAED,AAAA,GAAG,AAAC,CACH,OAAO,CAAE,KAAK,CACd,AAED,AAAA,YAAY,AAAC,CACZ,MAAM,CAAE,gBAAgB,CACxB,KAAK,CAAE,KAAK,CACZ,AAED,AAAA,WAAW,AAAC,CACX,MAAM,CAAE,gBAAgB,CACxB,KAAK,CAAE,IAAI,CACX,AAED,AAAA,iBAAiB,CAAC,GAAG,AAAC,CACrB,MAAM,CAAE,KAAK,CACb,UAAU,CAAE,KAAK,CACjB,AAED,AAAA,OAAO,CAAC,GAAG,AAAC,CACX,MAAM,CAAE,MAAM,CACd"
+}

@@ -1,5 +1,0 @@
----
-title: ""
-image:
-permalink: /projects/
----

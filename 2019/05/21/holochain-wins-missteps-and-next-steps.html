@@ -1,0 +1,955 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+	<link rel="stylesheet" type="text/css" href="https://www.artbrock.com/assets/css/extra.css" />
+
+		<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Holochain - Wins, Missteps, and Next Steps</title>
+	<link rel="stylesheet" type="text/css" href="https://www.artbrock.com/assets/css/styles_feeling_responsive.css" />
+	<script src="https://www.artbrock.com/assets/js/modernizr.min.js"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
+  <script>
+    WebFont.load({
+      google: {
+        families: [ 'Lato:400,700,400italic:latin', 'Volkhov::latin' ]
+      }
+    });
+  </script>
+
+  <noscript>
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic|Volkhov' rel='stylesheet' type='text/css' />
+  </noscript>
+
+  
+	
+	<meta name="description" content="Culture-Hacking, Alt.Education, Targeted Currency Design, NextNet Technologies." />
+
+	<link rel="author" href="https://plus.google.com/100650201420307990701"/>
+
+	
+
+
+
+	
+	<link rel="icon" sizes="32x32" href="https://www.artbrock.com/assets/img/favicon-32x32.png" />
+
+
+
+
+	
+	<link rel="icon" sizes="192x192" href="https://www.artbrock.com/assets/img/touch-icon-192x192.png" />
+
+
+
+
+	
+	<link rel="apple-touch-icon-precomposed" sizes="180x180" href="https://www.artbrock.com/assets/img/apple-touch-icon-180x180-precomposed.png" />
+
+
+
+
+	
+	<link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://www.artbrock.com/assets/img/apple-touch-icon-152x152-precomposed.png" />
+
+
+
+
+	
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://www.artbrock.com/assets/img/apple-touch-icon-144x144-precomposed.png" />
+
+
+
+
+	
+	<link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://www.artbrock.com/assets/img/apple-touch-icon-120x120-precomposed.png" />
+
+
+
+
+	
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://www.artbrock.com/assets/img/apple-touch-icon-114x114-precomposed.png" />
+
+
+
+
+	
+	<link rel="apple-touch-icon-precomposed" sizes="76x76" href="https://www.artbrock.com/assets/img/apple-touch-icon-76x76-precomposed.png" />
+
+
+
+
+	
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://www.artbrock.com/assets/img/apple-touch-icon-72x72-precomposed.png" />
+
+
+
+
+	
+	<link rel="apple-touch-icon-precomposed" href="https://www.artbrock.com/assets/img/apple-touch-icon-precomposed.png" />	
+
+
+
+
+	
+	<meta name="msapplication-TileImage" content="https://www.artbrock.com/assets/img/msapplication_tileimage.png" />
+
+
+
+
+	
+	<meta name="msapplication-TileColor" content="#fabb00" />
+
+
+
+	<!-- Facebook Optimization -->
+	<meta property="og:locale" content="en_EN" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Holochain - Wins, Missteps, and Next Steps" />
+	<meta property="og:description" content="Culture-Hacking, Alt.Education, Targeted Currency Design, NextNet Technologies." />
+	<meta property="og:url" content="https://www.artbrock.com//2019/05/21/holochain-wins-missteps-and-next-steps" />
+	<meta property="og:site_name" content="Arthur Brock's Personal Site" />
+	
+
+	
+
+	<!-- Search Engine Optimization -->
+	
+
+	<link type="text/plain" rel="author" href="https://www.artbrock.com/humans.txt" />
+
+	
+
+	
+</head>
+</head>
+<body id="top-of-page" class="post">
+	
+	
+<div id="navigation" class="sticky">
+  <nav class="top-bar" role="navigation" data-topbar>
+    <ul class="title-area">
+      <li class="name">
+      <h1 class="show-for-small-only"><a href="https://www.artbrock.com" class="icon-tree"> Arthur Brock's Personal Site</a></h1>
+    </li>
+       <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+      <li class="toggle-topbar menu-icon"><a href="#"><span>Navigation</span></a></li>
+    </ul>
+    <section class="top-bar-section">
+
+      <ul class="right">
+        
+
+              
+
+          
+          
+        
+
+              
+
+          
+          
+        
+
+              
+
+          
+          
+        
+
+              
+
+          
+          
+        
+
+              
+
+          
+          
+        
+
+              
+
+          
+          
+        
+
+              
+
+          
+          
+        
+
+              
+
+          
+          
+        
+
+              
+
+          
+          
+        
+
+              
+
+          
+          
+            
+            
+              <li class="divider"></li>
+              <li><a href="https://www.artbrock.com/search">Search</a></li>
+
+            
+            
+          
+        
+
+              
+
+          
+          
+            
+            
+              <li class="divider"></li>
+              <li><a href="https://www.artbrock.com/contact">Contact</a></li>
+
+            
+            
+          
+        
+        
+      </ul>
+
+      <ul class="left">
+        
+
+              
+
+          
+          
+
+            
+            
+              <li><a href="https://www.artbrock.com/">Home</a></li>
+              <li class="divider"></li>
+
+            
+            
+          
+        
+
+              
+
+          
+          
+
+            
+            
+              <li><a href="https://www.artbrock.com/about">About</a></li>
+              <li class="divider"></li>
+
+            
+            
+          
+        
+
+              
+
+          
+          
+
+            
+            
+              <li><a href="https://www.artbrock.com/projects">Projects</a></li>
+              <li class="divider"></li>
+
+            
+            
+          
+        
+
+              
+
+          
+          
+
+            
+            
+              <li><a href="https://www.artbrock.com/deeper">Deeper</a></li>
+              <li class="divider"></li>
+
+            
+            
+          
+        
+
+              
+
+          
+          
+
+            
+            
+
+              <li class="has-dropdown">
+                <a href="https://www.artbrock.com/metacurrency">Metacurrency</a>
+
+                  <ul class="dropdown">
+                    
+
+                      
+
+                      <li><a href="https://www.artbrock.com/metacurrency/faq">FAQ</a></li>
+                    
+
+                      
+
+                      <li><a href="https://www.artbrock.com/metacurrency/resources">Resources</a></li>
+                    
+                  </ul>
+                  
+              </li>
+              <li class="divider"></li>
+            
+          
+        
+
+              
+
+          
+          
+
+            
+            
+
+              <li class="has-dropdown">
+                <a href="https://www.artbrock.com/targeted-currencies">Targeted currencies</a>
+
+                  <ul class="dropdown">
+                    
+
+                      
+
+                      <li><a href="https://www.artbrock.com/targeted-currencies/about">About</a></li>
+                    
+
+                      
+
+                      <li><a href="https://www.artbrock.com/targeted-currencies/vision">Vision</a></li>
+                    
+
+                      
+
+                      <li><a href="https://www.artbrock.com/targeted-currencies/blog">Blog</a></li>
+                    
+
+                      
+
+                      <li><a href="https://www.artbrock.com/targeted-currencies/documents">Documents</a></li>
+                    
+                  </ul>
+                  
+              </li>
+              <li class="divider"></li>
+            
+          
+        
+
+              
+
+          
+          
+
+            
+            
+
+              <li class="has-dropdown">
+                <a href="https://www.artbrock.com/threebles">Threebles</a>
+
+                  <ul class="dropdown">
+                    
+
+                      
+
+                      <li><a href="https://www.artbrock.com/threebles/strategy">Strategy</a></li>
+                    
+
+                      
+
+                      <li><a href="https://www.artbrock.com/threebles/google-presentation">Google presentation</a></li>
+                    
+
+                      
+
+                      <li><a href="https://www.artbrock.com/threebles/google-project">Google project</a></li>
+                    
+                  </ul>
+                  
+              </li>
+              <li class="divider"></li>
+            
+          
+        
+
+              
+
+          
+          
+
+            
+            
+
+              <li class="has-dropdown">
+                <a href="https://www.artbrock.com/lifeblood">Lifeblood</a>
+
+                  <ul class="dropdown">
+                    
+
+                      
+
+                      <li><a href="https://www.artbrock.com/lifeblood/about">About</a></li>
+                    
+
+                      
+
+                      <li><a href="https://www.artbrock.com/lifeblood/dynamic-alignment">Dynamic alignment</a></li>
+                    
+
+                      
+
+                      <li><a href="https://www.artbrock.com/lifeblood/tools">Tools</a></li>
+                    
+                  </ul>
+                  
+              </li>
+              <li class="divider"></li>
+            
+          
+        
+
+              
+
+          
+          
+
+            
+            
+
+              <li class="has-dropdown">
+                <a href="https://www.artbrock.com/blog">Articles</a>
+
+                  <ul class="dropdown">
+                    
+
+                      
+
+                      <li><a href="https://www.artbrock.com/blog/archive">Archive</a></li>
+                    
+                  </ul>
+                  
+              </li>
+              <li class="divider"></li>
+            
+          
+        
+
+              
+
+          
+          
+        
+
+              
+
+          
+          
+        
+        
+      </ul>
+    </section>
+  </nav>
+</div><!-- /#navigation -->
+
+	
+
+	
+
+
+<div id="masthead-no-image-header">
+	<div class="row">
+		<div class="small-12 columns">
+			<a id="logo" href="https://www.artbrock.com" title="Arthur Brock's Personal Site – Building a world that works for all">
+				<img src="https://www.artbrock.com/assets/img/logo.png" alt="Arthur Brock's Personal Site – Building a world that works for all">
+			</a>
+		</div><!-- /.small-12.columns -->
+	</div><!-- /.row -->
+</div><!-- /#masthead -->
+
+
+
+
+
+
+
+
+
+
+
+	<div class="row t30">
+	<div class="medium-8 columns medium-offset-2 end">
+		<article itemscope itemtype="http://schema.org/Article">
+			<header>
+				
+
+				<span itemprop="name">
+					
+					<h1>Holochain - Wins, Missteps, and Next Steps</h1>
+				</span>
+			</header>
+
+
+			
+
+			<span itemprop="articleSection">
+			<p>[Originally published on <a href="https://medium.com/holochain/holochain-wins-missteps-and-next-steps-600812bc9ecc">Medium</a>]</p>
+
+<p><em>In collaboration with</em> <a href="https://medium.com/@joshmzemel"><em>Josh Zemel</em></a></p>
+
+<p><img src="/images/1_tM-TpUCEJpi_2DJx6_TgSA.png" alt="" class="img-responsive" /></p>
+
+<h1 id="fast-out-of-the-gate-from-conception-to-use">Fast out of the Gate: From Conception to Use</h1>
+
+<p>On New Years Eve, the last day of 2016, Eric Harris-Braun and I <a href="https://github.com/holochain/holochain-proto">started building Holochain</a>. The basic design came from one part of <a href="https://ceptr.org/">Ceptr</a>, an advanced computing and currencies platform we’d been working on for years.</p>
+
+<p>Two months later, on the first week of March 2017, we had our <a href="https://ceptr.org/hackathons">first Hackathon in San Francisco</a> for people to build apps on Holochain.</p>
+
+<p>It was an invitation-only event for friends who understood our tools were not yet mature. Yet even then, people built complete peer-to-peer (P2P) <a href="https://blockgeeks.com/guides/dapps/">dApps</a> in just a few days in JavaScript and Lisp that essentially worked.</p>
+
+<p>The developers who came expressed surprise at the ease of building on Holochain, having wrestled with tokens and dApps on Ethereum. They also felt safer, knowing they could launch invitation-only and later expand the reach and scope once live-tested, instead of “writing in stone” on a permanent blockchain.</p>
+
+<p>They said: <em>“It feels like we’re building the plane while flying it, but it’s exciting that it actually flies!”</em></p>
+
+<p>And, <em>“Wow, it’s a distributed app platform that’s actually distributed!”</em></p>
+
+<p>That first weekend hackathon yielded <a href="https://github.com/holochain/holochat">HoloChat</a> (a multichannel Slack-like chat), <a href="https://github.com/trustgraph/trustgraph">TrustGraph</a> (for making decentralized, censor-proof, reputational claims), and two versions of a Twitter clone called Clutter — <a href="https://github.com/holochain/clutter">one in JavaScript</a> and <a href="https://github.com/holochain/cludder">one in Lisp</a> — which both used the same UI.</p>
+
+<blockquote>
+  <p>…[M]uch of the world still thinks Holochain’s application model is unproven when, in fact, we’ve had functional apps for almost two years with speed and scale that outperform every other crypto platform I’ve seen.</p>
+</blockquote>
+
+<h1 id="upgrading-the-power-of-holochain">Upgrading the Power of Holochain</h1>
+
+<p>We were excited about the ease of developing apps on Holochain, but we also knew there were many features to add related to permissions, security, <a href="https://en.wikipedia.org/wiki/Shard_(database_architecture)">sharding</a> of the <a href="https://en.wikipedia.org/wiki/Distributed_hash_table">DHT</a>, etc.</p>
+
+<p>We worked over the next six months to improve networking, enhance testing, benchmark performance, and learn the <a href="https://github.com/holochain/mixins">design patterns</a> of building agent-centric dApps on an <a href="https://en.wikipedia.org/wiki/Eventual_consistency">eventually-consistent</a>, sharded, <a href="https://en.wikipedia.org/wiki/Data_validation">validating</a> DHT.</p>
+
+<p>And after some official Alpha releases, we held <strong>lots more hackathons:</strong></p>
+
+<ul>
+  <li>Barcelona, Spain</li>
+  <li>Vaduz, Liechtenstein</li>
+  <li>Riga, Latvia</li>
+  <li>Bristol, UK</li>
+  <li>Porto, Portugal</li>
+  <li>Sebastopol, California</li>
+  <li>London, UK</li>
+  <li>Copenhagen, Denmark</li>
+  <li>Sydney, Australia</li>
+  <li>Melbourne, Australia</li>
+  <li>Vancouver, British Columbia</li>
+  <li>Austin, Texas</li>
+  <li>New York City (twice)</li>
+  <li>Denver, Colorado</li>
+  <li>Sao Paolo, Brazil</li>
+  <li>Amsterdam, Netherlands</li>
+  <li>Pittsburgh, Pennsylvania (Carnegie Mellon University)</li>
+</ul>
+
+<p><img src="/images/1_Pa035NtcTEFhgI4iCZZ3Fw.png" alt="" class="img-responsive" /></p>
+
+<h1 id="viable-holochain-apps">Viable Holochain Apps</h1>
+
+<p>Out of those events came about 60 pretty cool Holochain apps at various stages of completion. They ranged from proof-of-concepts of back-end features to pretty polished experiences with full UIs. Some noteworthy ones that come to mind:</p>
+
+<ul>
+  <li><a href="https://github.com/holochain/dpki">DPKI</a>: Distributed Public Key Infrastructure — crypto-key management</li>
+  <li><a href="https://github.com/holochain/holodex">HoloDex</a>: Indexing overlay app for searching a sharded DHT</li>
+  <li><a href="https://github.com/holochain/HCHC">hApp Store</a>: A distributed directory for distributing distributed apps</li>
+  <li><a href="https://github.com/holochain/fractal-wiki">Fractal Wiki</a>: Structured wiki of nested cards (like <a href="https://decko.org">Decko</a>)</li>
+  <li><a href="https://github.com/holochain/transactor">Transactor</a>: A basic mutual-credit currency</li>
+  <li><a href="https://github.com/holochain/touchpoints">Touchpoints</a>: Mobile NFC-enabled interaction-logging system,</li>
+  <li>A <a href="https://github.com/holochain/fed-wiki">P2P port</a> of <a href="http://fed.wiki.org">Federated Wiki</a></li>
+  <li><a href="https://github.com/zaunders/Mailboox-Rust">Community Book Sharing Library</a>: Just like it sounds</li>
+  <li><a href="http://andersaamodt.com/projects.php">RaveMaker</a>: Party announcement and support system</li>
+  <li><a href="https://github.com/ArcadeCity/unter">Unter</a>: P2P Ridesharing app prototyped by <a href="https://arcade.city/">Arcade City</a></li>
+  <li><a href="https://github.com/jmday/pmkt">Prediction market</a>: For betting on outcomes of real-world events</li>
+  <li><a href="https://github.com/MightyAlex200/Comet">Comet</a>: P2P Reddit alternative</li>
+  <li>A P2P Credit Clearing Network from the folks at <a href="https://www.promis.co/">Promis.co</a></li>
+  <li>A medical drug provenance &amp; supply-chain tracking system</li>
+  <li>A video sharing and live-streaming app</li>
+  <li><a href="https://github.com/evomimic/holo-health">Holo-Health</a>: Personal Medical Data Management</li>
+  <li><a href="https://github.com/jeznag/">Electric Smart Meter Management</a>: IoT data-recording &amp; sharing; kilowatt-balancing</li>
+  <li><a href="https://github.com/cosmicsurfers/humm-publisher">UnMute</a>: censor-proof blogging similar to Medium.com (later evolved into <a href="https://humm.earth/">humm.earth</a>),</li>
+  <li><a href="https://github.com/holochain/personas-profiles">HoloVault (aka Personas</a>): personal data and identity management</li>
+  <li><a href="https://github.com/science-girl/NewCraigslist">New Craigslist</a>: Craiglist clone (also <a href="https://github.com/struktured/NewCraigsList">implemented in OCaml</a>)</li>
+  <li><a href="https://github.com/holochain/holochess">HoloChess</a></li>
+  <li><a href="https://github.com/willemolding/holochain-battleship">Battleship</a></li>
+  <li><a href="https://github.com/holochain/panoptipong">Massively Multiplayer Pong</a> and <a href="https://github.com/HC-Interns/cryptonomipong">Cryptonomipong</a></li>
+  <li><a href="https://github.com/holochain/minersweeper">MinerSweeper</a>: Real-time-ish multiplayer minesweeper</li>
+  <li><a href="https://github.com/zo-el/Errand">Errand</a>: Trello-like kanban boards for tasks</li>
+  <li><a href="https://github.com/OmniProject/omni">Omni</a>: For publication of scholarly peer-reviewed articles</li>
+  <li><a href="https://github.com/sqykly/HoloREA">HoloREA</a>: Supply-chain crypto-accounting using <a href="https://www.iso.org/obp/ui/#iso:std:iso-iec:15944:-4:ed-2:v1:en">REA standards</a></li>
+  <li><a href="https://github.com/kristoferlund/holochain-todo-redux">Shared To-Do List</a></li>
+  <li><a href="https://junto.foundation/">Junto</a>: A social network</li>
+</ul>
+
+<p>Whew! I’m sure there’s a bunch more I’m not remembering at the moment.</p>
+
+<blockquote>
+  <p><a href="https://www.iso.org/obp/ui/#iso:std:iso-iec:15944:-4:ed-2:v1:en">REA Accounting</a> on Holochain revolutionizes supply chain accounting and enables the possibility of any unit of account to function as a cryptocurrency.</p>
+</blockquote>
+
+<p>Notice how similar these dApps are to the kinds of things we do on the web every day? Holochain app development is not limited to token speculation and slow crypto-gambling as its main use cases. Storing data is cheap. Processing is efficient. Scaling is natural.</p>
+
+<p>I often hear people talk about how the usefulness of dApps is as-yet undemonstrated. But if they were looking at the kinds of dApps that run on Holochain rather than blockchain, they wouldn’t be saying that, because these are the kinds of data driven web apps everyone uses on the web all day.</p>
+
+<p>What’s more, scalability is not an issue for any of these apps, because unlike blockchain, Holochain becomes more efficient as the number of users increases, because a fairly fixed amount of work gets divided across more computers.</p>
+
+<h1 id="holochains-dapp-architecture-is-proven">Holochain’s dApp Architecture Is Proven</h1>
+
+<p>Some people still talk about Holochain as if it doesn’t exist yet. This is in part because of confusion about expecting a “MainNet” release or token. But Holochain doesn’t have a built-in token to subsidize inefficiency, and each Holochain app generates its own P2P network, so there’s no MainNet.</p>
+
+<p>Many people clearly don’t realize <em>a lot of things</em> have been built on Holochain and they’ve worked just fine. This is in part a result of our failure to adequately promote Holochain and the apps built on it.</p>
+
+<p>And more importantly, because Holochain manages data integrity without requiring global consensus, it makes many solutions easy that are difficult or impossible to do on other decentralized platforms. For example:</p>
+
+<ul>
+  <li>After 10 years of blockchain, why is there no reasonable decentralized public key infrastructure?</li>
+  <li>Find another decentralized platform that can do real-time-ish games like MinerSweeper or Pong!</li>
+  <li>Just try storing video on blockchain, much less live-streaming it!</li>
+  <li><a href="https://www.iso.org/obp/ui/#iso:std:iso-iec:15944:-4:ed-2:v1:en">REA Accounting</a> on Holochain revolutionizes supply chain accounting and enables the possibility of any unit of account to function as a cryptocurrency.</li>
+</ul>
+
+<h1 id="preparing-to-take-holochain-mainstream">Preparing to Take Holochain Mainstream</h1>
+
+<p>We designed Holochain to compete head-to-head with blockchain and outperform it in every way, and we had proven the fundamentals of the concept. Now it was time to bring it into the mainstream, and to ensure its sustainability going forward. We had seen too many open-source infrastructure projects suffer financial problems, as well as succumb to the resulting pressure toward centralization. We didn’t want either of those things to ever happen to Holochain.</p>
+
+<p>We took two major actions to these ends:</p>
+
+<p>1. <strong>The Bridge from Web 2.0 to 3.0</strong>: We designed <a href="https://holo.host/"><strong>Holo</strong></a> as our first major commercial project, designed to create financial viability for Holochain by providing a for-profit hosting framework to bridge crypto apps to mainstream users right through their web browsers, just as if they were accessing any data-driven website. Since Holochain has no inherent speed or scale bottlenecks, Holo-hosted apps can theoretically scale to the size of Facebook or Twitter, which could enable Holo to compete with the big cloud-hosting companies in a way that blockchain-based projects never could.</p>
+
+<p>2. <strong>Community-Based Funding</strong>: In order to ensure that the technology for the next Internet would always be owned by the community itself, rather than be privately held and controlled, we <a href="https://www.indiegogo.com/projects/holo-take-back-the-internet-shared-p2p-hosting#/">sold Holo hosting boxes called HoloPorts on IndieGogo</a>, and we pre-sold hosting credits on the Holo hosting network in an <a href="https://medium.com/h-o-l-o/launching-an-ethical-ico-e21ed5738bb0">Initial Community Offering</a>.</p>
+
+<h2 id="clarification-holochain-vs-holo">Clarification: Holochain vs. Holo</h2>
+
+<p><strong>Holochain</strong> is an open-source data-integrity engine that enables self-hosting of P2P apps, avoiding the need for global consensus and resulting in massive scalability, as well as user-control of identity and data. Holochain does not have a token or currency built in, though it’s easy to <em>build</em> currencies on Holochain in the form of distributed accounting apps.</p>
+
+<p><strong>Holo</strong> is a hosting company that provides hosting infrastructure for Holochain apps to be served to regular web browsers. Just as AirBnB sells more room-nights than the largest hotel chains without ever having built a hotel, Holo seeks to compete with the big cloud-hosting companies without ever building a data center by using the efficiency of Holochain to tap into computing power wherever it already is. Holo does have a native cryptocurrency, called HoloFuel, that is based on the distributed hosting power available on its network, with the currency always being backed by, and redeemable for, this tangible asset.</p>
+
+<blockquote>
+  <p>It turns out that building the foundation for the next Internet to truly be a P2P approach, is not easy — especially while ensuring appropriate layers of security and privacy.</p>
+</blockquote>
+
+<p><img src="/images/1_z9EgMxpDxZORUJXdCX-KDQ.png" alt="" class="img-responsive" /></p>
+
+<h1 id="bulletproofing-holochain">Bulletproofing Holochain</h1>
+
+<p>Having sold out our ICO for around 30,000 ETH (worth about $20M at the end of the sale), we now needed to deliver on our promise to scale, so we set out to refactor Holochain for increased security, and to run in browsers and on mobile devices.</p>
+
+<p>One important decision we made was to rebuild Holochain in Rust — unlike its prototype which had been built in Go — in order to take advantage of Rust’s security, stability, and concurrency safety, as well as be able to compile to Web Assembly (WASM) so Holochain apps can run in a web browser or mobile device.</p>
+
+<p>We also needed to staff up with developers, devops, and security and networking specialists needed to make Holochain as bulletproof as it needed to be. This represented a significant investment of time and money, but it was important to beef up Holochain with the ultra-high security measures anyone would rightly expect of a mainstream crypto framework.</p>
+
+<p>In mid-May 2018, with funding and a larger development team in place, we were ready to begin rebuilding the Holochain prototype. We estimated we needed 3 months, targeting our August 15th for our first Alpha release with all the features of the Go prototype. Many of our developers were excited about the rebuild.</p>
+
+<p><img src="/images/1_D6TzxSuTGx7G4OKKceMsUw.png" alt="" class="img-responsive" /></p>
+
+<h1 id="the-inevitable-delays">The Inevitable Delays</h1>
+
+<p>It’s now close to a year later. We’ve made a lot of improvements to security, testing, troubleshooting, and underlying infrastructure, and we’ve begun launching a closed-alpha TestNet for Holo. Yet we <em>still</em> don’t have all the features of the original Holochain prototype back in place. Development has taken considerably longer than we anticipated.</p>
+
+<p>It turns out that building the foundation for the next Internet to truly be a P2P approach, is not easy — especially while ensuring appropriate layers of security and privacy.</p>
+
+<p>I still believe that slowing down to build in Rust should save us a lot of trouble in the long run. Rust is so strict that it won’t let you compile until you handle all sorts of possible vulnerabilities that most other languages just let you get away with. We feel confident in the security and stability we get from rebuilding Holochain in Rust.</p>
+
+<p>However it has brought on another challenge which I take very seriously: <strong><em>Holochain has gotten harder to use.</em></strong></p>
+
+<h1 id="usability-challenges--remedies">Usability Challenges &amp; Remedies</h1>
+
+<p>We positioned Holo to be a web app hosting platform, but now we have a version of Holochain that only lets you build apps in Rust. And how many web developers code in Rust? Not many.</p>
+
+<p>Another current usability challenge is that we have yet to rebuild the rapid application development (RAD) tools for the Rust version of Holochain. These <a href="https://holochain.github.io/scaffold/">wizard-like prompts</a> greatly facilitated development and testing in the Go prototype.</p>
+
+<p>Finally, although the ability to compile to WASM was a key reason we pivoted to Rust, the addition of the compile step may be a deterrent for some… not to mention that WASM is still somewhat immature and clumsy to tune and debug.</p>
+
+<h1 id="taking-stock">Taking Stock</h1>
+
+<p>In retrospect, we underestimated the consequences of the rebuild. Mostly because we have almost no live apps in production at this time instead of a thriving ecosystem (that we still look forward to). Equally important, we underplayed the maturity of the prototype and encouraged devs who were ready to build on it to wait for the Rust version.</p>
+
+<p>As a result, much of the world still thinks Holochain’s application model is unproven when, in fact, we’ve had functional apps for almost two years with speed and scale that outperform every other crypto platform I’ve seen.</p>
+
+<p>Should we have spun off some team of devs, trainers, and marketers to support the Go version and get a bunch of those apps deployed beyond the proof-of-concept phase? Maybe we should have.</p>
+
+<p>I’m grateful for the few projects (like <a href="https://humm.earth/">Humm.Earth</a>) that ignored our suggestions and went live on the Go version of Holochain anyway. But there weren’t really enough projects like these for the world to take Holochain seriously.</p>
+
+<p><img src="/images/1_wjCqv9CcJDDVnNEx8GFvMw.png" alt="" class="img-responsive" /></p>
+
+<h1 id="the-path-forward">The Path Forward</h1>
+
+<p>Is it too late to leverage the Go version? Probably. We haven’t supported or made updates to the code in over 9 months.</p>
+
+<p>And — again — there is a lot of good news still lurking in the Rust rebuild in terms of security and safety. (More detail for the technically inclined: strong elliptical cryptography, new dynamic DHT architectures, P2P networking which can reliably get through NAT and Firewall configurations, and a unified capabilities-based security model.)</p>
+
+<p>But how do we recover from essentially holding the community back telling them to wait for the next great thing? Several ways come to mind:</p>
+
+<ul>
+  <li><strong>Creating Holochain Labs:</strong> In response to demand — and volunteerism — we’re planning to launch an online space for Holochain-based projects to collaborate, recruit, share code, gather feedback, and garner financial support.</li>
+  <li><strong>Launching Holo TestNets:</strong> We are currently launching different phases of a Closed Alpha of Holo, and even though there’s not a large ecosystem of apps to host on it yet, the ones made by the Holo dev team so far are <a href="https://medium.com/h-o-l-o/a-tour-of-holos-initial-apps-45b00f7e9054">kind of a big deal</a>. Open Alpha will be coming soon, and I expect we will be able to demonstrate dApp performance approaching typical cloud-hosted speeds.</li>
+  <li><strong>Shipping HoloPorts:</strong> I know that many people are excited to have, hold, and begin to test and utilize their Holo hosting devices. We are approaching that moment. This will also give us a strong foundation of thousands of servers with capacity to host new apps.</li>
+  <li><strong>Improving usability for developers:</strong> 1) We’re simplifying the <a href="https://github.com/holochain/holochain-rust/tree/develop/hdk-rust">HDK</a> using Rust macros so that defining modules and functions is short and easy now. 2) We’re enabling querying of <a href="https://github.com/willemolding/holochain-graphQL-poc">Holochain using GraphQL</a>, which will make it really easy to have existing web apps work with Holochain: all you’ll need to do is write a Holochain app as your back-end to replace your database. 3) We’ll get those RAD tools <a href="https://github.com/holochain/hcrs">rebuilt</a> soon to generate files, directories, CRUD functions, and basic tests, so that developing apps without experience with Rust will be much easier.</li>
+</ul>
+
+<p>Despite any missteps over the past year, Holochain does have a lot of momentum. Our core base of supporters is strong, word has been spreading through an ever-growing canon of articles and videos, and the demand for Holo Token (<a href="https://icodrops.com/holo/">$HOT</a>) has remained high (typically ~20x return over Bitcoin and ~40x over ETH since our ICO). We have seen an explosion of community support in influential places like Turkey and China, and there is a groundswell of promising projects right now in Australia.</p>
+
+<p>Yes, some people (myself included) are tired of <em>hearing the talk</em> of how great Holo and Holochain will be and just want to <em>see it running</em>. I’m excited that this moment has now arrived  via the Holo TestNets, and that soon people will be able to run responsive dApps at scale.</p>
+
+<p>In this article I’ve highlighted some of Holochain’s strengths and successes while also being transparent about the fact that we haven’t had all the answers, and that, in retrospect, we may have made some strategic missteps.</p>
+
+<p>I hope community members will weigh in with thoughts and feedback in the comments. What do you need from us? How can we serve you best?</p>
+
+<p>Again, a big thanks to <a href="https://medium.com/u/882884c74be6?source=post_page-----600812bc9ecc--------------------------------">Josh Zemel</a> for his co-writing and editing critical to getting this published. He’s turning to be a great partner in keeping articles flowing, and been patient with my gaps in availability for writing.</p>
+
+			</span>
+
+			
+						<div id="page-meta" class="t30">
+				<p>
+					<!-- Look the author details up from the site config. -->
+					
+					<!-- Output author details if some exist. -->
+					
+					<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name" class="pr20 icon-edit"><a href="https://artbrock.com/" target="_blank"> Arthur Brock</a></span>
+				</span>
+				
+
+				
+				<time class="icon-calendar pr20" datetime="2019-05-21" itemprop="datePublished"> 2019-05-21</time>
+				
+
+				<span class="icon-archive pr20"> HOLOCHAIN · CRYPTO · BLOCKCHAIN · COMMUNITY · HOLO</span>
+				<br />
+				<span class="pr20"></span>
+			</p>
+
+			<div id="post-nav" class="row">
+				
+				<div class="small-5 columns"><a class="button small radius prev" href="https://www.artbrock.com/2019/04/15/a-tour-of-holos-initial-apps">&laquo; A Tour of Holo’s Initial Apps</a></div><!-- /.small-4.columns -->
+				
+				<div class="small-2 columns text-center"><a class="radius button small" href="https://www.artbrock.com/blog/archive/" title="Blog Archive">Archive</a></div><!-- /.small-4.columns -->
+				
+				<div class="small-5 columns text-right"><a class="button small radius next" href="https://www.artbrock.com/2019/12/19/unenclosable-carriers-and-the-future-of-communication">Unenclosable Carriers and the Future of Communication &raquo;</a></div><!-- /.small-4.columns -->
+				
+			</div>
+			</div><!--  /.page-meta -->
+			
+
+			
+		</article>
+	</div><!-- /.medium-8.columns -->
+
+
+	
+
+
+	
+</div><!-- /.row -->
+
+
+	
+	<div id="up-to-top" class="row">
+  <div class="small-12 columns" style="text-align: right;">
+    <a class="iconfont" href="#top-of-page">&#xf108;</a>
+  </div><!-- /.small-12.columns -->
+</div><!-- /.row -->
+
+
+<footer id="footer-content" class="bg-grau">
+  <div id="footer">
+    <div class="row">
+      <div class="medium-6 large-5 columns">
+        <h5 class="shadow-black">About Arthur Brock</h5>
+
+        <p class="shadow-black">
+          Culture-Hacking, Alt.Education, Targeted Currency Design, NextNet Technologies.
+          <a href="https://www.artbrock.com/info/">More ›</a>
+        </p>
+      </div><!-- /.large-6.columns -->
+
+
+      <div class="small-6 medium-3 large-3 large-offset-1 columns">
+        
+          
+            <h5 class="shadow-black">Services</h5>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+
+          <ul class="no-bullet shadow-black">
+          
+            
+              <li >
+                <a href="https://www.artbrock.com"  title=""></a>
+              </li>
+          
+            
+              <li >
+                <a href="https://www.artbrock.com/contact/"  title="Contact">Contact</a>
+              </li>
+          
+            
+              <li >
+                <a href="https://www.artbrock.com/feed.xml"  title="Subscribe to RSS Feed">RSS</a>
+              </li>
+          
+            
+              <li >
+                <a href="https://www.artbrock.com/atom.xml"  title="Subscribe to Atom Feed">Atom</a>
+              </li>
+          
+            
+              <li >
+                <a href="https://www.artbrock.com/sitemap.xml"  title="Sitemap for Google Webmaster Tools">sitemap.xml</a>
+              </li>
+          
+          </ul>
+      </div><!-- /.large-4.columns -->
+
+
+      <div class="small-6 medium-3 large-3 columns">
+        
+          
+            <h5 class="shadow-black">Thanks to</h5>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+
+        <ul class="no-bullet shadow-black">
+        
+          
+            <li >
+              <a href="https://www.artbrock.com"  title=""></a>
+            </li>
+        
+          
+            <li class="network-feeling-responsive" >
+              <a href="https://github.com/Phlow/feeling-responsive" target="_blank"  title="Theme by Phlow">Theme by Phlow</a>
+            </li>
+        
+          
+            <li class="network-entypo" >
+              <a href="http://entypo.com/" target="_blank"  title="Icons by Daniel Bruce">Icons by Daniel Bruce</a>
+            </li>
+        
+          
+            <li class="services-newsletter" >
+              <a href="http://foundation.zurb.com/" target="_blank"  title="Built on Foundation">Built on Foundation</a>
+            </li>
+        
+          
+            <li class="rss-link" >
+              <a href="http://unsplash.com/" target="_blank"  title="Images by Unsplash">Images by Unsplash</a>
+            </li>
+        
+          
+            <li class="sitemap-link" >
+              <a href="http://srobbin.com/jquery-plugins/backstretch/" target="_blank"  title="Using Backstretch by Scott Robbin">Using Backstretch by Scott Robbin</a>
+            </li>
+        
+        </ul>
+      </div><!-- /.large-3.columns -->
+    </div><!-- /.row -->
+
+  </div><!-- /#footer -->
+
+
+  <div id="subfooter">
+    <nav class="row">
+      <section id="subfooter-left" class="small-12 medium-6 columns credits">
+        <p>Generated with &hearts; by <a href="/">artbrock</a> with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> and the <a href="http://phlow.github.io/feeling-responsive/">Feeling Responsive Theme</a>.</p>
+      </section>
+
+      <section id="subfooter-right" class="small-12 medium-6 columns">
+        <ul class="inline-list social-icons">
+        
+          <li><a href="https://github.com/artbrock" target="_blank" class="icon-github" title="Code and more…"></a></li>
+        
+          <li><a href="https://www.youtube.com/user/Artemystical" target="_blank" class="icon-youtube" title="Videos, Presentations, Events, Discussions…"></a></li>
+        
+          <li><a href="https://twitter.com/artbrock" target="_blank" class="icon-twitter" title="Visit or Follow Arthur on Twitter"></a></li>
+        
+          <li><a href="https://www.facebook.com/artbrock" target="_blank" class="icon-facebook" title="Find Arthur on Facebook"></a></li>
+        
+          <li><a href="https://www.vimeo.com/artbrock" target="_blank" class="icon-vimeo" title="Catch Arthur on Vimeo"></a></li>
+        
+        </ul>
+      </section>
+    </nav>
+  </div><!-- /#subfooter -->
+</footer>
+
+	
+
+	
+
+
+<script src="https://www.artbrock.com/assets/js/javascript.min.js"></script>
+
+
+
+
+
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-4524306-25', 'auto');
+  ga('set', 'anonymizeIp', true);
+  ga('send', 'pageview');
+
+</script>
+
+
+
+
+
+
+
+
+</body>
+</html>
+

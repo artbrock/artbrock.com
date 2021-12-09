@@ -1,0 +1,1137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="https://www.artbrock.com/assets/xslt/rss.xslt" ?>
+<?xml-stylesheet type="text/css" href="https://www.artbrock.com/assets/css/rss.css" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Arthur Brock's Personal Site</title>
+		<description>Culture-Hacking, Alt.Education, Targeted Currency Design, NextNet Technologies.</description>
+		<link>https://www.artbrock.com/</link>
+		<atom:link href="https://www.artbrock.com/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>Holochain Safe Haven For Extremists Or Beacon Of Hope</title>
+				<link>https://www.artbrock.com/holochain-safe-haven-for-extremists-or-beacon-of-hope/</link>
+				<pubDate>Mon, 22 Feb 2021 00:00:00 +0000</pubDate>
+				<description>&lt;h1 id=&quot;title&quot;&gt;title&lt;/h1&gt;
+</description>
+				<guid isPermaLink="true">https://www.artbrock.com/holochain-safe-haven-for-extremists-or-beacon-of-hope/</guid>
+			</item>
+		
+			<item>
+				<title>Announcing and Unpacking the New Holochain</title>
+				<link>https://www.artbrock.com/2020/09/16/announcing-and-unpacking-the-new-holochain</link>
+				<pubDate>Wed, 16 Sep 2020 00:00:00 +0000</pubDate>
+				<description>&lt;p&gt;[Originally published on &lt;a href=&quot;https://medium.com/holochain/unpacking-the-new-holochain-f54da3ca99b7&quot;&gt;Medium&lt;/a&gt;]&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/1_nJ75c0G005MoVgyyq40KPQ.jpeg&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You may have already &lt;a href=&quot;https://medium.com/h-o-l-o/a-big-leap-forward-for-holochain-holo-2efaaa54ed08&quot;&gt;heard about the new Holochain&lt;/a&gt;, known informally as Holochain “RSM”, for “refactored state model”. This article dives into what’s actually new about it from a technical and architectural standpoint.&lt;/p&gt;
+
+&lt;p&gt;I have organized this overview into three main sections:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Ensuring rigorous correctness in Holochain’s structure and code&lt;/li&gt;
+  &lt;li&gt;Changes to the HDK and app-developer experience&lt;/li&gt;
+  &lt;li&gt;Performance and Security Enhancements&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;First, though, a few quick highlights of the new software:&lt;/p&gt;
+
+&lt;h1 id=&quot;highlights-of-holochain-rsm-compared-to-the-previous-version&quot;&gt;Highlights of Holochain RSM compared to the previous version:&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;At least 10,000 times faster&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Uses 1/10th the memory&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Compiles twice as fast&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Relies on a much more maintainable codebase&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Already structurally poised to switch to full P2P networking&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Includes an improved HDK that simplifies app development (⅓ as many lines of code required)&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;More secure with unified capabilities security model&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;More complete feature set&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Alright, on to the details.&lt;/p&gt;
+
+&lt;h1 id=&quot;i-rigorous-correctness&quot;&gt;I. Rigorous Correctness&lt;/h1&gt;
+
+&lt;p&gt;For Holochain to guarantee data integrity for distributed apps, its data model, workflows, and validation processes need to be completely airtight. To that end, we have made a large investment in spelling out all of Holochain’s formalized elements clearly.&lt;/p&gt;
+
+&lt;h2 id=&quot;stricter-formalization&quot;&gt;Stricter Formalization&lt;/h2&gt;
+
+&lt;p&gt;One of our top priorities was to make Holochain RSM’s codebase &lt;strong&gt;easier to comprehend&lt;/strong&gt;. The original Holochain prototype and white paper contained sound principles — most of which survive in the new version — but people’s understanding of them slipped over time, either because they’re a bit abstract, atypical, and complex, or because we didn’t spell them out clearly enough the first time.&lt;/p&gt;
+
+&lt;p&gt;So we began this overhaul with a &lt;a href=&quot;https://holo.hackmd.io/iFrWEJ0TREqO6iF5iuDcSg?view&quot;&gt;rewrite of Holochain’s formalization document&lt;/a&gt;, including particular attention to the places where confusion had surfaced, such as transforming local chain data to sharded global DHT data. This formal document probably isn’t for everyone, but if you are someone who thinks in more academic terms, it could be helpful.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/1_hpP47IJ_wGpIyzDd3AjoEA.jpeg&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;
+&lt;em&gt;Table of how data is transformed from local source chain to shared DHT. For term definitions see the &lt;a href=&quot;https://www.google.com/url?q=https://holo.hackmd.io/iFrWEJ0TREqO6iF5iuDcSg?view&amp;amp;sa=D&amp;amp;ust=1600270411403000&amp;amp;usg=AOvVaw2mkyCidtXiQvEpnQPT2rwC&quot;&gt;formalization document&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;concurrent-workflows-with-atomic-transactions&quot;&gt;Concurrent Workflows with Atomic Transactions&lt;/h2&gt;
+
+&lt;p&gt;The new version of Holochain is largely organized around &lt;strong&gt;workflows&lt;/strong&gt; that transform data in particular stages of work such as authoring, publishing, gossiping, validating and integrating data. Each workflow can only make changes to Holochain’s cryptographic state within the specific stage of work it is responsible for. Formalizing our technical architecture around these workflows allowed us to &lt;strong&gt;optimize for concurrent processing&lt;/strong&gt; without concern that one workflow would be changing data affected by the scope of another one.&lt;/p&gt;
+
+&lt;p&gt;Concurrency is also enhanced by causing workflows to &lt;strong&gt;produce all their changes in a scratch space&lt;/strong&gt; and allowing them read-only access to Holochain while doing so. Then at the end of their processing, we grab a lock for a very brief, &lt;strong&gt;atomic write transaction&lt;/strong&gt; to the data sources and flush the changes from the scratch space to the underlying tables. We also guarantee that if multiple processes are attempting to write to the source chain, only the one to finish first will succeed, requiring the others to retry their validation on top of the newly updated local state.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/1_4QHb4jEddc0ThoKhqkLVdg.png&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;
+&lt;em&gt;Diagram of workflows.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;An additional benefit of defining clear workflow boundaries is ensuring that Holochain functions “local first,” which means a Holochain app can successfully change its local state and queue those state changes for synchronization with the DHT when it has network access again. As a result, asynchronous distributed apps &lt;strong&gt;can function offline&lt;/strong&gt; and in regions with limited internet access. Offline functionality remains out of bounds for blockchain, but it is a natural fit for Holochain’s agent-centric state model.&lt;/p&gt;
+
+&lt;h2 id=&quot;a-tighter-tech-stack&quot;&gt;A Tighter Tech Stack&lt;/h2&gt;
+
+&lt;p&gt;Holochain is still written in Rust and Holochain app DNAs still compile to Web Assembly (WASM) in order to run. But we standardized a lot of underlying components to decrease the number of dependencies and align our practices and structures with common coding conventions in the Rust community.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Tokio Futures&lt;/strong&gt;: Every function, interface, and component is spawned from a unified tokio futures executor at the level of the Holochain conductor. This lets us &lt;strong&gt;reduce the number of required threads&lt;/strong&gt; while still optimizing for concurrency on the threads available to Holochain. However, because some actions cannot safely await a return from a future as they would tie up tokio’s threads for too long, we use tokio’s safe blocking for calling into WASM, I/O, and networking.&lt;/p&gt;
+
+&lt;p&gt;Also, since linear logs are difficult to read in highly concurrent systems, we have switched to using the very cool &lt;a href=&quot;https://tokio.rs/blog/2019-08-tracing&quot;&gt;tokio-tracing logs&lt;/a&gt;, which &lt;strong&gt;maintain calling context and sequence&lt;/strong&gt; to be much more easily navigated for the kind of complex synchronous actions happening in a P2P distributed framework like Holochain.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ghost Actor:&lt;/strong&gt; Ghost Actor is a small &lt;a href=&quot;https://en.wikipedia.org/wiki/Actor_model&quot;&gt;actor&lt;/a&gt; library we created when building lib3h for the prior version of Holochain. It has evolved through a number of iterations to become a lightweight, simple-to-use actor model. We use it in a number of places — for networking, launching WASM, calling workflows from interfaces — to make &lt;strong&gt;efficient and clean execution boundaries&lt;/strong&gt; compatible with Rust’s strict management of data lifetimes.&lt;strong&gt;LMDB:&lt;/strong&gt; We needed a &lt;strong&gt;lightweight, super-fast key-value database&lt;/strong&gt; with unlimited connections for simultaneous read access for Holochain’s Content-Addressable Store (CAS). We chose Mozilla’s &lt;a href=&quot;https://github.com/mozilla/rkv&quot;&gt;rkv&lt;/a&gt; wrapper for &lt;a href=&quot;http://www.lmdb.tech/doc/&quot;&gt;Lightning Memory-mapped DataBase (LMDB)&lt;/a&gt; as the best fit for this stage. &lt;strong&gt;Cascading State Engine for Content Addressable Storage (CAS):&lt;/strong&gt; We invested quite a lot of energy in wrapping some formalizations around the LMDB databases to provide consistent methods for workflows to interact with Holochain’s cryptographic state.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;Strong Typing&lt;/em&gt;:&lt;/strong&gt; Although LMDB can store any type of value in a database entry, we’ve segmented our data into a number of different databases in order to have &lt;strong&gt;strongly typed entries to deserialize to&lt;/strong&gt;. This also lets us lean on the strength of Rust’s compiler for consistent interaction with LMDB’s key-value stores.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;Flushing Scratch Spaces&lt;/em&gt;:&lt;/strong&gt; We’ve created a consistent process for performing the atomic commits from the workflows’ scratch spaces to the databases holding the final cryptographic state. This lets us &lt;strong&gt;constrain the scope of changes&lt;/strong&gt; workflows can make, and it lets us have a &lt;strong&gt;consistent “finishing” process&lt;/strong&gt; at the end of their work.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;Cascading Queries&lt;/em&gt;:&lt;/strong&gt; When a `get(&lt;hash&gt;)\` command is called from within a workflow, we cascade through consistent layers of database queries to return the result, including (1) the workspace’s scratch space, (2) the local CAS (holding authored headers/entries to one’s source chain as well as the headers/entries in one’s shard of the DHT), (3) a local cache of data previously requested from the network, and (4) authorized nodes on the DHT via the network. This cascade **enables workflows to reuse data** that may have been loaded or cached by other workflows, as well as **increases responsiveness and performance**, while **shielding the workflows from the complexity** of interacting with these layers.&lt;/hash&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Wasmer vs. Wasmi:&lt;/strong&gt; A big shift we made was to shift from &lt;a href=&quot;https://github.com/paritytech/wasmi&quot;&gt;wasmi&lt;/a&gt;, a web assembly interpreter, to &lt;a href=&quot;https://wasmer.io/&quot;&gt;wasmer&lt;/a&gt;, which &lt;strong&gt;recompiles web assembly to native machine code for much faster execution&lt;/strong&gt; (see details in the Performance section below). In this transition, we also changed a great deal of how everything interfaces at the Holochain/WASM boundary. These changes are too numerous and too detailed to be worth naming here, but the upshot is that they have enabled &lt;strong&gt;faster calls, better memory management, and much higher memory safety/security&lt;/strong&gt;. Now, direct calls are simple enough that we can expose them as an API to the Holochain system (more about that in the HDK section below).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;WASM Caching:&lt;/strong&gt; In order to reduce load time for hApps running in WASM — now to under a tenth of millisecond, a &amp;gt;1,000x improvement — we set up a WASM cache and restructured our DNA entries in source chains to reference the hash of a chunk of web assembly, rather than storing the web assembly itself in the chain. We can still guarantee hashed integrity of the application code, but now we have &lt;strong&gt;much faster load times&lt;/strong&gt; and can &lt;strong&gt;share cached WASM&lt;/strong&gt; across multiple locally-installed instances of an app’s DNA. This is especially great for Holo hosts who may be running many copies of an app.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Serialized Bytes vs. JSON:&lt;/strong&gt; The previous version of Holochain used JSON for crossing boundaries between Holochain and other subsystems (WASM, UI interfaces, networkint, etc.). But serializing, deserializing, and parsing JSON is notoriously inefficient, and it can lead to issues with double serialization and hellishly confusing payloads characterized by many layers of backslashed quotation marks. We’ve &lt;strong&gt;standardized interchange across all of these boundaries&lt;/strong&gt; with a new binary format that still leverages existing standards (using &lt;a href=&quot;https://msgpack.org/&quot;&gt;MessagePack&lt;/a&gt;) but is &lt;strong&gt;type-safe, consistent, and many times faster&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;ii-hdk-30-macros--native-api&quot;&gt;II. HDK 3.0 Macros &amp;amp; Native API&lt;/h1&gt;
+
+&lt;p&gt;Let’s now look at some important changes to Holochain from an app-developer perspective.&lt;/p&gt;
+
+&lt;p&gt;There is now a direct API available to call Holochain system functions from WASM, and we have also created a simplified Holochain Developer Kit (HDK) with macros to make it even easier to define your entries and write your apps. You can even combine these approaches by using the HDK as shorthand and making direct API calls if you feel constrained by any limitations of the HDK.&lt;/p&gt;
+
+&lt;h2 id=&quot;a-new-direct-api&quot;&gt;A New Direct API&lt;/h2&gt;
+
+&lt;p&gt;Although it was technically possible to make direct system calls in the previous version of Holochain, it was so complex and required so many lines of semi-boilerplate code that we didn’t even publish info about how to do it. We also identified some memory-management vulnerabilities in passing data back and forth to the WASM guest processes running inside Holochain’s host process. In Holochain RSM we were able to create a &lt;strong&gt;very efficient method of passing closures which also ensures secure memory handling&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;As a result, bypassing the HDK when needed to make a direct API call can now be accomplished with just a few lines, in contrast with the previous API, which took about 30 times more code as well as some difficult memory management. We are all thrilled to have optimized this into such a usable and maintainable form.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/0_twD0lyJAnavSmIOp.jpeg&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;
+&lt;em&gt;Sample code from three different system calls: HDK 3.0 (most efficient), RSM API (most flexible), Previous API (too complex).&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;an-upgraded-hdk&quot;&gt;An Upgraded HDK&lt;/h2&gt;
+
+&lt;p&gt;HDK 3.0 provides &lt;strong&gt;extremely efficient macros&lt;/strong&gt; so that you don’t even need the few lines of boilerplate code described above for each system call. Most developers will prefer the HDK format, and we are hearing reports that it has &lt;strong&gt;shortened app code to about one-third compared to HDK 2.0&lt;/strong&gt;. We have also streamlined syntax for consistency, such as by structuring all the function calls in verb-noun format and using standard CRUD terms for data operations (Create, Update, Delete).&lt;/p&gt;
+
+&lt;p&gt;As you can see in the partial HDK snapshot below, the codebase is thoroughly self-documenting through Rust crate document generation. However, we aren’t publishing to crates.io until we resolve some namespace conflicts with the old version of Holochain, so until then you’ll need to generate them locally using the `cargo doc — open` command.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/0_oCwjqeoTRfm4TzkJ.png&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;
+&lt;em&gt;Partial list of HDK macros.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Working with Elements, not just Entries:&lt;/strong&gt; 
+All data in Holochain originates in someone’s source chain as a chunk of content, known as an entry, along with a header that chains the entry to all previous data by pointing to the previous header. Headers also contain important metadata about the entry such as its hash, a timestamp, the author’s key, the author’s signature, etc. In Holochain RSM, an entry plus its header are called an Element. When you `get()` data from the DHT, the result is not just the entry content, but a &lt;strong&gt;header-entry pair&lt;/strong&gt;, which &lt;strong&gt;automatically includes the timestamp, author’s ID, and author’s signature&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Update and Delete operations now also reference Elements instead of just the entry. This &lt;strong&gt;eliminates ambiguity and prevents the “update loops”&lt;/strong&gt; in the DHT modifications that people experienced in the prior version of Holochain.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Changes to Headers:&lt;/strong&gt;
+The largest change to internal data structures in this version of Holochain is a shift in the importance of headers. Previously, each new addition to a source chain was a header-entry pair. The header tied the new entry into the chain by referencing the entry hash and created the chaining effect by referencing the hash of the previous header. In the new version of Holochain, we’ve made header structures more sophisticated such that the &lt;strong&gt;system data is embedded directly in the header&lt;/strong&gt;, meaning that all system-defined entries — except for agent keys and private entries such as capabilities grants — no longer need entries at all.&lt;/p&gt;
+
+&lt;p&gt;This change may seem trivial, but it significantly alters the structure of local chains as well as increases overall performance. For every entry integrated into its header, Holochain no longer needs to publish and gossip &lt;em&gt;two&lt;/em&gt; items to the DHT (header &amp;amp; entry) but now just one (just the header with embedded data). This &lt;strong&gt;cuts the amount of gossip and validation that the network needs to perform in half,&lt;/strong&gt; allowing for even faster performance and state consistency.&lt;/p&gt;
+
+&lt;p&gt;Another aspect of this structural change is that headers, rather than entries, are signed. This fixes a security vulnerability which could have allowed an actor to counterfeit broken headers. It also means that if your app currently inspects signed provenances in headers, you will need to have it reference the multiple signed headers for the entry instead.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Entry Definitions:&lt;/strong&gt;
+Beyond the app-defined fields in the struct of an entry, entry definitions now require some additional fields such as visibility (public/private) and num_validation_receipts (how many validation receipts are required to build a receipt bundle).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/0_JmWMBmk83oAYT1NV.png&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;
+&lt;em&gt;Sample entry definitions&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Link Definitions:&lt;/strong&gt;
+The data structure for links is already defined by the Holochain system, so you can simply leverage that structure by using the create_link() HDK function. Each zome simply needs a unified validate_link() callback which can match on the link contents. The underlying API has unified the link “type” and “tag” fields, but the HDK still separates those out as distinct parameters.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/0_BmXzSNFSg1DqSFk_.png&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;
+&lt;em&gt;Sample link validation.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Validation Callbacks&lt;/strong&gt;:
+Holochain now provides a unified callback system which enables you to define familiar callbacks (such as zome initialization, entry validation, custom validation package construction, etc.) which will only call into WASM if they’ve been defined. Also, these calls are automatically tried based on &lt;strong&gt;a layered approach starting with the most specific match and falling through to more general&lt;/strong&gt; conditions. For example, you could define default validation code for your app’s entry types to allow only the original author to update/edit it. The callback system would then check first by action (create, update, delete) for the specific entry type, but if the validation code has not been defined for that entry type, it will fall back to the general action case for all entry types.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/0_3th6bmdBbEoBISOz.png&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;
+&lt;em&gt;Callback function for validation. This is the&lt;/em&gt; &lt;strong&gt;&lt;em&gt;only&lt;/em&gt;&lt;/strong&gt; &lt;em&gt;required callback in an app.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Many New Callbacks:&lt;/strong&gt;
+Have you ever wished you could put a hook inside Holochain’s workflows so that every time a new entry is created, you could call a fulltext indexing process? Well, now you can by creating a Post-Commit callback for that entry type. And that’s just one of many new callbacks available to provide &lt;strong&gt;more nuanced triggers in Holochain’s underlying workflows&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/0_X-77g9EdaE-DvDdK.png&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;
+&lt;em&gt;A variety of callback functions available in Holochain RSM.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Capabilities-Based Security Model:&lt;/strong&gt;
+Prior versions of Holochain never quite fully implemented the capabilities security we had intended. Now it has. The new Holochain confirms cryptographic source and permissions by checking for explicit capabilities on whatever function is being called &lt;strong&gt;&lt;em&gt;before&lt;/em&gt;&lt;/strong&gt; spinning up WASM to call your app code. &lt;strong&gt;Security is enforced on all calls and connections&lt;/strong&gt; whether via local UI connections, remote UI connections, or remote calls from other nodes.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/0_Umo2qWjNdhFJeqV9.png&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;
+&lt;em&gt;Sample capabilities grant sharing permission to query a source chain.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Remote Call:&lt;/strong&gt;
+Holochain has always contained a direct messaging protocol between nodes, but instead of implementing it as send/receive as we did previously, we have now made it simply a `remote_call()` function. You can still easily implement a send and a receive to mimic prior functionality, but now you can expand your app’s options to &lt;strong&gt;enable the possibility of calling into any zome function from another node&lt;/strong&gt;. This lets you leverage Holochain’s unified, capabilities-based security model to do cool things like allowing my assistant to schedule directly in my calendar app (writing to my source chain on my behalf) because I’ve explicitly granted that capability.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;More System Calls:&lt;/strong&gt;
+Based on requests from our user community, we’ve added a number of system calls to the HDK for functions like &lt;strong&gt;random number generation&lt;/strong&gt;, &lt;strong&gt;creating UUIDs&lt;/strong&gt;, and &lt;strong&gt;generating timestamps&lt;/strong&gt; from local system time. We have some more HDK function requests under review in our pipeline.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Native Support for Countersigning:&lt;/strong&gt;
+While all changes in Holochain are changes to &lt;strong&gt;&lt;em&gt;local&lt;/em&gt;&lt;/strong&gt; state on someone’s source chain, some events involve multiple agents agreeing to coordinate simultaneous changes to their state (such as currency transactions: my account goes down by 10 credits while yours goes up 10 credits). It’s important that such actions be bound together as a kind of single atomic event. Previously, applications managed this process by having all parties countersign a single identical entry to each of their chains, and provide the other parties with their signed header as proof of the action.&lt;/p&gt;
+
+&lt;p&gt;While that’s still possible through a series of remote function calls between the parties, doing so requires an advanced understanding of the workings of Holochain, and it can get particularly complicated if the parties are not online at the same time. We are dramatically simplifying this process by adding native support to Holochain for countersigning entries. There will be a ‘countersigner’ data type, and when you define fields in one of your entries using this type, &lt;strong&gt;Holochain will manage the process of gathering the signatures&lt;/strong&gt; of all the parties for you.&lt;/p&gt;
+
+&lt;h1 id=&quot;iii-performance--security-enhancements&quot;&gt;III. Performance &amp;amp; Security Enhancements&lt;/h1&gt;
+
+&lt;p&gt;Most of the increases in performance in this version of Holochain come from unblocked concurrent processing (as described above in the section about tokio futures), WASM optimizations, and networking optimizations.&lt;/p&gt;
+
+&lt;h2 id=&quot;wasm-optimizations&quot;&gt;WASM Optimizations&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Reducing WASM Calls:&lt;/strong&gt; Even with the optimizations we’ve made, it is fairly expensive in terms of memory, cpu, and time for Holochain to execute application code in web assembly. So we’ve taken steps to &lt;strong&gt;reduce the number of times Holochain has to spin up WASM&lt;/strong&gt; by making some of what is defined in the application code available to Holochain outside of WASM. For example, all publicly exposed zome call functions, including the wide variety of callbacks that can be defined, are revealed so that Holochain can determine whether to call back into WASM without having to spin it up to make that determination. Also, the entry types are available along with their ‘validation_package’ formats, which enables any node needing to perform DHT validation to avoid a network call as well as a WASM call, if it can determine using native Rust calls that it already possesses the required validation data.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Native-compiled WASM Performance:&lt;/strong&gt; Even web assembly that’s executed via an interpreter is usually much faster than JavaScript. But interpreted code, such as with wasmi, is still much slower than natively compiled code. Wasmer enables Holochain to take WASM code that is distributed in a Holochain application package and recompile it to &lt;strong&gt;run as native binary code that executes approximately 1,000 times faster than interpreted bytecode&lt;/strong&gt;. Holochain compiles the code when you install the app (after confirming all the hashes on the WASM code). It also &lt;strong&gt;manages a memory cache&lt;/strong&gt; for the compiled code for ultra-fast execution. To ensure the compiled code hasn’t been tampered with we can recompile from the hashed WASM code at random intervals.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Initial Benchmarking:&lt;/strong&gt; We currently see calls to app functions execute in wasmer in under 0.1 milliseconds, compared to 100 to 200 milliseconds for function calls through wasmi in the prior version of Holochain. That’s a &lt;strong&gt;speed improvement of 1,000x to 2,000x&lt;/strong&gt;. I had wanted to display some nice performance graphs, but the execution times in the new version are so much faster that the figures don’t even show on the graphs for comparison.&lt;/p&gt;
+
+&lt;h2 id=&quot;networking-optimizations&quot;&gt;Networking Optimizations&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;QUIC Protocol:&lt;/strong&gt; Instead of the TCP/IP web socket connections we used in the prior version of Holochain, Holochain RSM uses the QUIC standard that Google created to speed page load times in their Chrome browser. Because QUIC uses UDP, it can process &lt;strong&gt;multiple simultaneous bidirectional exchanges&lt;/strong&gt;, eliminating “head-of-line blocking” in which small messages get stuck waiting for larger ones ahead of them to finish. Furthermore, after the initial TLS handshake between two peers, future encrypted &lt;strong&gt;connections require zero setup time&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/0_9HFNlmOeA9MfqfPc.png&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Under good network conditions, QUIC shows speeds similar to TCP/IP, but on congested or unreliable connections &lt;strong&gt;QUIC outperforms TCP/IP by filling gaps in lost segments of data faster&lt;/strong&gt;. This means QUIC has advantages on wireless connections (both WiFi and cellular) which often suffer from this kind of packet loss and also constitute the vast majority of end-user Internet connections these days.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Proven Crypto&lt;/strong&gt;: TLS has become the de facto standard for end-to-end encrypted communications. And Google has ensured widespread adoption of QUIC — so much so that the emerging HTTP/3 standard is built on it. As a result, we’re able to &lt;strong&gt;leverage existing code libraries for both TLS and QUIC&lt;/strong&gt; and keep our development focus on data integrity and efficient, complete gossip. It also provides assurance for our users that we aren’t introducing errors or vulnerabilities by building our own crypto communication protocols.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Reduced Network Calls:&lt;/strong&gt; As mentioned above in the section describing cascading queries, Holochain RSM has implemented a &lt;strong&gt;caching layer to reduce the need to query the network for recently seen data&lt;/strong&gt;. Caching makes particular sense in a DHT/content-addressable space because, if you’re retrieving content based on its hash, the content is the same as when you last saw it. Only metadata and links may have changed, and we can perform a lazy network get on that data after providing a quick cached response to the UI — and then update the UI again from the network results. In many cases this delivers a &lt;strong&gt;user experience as responsive as a local database&lt;/strong&gt;, making the Holochain app experience not only much faster than lethargic blockchain consensus systems but actually &lt;strong&gt;faster than centralized web servers&lt;/strong&gt;. Also, since the cache layer only holds data shared publicly on the DHT, it is safe for multiple instances of an app to share the cache; this will result in massive speed-ups for Holo hosts who may be running many instances of an app for different users.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Hyper-Efficient Network Representation:&lt;/strong&gt; DHTs can be chaotic and complex under any condition; add in the properties of gossiping and self-healing and it can become especially challenging to parsimoniously represent the state of the system and who is responsible for what. You may have heard that the prior version of Holochain had some issues with discrepancies between the data that nodes tracked in their hold lists and the data that the network represented as being held by the nodes. In Holochain RSM, data representation has been massively simplified in rrDHT such that &lt;strong&gt;a node represents the range of addresses it is responsible for with a single 32-bit integer&lt;/strong&gt;. Now, if you know the address of the node and its arc range, you know exactly what range of addresses you can ask it for. This simplifies the codebase and architecture significantly, while providing performance characteristics on par with complex, binary-tree representations of the DHT space.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Integrated Keystore:&lt;/strong&gt; Holochain’s new keystore stores the private/public keypair not only for agent keys for Holochain apps, but also for the TLS keys used for network connections. And when network transport addresses and TLS keys are published to peer routing tables, they are signed by the agent keys to ensure that nodes are always reaching the endpoint that controls the private key of their targeted agent. These protocols &lt;strong&gt;make Holochain peer communications&lt;/strong&gt; &lt;strong&gt;immune to man-in-the-middle attacks&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Prepared to Go Full P2P:&lt;/strong&gt; Fully decentralized systems can be notoriously hard to test. While developing the prior version of Holochain, we used a central switchboard (sim2h) while we were debugging network coordination and connection issues. We’ve upgraded the process in Holochain RSM by having &lt;strong&gt;each node maintain a peer routing table and contact peers directly&lt;/strong&gt; using the transport addresses the target node has published. Nodes that don’t expose a public IP and port (mainly behind NAT or firewalls) can use a relay that can be reached via a public IP address with which they maintain a connection, and publish in the peer routing table that they can be reached via that relay. Initially, for easy troubleshooting, we’ll have every node publish their address via a single relay proxy; the end-to-end TLS encryption ensures the relay can’t read any of the traffic. Then when it comes time to go fully peer-to-peer, all the nodes need to do is publish their own public IP or, if they don’t have one, choose a relay proxy they trust.&lt;/p&gt;
+
+&lt;h1 id=&quot;progress-continues&quot;&gt;Progress Continues&lt;/h1&gt;
+
+&lt;p&gt;Of course, Holochain RSM is still a work in progress, currently geared toward app developers versus end users. Most of the features described above are built, but some are still in development, and all are still in alpha testing mode. The feedback has been extremely positive, though, from early-access app-dev partners. It won’t be long before we release compact binaries for end-users to run apps. And you can expect to hear about many new features, releases, and apps built on Holochain RSM over the coming weeks and months.&lt;/p&gt;
+
+&lt;h1 id=&quot;so-here-we-are&quot;&gt;So, here we are.&lt;/h1&gt;
+
+&lt;p&gt;Just to be clear: this release is a big friggin’ deal for Holochain. I can’t tell you the amount of time and brainpower that’s gone into this refactoring. And when I take stock of the result, I couldn’t be happier. &lt;strong&gt;We finally, actually have the Holochain we’ve all been waiting for&lt;/strong&gt;: the solid, secure, and performant substrate upon which to build a paradigm-shifting ecosystem of peer-to-peer applications.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Special thanks to&lt;/em&gt; &lt;a href=&quot;https://medium.com/@joshmzemel&quot;&gt;&lt;em&gt;Josh Zemel&lt;/em&gt;&lt;/a&gt; &lt;em&gt;for his collaboration in putting together this article.&lt;/em&gt;&lt;/p&gt;
+</description>
+				<guid isPermaLink="true">https://www.artbrock.com/2020/09/16/announcing-and-unpacking-the-new-holochain</guid>
+			</item>
+		
+			<item>
+				<title>Currencies are Records of Currents</title>
+				<link>https://www.artbrock.com/2020/07/29/currencies-are-records-of-currents</link>
+				<pubDate>Wed, 29 Jul 2020 00:00:00 +0000</pubDate>
+				<description>
+&lt;div style=&quot;height: 300px; background: black;&quot; class=&quot;flex-video vimeo widescreen&quot;&gt;
+  &lt;iframe src=&quot;https://player.vimeo.com/video/9587432&quot; allow=&quot;autoplay, fullscreen&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+&lt;p&gt;We tend put a lot of focus on watching the flows of a currency as if that is the important portion of transactions. But maybe we should focus more on the flow of value (goods, services, resources, knowledge or participation) which flows in the &lt;strong&gt;&lt;em&gt;opposite&lt;/em&gt;&lt;/strong&gt; direction of money in an exchange. It is the fact of shaping and enabling those real-world currents is what make currency so powerful.&lt;/p&gt;
+
+&lt;p&gt;A currency itself is actually just a flow of information. But there are two reasons we myopically focus our attention on the currency flow as if it is the one that matters.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;We are big-brained, symbol-using creatures, and it’s much simpler to us to deal with those nice clean symbols than the actual sloppy flows. Dollars are much easier to account for than attention, sharing, time, flows of various resources especially ones which don’t unitize well (such as trust, health, or change in relationship) and&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;A flow is an event which happens in the span of a moment and is gone. If you were NOT there to witness the service being performed, the good being exchanged, or the participation of that person, then once that moment has passed, the only consistent way we have of knowing what occurred is the record we keep of the event. &lt;strong&gt;We use currencies to keep records of currents.&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;currencies-are-the-lasting-record-of-disappearing-flows&quot;&gt;&lt;strong&gt;Currencies are the Lasting Record of Disappearing Flows&lt;/strong&gt;&lt;/h1&gt;
+
+&lt;p&gt;I believe that is the single most critical concept for currency practitioners to grasp. It helps us to break out of bad habits of thinking about currencies in extremely narrow ways (such as believing they have or should have intrinsic value, because precious metals were once used in coins). It allows us to see currencies for what they truly are: &lt;strong&gt;&lt;em&gt;formal symbol systems which shape, enable and measure currents&lt;/em&gt;&lt;/strong&gt; which allow communities to interact with those currents.&lt;/p&gt;
+
+&lt;p&gt;Let me paint a more concrete picture. Imagine being out for a walk in the snow, and you see a set of small animal tracks where it bounded out from under a hedge and crossed a field toward another shrub. Then you see them end in a sudden deep indentation, with some wingtip marks on extending out from either side. These tracks tell a story — a flow of resources and relationships that took place in that field.&lt;/p&gt;
+
+&lt;p&gt;Of course, the story itself has passed. All we have left are the tracks. But the tracks say a lot to well-trained set of eyes: what types of animals were involved, how long ago it happened, which direction the bird flew off, etc. This is the role that currencies play in our economy. Actual currents of resources and relationships occurred and currencies are the tracks they left behind. The tracks are very informative to the right eyes, so we use them to make business and policy decisions.&lt;/p&gt;
+
+&lt;p&gt;Different types of currencies track different types of things. The design of the currency makes certain things visible and leaves others invisible. It also determines who has what ranges of movement and track-laying powers.&lt;/p&gt;
+
+&lt;p&gt;LETS and Time Dollars have flows of currencies as units are transferred from account to account, even though they are a mutual credit currency with a net total of zero units at all times. Individual account balances are not necessarily zero, and the changes of these balances tell a story about relationships and resources as they moved within the community. It is those counter-flows which the currencies enabled by giving people who may be disenfranchised from dollar access the ability to issue credits by spending into a negative balance.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/1__kow3e6tF91ikNgrco8tFw.png&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;money-is-not-the-only-currency&quot;&gt;&lt;strong&gt;Money is Not the Only Currency&lt;/strong&gt;&lt;/h1&gt;
+
+&lt;p&gt;The real power that we gain from these insights is that &lt;em&gt;money&lt;/em&gt; is not the only kind of &lt;em&gt;currency&lt;/em&gt;. There are many other currencies that we use. We know that we use currencies as a medium of exchange, but also as units of account or measure, as stores of value, and even as tokens of status, worth or reputation.&lt;/p&gt;
+
+&lt;p&gt;Our real power as currency practitioners comes in understanding how we currently use these tools in our communities to lay value-tracks and all the ways that currencies can (and should) be used to track our stories of value.&lt;/p&gt;
+
+&lt;p&gt;We value excellence in a chosen domain. For many, winning an Olympic Gold Medal stands as the ultimate symbol of achievement within a sport. But it is not the gold that makes it valuable. In fact, different gold medals have been traded and sold. Their price has been determined by who won it when and how noteworthy their accomplishments were. Olympic medals are a token of status currency which tell us a story about races which have long been run.&lt;/p&gt;
+
+&lt;p&gt;Even though they can’t be traded, the points, scores and times achieved in each Olympic competition are also currencies which tell a more detailed and nuanced story of participation which has passed. The possibility of winning a Gold Medal shapes the flow of participation of millions of athletes all over the world. Scores are our official way of keeping TRACK. There is a formalized system of agreements about what counts and how it is counted. Certain people or roles are the ones allowed to ISSUE scores and medals. You cannot issue them yourself.&lt;/p&gt;
+
+&lt;p&gt;Let me leave you with one thought. There is incredible power in this model of understanding currencies which is largely untapped. Money is so powerful, because it is a currency, not just because it is a medium of exchange. Currencies are the means by which we collectively interact with real flows of real resources. Healthy design and implementation of truly powerful currencies at all levels of endeavor gives us so much more than we get from money substitutes.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/1_P-YgrnhUmwss8GHXUaRCSg.png&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Dive into the world of Deep Wealth and Currency Design with our &lt;a href=&quot;https://www.udemy.com/course/introduction-to-currency-design/&quot;&gt;self-paced masterclass&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+				<guid isPermaLink="true">https://www.artbrock.com/2020/07/29/currencies-are-records-of-currents</guid>
+			</item>
+		
+			<item>
+				<title>Unleashing the Power of Unenclosable Carriers (and How Holochain Can Help)</title>
+				<link>https://www.artbrock.com/2020/05/07/unleashing-the-power-of-unenclosable-carriers-and-how-holochain-can-help</link>
+				<pubDate>Thu, 07 May 2020 00:00:00 +0000</pubDate>
+				<description>&lt;p&gt;[Originally published on &lt;a href=&quot;https://medium.com/holochain/unleashing-the-power-of-unenclosable-carriers-and-how-holochain-can-help-1a4d443aa844&quot;&gt;Medium&lt;/a&gt;]&lt;/p&gt;
+
+&lt;h2 id=&quot;the-nextnet-series-part-3-of-3&quot;&gt;&lt;em&gt;The Nextnet Series: Part 3 of 3&lt;/em&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;In collaboration with&lt;/em&gt;&lt;/strong&gt; &lt;a href=&quot;https://medium.com/@joshmzemel&quot;&gt;&lt;strong&gt;&lt;em&gt;Josh Zemel&lt;/em&gt;&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/1_BESmuuqeyiNP4nmv8oBaJg.jpeg&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The first and second chapters in this series explored the nature of unenclosable carriers and their potential to underpin an unprecedented explosion of human creativity and social flourishing. We suggest starting with parts &lt;a href=&quot;https://www.artbrock.com/2019/12/19/unenclosable-carriers-and-the-future-of-communication&quot;&gt;1&lt;/a&gt;, &lt;a href=&quot;https://www.artbrock.com/2020/01/15/the-holocene-explosion-2_1-game-changing-possibilities-in-a-world-of-unenclosable-carriers&quot;&gt;2.1&lt;/a&gt;, &lt;a href=&quot;https://www.artbrock.com/2020/01/28/the-holocene-explosion-2_2-game-changing-possibilities-in-a-world-of-unenclosable-carriers&quot;&gt;2.2&lt;/a&gt;, &lt;a href=&quot;https://www.artbrock.com/2020/02/28/the-holocene-explosion-2_3-game-changing-possibilities-in-a-world-of-unenclosable-carriers&quot;&gt;2.3&lt;/a&gt;, and &lt;a href=&quot;https://www.artbrock.com/2020/04/20/the-holocene-explosion-2_4-game-changing-possibilities-in-a-world-of-unenclosable-carriers&quot;&gt;2.4&lt;/a&gt; if you haven’t already.&lt;/p&gt;
+
+&lt;p&gt;This final installment delves into the unenclosable carrier Holochain specifically, including how it fulfills on the essential properties of unenclosability and how it can be used.&lt;/p&gt;
+
+&lt;p&gt;We’ll also look at how you can get started building new social organisms now — and start to leverage Holochain to solve problems associated with enclosability — no matter who you are or your particular skills.&lt;/p&gt;
+
+&lt;p&gt;And we’ll say a few words about unenclosability as it pertains to the ongoing COVID-19 pandemic response.&lt;/p&gt;
+
+&lt;h1 id=&quot;what-holochain-is&quot;&gt;What Holochain Is&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Holochain is an open-source, unenclosable &lt;em&gt;framework&lt;/em&gt; that enables hosting of &lt;em&gt;peer-to-peer applications&lt;/em&gt; without any centralized or consensus-based infrastructure. It provides a way of ensuring the &lt;em&gt;integrity and accuracy of data&lt;/em&gt; in a network while also enabling every user to host and represent their own data.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Rather than each user’s actions being validated by centralized entities (as in internet apps) or global consensus mechanisms (as in blockchain apps) — both of which are enclosable and result in power imbalances within a network — user actions in Holochain apps are validated entirely peer-to-peer.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;By “&lt;em&gt;framework&lt;/em&gt;”, we mean a database for storing, organizing, and finding data that is spread across many computers, so that no one has to hold a lot of data. In Holochain apps there is some data that remains local to one’s own computer, on what’s called a Source Chain, and some data that is shared across many computers, on what’s called a Distributed Hash Table (DHT).&lt;/li&gt;
+  &lt;li&gt;By “&lt;em&gt;peer-to-peer applications&lt;/em&gt;” — also known as decentralized applications (dApps) or Holochain applications (hApps) — we mean interactive applications that are hosted entirely by the participants in the app, rather than by a central company. There are no limits to the kinds of apps that might be built on Holochain, other than that they have to involve two or more parties communicating or transacting. Apps for social networking, currency systems, ride-sharing, travel booking, buying and selling, team coordination, collective decision-making, chat, weather, and news applications are all possible. &lt;strong&gt;Most ways that you currently interact digitally with people or businesses, as well as many ways you might imagine doing so, can be built on Holochain and can probably be enhanced by unenclosability.&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;By “&lt;em&gt;data integrity&lt;/em&gt;”, we mean the assurance that data cannot be tampered with once it has been created, including by anyone storing data about themselves on their own Source Chain. For example, if you have 100 currency units and you spend 50, it has integrity for you to represent to the network that you have 50 units remaining; it would not have integrity for you to represent that you still have 100. Similarly, it would be inappropriate if you could display a 5-star user rating when you the average of your ratings is actually 3 stars. &lt;strong&gt;Holochain provides a way of cryptographically ensuring that if you misrepresent your account balance or reputation score, it will be obvious in how you’re transmitting that data, and thus will be flagged and rejected by the peer-based validation mechanisms.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Each Holochain app is a collaborative platform within which users host themselves and also provide just a little extra computing power and storage so that extra copies of data are always online and agreements are mutually validated and enforced.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/1_obCd6wnPxtiW0v1BroCkaA.jpeg&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;what-makes-holochain-unenclosable&quot;&gt;What Makes Holochain Unenclosable&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Holochain is agent-centric.&lt;/strong&gt; Holochain enables individual choice over just about everything: which applications and networks to participate in, your identity and address within those networks, and what information you expose to other participants. And you always store and own your own data, taking it with you as you move between applications, which is not possible with internet search engines, social networks, or shopping sites — or even blockchain apps.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Holochain enables direct interaction.&lt;/strong&gt; With Holochain, you act truly peer-to-peer, free from intermediaries except those you freely choose. You and your actions write directly to the record of events, the ledger, and you share only what you have agreed to share according to the terms of whichever apps you have freely chosen to participate in. You represent yourself, rather than being subject to representation by central authorities like legislators, miners, stakers, or even internet service providers.&lt;/p&gt;
+
+&lt;p&gt;Direct interaction also means that &lt;strong&gt;Holochain functions on any transport protocol&lt;/strong&gt;. It can operate through the internet (TCP/IP) but doesn’t require it. Apps can just as easily operate on mesh networks or even local area networks, Bluetooth networks, near-field communications, or any other means of communicating data among peers. Each user can trust their own copy of the application, run asynchronously on local connections to only a few peers, and synchronize with the larger network later.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Holochain enables groups of any size to operate on a shared set of agreements&lt;/strong&gt;, whether 2 people or 2 billion. Most blockchains have problems at the low end, requiring hundreds if not thousands of players before there is enough of a distributed consensus mechanism to prevent attacks by a majority of nodes. And so far, blockchain-based dApps (decentralized applications) haven’t demonstrated the ability to scale beyond a few thousand users, suggesting that they have problems at the high end too. For a carrier to be unenclosable, it’s important that any number of people can interact and mutually enforce the integrity of the space they’re participating in.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Holochain is free to use.&lt;/strong&gt; Since all users host themselves on Holochain, there is no need for central hosting infrastructure as there is in web apps, nor any need for tax-like “gas” fees for miners or block producers as there is in blockchain apps. Each peer carries a bit of extra load to store and validate a portion of the information that’s distributed to the group. (This is not to be confused with Holo, which is an optional, peer-to-peer hosting framework that enables users who are &lt;em&gt;not&lt;/em&gt; hosting themselves to access Holochain apps through a web browser.) Any fees that occur in Holochain apps are designed, chosen, and mutually enforced by those freely participating within a given app space, with no revenues skimmed by the network.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/1_AR6R9a8EfNVuokmR7wqeAA.jpeg&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;what-you-can-do-with-it&quot;&gt;What You Can Do with It&lt;/h1&gt;
+
+&lt;p&gt;Unenclosable carriers could have game-changing effects on our food supply, energy infrastructure, financial systems, and natural ecosystems, as we shared in previous articles. But you don’t have to take on such complex issues to apply unenclosability to everyday scenarios, improving their functioning while also helping to ignite the Holocene Explosion of new social organisms.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;In your company or other professional organization&lt;/strong&gt;, how about:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A self-hosted chat, similar to Slack, that works asynchronously and offline, doesn’t share your data with a corporate entity, and operates without infrastructure costs&lt;/li&gt;
+  &lt;li&gt;A project-management or shared to-do system, like Trello — with the same benefits as above&lt;/li&gt;
+  &lt;li&gt;A wiki-like knowledge base where the participants retain ownership of their content&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;In your family&lt;/strong&gt;, how about:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A status- and location-sharing app (like a &lt;a href=&quot;https://harrypotter.fandom.com/wiki/Weasley_Clock&quot;&gt;Weasley clock&lt;/a&gt;), where your information is shared only with family and friends you choose, not exposed to a third-party software purveyor&lt;/li&gt;
+  &lt;li&gt;A medical data repository, shared only with trusted family members so that they are able to provide critical information in cases of emergency&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;In your local government&lt;/strong&gt;, how about:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A tamper-proof election system: an immutable, crypto-signed, voting system in which any voter is able to verify that their vote was included&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;In your neighborhood&lt;/strong&gt;, how about:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A child-care or babysitter exchange in which unenclosable directories make it easy to find available care — and unenclosable reputation systems make it safer&lt;/li&gt;
+  &lt;li&gt;A book-sharing system: a buildingless library that tracks the locations of books without central servers&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;In your city&lt;/strong&gt;, how about:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A classified ads system, similar to Craigslist but reputation-enabled so that it actually builds community and connectedness (and improves the buying and selling experience)&lt;/li&gt;
+  &lt;li&gt;A rideshare system, similar to Uber, that could offer drivers and passengers greater selection granularity, like based on shared values (e.g. LGBT-friendly drivers) — as well keeps location data private&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;In your school or university&lt;/strong&gt; (or your kids’ school), how about:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;An author-centric portfolio system in which each student hosts their own cryptographically signed work, countersigned and graded by faculty when appropriate&lt;/li&gt;
+  &lt;li&gt;An immutable course and grade history, eliminating complicated mechanisms for obtaining transcripts&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;In your academic field&lt;/strong&gt;, how about:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A system for peer-reviewing articles to replace expensive scholarly journals — and promote more thought diversity&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;In your community of any size and purpose&lt;/strong&gt;, how about:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;An agent-centric social network, intrinsically proofed against centralized surveillance and the selling of data to advertisers&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;In your industry&lt;/strong&gt;, how about:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A neutral marketplace: a monopoly-resistant, level playing field for aggregating the pricing of goods and services. For example, airlines could participate in a search-and-booking system not able to be owned or acquired by any airline or retailer — unlike the centralized, antiquated, costly data aggregators of today&lt;/li&gt;
+  &lt;li&gt;A simplified supply-chain system: Cross-organizational &lt;a href=&quot;https://en.wikipedia.org/wiki/Resources,_events,_agents_(accounting_model)&quot;&gt;REA accounting&lt;/a&gt; where digitally signed payments become the accounting entry for both parties in their ledger history. An immutable, easily-auditable, self-populating system that streamlines compliance with contracts and regulations&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Many of these projects have the potential to serve significant market needs and turn a profit, while others might be more philanthropic. We’ll save a discussion of peer-to-peer revenue models for another article, but for now, suffice it to say that if you’re looking to create a business on Holochain, that is a viable option.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/1_IFaB6gQS6bYmzWqQw3fpNQ.jpeg&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;why-all-of-this-matters-a-recap&quot;&gt;Why All of This Matters (a Recap)&lt;/h1&gt;
+
+&lt;p&gt;Today, a single person’s message can reach billions of people in seconds. This phenomenon, which would have been unfathomable to prehistoric humans, exists thanks to a progression of carrier technologies that have emerged over thousands of years, including written records, the printing press, sound amplification and recording, radio, television, film and, more recently, the internet, email, and social media. These developments have &lt;strong&gt;unleashed tremendous human coordination, but, as a side effect, we have surrendered covert power to those who control the carriers, enabling them to decide what gets transmitted or not — and how we can interact with each other.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Our mainstream monetary systems are examples of carrier enclosure, too, since they empower governments and financial institutions to say what counts as legitimate transacting, as well as to make fiscal policies that affect the behavior of our currencies. Blockchain technology commendably turns over the job of legitimizing transactions to a “decentralized” consensus network, but it still converges to the same side effect, simply replacing governments and corporations with people who control data centers and crypto-coins. &lt;strong&gt;A system that is unenclosable is not just decentralized; it cannot ever be centralized.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Over the centuries, the power and wealth differentials have become so extreme that instead of a level playing field we have a steep mountainside that people can barely hold onto. We explored some of these imbalances and their consequences in Parts &lt;a href=&quot;https://www.artbrock.com/2020/01/15/the-holocene-explosion-2_1-game-changing-possibilities-in-a-world-of-unenclosable-carriers&quot;&gt;2.1&lt;/a&gt;, &lt;a href=&quot;https://www.artbrock.com/2020/01/28/the-holocene-explosion-2_2-game-changing-possibilities-in-a-world-of-unenclosable-carriers&quot;&gt;2.2&lt;/a&gt;, &lt;a href=&quot;https://www.artbrock.com/2020/02/28/the-holocene-explosion-2_3-game-changing-possibilities-in-a-world-of-unenclosable-carriers&quot;&gt;2.3&lt;/a&gt;, and &lt;a href=&quot;https://www.artbrock.com/2020/04/20/the-holocene-explosion-2_4-game-changing-possibilities-in-a-world-of-unenclosable-carriers&quot;&gt;2.4&lt;/a&gt;. When disproportionately powerful people (understandably) act in their own interest, it often comes at the expense of the greater good. This is why many of humanity’s greatest challenges — rainforest destruction, pollution and climate instability, food supply degradation, the looming energy crisis — &lt;strong&gt;won’t be solved at the levels of policy or diplomacy, but only by shifting the underlying architectures that determine how wealth and power are allocated and how people are incentivized to act&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;The good news is that such a shift is technologically possible in ways it hasn’t been before. Suddenly, at the outset of the 2020s and for the first time in history, &lt;strong&gt;we are now able to build communication and transaction systems that let us have it both ways: capacity for massive scale &lt;em&gt;and&lt;/em&gt; freedom from the power distortions of enclosability&lt;/strong&gt;. What is available, and what we must undertake, is a proliferation of new forms of social organizing so expansive that it deserves to be named analogously to the Cambrian Explosion of new biological organisms. We call it the Holocene Explosion, after the current geological epoch.&lt;/p&gt;
+
+&lt;p&gt;Designed as a carrier for this Explosion, &lt;strong&gt;Holochain preserves individual sovereignty by giving all agents the power to represent themselves in all interactions, and to voluntarily enter (or not) into spaces where mutually agreed-upon rules are mutually enforced.&lt;/strong&gt; If someone comes to have broader influence than someone else, it’s not because of carrier control, but because that person has gained capabilities according to rules voluntarily opted-into by the people participating in that app space. If anyone doesn’t like the rules of a given space, they are free to leave and join or start another, and since they own their data, they can take it with them.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/1_1fX50rkOEUrmloGB7ua40Q.jpeg&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;a-special-note-on-covid-19&quot;&gt;A Special Note on COVID-19&lt;/h1&gt;
+
+&lt;p&gt;The global COVID-19 pandemic, which took hold after we drafted most of this article series, has provided a new and powerful lens into the shortcomings of systems bound by carrier enclosure. Politics, bureaucracy, and questionable motives have hampered government responses all over the world, and opportunistic power grabs by authoritarians have led to further consolidations of power. Rollouts of COVID testing have been subject to political pressures, profiteering, and scams. Global markets are exhibiting their own tangle of enclosure points, with the brinksmanship playing out in the oil cartel leading the way.&lt;/p&gt;
+
+&lt;p&gt;An exploration of all the ways that unenclosable carriers could help us respond better to crises like this one probably deserves its own article. We can imagine many COVID-related peer-to-peer applications, including:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Contact_tracing&quot;&gt;Contact tracing&lt;/a&gt; without exposure of personal location data to central authorities&lt;/li&gt;
+  &lt;li&gt;Secure aggregation of testing data with membranes to define which data is kept private, shared among reputed researchers, or made public&lt;/li&gt;
+  &lt;li&gt;Supply-chain transparency to ensure veracity and quality of critical supplies like personal protective equipment, ICU equipment, and tests to prevent scams [&lt;a href=&quot;https://www.nytimes.com/2020/04/27/us/california-coronavirus-ppe-face-mask-scam.html&quot;&gt;1&lt;/a&gt;][&lt;a href=&quot;https://www.fbi.gov/news/pressrel/press-releases/fbi-warns-health-care-professionals-of-increased-potential-for-fraudulent-sales-of-covid-19-related-medical-equipment&quot;&gt;2&lt;/a&gt;][&lt;a href=&quot;https://abcnews.go.com/US/man-arrested-attempting-scam-government-paying-millions-covid/story?id=70100763&quot;&gt;3&lt;/a&gt;]&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Then there’s the matter of remote work and digital collaboration, which has been vital for decades but has recently taken on a new level of importance. Meanwhile, government oversight in some places is reaching &lt;a href=&quot;https://www.nytimes.com/2020/03/01/business/china-coronavirus-surveillance.html&quot;&gt;what seem to be all-time highs&lt;/a&gt; in the name of combating the virus. Isn’t it critical that our remote collaboration systems be immune to acts of social control and cyberwarfare? In a communication system built on unenclosable carriers, there is no opportunity for centralized actors to conduct unwarranted surveillance, impose censorship, or disable infrastructure.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/1_3ZWePaMi4lNPOFTT-wsH6A.jpeg&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;now-what&quot;&gt;Now what?&lt;/h1&gt;
+
+&lt;p&gt;At this moment, the most important factor in igniting the Holocene Explosion is momentum. By building or participating in unenclosable projects, you’re feeding more than one bird: &lt;strong&gt;not only are you bringing to life useful technologies that improve upon the apps’ centralized counterparts, you’re taking a stand for a world absent of the corruptibility of centralized control.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;If you’re inspired by what’s possible in a world of unenclosable carriers, the question now is: what lights you up as a way to be involved? Everything from small to large makes a difference.&lt;/p&gt;
+
+&lt;p&gt;Can you develop apps or design UIs? It’s surprisingly easy to build apps with Holochain, and it’s getting even easier with the release of the rapid application development (RAD) tools. Maybe you can help make it easier, still.&lt;/p&gt;
+
+&lt;p&gt;Can you spread inspiration through storytelling, messaging, writing, speaking, podcasting, social media, or even just conversations with friends? Why does unenclosability matter? What does it make possible? We need people who can teach and share the concepts that will activate others.&lt;/p&gt;
+
+&lt;p&gt;Can you produce elegant visual communications — websites, infographics, memes, and other formats that help with storytelling and sense-making? The world needs artists like you to communicate more efficiently and memorably than words sometimes can.&lt;/p&gt;
+
+&lt;p&gt;Are you in a position to design systems of finance or governance that incentivize acting in accordance with the common good — or would like to learn to do so? As much as anything, this movement needs people willing to study unenclosable systems and experiment with their design.&lt;/p&gt;
+
+&lt;p&gt;Or is your mode of study is more empirical, watching to see how it goes, ready to analyze differences between unenclosable systems and conventional ones, and to quantify and publish those differences? We need people like you to validate the movement for the later adopters.&lt;/p&gt;
+
+&lt;p&gt;Do you organize people, creating and moderating the spaces, physical or virtual, for people to gather and create? This movement needs people to organize and coordinate events, whether hackathons, dinners, or virtual chats.&lt;/p&gt;
+
+&lt;p&gt;Can you support projects with financial advice and expertise? Many projects will cost real money to get going — and have the possibility of earning real returns — and the movement needs people to help see it to it that projects get beyond the startup phase and have the opportunity to scale.&lt;/p&gt;
+
+&lt;h1 id=&quot;here-are-three-steps-you-can-take-right-now&quot;&gt;Here are three steps you can take right now.&lt;/h1&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Visit &lt;a href=&quot;https://forum.holochain.org/t/share-responses-to-the-nextnet-articles-here/2996&quot;&gt;this thread on the Holochain forum&lt;/a&gt; and post a response to this series, including any action that you are inspired to take, or anything that you could imagine creating. (You’ll need to create a login.) You can also visit the &lt;a href=&quot;https://forum.holochain.org/&quot;&gt;forum’s main page&lt;/a&gt; to explore the many ways that others are thinking about applying Holochain.&lt;/li&gt;
+  &lt;li&gt;Explore &lt;a href=&quot;https://forum.holochain.org/c/projects/7&quot;&gt;some of the existing projects&lt;/a&gt; being created on Holochain. Create logins to explore their tools and/or communities; just doing that alone sends a powerful message of support to these pioneering, potentially game-changing efforts. And, to the extent you’re inspired to, give them feedback and get involved!&lt;/li&gt;
+  &lt;li&gt;Try out &lt;a href=&quot;https://github.com/holochain/holoscape/releases&quot;&gt;Holoscape&lt;/a&gt; to explore some Holochain-based apps you can already run locally. And if you want to play with new tools for building your own Holochain apps or mashing up functionality from multiple apps into your own creation, try &lt;a href=&quot;https://github.com/holochain/CRISPR/wiki&quot;&gt;Chimera&lt;/a&gt;. (Both of these tools are experimental, so expect frequent changes and updates).&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;thank-you&quot;&gt;Thank you.&lt;/h1&gt;
+
+&lt;p&gt;We appreciate your coming with us on this journey over the course of this series on unenclosable carriers. We look forward to seeing you around the unenclosable neighborhood!&lt;/p&gt;
+</description>
+				<guid isPermaLink="true">https://www.artbrock.com/2020/05/07/unleashing-the-power-of-unenclosable-carriers-and-how-holochain-can-help</guid>
+			</item>
+		
+			<item>
+				<title>The Holocene Explosion (2.4) - Game-Changing Possibilities in a World of Unenclosable Carriers</title>
+				<link>https://www.artbrock.com/2020/04/20/the-holocene-explosion-2_4-game-changing-possibilities-in-a-world-of-unenclosable-carriers</link>
+				<pubDate>Mon, 20 Apr 2020 00:00:00 +0000</pubDate>
+				<description>&lt;p&gt;[Originally published on &lt;a href=&quot;https://medium.com/holochain/the-holocene-explosion-2-4-game-changing-possibilities-in-a-world-of-unenclosable-carriers-cd8d39a2014c&quot;&gt;Medium&lt;/a&gt;]&lt;/p&gt;
+
+&lt;h2 id=&quot;the-nextnet-series-part-24-of-3-saving-the-planet&quot;&gt;&lt;em&gt;The NextNet Series Part 2.4 of 3: Saving the Planet&lt;/em&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;In collaboration with&lt;/em&gt;&lt;/strong&gt; &lt;a href=&quot;https://medium.com/@joshmzemel&quot;&gt;&lt;strong&gt;&lt;em&gt;Josh Zemel&lt;/em&gt;&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/1_67eIxvKHtq3J-peyoV0GkA.jpeg&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Here we continue the exploration of how &lt;a href=&quot;https://www.artbrock.com/2019/12/19/unenclosable-carriers-and-the-future-of-communication&quot;&gt;unencloseable carriers&lt;/a&gt; could free us from critical limitations across a number of macro-systemic domains and help unleash an explosion of human creativity and social organizing. We recommend starting with &lt;a href=&quot;https://www.artbrock.com/2019/12/19/unenclosable-carriers-and-the-future-of-communication&quot;&gt;Part 1: Unencloseable Carriers and the Future of Communication&lt;/a&gt; — as well as &lt;a href=&quot;https://www.artbrock.com/2020/01/15/the-holocene-explosion-2_1-game-changing-possibilities-in-a-world-of-unenclosable-carriers&quot;&gt;Part 2.1 on food systems&lt;/a&gt;, &lt;a href=&quot;https://www.artbrock.com/2020/01/28/the-holocene-explosion-2_2-game-changing-possibilities-in-a-world-of-unenclosable-carriers&quot;&gt;Part 2.2 on energy systems&lt;/a&gt;, and &lt;a href=&quot;https://www.artbrock.com/2020/02/28/the-holocene-explosion-2_3-game-changing-possibilities-in-a-world-of-unenclosable-carriers&quot;&gt;Part 2.3 on financial systems&lt;/a&gt;— before reading Part 2.4 here.&lt;/p&gt;
+
+&lt;p&gt;In this article, we look at saving the planet.&lt;/p&gt;
+
+&lt;h1 id=&quot;the-problem&quot;&gt;The problem:&lt;/h1&gt;
+
+&lt;p&gt;There are many problems in this territory: we are outstripping the carrying capacity of our ecosystem, causing species extinctions, and polluting the oceans and atmosphere. So let’s narrow it down for illustration and focus on the fact that the planet’s rainforests are being destroyed at a rate faster than they can renew [&lt;a href=&quot;https://www.nationalgeographic.com/environment/global-warming/deforestation/&quot;&gt;1&lt;/a&gt;] [&lt;a href=&quot;https://www.vox.com/science-and-health/2019/11/18/20970604/amazon-rainforest-2019-brazil-burning-deforestation-bolsonaro&quot;&gt;2&lt;/a&gt;] [&lt;a href=&quot;https://www.nytimes.com/2019/08/30/world/americas/amazon-rainforest.html&quot;&gt;3&lt;/a&gt;] due to destructive policies that are out of touch with the importance of rainforests to our planet’s health, combined with the desirability of rainforest land for farming and oil exploration.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/1_qRENTpuUaaa0A_esJC5xkA.jpeg&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;but-what-if&quot;&gt;But what if…&lt;/h1&gt;
+
+&lt;p&gt;… these are actually symptoms of a deeper cause: that our enclosable, debt-driven systems of money have led us to account for the value of a rainforest in short-term and shallow ways, making it inevitable that its stewards would choose to liquidate it now versus reap its benefits over time?&lt;/p&gt;
+
+&lt;p&gt;What is the true value of an acre of rainforest? It may be difficult to place a number, but any true-value calculation would have to account for the myriad ways the forest contributes to the greater ecosystem (and the economy) by continuing to exist: the carbon storage that keeps the planet from overheating, the oxygen supply that keeps us breathing, the rare tropical hardwoods which might be harvested sustainably, the utility of plants as food and medicine, the biodiversity that took billions of years to evolve and helps sustain food chains worldwide.&lt;/p&gt;
+
+&lt;p&gt;Which means there’s (at least) two issues at play here, if we break things down. One is the oppressive time cost of money: it’s better to get $10M now than $20M over the next 20 years. The other is that financial accounting is an inadequate representation of wealth in a complex system: landowners get paid for lumber and crops, not preservation of the atmosphere. Without proper accounting for externalities, it’s inevitable that we eat the world for profit, unsustainably extracting natural resources for their cash value.&lt;/p&gt;
+
+&lt;h1 id=&quot;there-are-alternatives&quot;&gt;There are alternatives.&lt;/h1&gt;
+
+&lt;h2 id=&quot;hoarding-taxes&quot;&gt;&lt;strong&gt;Hoarding taxes.&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;The idea of a hoarding tax, or &lt;a href=&quot;https://en.wikipedia.org/wiki/Demurrage_(currency)&quot;&gt;demurrage&lt;/a&gt;, is to introduce a carrying cost of holding money, which functions as an antidote to the time cost of money and spurs economic activity. Accounts that have been inactive for an extended period get debited a demurrage when performing a new transaction, with the fees going to a common credit pool that benefits everyone. So, rather than being incentivized to convert real-world assets into money as soon as possible, you’re incentivized to invest in real value-creating assets that can be nurtured and grown over time, yielding money on an ongoing basis… like a forest.&lt;/p&gt;
+
+&lt;h2 id=&quot;sharing-economies&quot;&gt;&lt;strong&gt;Sharing economies.&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;Sharing economies revisit the types of stewardship structures that define use of and access to resources. Is it necessary (and is it beneficial) for us to outright own as much as we currently do? Sharing economies reconsider this question.&lt;/p&gt;
+
+&lt;p&gt;For example: How many hours of use per year does the average suburban lawnmower see? Maybe an hour a week at most for part of the year? That means they sit idle more than 99.8% of the time… yet it’s typical to have one in every household, causing all manner of negative externalities through their manufacturing, raw materials, waste, and (often) indoor storage space. Conventional wisdom labels the manufacture of all these lawnmowers “good for the economy”, but it’s laughably (and sadly) missing the bigger picture. Imagine the massive net benefit if neighborhoods could easily coordinate their use of lawnmowers through a shared-ownership, shared-use system built on unenclosable carriers.&lt;/p&gt;
+
+&lt;p&gt;Expanding outward, cars also seem ripe for this kind of exploration, as do kitchens and laundry spaces in many cases. In an extreme case, perhaps even land one day might not be individually owned, but rather commonly owned and privately leased. This is the basis of Georgist economics, or &lt;a href=&quot;https://en.wikipedia.org/wiki/Georgism&quot;&gt;Georgism&lt;/a&gt;, which also imagines that lessees could reap benefits from improving the land and be taxed for extracting resources from the land.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/1_vT4D64SpT5JdNwE0Zphdrw.jpeg&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;But we actually don’t need to go full Georgist to imagine hybrid systems that retain basic property ownership but increase sharing, which would still lead to more efficient use of resources. We’ve written in the past about a kind of &lt;a href=&quot;http://artbrock.com/blog/new-kind-commons-land-weaving-society&quot;&gt;land-weaving society&lt;/a&gt; in which land owners permit the use of their property for a variety of beneficial purposes, using reputation and certification to authorize access. If I have a permaculture certification, for example, I might be invited to farm your land, perhaps for a fee or a share of yield. Other certifications might permit me to sustainably harvest wood, gather food or medicinal herbs, hunt, or graze my livestock. “No Trespassing” signs could be replaced by technologically enabled “Enter Here” checkpoints, with RFID or smartphone-based tracking and micropayments automatically transferring if appropriate.&lt;/p&gt;
+
+&lt;p&gt;For a land-weaving type of approach to remain effective at any kind of scale, of course, it would be critical that the systems for granting and tracking access — and for reputations and certifications — be guaranteed to always remain fully decentralized, which means being built on a network of unenclosable carriers like Holochain.&lt;/p&gt;
+
+&lt;h1 id=&quot;this-could-be-game-changing&quot;&gt;This could be game-changing.&lt;/h1&gt;
+
+&lt;p&gt;What’s typical today is that only those who own or fully rent a piece of land can make much use of it. But this tight coupling of ownership and stewardship makes for massive stores of idle wealth, which is so often more lucrative to liquidate for cash in one way or another than it is to hold. But we can begin to imagine how, if we decouple ownership from stewardship as in a land-weaving concept, the balance could tip toward preserving rather than destroying, say, a rainforest.&lt;/p&gt;
+
+&lt;p&gt;The closest analog we have today to what something like this might look like might be national parks, but these exist mainly as nature preserves reliant on government subsidies (and a bit of tourism revenue). As a result, they are subject to all the complications of centralized power, including &lt;a href=&quot;https://www.citylab.com/equity/2015/07/who-wants-disposable-plastic-water-bottles-in-national-parks/399113/&quot;&gt;lobbying&lt;/a&gt;, politically motivated &lt;a href=&quot;https://www.npca.org/articles/2029-how-is-the-partial-government-shutdown-affecting-national-parks&quot;&gt;government shutdowns&lt;/a&gt;, and even &lt;a href=&quot;https://www.nytimes.com/2017/12/04/us/trump-bears-ears.html&quot;&gt;unilateral declassification&lt;/a&gt; by a single individual.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/1_1matGZQbeoy2O0jlggW2vQ.jpeg&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In order to truly tip the balance such that preservation is advantageous, therefore, we need to imagine multiple land uses happening simultaneously: not just ecotourism, or harvesting edibles, or gathering medicinals, or sustainably gathering wood, but all of these and more, all gated through the appropriate membranes of access such as certifications, reputation systems, and fee structures.&lt;/p&gt;
+
+&lt;p&gt;And because each of these land uses are complex in their own right, it might not be one enterprise operating all of them, but various enterprises doing work within their zones of core competency, operating choreographically with one another to maximize efficiency. For instance, the group permitted to harvest lumber might mark the trees they plan to cut down with three months’ notice, so that the gatherers could prioritize harvesting food, herbs, and other materials from those trees in particular. The type of coordination this requires is what makes unenclosable carriers so important.&lt;/p&gt;
+
+&lt;h2 id=&quot;growing-whats-ours&quot;&gt;&lt;strong&gt;Growing What’s Ours&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;Extrapolating from the idea of sharing economies, we might begin to completely reimagine what it means to solve for scarcity in general. As the naturalist Paul Krafel has pointed out in his enlightening (if productionally challenged) short film &lt;a href=&quot;https://www.youtube.com/watch?v=RuBMpc_3S04&quot;&gt;The Upward Spiral&lt;/a&gt;, there are basically two approaches to creating abundance when faced with limited resources: one is to maximize one’s own personal gain at the expense of others’, and the other is to utilize as few extractive or non-renewable resources as possible, instead relying more on more freely available, renewable resources, and working to preserve, expand, and improve those shareable resources.&lt;/p&gt;
+
+&lt;p&gt;We call the first strategy “get mine”, and we call the second “grow ours”. And what’s fascinating is that if you look across natural history, it’s “grow ours” that evolution selects for over time, contrary to what we might infer from the “survival of the fittest” narrative dominant throughout our cultural understanding of evolution and dramatized in nature documentaries. &lt;strong&gt;Natural selection is actually better understood as “&lt;/strong&gt;&lt;a href=&quot;https://www.amazon.com/Seeing-Nature-Deliberate-Encounters-Visible/dp/189013242X&quot;&gt;&lt;strong&gt;survival of the &lt;em&gt;fit&lt;/em&gt;&lt;/strong&gt;&lt;/a&gt;&lt;strong&gt;”, as in “those whose characteristics are most fit for their environs are most likely to survive”.&lt;/strong&gt; And a great way of being highly fit to one’s environs is to require relatively few non-renewable resources (minimizing “getting mine”) while producing an abundance of valuable resources to the ecosystem (maximizing “growing ours”).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/1_nzawpTZ6DoEsxQ0Xv_KY_Q.jpeg&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This idea is supported by the fact that plants, who need only the abundantly renewable resources sunlight, air, and water to produce all the carbon-sugars that comprise our planetary food chain, are tremendously successful, making up the majority of biomass on the planet. Carnivorous mammals, at the other end of the food chain, are relatively rare. But even carnivores typically take only what they need, and not more than can be renewed, from their surroundings and from prey populations.&lt;/p&gt;
+
+&lt;p&gt;Human systems are not exempt from the dynamics of “get mine” or “grow ours”. While conventional wisdom might suggest that in order to win we need to extract more than we put in, of course that’s not true from a long-term standpoint. Which company truly has a competitive advantage in the long run: the one that requires fewer resources to provide maximal value to the marketplace, or the one that uses more resources to provide minimal value? Obviously the one that requires less, yet any story of success that focuses only on short-term profit would have us believe otherwise. But just like colonies of bacteria, yeast, or insects that lack sustainability feedback mechanisms, humans populations that maximize “get mine” instead of “grow ours” will end up overconsuming their environments and causing their own demise.&lt;/p&gt;
+
+&lt;p&gt;In order for humans to re-norm and actually “grow ours”, however, we need better tracking and incentive systems, such as well-designed currencies, reputation systems, and payment systems. It’s time for a new era of mutual stewardship — one that dismantles the tragedy of the commons, aided by unenclosable technologies that enable the creation and enforcement of mutual agreements.&lt;/p&gt;
+
+&lt;h1 id=&quot;one-small-step-for-holochain-one-holocene-explosion-for-humankind&quot;&gt;One Small Step for Holochain, One Holocene Explosion for Humankind&lt;/h1&gt;
+
+&lt;p&gt;This chapter of the NextNet Series (Parts 2.1, 2.2, 2.3, and this article, Part 2.4) has offered some examples of what becomes possible in a system of unenclosable carriers, but really that’s just the beginning. A world of truly unfettered creativity and truly free association means not just mutual credit, peer energy exchanges, and land-weaving, but the ability to continually invent and evolve &lt;em&gt;new&lt;/em&gt; experiments and paradigms, at a rate and level of creativity we can barely comprehend.&lt;/p&gt;
+
+&lt;p&gt;When the Cambrian Explosion of life forms began 541 million years ago, the subsequent 20 million years gave birth to most of the biological diversity that exists today, catalyzed by the information carrier we know as DNA. In a similar way, &lt;strong&gt;we’re now seeing the rise of &lt;em&gt;social DNA&lt;/em&gt;, foretelling a corresponding proliferation of new &lt;em&gt;social organisms&lt;/em&gt;.&lt;/strong&gt; Social organisms are the ways humans organize themselves into patterns, such that the pattern lives on even as the participants (the cells) within them change. Corporations and governments have been the predominant social organisms over the past few centuries, though that’s already been changing with the rise of online communities, liquid democracies, and &lt;a href=&quot;https://en.wikipedia.org/wiki/Decentralized_autonomous_organization&quot;&gt;DAOs&lt;/a&gt;. Now, unencloseable technologies like Holochain are poised to enable a complete reimagining of social organization, opening up a cornucopia of new frontiers still to be discovered.&lt;/p&gt;
+
+&lt;p&gt;Think of this as the Holocene Explosion of social life forms.&lt;/p&gt;
+
+&lt;p&gt;To hint at the scope of something like this, let’s tune in to one more thought experiment. Imagine you’re the CEO of a huge multinational corporation, and it’s your job to keep a pulse on the whole organization and to identify, diagnose, and resolve issues as they arise. Today, you get the information you need from periodic reports that are passed up to you in lengthy reports containing financial statements and other long-form statistics. The report has taken time to compile from all the different departments and field locations, so by the time you receive it it’s not very current. Plus it takes you time to read it, digest it into a mental model, and hopefully draw some kind of useful conclusions about the complex system the data represents.&lt;/p&gt;
+
+&lt;p&gt;But let’s say that this is the future, and you get your information very differently. What you’re looking at is not a 400-page report, but rather a nature scene depicted on a screen — maybe an aquarium of fish, a bit like the old screensavers. Each type of fish represents some part of the massive, complex system you’re managing, while the fishes’ behavior — like how fast or high they’re swimming, or how coordinated a school’s movements — represents some metrics, interpreted and compiled by the sort of advanced intelligence that’s already available today.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/1_uRDJhnXgJfYCWfqRuN8Tug.jpeg&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;What works so well about this scenario is not just that the data is delivered in real time, but also that it’s delivered in a format that is consistent with how the human perceptual system is designed to operate. You have on the wall in your office not paragraphs, charts, and graphs, but a simulated ecosystem acting as the real-time health monitor of a complex system, displayed in such a way that you can take in large amounts of information at a glance, millions of simultaneous data points even, by observing patterns among the fish or their environs: the rippling seaweed, the blooming algae, the bubbles, the water’s cloudiness, the current, the light. When something seems “off”, you open up an interface on your desktop, click on the item of interest, and drill in for more information.&lt;/p&gt;
+
+&lt;p&gt;Imagine how effective you would be at taking the pulse of a system and adapting to it under these conditions.&lt;/p&gt;
+
+&lt;p&gt;Now imagine that it’s not just the CEO who has access to this monitor, but actually everyone in the company as well, in corners of their screens or on the walls in their departments, maybe with their views adapted according to what’s most relevant for their work. Now instead of only a few executives being responsible for managing everything, the whole is holding the whole. Everyone can see the system they’re impacting, feel a direct relationship to it, and problem-solve for its optimal health. Can you imagine how the spirit of “grow ours” could spread across an organization if all the people who were actually doing the work to bring about change could see the effect of their activities on the system?&lt;/p&gt;
+
+&lt;p&gt;And now consider applying these kinds of feedback mechanisms to all manner of global conditions: intercontinental trade, harmony among peoples, and, yes, the health of rainforests, oceans, and the atmosphere. &lt;strong&gt;How much faster might we solve humanity’s most intractable problems if we were all seeing the impact of our collective action in real time?&lt;/strong&gt; If we were problem-solving not through marching-in-the-streets social activism to compel power brokers to act against their own scarcity-economics interests, but rather through the lens of humankind’s nearly-unlimited collective creativity?&lt;/p&gt;
+
+&lt;p&gt;What we’re talking about here is a vast quantum leap in coordinative capacity that doesn’t actually require a vast leap in technological capacity, at least not in the “high-tech” sense. It’s a technology breakthrough the way that language is a breakthrough in technology. Sure, this particular language explosion is cryptographically enabled in order to create unenclosable coordination platforms on which to build forever-decentralized software applications, but the fundamentals of this shift are still more similar to the advancement of languages than advancements in rocket science or nuclear physics. New, unenclosable coordination patterns lead to new economic patterns and, in turn, new creative ecosystems.&lt;/p&gt;
+
+&lt;p&gt;In the &lt;a href=&quot;https://www.artbrock.com/2020/05/07/unleashing-the-power-of-unenclosable-carriers-and-how-holochain-can-help&quot;&gt;final chapter in the NextNet Series&lt;/a&gt;, we’ll look at how Holochain is designed to be just such a coordinative technology, and we’ll show you how it’s being used to start unleashing the Holocene Explosion of unfettered creativity and human flourishing.&lt;/p&gt;
+</description>
+				<guid isPermaLink="true">https://www.artbrock.com/2020/04/20/the-holocene-explosion-2_4-game-changing-possibilities-in-a-world-of-unenclosable-carriers</guid>
+			</item>
+		
+			<item>
+				<title>The Holocene Explosion (2.3) - Game-Changing Possibilities in a World of Unenclosable Carriers</title>
+				<link>https://www.artbrock.com/2020/02/28/the-holocene-explosion-2_3-game-changing-possibilities-in-a-world-of-unenclosable-carriers</link>
+				<pubDate>Fri, 28 Feb 2020 00:00:00 +0000</pubDate>
+				<description>&lt;p&gt;[Originally published on &lt;a href=&quot;https://medium.com/holochain/the-holocene-explosion-2-3-game-changing-possibilities-in-a-world-of-unenclosable-carriers-7c1a97f32e9c&quot;&gt;Medium&lt;/a&gt;]&lt;/p&gt;
+
+&lt;h2 id=&quot;the-nextnet-series-part-23-of-3-creating-financial-systems-that-work-for-everyone&quot;&gt;&lt;em&gt;The NextNet Series Part 2.3 of 3: Creating Financial Systems That Work for Everyone&lt;/em&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;In collaboration with&lt;/em&gt;&lt;/strong&gt; &lt;a href=&quot;https://medium.com/@joshmzemel&quot;&gt;&lt;strong&gt;&lt;em&gt;Josh Zemel&lt;/em&gt;&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/1_3f1a6R0N5QQZqlo75-O7-g.jpeg&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Here we continue the exploration of how &lt;a href=&quot;https://www.artbrock.com/2019/12/19/unenclosable-carriers-and-the-future-of-communication&quot;&gt;unencloseable carriers&lt;/a&gt; could free us from critical limitations across a number of macro-systemic domains and help unleash an explosion of human creativity and social organizing. We recommend starting with &lt;a href=&quot;https://www.artbrock.com/2019/12/19/unenclosable-carriers-and-the-future-of-communication&quot;&gt;Part 1: Unencloseable Carriers and the Future of Communication&lt;/a&gt; as well as &lt;a href=&quot;https://www.artbrock.com/2020/01/15/the-holocene-explosion-2_1-game-changing-possibilities-in-a-world-of-unenclosable-carriers&quot;&gt;Part 2.1 on food systems&lt;/a&gt; and &lt;a href=&quot;https://www.artbrock.com/2020/01/28/the-holocene-explosion-2_2-game-changing-possibilities-in-a-world-of-unenclosable-carriers&quot;&gt;Part 2.2 on energy systems&lt;/a&gt;, before reading Part 2.3 here.&lt;/p&gt;
+
+&lt;p&gt;In this article, we look at creating financial systems that work for everyone.&lt;/p&gt;
+
+&lt;h1 id=&quot;the-problem&quot;&gt;The problem:&lt;/h1&gt;
+
+&lt;p&gt;People work far longer hours than they did in pre-industrial times yet consistently struggle to “get ahead” [&lt;a href=&quot;https://www.forbes.com/sites/niallmccarthy/2019/06/03/report-a-quarter-of-americans-have-no-retirement-savings-infographic/#4a7722783ebf&quot;&gt;1&lt;/a&gt;] [&lt;a href=&quot;https://www.cnbc.com/2018/05/11/how-many-americans-have-no-retirement-savings.html&quot;&gt;2&lt;/a&gt;] [&lt;a href=&quot;https://money.cnn.com/2018/05/22/pf/emergency-expenses-household-finances/index.html&quot;&gt;3&lt;/a&gt;]. The millennial generation is the first to be worse off than their parents economically [&lt;a href=&quot;https://www.cbsnews.com/news/millennials-are-much-poorer-than-their-parents-data-show/&quot;&gt;1&lt;/a&gt;] [&lt;a href=&quot;https://www.thecentersquare.com/national/studies-find-millennials-are-worse-off-than-their-parents-represent/article_c368cabe-03c5-11e9-85aa-1bf441595d2d.html&quot;&gt;2&lt;/a&gt;] [&lt;a href=&quot;https://www.forbes.com/sites/lawrencelight/2018/11/19/heres-why-millennials-are-trailing-behind-financially/#6e4263575ed0&quot;&gt;3&lt;/a&gt;]. In the recent past it was common to comfortably raise a family and save for retirement on one decent salary, but not today. Second incomes, second jobs and side businesses are the norm these days, just to have the same quality of life that we used to [&lt;a href=&quot;https://www.theguardian.com/business/grogonomics/2019/mar/18/more-people-than-ever-need-a-second-job-to-help-pay-the-bills&quot;&gt;1&lt;/a&gt;] [&lt;a href=&quot;https://money.cnn.com/2017/07/12/pf/side-hustle/index.html&quot;&gt;2&lt;/a&gt;] [&lt;a href=&quot;https://stats.bls.gov/opub/mlr/1997/04/art1full.pdf&quot;&gt;3&lt;/a&gt;]. Is this the death knell of the modern dream?&lt;/p&gt;
+
+&lt;h1 id=&quot;but-what-if&quot;&gt;But what if…&lt;/h1&gt;
+
+&lt;p&gt;…running ever faster on the hamster wheel but still struggling to get by is a consequence of our money system being enclosable, which enables the rein-holders to rig the game so that only the house wins?&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/1_p4Hj0nS9yspVesXJA14syg.jpeg&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In our enclosable, centralized system of currency, money is issued as debt by the banks [&lt;a href=&quot;https://www.theguardian.com/commentisfree/2014/mar/18/truth-money-iou-bank-of-england-austerity&quot;&gt;1&lt;/a&gt;] [&lt;a href=&quot;https://www.youtube.com/watch?v=2nBPN-MKefA&amp;amp;list=PLmpODdsfprYH4Fhsso8PVPQBNxVDQSgb_&amp;amp;index=2&amp;amp;t=0s&quot;&gt;2&lt;/a&gt;] [&lt;a href=&quot;https://positivemoney.org/how-money-%20works/how-banks-%20create-money/&quot;&gt;3&lt;/a&gt;] [&lt;a href=&quot;https://www.sciencedirect.com/science/article/pii/S1057521914001434&quot;&gt;4&lt;/a&gt;] [&lt;a href=&quot;https://www.investopedia.com/articles/investing/022416/why-banks-dont-need-your-money-make-loans.asp&quot;&gt;5&lt;/a&gt;], with more debt always being created than money issued. This forces the issuance of more money — and thus the creation of more and more debt — each year than the previous in order to avoid collapse due to foreclosures, defaults, and bankruptcies. Through compounding interest, this debt grows exponentially, ever widening the gap between money owed and the money supply available to repay it. The debt is owed by individuals, corporations, and governments who rely on borrowed money in order to invest in homes, infrastructure, and so on — all of whom then need to earn more and more as interest compounds on top of their living or operating expenses. The economy is literally forced to grow, or collapse.&lt;/p&gt;
+
+&lt;p&gt;The system we’ve just described &lt;a href=&quot;https://www.globalresearch.ca/the-wall-street-ponzi-scheme-called-fractional-reserve-banking/11600&quot;&gt;perfectly matches the structure&lt;/a&gt; of a &lt;a href=&quot;https://en.wikipedia.org/wiki/Ponzi_scheme&quot;&gt;Ponzi Scheme.&lt;/a&gt; Consider it from the angle of the bankers: as they issue money through loans, the debt owed to them on that money compounds, so in order for borrowers to repay the debts on the money issued last year, bankers need to issue even more money as debt this year. Just like in any Ponzi Scheme, this cycle continues and builds exponentially until it reaches its limits of growth, at which point it collapses.&lt;/p&gt;
+
+&lt;h1 id=&quot;there-are-alternatives&quot;&gt;There are alternatives.&lt;/h1&gt;
+
+&lt;p&gt;We may have so taken for granted that our currency is issued by central authorities and used to manipulate commerce that it’s hard to imagine alternatives taking hold at any kind of scale. And we &lt;a href=&quot;https://www.artbrock.com/2019/12/19/unenclosable-carriers-and-the-future-of-communication&quot;&gt;previously explored&lt;/a&gt; how blockchain-based cryptocurrencies, despite their rhetoric, are actually enclosable and inevitably subject to the same pitfalls of centralized power as corporations and governments. But if we toss out our traditional monetary assumptions, we can imagine currency taking on entirely new forms.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/1_gS_VUSS9GCSYziRmELqBng.jpeg&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;mutual-credit--net-zero-currency-supplies&quot;&gt;&lt;strong&gt;Mutual credit &amp;amp; net-zero currency supplies.&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;In a mutual credit system, currency is issued not by a central authority, but by participants granting each other credit according to mutually agreed-upon rules. Money is issued when someone spends into the negative, thus borrowing against the system, while others who receive funds in advance of their spending have positive balances. Since every transaction involves offsetting positive and negative balance adjustments, the currency supply is &lt;em&gt;net-zero&lt;/em&gt;, meaning that the sum of all the outstanding positive and negative balances in the system is always zero.&lt;/p&gt;
+
+&lt;p&gt;The rules for who can draw credit vary among mutual credit systems, but one promising approach is to allow only established producers of value to borrow money. In &lt;a href=&quot;https://files.holo.host/2017/11/Holo-Currency-White-Paper_2017-11-28.pdf&quot;&gt;HoloFuel&lt;/a&gt;, for example — the currency system of the &lt;a href=&quot;https://holo.host/&quot;&gt;Holo hosting network&lt;/a&gt; — users who have demonstrated past capacity to provide hosting power receive lines of credit backed by their future hosting. Thus, not only are “loans” backed by actual value being created, but the very size of the &lt;em&gt;active&lt;/em&gt; currency supply — the sum total of the positive balances — is grounded in the actual size, the supply and demand, of the economy.&lt;/p&gt;
+
+&lt;p&gt;Mutual credit may also bypass the problems that many alternative currencies face with regard to the enclosures known as securities laws. The U.S. Securities and Exchange Commission in particular has a penchant for shutting down blockchain-based projects that issue speculative tokens, but because mutual credit is issued only in the moments when value is actually exchanged, it is not a future-based investment and, as such, is difficult to classify as a security.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/1_Amj4aX-SXUhtVzafFs2hkQ.jpeg&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;triple-bottom-line-currencies&quot;&gt;&lt;strong&gt;Triple-bottom-line currencies.&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;Triple-bottom-line currencies are a way of optimizing currency, and thereby the economy, for wide collective benefit. You may have heard of &lt;a href=&quot;https://en.wikipedia.org/wiki/Triple_bottom_line#People,_the_social_equity_bottom_line&quot;&gt;triple-bottom-line (TBL) accounting&lt;/a&gt;, which some companies use to evaluate their performance on the basis of not only &lt;em&gt;profit&lt;/em&gt; but also &lt;em&gt;people,&lt;/em&gt; which is the well-being of everyone impacted by the business, and &lt;em&gt;planet&lt;/em&gt;, which is the business’s impact on the natural environment. TBL accounting is an attempt to account for, or “internalize”, the &lt;a href=&quot;https://en.wikipedia.org/wiki/Externality&quot;&gt;&lt;em&gt;externalities&lt;/em&gt;&lt;/a&gt; of transactions, which is to say the costs (or benefits) of doing business that are not reflected in revenues. The problem is that it’s impossible to accurately account for a transaction’s externalities, given all the hidden and chain reactions that take place in the complex systems of human dynamics and planetary ecosystems.&lt;/p&gt;
+
+&lt;p&gt;Another way of stating this problem is that any company’s internal assessment of their external effects is skewed by the company’s own enclosures, even if it has the best intentions, because of its limited perspective.&lt;/p&gt;
+
+&lt;p&gt;In an unencloseable system, however, it’s possible to create a currency that contains external feedback loops using input from people who are in a position, from a vantage point outside the company, to assess a company’s external impact. This way, instead of doing impossible accounting at the transactional level, you’re doing a much simpler thing, which is to allow a company’s reputation for doing good or harm to have an impact on its overall cost of doing business.&lt;/p&gt;
+
+&lt;p&gt;This approach is actually similar to what we know today as credit ratings, which are essentially reputation currencies that act in conjunction with today’s money systems to affect the cost and availability of money. But instead of factoring in only your payment history — which corresponds to your ability to earn money (or &lt;em&gt;profit&lt;/em&gt;) and in turn to make the bankers more money by making your interest payments — a “triple credit rating” also factors in your effects on people and planet.&lt;/p&gt;
+
+&lt;p&gt;One possible approach to triple credit rating could be:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Your &lt;em&gt;people rating&lt;/em&gt; affects your &lt;em&gt;interest rates&lt;/em&gt;, in order to make it more attractive for you to borrow money if you’re deemed to affect people positively through your commerce, and less attractive if you’re not.&lt;/li&gt;
+  &lt;li&gt;Your &lt;em&gt;planet rating&lt;/em&gt; affects your &lt;em&gt;transaction fees&lt;/em&gt;, with the idea being that polluters and extractors pay a tax to the system to offset the environmental costs borne by everyone. If you have a reputation for positively impacting the planet, you could actually incur a negative tax, which means you’re essentially being paid to transact by the system, in reflection of the good you externalize.&lt;/li&gt;
+  &lt;li&gt;Your &lt;em&gt;profit rating&lt;/em&gt; affects your &lt;em&gt;credit limits&lt;/em&gt;, similar to existing credit ratings, with the idea being that your likelihood to pay back funds ought to remain a central factor in how much you can borrow.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/1_5F-Tz5tepk0pa8Ao1NH_PA.jpeg&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;this-could-be-game-changing&quot;&gt;This could be game-changing.&lt;/h1&gt;
+
+&lt;p&gt;Today, business is driven by the short-term imperative of financial profit and staying ahead of ever-compounding debt. &lt;em&gt;Of course&lt;/em&gt; such an extractive system is driving a pattern of cancerously consuming the planet’s natural resources in the almighty name of Economic Growth. Of course we’re burning cheap but limited energy stores instead of building renewable infrastructure. And of course we’re farming in ways that maximize pounds of yield over soil health and more sustainable growing practices.&lt;/p&gt;
+
+&lt;p&gt;One mechanism by which today’s debt-driven economy has such a troubling effect is through the &lt;a href=&quot;https://en.wikipedia.org/wiki/Time_value_of_money&quot;&gt;time cost of money&lt;/a&gt;, which means that a dollar now is worth more than a dollar later.  With debt everywhere, compounding interest is everywhere, which means that carrying a negative balance is expensive, while carrying a positive balance can be lucrative. The time cost of money disincentivizes the holding and growing of physical assets versus liquidating them for cash, since virtual assets often grow faster than physical ones.&lt;/p&gt;
+
+&lt;p&gt;No matter what business asset you own — land, a website, a factory — you have an incentive to milk (or sell) that asset for cash on as short a timeline as possible, even if it could produce &lt;em&gt;more&lt;/em&gt; cash later or on a longer timeline. The more cash you can get now, the more you can put that cash to work by putting it to work in high-return financial instruments. Plus, if you’re like most business owners, you’re paying interest yourself on the ways you capitalized your business — as well as on your personal debt (home, cars, college, and so on) — and cash could help pay off those loans.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/1_dW8XwOxPOrC47u45WCRBpQ.jpeg&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The time cost of money creates an imperative to convert real live assets into numbers in a bank account as quickly as possible, regardless of whether doing so is actually sustainable in any broader sense. Extracting more fossil fuel, catching more fish, and selling more plastic is not just profitable but &lt;em&gt;compoundingly&lt;/em&gt; profitable, even if we are completely outstripping the carrying capacity of our ecosystem.&lt;/p&gt;
+
+&lt;p&gt;Which brings up another good point: doesn’t it stand to reason that our currency supply be connected to the carrying capacity of the physical systems upon which our economy operates? It turns out this is not only a good idea, but actually imperative for having a sustainable economy. As long as money can just keep being created without regard for whether we’re overtaxing the systems we use to create value, our incentive will be to outstrip the planet’s carrying capacity to regenerate itself, and we will kill ourselves.&lt;/p&gt;
+
+&lt;p&gt;Mutual credit systems, by the way, have the ability to connect seamlessly to the carrying capacity of an economy: if the creation of currency is strictly a function of spending into the negative by those who have demonstrated the ability to produce actual value, the currency is backed by their future production of that value.&lt;/p&gt;
+
+&lt;p&gt;Notice, too, who has the power in such an equation: no longer the bankers and the governments and others who derive influence from their ability to create, control, and charge for the money supply, but rather the value-creators themselves, those who are actually able to provide for people’s needs. Add in a triple-credit rating system and you bring greater good into the equation as well. &lt;strong&gt;Imagine if the most powerful individuals on the planet were those who demonstrated the capacity to create the most benefit, rather than those who can extract the most resources.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;It’s a good thing that we can imagine such a scenario, because this is exactly what it will take to tackle perhaps the most intractable problem we’re facing today: saving the planet. We explore that in &lt;a href=&quot;https://www.artbrock.com/2020/04/20/the-holocene-explosion-2_4-game-changing-possibilities-in-a-world-of-unenclosable-carriers&quot;&gt;Part 2.4&lt;/a&gt;.&lt;/p&gt;
+</description>
+				<guid isPermaLink="true">https://www.artbrock.com/2020/02/28/the-holocene-explosion-2_3-game-changing-possibilities-in-a-world-of-unenclosable-carriers</guid>
+			</item>
+		
+			<item>
+				<title>The Holocene Explosion (2.2) - Game-Changing Possibilities in a World of Unenclosable Carriers</title>
+				<link>https://www.artbrock.com/2020/01/28/the-holocene-explosion-2_2-game-changing-possibilities-in-a-world-of-unenclosable-carriers</link>
+				<pubDate>Tue, 28 Jan 2020 00:00:00 +0000</pubDate>
+				<description>&lt;p&gt;[Originally published on &lt;a href=&quot;https://medium.com/holochain/the-holocene-explosion-2-2-game-changing-possibilities-in-a-world-of-unenclosable-carriers-a63efa3cd2a3&quot;&gt;Medium&lt;/a&gt;]&lt;/p&gt;
+
+&lt;h2 id=&quot;the-nextnet-series-part-22-of-3-solving-the-energy-crisis&quot;&gt;&lt;em&gt;The NextNet Series Part 2.2 of 3: Solving the Energy Crisis&lt;/em&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;in collaboration with&lt;/em&gt;&lt;/strong&gt; &lt;a href=&quot;https://medium.com/@joshmzemel&quot;&gt;&lt;strong&gt;&lt;em&gt;Josh Zemel&lt;/em&gt;&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/1_hkhiHsiwGBXN2q3bYbWKaA.jpeg&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Here we continue the exploration of how &lt;a href=&quot;https://www.artbrock.com/2019/12/19/unenclosable-carriers-and-the-future-of-communication&quot;&gt;unencloseable carriers&lt;/a&gt; could free us from critical limitations across a number of macro-systemic domains and help unleash an explosion of human creativity and social organizing. We recommend starting with &lt;a href=&quot;https://www.artbrock.com/2019/12/19/unenclosable-carriers-and-the-future-of-communication&quot;&gt;Part 1: Unencloseable Carriers and the Future of Communication&lt;/a&gt; as well as &lt;a href=&quot;https://www.artbrock.com/2020/01/15/the-holocene-explosion-2_1-game-changing-possibilities-in-a-world-of-unenclosable-carriers&quot;&gt;Part 2.1: Restoring the Quality of Our Food&lt;/a&gt;, before reading Part 2.2 here.&lt;/p&gt;
+
+&lt;p&gt;In this article, we look at solving the energy crisis.&lt;/p&gt;
+
+&lt;h1 id=&quot;the-problem&quot;&gt;The problem:&lt;/h1&gt;
+
+&lt;p&gt;Humans are using the planet’s energy stores faster than they can replenish. This appears to be a function of our reliance on cheap but finite stores of fuel to power an ever-hungrier array of industry, combined with the difficulty of bringing online alternative energy solutions in a cost-effective way. Despite massive sums spent on research and development over many years, we remain drastically ill-equipped to meet energy demands in the coming post-fossil-fuel era.&lt;/p&gt;
+
+&lt;h1 id=&quot;but-what-if&quot;&gt;But what if…&lt;/h1&gt;
+
+&lt;p&gt;…this problem is actually a symptom of a centralized energy economy in which entrenched powers have strong incentives to keep us reliant on how we harvest and distribute energy today rather than scale up viable alternatives?&lt;/p&gt;
+
+&lt;p&gt;Consider, for example, how the utility monopolies that own the power grids have used their power to protect their monopolies against competition from renewables. They have &lt;a href=&quot;https://www.nytimes.com/2017/07/08/climate/rooftop-solar-panels-tax-credits-utility-companies-lobbying.html?_r=0&quot;&gt;worked to curtail production of solar power in homes&lt;/a&gt; by lobbying to eliminate tax breaks for solar installations. When “net-metering” legislation has been introduced to require that utility companies pay consumers for surplus power produced at home, energy companies have &lt;a href=&quot;https://www.businessinsider.com/utility-companies-lobbying-campaigns-solar-2017-7&quot;&gt;lobbied against it&lt;/a&gt; and successfully eliminated it in several U.S states, in some cases doing so explicitly on the grounds that solar proliferation hurts their profits. Even U.S. government agencies have moved to protect the fossil fuel industry from competition by alternative energy sources, pursuing policies to &lt;a href=&quot;https://www.nytimes.com/2017/05/30/business/energy-environment/wind-power-base-load.html?rref=collection%2Fbyline%2Fdiane-cardwell&amp;amp;action=click&amp;amp;contentCollection=undefined&amp;amp;region=stream&amp;amp;module=inline&amp;amp;version=latest&amp;amp;contentPlacement=5&amp;amp;pgtype=collection&quot;&gt;discourage utility companies from investing in renewables&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/1_e6FuwRU0Tfd9TP1_gVv5Yw.jpeg&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Or consider how oil-industry power brokers in both the private and public sector &lt;a href=&quot;https://en.wikipedia.org/wiki/Who_Killed_the_Electric_Car%3F#Oil_companies&quot;&gt;worked to undermine the development and adoption of early electric cars&lt;/a&gt; in the early 2000s in the United States, including through &lt;a href=&quot;https://en.wikipedia.org/wiki/Disinformation&quot;&gt;disinformation&lt;/a&gt; and &lt;a href=&quot;https://en.wikipedia.org/wiki/Astroturfing&quot;&gt;astroturfing&lt;/a&gt;, because electric vehicles threatened oil company profits.&lt;/p&gt;
+
+&lt;p&gt;These kinds of counterproductive scenarios, commonplace as they may be, are not necessary. They are consequences of how we’ve made the flow of energy enclosable by centralized power brokers as it moves across the world. There may have been good reasons to allow for those enclosures at the time, such as reliability and scalability, but when building on unenclosable P2P systems like Holochain, it’s actually possible to have it both ways: clean-energy projects that have the resources for large-scale impact &lt;em&gt;and&lt;/em&gt; are not at risk of becoming corrupt in protection of proprietary business interests.&lt;/p&gt;
+
+&lt;h1 id=&quot;there-are-alternatives&quot;&gt;There are alternatives.&lt;/h1&gt;
+
+&lt;p&gt;There is no shortage of innovative energy solutions in existence today, and there is promising research into new solutions for tomorrow. The main challenge is circumventing the death grip the energy market leaders have us in. If communities of consumers, researchers, home/landowners, and entrepreneurs were able to collaborate and transact with true freedom, we could rapidly evolve new approaches to our energy problems.&lt;/p&gt;
+
+&lt;p&gt;Here are just a few kinds of solutions waiting to spread their wings in an unenclosable system:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/1_I06CCR75p55LLQxLFBdIKg.jpeg&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Self-owned, self-generated power&lt;/strong&gt;: the production of power on one’s own property, for one’s own use. One recent study found that residential solar production alone &lt;a href=&quot;https://www.nrel.gov/docs/fy18osti/70901.pdf&quot;&gt;could supply around a quarter of the United States’&lt;/a&gt; &lt;a href=&quot;https://en.wikipedia.org/wiki/Electricity_sector_of_the_United_States#Electricity_consumption&quot;&gt;total energy needs&lt;/a&gt;. Add in the rest of usable rooftop space nationwide and &lt;a href=&quot;http://www.nrel.gov/docs/fy16osti/65298.pdf&quot;&gt;you get to 39%&lt;/a&gt;, while California, where it’s especially sunny, could produce 74% of its power just through solar on existing rooftops.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Peer-produced power and micro-exchanges&lt;/strong&gt;: the sharing of self-generated power across peer networks, with payments made through unenclosable currencies from those who net-consume power to those who net-provide power. &lt;a href=&quot;https://redgrid.io/&quot;&gt;Redgrid&lt;/a&gt;, &lt;a href=&quot;https://holo.host/project/redgrid/&quot;&gt;powered by Holochain&lt;/a&gt;, is one especially promising project in this field.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/1_Gqo6vTjCUwRO_iUvA49LOA.jpeg&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Smart grids:&lt;/strong&gt; comprehensive restructuring of power grids to increase efficiency and decrease fuel usage, required infrastructure, and pollution. &lt;a href=&quot;https://en.wikipedia.org/wiki/Smart_grid#Load_adjustment/Load_balancing&quot;&gt;Smart grids&lt;/a&gt; involve different components — such as appliances, meters, and &lt;a href=&quot;https://en.wikipedia.org/wiki/Power_conditioner&quot;&gt;power conditioners&lt;/a&gt; — ’talking’ to each other and taking actions that reduce or balance system loads across time. For example, a smart grid might cause air conditioners at neighboring buildings to “take turns” cycling on and off, thereby reducing spikes in overall usage and, in turn, reducing the amount of &lt;a href=&quot;https://en.wikipedia.org/wiki/Peak_demand&quot;&gt;peak power&lt;/a&gt; that the grid needs to be built to provide. Today, energy companies have an incentive to suppress smart grid technology since they make money by selling us centralized power, but in a world of unenclosable carriers and open energy exchanges, micro-markets could emerge where small players compete to establish healthier patterns of energy use.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/1_GqkaKe1xmzXbTn769GRv1w.jpeg&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Novel developments in energy production:&lt;/strong&gt; In a climate of unfettered research and development, resources could also flow to a variety of promising energy research frontiers (beyond wind and solar) that make sense to pursue but are today disregarded as fringe by centralized economic channels. Waves, tides, geothermal sources, &lt;a href=&quot;https://www.scientificamerican.com/article/hawaii-first-to-harness-deep-ocean-temperatures-for-power/&quot;&gt;deep ocean water&lt;/a&gt;, and even &lt;a href=&quot;https://en.wikipedia.org/wiki/Cold_fusion&quot;&gt;cold fusion&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/Zero-point_energy&quot;&gt;zero-point energy&lt;/a&gt;, and &lt;a href=&quot;https://topmagneticgenerator.com/mit-experiments-with-overunity/&quot;&gt;over-unity devices&lt;/a&gt; have yielded promising discoveries which have been &lt;a href=&quot;https://en.wikipedia.org/wiki/Patent_encumbrance_of_large_automotive_NiMH_batteries&quot;&gt;shelved or blocked&lt;/a&gt; within today’s centralized energy climate. With peer-production and smart grids in place, it could become economically feasible to create a ready evaluation path and open market for every garage inventor’s creative energy solutions.&lt;/p&gt;
+
+&lt;h1 id=&quot;this-could-be-game-changing&quot;&gt;This could be game-changing.&lt;/h1&gt;
+
+&lt;p&gt;The very idea that energy production needs to be centralized is actually fairly new. &lt;strong&gt;During the early industrial age 150 or 200 years ago, you didn’t need to plug into a centralized, monopoly-owned grid to run your factory; you just needed a river to turn your belts.&lt;/strong&gt; Steam engines that ran trains and turned heavy equipment could run on wood harvested and renewed within the local forest.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/1_8hXOZQaRDDE3S85y5Wf8-A.jpeg&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;As foreign as it may sound today, decentralized power production was once the norm and could easily be again, sending centralized facilities the way of industrial-age relics like broadcast TV service, print-newspaper conglomerates, and the U.S. Postal Service. This is especially true now because we have technologies not just for &lt;em&gt;producing&lt;/em&gt; large amounts of energy locally, but also for efficiently &lt;em&gt;distributing&lt;/em&gt; and &lt;em&gt;transacting&lt;/em&gt; for it across peer-to-peer networks. Add in the possibility of major funding sources being directed to mainly support, rather than suppress, the scaling of clean energy solutions, and we have a whole new ball game when it comes to powering humanity for centuries to come.&lt;/p&gt;
+
+&lt;p&gt;Of course, all of this would require a complete dismantling of the current enclosures around our energy systems. Existing patterns perpetuate because existing incentive structures perpetuate them. The future of energy production, like the future of nutrition, must be underpinned by the ability for groups to spin up new patterns of coordination at will.&lt;/p&gt;
+
+&lt;p&gt;And spinning up new patterns at will, it turns out, requires unenclosability not just in our communication systems but also our transacting systems. We next turn to money in &lt;a href=&quot;https://www.artbrock.com/2020/02/28/the-holocene-explosion-2_3-game-changing-possibilities-in-a-world-of-unenclosable-carriers&quot;&gt;part 2.3 of the series&lt;/a&gt;.&lt;/p&gt;
+</description>
+				<guid isPermaLink="true">https://www.artbrock.com/2020/01/28/the-holocene-explosion-2_2-game-changing-possibilities-in-a-world-of-unenclosable-carriers</guid>
+			</item>
+		
+			<item>
+				<title>The Holocene Explosion (2.1) - Game-Changing Possibilities in a World of Unenclosable Carriers</title>
+				<link>https://www.artbrock.com/2020/01/15/the-holocene-explosion-2_1-game-changing-possibilities-in-a-world-of-unenclosable-carriers</link>
+				<pubDate>Wed, 15 Jan 2020 00:00:00 +0000</pubDate>
+				<description>&lt;p&gt;[Originally published on &lt;a href=&quot;https://medium.com/holochain/the-holocene-explosion-2-1-game-changing-possibilities-in-a-world-of-unenclosable-carriers-21ddbb15341a&quot;&gt;Medium&lt;/a&gt;]&lt;/p&gt;
+
+&lt;h2 id=&quot;the-nextnet-series-part-21-of-3-restoring-the-quality-of-our-food&quot;&gt;&lt;em&gt;The NextNet Series Part 2.1 of 3: Restoring the Quality of Our Food&lt;/em&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;In collaboration with&lt;/strong&gt; &lt;a href=&quot;https://medium.com/@joshmzemel&quot;&gt;&lt;strong&gt;&lt;em&gt;Josh Zemel&lt;/em&gt;&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/1_Hxx7vXb-16P3H4PFf4dWkg.jpeg&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&quot;https://www.artbrock.com/2019/12/19/unenclosable-carriers-and-the-future-of-communication&quot;&gt;first chapter&lt;/a&gt; in this three-chapter series explored &lt;em&gt;unenclosability&lt;/em&gt; as an essential property of non-corruptible communication channels. We suggest heading there, if you haven’t already, before reading this article.&lt;/p&gt;
+
+&lt;p&gt;This chapter explores what becomes possible in a universe of unenclosable carriers. It’s the “why this matters” part of the series. For readability, we’re splitting this chapter into four posts — 2.1, 2.2, 2.3, and 2.4.&lt;/p&gt;
+
+&lt;p&gt;Over the four posts we look at four macro-systemic domains — food, energy, money, and our impact on planetary ecosystems — from the standpoint of how the dynamics of carrier enclosure currently limit humanity’s innovation, success, and sustainability.&lt;/p&gt;
+
+&lt;p&gt;For each domain, we take a common-knowledge problem as an example, and we ask: what if this problem is actually the consequence of underlying, often-unseen architectures which were created for good reasons but have actually painted us into a corner, such that there’s no way out except to fully disrupt the architectures themselves? Then we identify some promising solutions to the example problem, next-gen approaches that begin to hint at what unenclosable carriers make possible in the world.&lt;/p&gt;
+
+&lt;p&gt;So, let’s begin with our food supply.&lt;/p&gt;
+
+&lt;h1 id=&quot;the-problem&quot;&gt;The problem:&lt;/h1&gt;
+
+&lt;p&gt;The nutritional content per calorie of the modern diet has declined significantly over the last 100 years, thanks to the &lt;a href=&quot;https://www.npr.org/sections/thesalt/2019/05/16/723693839/its-not-just-salt-sugar-fat-study-finds-ultra-processed-foods-drive-weight-gain&quot;&gt;predominance of ultra-processed food&lt;/a&gt;, the &lt;a href=&quot;https://directorsblog.nih.gov/tag/low-quality-carbohydrates/&quot;&gt;filling of many mass-produced products with simple carbohydrates and non-nutritional fillers&lt;/a&gt;, &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/m/pubmed/15637215/&quot;&gt;changes in varieties of crops grown to increase yields&lt;/a&gt;, and a decline in the quality of fresh food as a result of soil depletion [&lt;a href=&quot;https://www.scientificamerican.com/article/soil-depletion-and-nutrition-loss/&quot;&gt;1&lt;/a&gt;] [&lt;a href=&quot;https://soils.wisc.edu/facstaff/barak/poster_gallery/minneapolis2000a/&quot;&gt;2&lt;/a&gt;] [&lt;a href=&quot;https://www.theguardian.com/lifeandstyle/2005/may/15/foodanddrink.shopping3&quot;&gt;3&lt;/a&gt;] and possibly even &lt;a href=&quot;https://www.politico.com/agenda/story/2017/09/13/food-nutrients-carbon-dioxide-000511&quot;&gt;increased carbon in the atmosphere&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;but-what-if&quot;&gt;But what if…&lt;/h1&gt;
+
+&lt;p&gt;…these surface-level problems exist because there are structural issues with the very mechanisms by which food is created, sold, and distributed? What if the soil is depleted and the food is overprocessed because of enclosed-carrier dynamics that have created &lt;a href=&quot;https://www.tharawat-magazine.com/facts/top-ten-agribusiness-companies/#gs.xknwd5&quot;&gt;big-ag&lt;/a&gt; and &lt;a href=&quot;https://www.businessinsider.com/10-companies-control-the-food-industry-2016-9&quot;&gt;big-food&lt;/a&gt; giants who control much of the market — and whose incentives are directly misaligned with our nutritional needs?&lt;/p&gt;
+
+&lt;p&gt;Independent family farming used to be much more common [&lt;a href=&quot;https://www.washingtonpost.com/news/wonk/wp/2014/09/16/the-decline-of-the-small-american-family-farm-in-one-chart/&quot;&gt;1&lt;/a&gt;] [&lt;a href=&quot;https://www.usnews.com/news/best-states/articles/2018-04-04/family-farms-pushed-to-get-big-or-go-bust&quot;&gt;2&lt;/a&gt;] [&lt;a href=&quot;https://www.salon.com/2015/02/10/what_nobody_told_me_about_small_farming_i_cant_make_a_living/&quot;&gt;3&lt;/a&gt;] [&lt;a href=&quot;https://www.t-g.com/story/2646155.html&quot;&gt;4&lt;/a&gt;] [&lt;a href=&quot;https://www.thedailystar.com/news/local_news/number-of-family-farms-continues-to-decline/article_7b3c5532-e02e-5e07-8c62-5881899f616c.html&quot;&gt;5&lt;/a&gt;]. But continued enclosures and increased centralization throughout the food markets have &lt;a href=&quot;https://www.nationalreview.com/2016/08/small-farms-big-business-family-farms-struggle-against-industrial-agriculture/&quot;&gt;made it more difficult for farmers to survive&lt;/a&gt; without growing big. “Get big or get out,” said Earl Butz, Richard Nixon’s Secretary of Agriculture &lt;a href=&quot;https://www.theguardian.com/world/2008/feb/04/usa.obituaries&quot;&gt;in 1973&lt;/a&gt;. Today, it’s the largest growers — or at least the ones that subscribe to the big-ag programs for seed, feed, fertilizer, and distribution — that enjoy reliable access to the financing needed to compete at scale. And garnering space at grocery chains, even at the more principled ones such as Whole Foods, often &lt;a href=&quot;https://www.wsj.com/articles/getting-your-product-on-shelves-at-whole-foods-just-got-harder-1518085801&quot;&gt;requires 6-figure slotting fees&lt;/a&gt; and the ability to produce at massive scale.&lt;/p&gt;
+
+&lt;p&gt;Want to “buy local”? Good luck: you’re limited to what’s available during the growing season in your area, and you’ll pay &lt;a href=&quot;https://www.fdrsinc.org/wp-content/uploads/2018/03/JFDR_49.1_4_Curtis.pdf&quot;&gt;more than at the supermarket&lt;/a&gt; because local growers generally can’t come close to matching mass-produced pricing. Want to go organic? Studies suggest that the herbicides known as glyphosates — which Monsanto markets as Roundup, and which the World Health Organization has concluded is &lt;a href=&quot;https://www.thelancet.com/journals/lanonc/article/PIIS1470-2045(15)70134-8/fulltext&quot;&gt;“probably carcinogenic to humans”&lt;/a&gt; — make their way &lt;a href=&quot;https://toxics.usgs.gov/highlights/glyphosate02.html&quot;&gt;into water supplies&lt;/a&gt; and even &lt;a href=&quot;https://www.producer.com/2019/01/glyphosate-residues-snare-organics/&quot;&gt;organic crops&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/1_nWe_jralmnnhiXhDewjOnA.jpeg&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Our access to food is controlled by centralized market players that we don’t get to choose. Mega-corporations like Kraft &amp;amp; Nestle control companies up and down the whole supply chain. Shelves at supermarket chains display the products that most serve the interests of the industry’s major stakeholders, and those products are filled with ingredients that do the same. Farmers are paid simply for pounds of yield, and so they understandably favor the cheapest way to achieve high outputs, without regard to the nutritional content of the food or the harmful effects of chemical herbicides or fertilizers.&lt;/p&gt;
+
+&lt;p&gt;Regulators and legislators, meanwhile, many of whom are former executives within big-ag conglomerates (or receive campaign funding from them), favor catering to centralized interests rather than thousands of independent growers.&lt;/p&gt;
+
+&lt;p&gt;Food quality inevitably declines as profit-driven companies race to the bottom in a quest for ever-cheaper sources and ingredients, with governments incentivized to cheer them on.&lt;/p&gt;
+
+&lt;h1 id=&quot;there-are-alternatives&quot;&gt;There are alternatives.&lt;/h1&gt;
+
+&lt;p&gt;The explosion of labels and certifications like “organic/bio”, “fair trade”, “free-range”, “hormone-free”, “cage-free”, and so on point to the info-age demand for more visibility into the flows and processes that define our food production. These labels may be only partial indicators — organic food can still come from depleted soil, for example — but at least they move the industry in the right direction. And they point to an opportunity to create massively greater accountability in our food supply chains, incentivizing producers through market dynamics to do right by the consumers.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/1_YgBwINFtJoQyQtC3du5t1w.jpeg&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Yet supply-chain transparency and consumer information works best — and really only works at scale — in the case of carrier unenclosability. Without it, certifications themselves can easily become stale or &lt;a href=&quot;https://www.businessinsider.fr/us/organic-milk-may-not-be-organic-2017-5&quot;&gt;corrupt&lt;/a&gt;. The ability to create a new certification standard needs to be like creating a new turn of phrase in a language: anyone can do it, and the expression spreads if it’s useful, rather than being subject to central oversight over what takes hold. This way, any community can invent the kind of quality assurance that it needs.&lt;/p&gt;
+
+&lt;p&gt;For example, a promising &lt;a href=&quot;https://regenorganic.org/&quot;&gt;new certification&lt;/a&gt; accounts for not only sustainable growing practices but actually &lt;em&gt;regenerative&lt;/em&gt; ones, meaning that the growing methods restore the health of ecosystems that have been degraded through industrial farming or other industry.&lt;/p&gt;
+
+&lt;p&gt;And another new system directly incorporates regenerative certification into the very economics of food production. By meeting standards within the &lt;a href=&quot;https://justoneorganics.com/&quot;&gt;JustOne Organics&lt;/a&gt; Living Economy System (JOOLES), growers gain not only valuable contracts to sell their grade-B produce known as “seconds”, they also get access to interest-free credit lines they can use to increase their growing capacity. Credit limits are determined by a formula that takes into account the metrics from their produce’s spectroscopic analysis, so farmers are directly incentivized to improve the quality of the food they grow.&lt;/p&gt;
+
+&lt;p&gt;JOOLES will provide a food-backed cryptocurrency based on the unenclosable carrier Holochain, which means that the currency can never be centralized. Thus, it’s the participants in the ecosystem who issue credit — the holders of the currency, rather than big banks — effectively paying qualifying farmers ahead of their seasons for the food they grow.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/1_RP-nAs0Jt4VVh1efV4oAsg.jpeg&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;this-could-be-game-changing&quot;&gt;This could be game-changing.&lt;/h1&gt;
+
+&lt;p&gt;Even as healthier growing practices become theoretically more profitable as a result of rising consumer demand, many farmers remain entrenched in low-nutrition, high-chemical growing practices because they lack access to the funding required to make the requisite shifts in their operations. It’s the biggest agriculture companies that have access to the cheapest funding, and they make that funding available to growers who buy the company’s products, sell the company their yields, or both.&lt;/p&gt;
+
+&lt;p&gt;Projects like JOOLES turn these downward-spiral economics on their heads by providing funding needed for growers to tap into new, profitable markets based on high-quality (not just high-quantity) output metrics. And they help us &lt;strong&gt;begin to imagine a world of unenclosable carriers in which consumers are empowered to reinvent incentive structures that encourage the existence of the nutrition they actually want&lt;/strong&gt;, free from the enclosures of entrenched interests that today serve to protect the status quo.&lt;/p&gt;
+
+&lt;p&gt;Next up is &lt;a href=&quot;https://www.artbrock.com/2020/01/28/the-holocene-explosion-2_2-game-changing-possibilities-in-a-world-of-unenclosable-carriers&quot;&gt;part 2.2 of the NextNet Series&lt;/a&gt;, where we take a look at our energy systems.&lt;/p&gt;
+</description>
+				<guid isPermaLink="true">https://www.artbrock.com/2020/01/15/the-holocene-explosion-2_1-game-changing-possibilities-in-a-world-of-unenclosable-carriers</guid>
+			</item>
+		
+			<item>
+				<title>Unenclosable Carriers and the Future of Communication</title>
+				<link>https://www.artbrock.com/2019/12/19/unenclosable-carriers-and-the-future-of-communication</link>
+				<pubDate>Thu, 19 Dec 2019 00:00:00 +0000</pubDate>
+				<description>&lt;p&gt;[Originally published on &lt;a href=&quot;https://medium.com/holochain/unenclosable-carriers-and-the-future-of-communication-4ac6045ac894&quot;&gt;Medium&lt;/a&gt;]&lt;/p&gt;
+
+&lt;h2 id=&quot;the-nextnet-series-part-1-of-3&quot;&gt;&lt;em&gt;The Nextnet Series: Part 1 of 3&lt;/em&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;In collaboration with&lt;/em&gt;&lt;/strong&gt; &lt;a href=&quot;https://medium.com/@joshmzemel&quot;&gt;&lt;strong&gt;&lt;em&gt;Josh Zemel&lt;/em&gt;&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/1_mdSmwm3UWcikD-z2kPQaoQ.jpeg&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;All communication relies on one or more &lt;em&gt;carriers&lt;/em&gt;. At the most basic level, when you’re speaking to a group of people in a room, the air is the carrier for the sound waves moving through it. You pass breath through your vocal chords and shape your mouth in funny ways, and a bunch of compression waves emerge and fill the room with information that others then decode. No one can just grab the words out of the air to stop them from reaching someone else. The carrier is &lt;em&gt;unenclosable&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;For the sake of contrast, let’s say your boss puts out a suggestion box, in order to give you and fellow employees the opportunity to make a difference in the workplace. Sounds nice, right? And yet, the box is enclosed; there’s no way to see how many suggestions have been made, or which ones have been discarded before even reaching the person who could implement the suggestion. The system includes a filtering mechanism that allocates some degree of control to whoever is in charge of the box. And isn’t the suggestion box system designed, in part, to enable that layer of control? If they didn’t want the ability to filter, they might have just invited suggestions openly during a meeting with everyone present.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/1_8e421RhZOpcMV2GTjExWOA.jpeg&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;a-brief-history-of-communication&quot;&gt;A Brief History of Communication&lt;/h1&gt;
+
+&lt;p&gt;Before modern technology, or really before the development of written language, communication was generally transmitted by unenclosable carrier. Oral traditions were the norm in prehistoric time, and they are preserved today in indigenous cultures around the world — cultures we often respect for their ways of reaching alignment quickly, resolving tensions directly, and treating their members with honor. (Consider our postmodern fascination with the talking stick and council of elders.) This social wisdom may be linked to the unenclosable medium of communication they used.&lt;/p&gt;
+
+&lt;p&gt;Where direct oral communication reaches its limits, of course, is as soon as it’s important to communicate at scale, across distance or time. Want to rally a crowd? You’ll need amplification. Want to coordinate troops in the field? You’ll need some form of written communication. Want to operate a nation or empire? You’ll need carriers of all different sorts: messengers, letters, telegraphs, whatever.&lt;/p&gt;
+
+&lt;p&gt;And yet, most carriers we use to extend the reach of communication also introduce the possibility of enclosure, which in turn leads to power imbalances. Writing gave rise to the literate class, the clerical class, who by virtue of privilege or position suddenly had outsize power, with access to libraries and information and the ability to make deals or even laws that others couldn’t make, or at least couldn’t understand, without the help of the literate. The printing press gave rise to the editors, publishers, and booksellers who determined which books were published or promoted. Broadcast media gave rise to the media empires who today exert preferences over what is broadcast. The ability to control the carrier results in the ability to control the message.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/1_DtrNs3jVIqSuN65w4OrkBw.jpeg&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;covert-and-overt-control&quot;&gt;Covert and Overt Control&lt;/h2&gt;
+
+&lt;p&gt;What’s actually true about oral cultures is not that control over messaging is impossible, but rather that the available control mechanisms are more &lt;em&gt;overt&lt;/em&gt;. You &lt;em&gt;can&lt;/em&gt; stop someone from speaking up around a fire if you physically attack them or try to shout over them. But then everyone knows you’re doing that, which means that your actions are subject to whatever social feedback mechanisms exist to temper abuses of power. So, really, what carrier enclosability gives rise to is &lt;em&gt;covert&lt;/em&gt; power. The manager filtering the suggestion box; the allocation of FM bandwidth to someone over someone else; the private understanding between interest groups and politicians.&lt;/p&gt;
+
+&lt;h1 id=&quot;awash-in-enclosable-carriers&quot;&gt;Awash in Enclosable Carriers&lt;/h1&gt;
+
+&lt;p&gt;As the speed and scale of communication has increased, so have the layers of enclosable carriers on which our communication relies. In newsprint and on television, it’s the advertisers, as well as executives who are bound to the interests of boards and shareholders, who exert both apparent and hidden control over the content we receive. Our phone lines are subject to a variety of costs, controls, and oversights. Even getting on a plane (or flying one’s own) to a distant land — which is another way to communicate across distances — is highly constrained by licenses, airspaces, borders, passports, airport fees, and so on.&lt;/p&gt;
+
+&lt;p&gt;And of course we have the internet, which has given us a taste of radical participation and democratized access to information, but whose filters on access and information have caused increasing alarm. There are centralized entities controlling the allocation of web addresses, domain names, and root servers. ISPs have the ability to block access to the internet altogether. Facebook, YouTube, and the like decide what content is inappropriate, and, perhaps more importantly, what content appears in your feeds. Amazon determines which products you can use the convenience of its site to buy. And, of course, Google steers you to some web sites over others, according to its secret algorithms.&lt;/p&gt;
+
+&lt;p&gt;Our ability to coordinate activity at scale has never been greater, but that coordination is also subject to centralized control and corruption like never before — and to an unknown degree because it is largely covert. Do we have any way of knowing the extent of Russian influence on the 2016 U.S. election? We don’t. We also don’t know the degree to which our ‘real’ news is adulterated and filtered, which is part of what makes ‘fake news’ such an intractable problem: when all news is subject to corruption, it’s hard to tell the difference between legitimate and completely falsified sources.&lt;/p&gt;
+
+&lt;p&gt;If we want to move into an era of intelligent, mutually beneficial, worldwide coordination, we will have to address the problem of enclosability. But first, a word about money.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/1_E5FaRx2qW0MxKaq-cXNISg.jpeg&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;the-enclosability-of-money&quot;&gt;The Enclosability of Money&lt;/h1&gt;
+
+&lt;p&gt;Monetary systems are special cases when it comes to enclosability and covert systems of control. We all have the capacity to produce value, but we have allowed our &lt;em&gt;exchange&lt;/em&gt; of value to be mediated through money, which we’re not allowed to produce. (If we do, it’s called counterfeiting.) The few who are allowed to issue money use that privilege to constrain our participation in the marketplace.&lt;/p&gt;
+
+&lt;p&gt;In principle, a financial transaction could be as simple as two people exchanging value through a direct agreement, but in our world of enclosable carriers, transactions are controlled by many third parties that we don’t get to choose.&lt;/p&gt;
+
+&lt;p&gt;By way of example, let’s look at transacting through PayPal, which claims to offer peer-to-peer payments to ‘anyone with an email address’. But if you want to pay your friend for something, just consider all the layers of control you cannot opt out of:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;You must connect to the internet via a semi-monopoly of telcos/ISPs.&lt;/li&gt;
+  &lt;li&gt;The connection must supply an IP address, which is under the control of ICANN, the international body that delegates ranges of addresses to specific licensees of their choosing.&lt;/li&gt;
+  &lt;li&gt;You need to establish an HTTPS connection, which requires certificates issued by a root authority.&lt;/li&gt;
+  &lt;li&gt;Your email must be routed to and stored on an email server, which is typically not under your control.&lt;/li&gt;
+  &lt;li&gt;The email address uses a domain name, which is subject to central control via ICANN, domain registrars, root servers, and nameservers.&lt;/li&gt;
+  &lt;li&gt;You must go through the PayPal app or website, which is under their corporate control (not to mention all the aforementioned domain handlers and routers).&lt;/li&gt;
+  &lt;li&gt;Your PayPal account must be active and in good standing, at their discretion.&lt;/li&gt;
+  &lt;li&gt;You transact in a currency, whether dollars, euros, or yen, that is fundamentally out of your control. Governments can freeze accounts, limit international transactions, and garnish wages, not to mention influence the money supply in ways that affect what your currency is worth.&lt;/li&gt;
+  &lt;li&gt;You use a central payment source, such as a bank or credit card, that can reverse transactions, charge fees, block access, and close accounts.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Does that sound like peers interacting directly with each other? Or does it sound like a bunch of people got invited to your party who you’d have preferred to leave out of the mix?&lt;/p&gt;
+
+&lt;h1 id=&quot;but-what-about-my-favorite-decentralistblockchaindapp-project&quot;&gt;But What About My Favorite Decentralist/Blockchain/dApp Project?&lt;/h1&gt;
+
+&lt;p&gt;And so we come to the blockchain and, more broadly, the whole decentralization movement. If you’re a participant in this ecosystem, you might be thinking that blockchain-based projects or dApps, at least the ‘best’ ones, are precisely the antidote to the problem of carrier enclosability.&lt;/p&gt;
+
+&lt;p&gt;It’s true that blockchain applications have, in many cases at least, offered an exciting means of collaborating outside the reach of outsized government and corporate middlemen. The mechanisms for this accomplishment involve &lt;em&gt;decentralized transacting&lt;/em&gt;, which is the ability to transact peer-to-peer, and &lt;em&gt;decentralized issuance&lt;/em&gt;, meaning that currency is created not by a centralized authority but rather by protocols opted-into by the users. These mechanisms are laudable to a great degree.&lt;/p&gt;
+
+&lt;p&gt;But decentralized transactions and decentralized issuance are not equivalent to truly decentralized &lt;em&gt;governance&lt;/em&gt; at all levels, including the mechanisms by which transactions or interactions are considered legitimate enough to be added to the shared record. The most widely-used methods of making this determination — employed by every project/dApp we’re aware of outside of those being built on Holochain — all involve some form of &lt;em&gt;global state&lt;/em&gt;, meaning that many nodes, or computers on a given network, must agree with one another before officially adopting any information. It’s an understandable approach since it might seem like the only way to coordinate at scale without being subject to centralized authority or being susceptible to malicious acting.&lt;/p&gt;
+
+&lt;p&gt;The problem, though, is that global consensus mechanisms are still a form of carrier enclosure, and there are necessarily some nodes (or users) who have more say than others in determining the legitimacy of transactions and adopting updates to the rulesets.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/1_9Eg9M-1-5OBI9oHOw_4AOA.jpeg&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The two most common strategies for achieving consensus about global state, proof-of-work (POW) and proof-of-stake (POS), are very much enclosable and do converge toward enclosure. Those who have more money to buy more processing power (POW) or betting stakes (POS) win more money, which then enables them to buy more processing power or betting stakes. Both algorithms centralize power over time, allowing the rich to become richer and more influential.&lt;/p&gt;
+
+&lt;p&gt;Another common strategy for managing global state is to reduce the number of nodes considered to be authorities about the state. EOS has 21 ‘block producers’, NEO has 7 ‘consensus nodes’, and TRON has 27 ‘super representatives’. Again, this approach fails our test of enabling you and me to transact directly because it channels us through an elite club of authorized nodes who accept (or refuse) our transaction.&lt;/p&gt;
+
+&lt;p&gt;And real communication enclosures can happen and have happened in blockchain projects. The &lt;a href=&quot;https://en.wikipedia.org/wiki/The_DAO_(organization)&quot;&gt;Ethereum hard fork in 2016&lt;/a&gt;, right-minded as it may have been, was a means of invalidating transactions that had occurred. EOS has also &lt;a href=&quot;https://cointelegraph.com/news/eos-reverses-previously-confirmed-transactions-as-pundits-decry-centralization&quot;&gt;reversed transactions&lt;/a&gt;, as has &lt;a href=&quot;https://www.coindesk.com/bitcoin-cash-miners-undo-attackers-transactions-with-51-attack&quot;&gt;Bitcoin Cash&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;But even these are relatively small examples compared to what can occur when you have a relatively small group of miners, stakers, developers, or you-name-its who have more power than others when it comes to saying what counts, what gets through, or what rule changes get adopted.&lt;/p&gt;
+
+&lt;p&gt;So, even though the very intention of many blockchain projects is to address intermediation and the centralization of power, they are actually subject to the same kinds of power imbalances we see in other mediums. It’s a tilted playing field, and even a slightly tilted playing field eventually leads to massive imbalance, just as we’ve seen play out in economies around the world over the course of the last 500 years.&lt;/p&gt;
+
+&lt;p&gt;So we’re back to our original question: is it possible to have a system of communicating and transacting that 1) involves truly unenclosable carriers and 2) is capable of massive scale?&lt;/p&gt;
+
+&lt;h1 id=&quot;having-it-both-ways&quot;&gt;Having It Both Ways&lt;/h1&gt;
+
+&lt;p&gt;In considering how a communication system might be both scalable and unenclosable, let’s look at the evolution of language itself. How does language arise? Who gets to change the rules of language? We do. Any one of us can create a new word, turn of phrase, or other language pattern that may or may not spread based upon whether others freely adopt it. If it spreads far enough, it becomes part of a language. There is no central committee that determines what you can say or not, or what gets adopted or not.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/1_GkEt-BgxaXwAFyD7IFbEzg.jpeg&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;So, our new ecosystem of communication might look something like the spaces of language itself. We can imagine a scenario in which anyone can spin up new protocols for interacting — protocols that can be voluntarily adopted by those who choose to participate in them. Everyone is free to transfer the rulesets of any given space into another space, just as anyone is free to populate an uninhabited island, start speaking any particular language there, and invent new words.&lt;/p&gt;
+
+&lt;p&gt;Notice this does &lt;em&gt;not&lt;/em&gt; actually mean an absence of rules. Protocols are essential within any given space for filtering signal from noise, and to avoid the gaming of that space. The network itself needs to be censor-proof, but that doesn’t mean that everything in a voluntarily selected space should also be censor-proof.&lt;/p&gt;
+
+&lt;p&gt;To continue with our analogy, let’s say that on a certain island there’s a protocol that new residents introduce themselves at a weekly meeting, or post a bio on a bulletin board or profile page. Perhaps there’s also a social norm not to interrupt one another at certain meetings, and there might be corrective protocols activated if someone repeatedly violates that norm. Notice, though, that these rulesets only pertain to the particular scope of this island (which people can choose to join or not), rather than being built into the language itself or any other global ruleset.&lt;/p&gt;
+
+&lt;p&gt;So, one key ingredient in making any system fundamentally unenclosable is &lt;strong&gt;the ability for anyone to create segmented spaces of coherence into and out of which people can freely associate&lt;/strong&gt;, with rulesets that are particular to those spaces. Wikipedia has a variety of protocols that dictate how articles are written, while Twitter restricts posts to 280 characters. The current versions of these apps are subject to all kinds of enclosures, but even unenclosable look-alikes of them could and probably should have similar rule sets. It wouldn’t make sense for someone to be able to post a tweet on Wikipedia, or an encyclopedic article on Twitter. Within the scope of each app, people are free to express themselves according to the parameters they opted into when joining the app.&lt;/p&gt;
+
+&lt;p&gt;It’s even possible that unenclosable versions of Twitter or Wikipedia could have some centralized control, such as moderation by individuals or groups appointed to the task. But users would have the ability to opt out of this moderated space if they didn’t like some new rule or anything else about the space. And, if the apps are to be truly unenclosable, the ability to opt out doesn’t simply mean that you have the option not to use them; it must also mean that you can easily spin up alternatives.&lt;/p&gt;
+
+&lt;p&gt;This leads us to another key ingredient of our unenclosable system: &lt;strong&gt;forkability, which means that anyone is free to leave any space, create another based on the same (or similar) source codes and rulesets, and invite people to the new version&lt;/strong&gt;. For true forkability, users need to be able to migrate easily between versions, taking their data from one version — for example their complete activity on a social network or search engine — and load it into the new version. This is, of course, very much not the case with the likes of today’s Facebook and Google, who own and control your data, making only a fraction of it available to you.&lt;/p&gt;
+
+&lt;p&gt;With these ingredients in place, no one can stop two people from freely associating.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/1_ozoVi8EJJiF1fpZUHPBLHA.jpeg&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;a-natural-selection&quot;&gt;A Natural Selection&lt;/h2&gt;
+
+&lt;p&gt;With free association and forkability in place, an evolutionary phenomenon emerges: the spaces themselves, with their patterns and protocols, enter into a process of natural selection. The ones that solve problems better or serve people better will gain greater adoption, while the ones that don’t do as good a job will die off. To return to the island analogy again: if people can move freely between islands, bringing language patterns from one to the other, the dialects that are most suitable to people’s needs will be the ones that thrive and spread.&lt;/p&gt;
+
+&lt;h2 id=&quot;holochain-is-unenclosable-by-design&quot;&gt;Holochain Is Unenclosable by Design&lt;/h2&gt;
+
+&lt;p&gt;Holochain is designed precisely to foster the kind of ecosystem we’ve been describing, with the ‘islands’ being applications that anyone can easily spin up by creating or forking code. Holochain also makes it simple to move between ‘islands’ by allowing users to control their data in such a way that it’s easy to bring along to new applications. And it’s designed to promote social coherence &lt;em&gt;within&lt;/em&gt; app spaces by making sure everyone is playing by the same set of rules — and by creating enough transparency around &lt;em&gt;how&lt;/em&gt; everyone is interacting to promote mutual enforcement of those rules (and therefore a strong &lt;a href=&quot;https://en.wikipedia.org/wiki/Nash_equilibrium&quot;&gt;Nash equilibrium&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;We believe that by providing an unenclosable carrier for an unlimited range of applications, Holochain will enable the next internet — one that doesn’t involve corporations, governments, or surveillance systems in the middle of our communication and collaboration.&lt;/p&gt;
+
+&lt;p&gt;Now you can jump into the &lt;a href=&quot;https://www.artbrock.com/2020/01/15/the-holocene-explosion-2_1-game-changing-possibilities-in-a-world-of-unenclosable-carriers&quot;&gt;next piece in this series&lt;/a&gt;, where we explore the implications of an unenclosable NextNet for global systemic challenges.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/1_rxubSY9QT2llxBQa27_iUA.jpeg&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+</description>
+				<guid isPermaLink="true">https://www.artbrock.com/2019/12/19/unenclosable-carriers-and-the-future-of-communication</guid>
+			</item>
+		
+			<item>
+				<title>Holochain - Wins, Missteps, and Next Steps</title>
+				<link>https://www.artbrock.com/2019/05/21/holochain-wins-missteps-and-next-steps</link>
+				<pubDate>Tue, 21 May 2019 00:00:00 +0000</pubDate>
+				<description>&lt;p&gt;[Originally published on &lt;a href=&quot;https://medium.com/holochain/holochain-wins-missteps-and-next-steps-600812bc9ecc&quot;&gt;Medium&lt;/a&gt;]&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;In collaboration with&lt;/em&gt; &lt;a href=&quot;https://medium.com/@joshmzemel&quot;&gt;&lt;em&gt;Josh Zemel&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/1_tM-TpUCEJpi_2DJx6_TgSA.png&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;fast-out-of-the-gate-from-conception-to-use&quot;&gt;Fast out of the Gate: From Conception to Use&lt;/h1&gt;
+
+&lt;p&gt;On New Years Eve, the last day of 2016, Eric Harris-Braun and I &lt;a href=&quot;https://github.com/holochain/holochain-proto&quot;&gt;started building Holochain&lt;/a&gt;. The basic design came from one part of &lt;a href=&quot;https://ceptr.org/&quot;&gt;Ceptr&lt;/a&gt;, an advanced computing and currencies platform we’d been working on for years.&lt;/p&gt;
+
+&lt;p&gt;Two months later, on the first week of March 2017, we had our &lt;a href=&quot;https://ceptr.org/hackathons&quot;&gt;first Hackathon in San Francisco&lt;/a&gt; for people to build apps on Holochain.&lt;/p&gt;
+
+&lt;p&gt;It was an invitation-only event for friends who understood our tools were not yet mature. Yet even then, people built complete peer-to-peer (P2P) &lt;a href=&quot;https://blockgeeks.com/guides/dapps/&quot;&gt;dApps&lt;/a&gt; in just a few days in JavaScript and Lisp that essentially worked.&lt;/p&gt;
+
+&lt;p&gt;The developers who came expressed surprise at the ease of building on Holochain, having wrestled with tokens and dApps on Ethereum. They also felt safer, knowing they could launch invitation-only and later expand the reach and scope once live-tested, instead of “writing in stone” on a permanent blockchain.&lt;/p&gt;
+
+&lt;p&gt;They said: &lt;em&gt;“It feels like we’re building the plane while flying it, but it’s exciting that it actually flies!”&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;And, &lt;em&gt;“Wow, it’s a distributed app platform that’s actually distributed!”&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;That first weekend hackathon yielded &lt;a href=&quot;https://github.com/holochain/holochat&quot;&gt;HoloChat&lt;/a&gt; (a multichannel Slack-like chat), &lt;a href=&quot;https://github.com/trustgraph/trustgraph&quot;&gt;TrustGraph&lt;/a&gt; (for making decentralized, censor-proof, reputational claims), and two versions of a Twitter clone called Clutter — &lt;a href=&quot;https://github.com/holochain/clutter&quot;&gt;one in JavaScript&lt;/a&gt; and &lt;a href=&quot;https://github.com/holochain/cludder&quot;&gt;one in Lisp&lt;/a&gt; — which both used the same UI.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;…[M]uch of the world still thinks Holochain’s application model is unproven when, in fact, we’ve had functional apps for almost two years with speed and scale that outperform every other crypto platform I’ve seen.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;upgrading-the-power-of-holochain&quot;&gt;Upgrading the Power of Holochain&lt;/h1&gt;
+
+&lt;p&gt;We were excited about the ease of developing apps on Holochain, but we also knew there were many features to add related to permissions, security, &lt;a href=&quot;https://en.wikipedia.org/wiki/Shard_(database_architecture)&quot;&gt;sharding&lt;/a&gt; of the &lt;a href=&quot;https://en.wikipedia.org/wiki/Distributed_hash_table&quot;&gt;DHT&lt;/a&gt;, etc.&lt;/p&gt;
+
+&lt;p&gt;We worked over the next six months to improve networking, enhance testing, benchmark performance, and learn the &lt;a href=&quot;https://github.com/holochain/mixins&quot;&gt;design patterns&lt;/a&gt; of building agent-centric dApps on an &lt;a href=&quot;https://en.wikipedia.org/wiki/Eventual_consistency&quot;&gt;eventually-consistent&lt;/a&gt;, sharded, &lt;a href=&quot;https://en.wikipedia.org/wiki/Data_validation&quot;&gt;validating&lt;/a&gt; DHT.&lt;/p&gt;
+
+&lt;p&gt;And after some official Alpha releases, we held &lt;strong&gt;lots more hackathons:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Barcelona, Spain&lt;/li&gt;
+  &lt;li&gt;Vaduz, Liechtenstein&lt;/li&gt;
+  &lt;li&gt;Riga, Latvia&lt;/li&gt;
+  &lt;li&gt;Bristol, UK&lt;/li&gt;
+  &lt;li&gt;Porto, Portugal&lt;/li&gt;
+  &lt;li&gt;Sebastopol, California&lt;/li&gt;
+  &lt;li&gt;London, UK&lt;/li&gt;
+  &lt;li&gt;Copenhagen, Denmark&lt;/li&gt;
+  &lt;li&gt;Sydney, Australia&lt;/li&gt;
+  &lt;li&gt;Melbourne, Australia&lt;/li&gt;
+  &lt;li&gt;Vancouver, British Columbia&lt;/li&gt;
+  &lt;li&gt;Austin, Texas&lt;/li&gt;
+  &lt;li&gt;New York City (twice)&lt;/li&gt;
+  &lt;li&gt;Denver, Colorado&lt;/li&gt;
+  &lt;li&gt;Sao Paolo, Brazil&lt;/li&gt;
+  &lt;li&gt;Amsterdam, Netherlands&lt;/li&gt;
+  &lt;li&gt;Pittsburgh, Pennsylvania (Carnegie Mellon University)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/1_Pa035NtcTEFhgI4iCZZ3Fw.png&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;viable-holochain-apps&quot;&gt;Viable Holochain Apps&lt;/h1&gt;
+
+&lt;p&gt;Out of those events came about 60 pretty cool Holochain apps at various stages of completion. They ranged from proof-of-concepts of back-end features to pretty polished experiences with full UIs. Some noteworthy ones that come to mind:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/holochain/dpki&quot;&gt;DPKI&lt;/a&gt;: Distributed Public Key Infrastructure — crypto-key management&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/holochain/holodex&quot;&gt;HoloDex&lt;/a&gt;: Indexing overlay app for searching a sharded DHT&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/holochain/HCHC&quot;&gt;hApp Store&lt;/a&gt;: A distributed directory for distributing distributed apps&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/holochain/fractal-wiki&quot;&gt;Fractal Wiki&lt;/a&gt;: Structured wiki of nested cards (like &lt;a href=&quot;https://decko.org&quot;&gt;Decko&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/holochain/transactor&quot;&gt;Transactor&lt;/a&gt;: A basic mutual-credit currency&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/holochain/touchpoints&quot;&gt;Touchpoints&lt;/a&gt;: Mobile NFC-enabled interaction-logging system,&lt;/li&gt;
+  &lt;li&gt;A &lt;a href=&quot;https://github.com/holochain/fed-wiki&quot;&gt;P2P port&lt;/a&gt; of &lt;a href=&quot;http://fed.wiki.org&quot;&gt;Federated Wiki&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/zaunders/Mailboox-Rust&quot;&gt;Community Book Sharing Library&lt;/a&gt;: Just like it sounds&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://andersaamodt.com/projects.php&quot;&gt;RaveMaker&lt;/a&gt;: Party announcement and support system&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/ArcadeCity/unter&quot;&gt;Unter&lt;/a&gt;: P2P Ridesharing app prototyped by &lt;a href=&quot;https://arcade.city/&quot;&gt;Arcade City&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/jmday/pmkt&quot;&gt;Prediction market&lt;/a&gt;: For betting on outcomes of real-world events&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/MightyAlex200/Comet&quot;&gt;Comet&lt;/a&gt;: P2P Reddit alternative&lt;/li&gt;
+  &lt;li&gt;A P2P Credit Clearing Network from the folks at &lt;a href=&quot;https://www.promis.co/&quot;&gt;Promis.co&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;A medical drug provenance &amp;amp; supply-chain tracking system&lt;/li&gt;
+  &lt;li&gt;A video sharing and live-streaming app&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/evomimic/holo-health&quot;&gt;Holo-Health&lt;/a&gt;: Personal Medical Data Management&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/jeznag/&quot;&gt;Electric Smart Meter Management&lt;/a&gt;: IoT data-recording &amp;amp; sharing; kilowatt-balancing&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/cosmicsurfers/humm-publisher&quot;&gt;UnMute&lt;/a&gt;: censor-proof blogging similar to Medium.com (later evolved into &lt;a href=&quot;https://humm.earth/&quot;&gt;humm.earth&lt;/a&gt;),&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/holochain/personas-profiles&quot;&gt;HoloVault (aka Personas&lt;/a&gt;): personal data and identity management&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/science-girl/NewCraigslist&quot;&gt;New Craigslist&lt;/a&gt;: Craiglist clone (also &lt;a href=&quot;https://github.com/struktured/NewCraigsList&quot;&gt;implemented in OCaml&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/holochain/holochess&quot;&gt;HoloChess&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/willemolding/holochain-battleship&quot;&gt;Battleship&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/holochain/panoptipong&quot;&gt;Massively Multiplayer Pong&lt;/a&gt; and &lt;a href=&quot;https://github.com/HC-Interns/cryptonomipong&quot;&gt;Cryptonomipong&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/holochain/minersweeper&quot;&gt;MinerSweeper&lt;/a&gt;: Real-time-ish multiplayer minesweeper&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/zo-el/Errand&quot;&gt;Errand&lt;/a&gt;: Trello-like kanban boards for tasks&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/OmniProject/omni&quot;&gt;Omni&lt;/a&gt;: For publication of scholarly peer-reviewed articles&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/sqykly/HoloREA&quot;&gt;HoloREA&lt;/a&gt;: Supply-chain crypto-accounting using &lt;a href=&quot;https://www.iso.org/obp/ui/#iso:std:iso-iec:15944:-4:ed-2:v1:en&quot;&gt;REA standards&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/kristoferlund/holochain-todo-redux&quot;&gt;Shared To-Do List&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://junto.foundation/&quot;&gt;Junto&lt;/a&gt;: A social network&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Whew! I’m sure there’s a bunch more I’m not remembering at the moment.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;https://www.iso.org/obp/ui/#iso:std:iso-iec:15944:-4:ed-2:v1:en&quot;&gt;REA Accounting&lt;/a&gt; on Holochain revolutionizes supply chain accounting and enables the possibility of any unit of account to function as a cryptocurrency.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Notice how similar these dApps are to the kinds of things we do on the web every day? Holochain app development is not limited to token speculation and slow crypto-gambling as its main use cases. Storing data is cheap. Processing is efficient. Scaling is natural.&lt;/p&gt;
+
+&lt;p&gt;I often hear people talk about how the usefulness of dApps is as-yet undemonstrated. But if they were looking at the kinds of dApps that run on Holochain rather than blockchain, they wouldn’t be saying that, because these are the kinds of data driven web apps everyone uses on the web all day.&lt;/p&gt;
+
+&lt;p&gt;What’s more, scalability is not an issue for any of these apps, because unlike blockchain, Holochain becomes more efficient as the number of users increases, because a fairly fixed amount of work gets divided across more computers.&lt;/p&gt;
+
+&lt;h1 id=&quot;holochains-dapp-architecture-is-proven&quot;&gt;Holochain’s dApp Architecture Is Proven&lt;/h1&gt;
+
+&lt;p&gt;Some people still talk about Holochain as if it doesn’t exist yet. This is in part because of confusion about expecting a “MainNet” release or token. But Holochain doesn’t have a built-in token to subsidize inefficiency, and each Holochain app generates its own P2P network, so there’s no MainNet.&lt;/p&gt;
+
+&lt;p&gt;Many people clearly don’t realize &lt;em&gt;a lot of things&lt;/em&gt; have been built on Holochain and they’ve worked just fine. This is in part a result of our failure to adequately promote Holochain and the apps built on it.&lt;/p&gt;
+
+&lt;p&gt;And more importantly, because Holochain manages data integrity without requiring global consensus, it makes many solutions easy that are difficult or impossible to do on other decentralized platforms. For example:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;After 10 years of blockchain, why is there no reasonable decentralized public key infrastructure?&lt;/li&gt;
+  &lt;li&gt;Find another decentralized platform that can do real-time-ish games like MinerSweeper or Pong!&lt;/li&gt;
+  &lt;li&gt;Just try storing video on blockchain, much less live-streaming it!&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.iso.org/obp/ui/#iso:std:iso-iec:15944:-4:ed-2:v1:en&quot;&gt;REA Accounting&lt;/a&gt; on Holochain revolutionizes supply chain accounting and enables the possibility of any unit of account to function as a cryptocurrency.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;preparing-to-take-holochain-mainstream&quot;&gt;Preparing to Take Holochain Mainstream&lt;/h1&gt;
+
+&lt;p&gt;We designed Holochain to compete head-to-head with blockchain and outperform it in every way, and we had proven the fundamentals of the concept. Now it was time to bring it into the mainstream, and to ensure its sustainability going forward. We had seen too many open-source infrastructure projects suffer financial problems, as well as succumb to the resulting pressure toward centralization. We didn’t want either of those things to ever happen to Holochain.&lt;/p&gt;
+
+&lt;p&gt;We took two major actions to these ends:&lt;/p&gt;
+
+&lt;p&gt;1. &lt;strong&gt;The Bridge from Web 2.0 to 3.0&lt;/strong&gt;: We designed &lt;a href=&quot;https://holo.host/&quot;&gt;&lt;strong&gt;Holo&lt;/strong&gt;&lt;/a&gt; as our first major commercial project, designed to create financial viability for Holochain by providing a for-profit hosting framework to bridge crypto apps to mainstream users right through their web browsers, just as if they were accessing any data-driven website. Since Holochain has no inherent speed or scale bottlenecks, Holo-hosted apps can theoretically scale to the size of Facebook or Twitter, which could enable Holo to compete with the big cloud-hosting companies in a way that blockchain-based projects never could.&lt;/p&gt;
+
+&lt;p&gt;2. &lt;strong&gt;Community-Based Funding&lt;/strong&gt;: In order to ensure that the technology for the next Internet would always be owned by the community itself, rather than be privately held and controlled, we &lt;a href=&quot;https://www.indiegogo.com/projects/holo-take-back-the-internet-shared-p2p-hosting#/&quot;&gt;sold Holo hosting boxes called HoloPorts on IndieGogo&lt;/a&gt;, and we pre-sold hosting credits on the Holo hosting network in an &lt;a href=&quot;https://medium.com/h-o-l-o/launching-an-ethical-ico-e21ed5738bb0&quot;&gt;Initial Community Offering&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;clarification-holochain-vs-holo&quot;&gt;Clarification: Holochain vs. Holo&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Holochain&lt;/strong&gt; is an open-source data-integrity engine that enables self-hosting of P2P apps, avoiding the need for global consensus and resulting in massive scalability, as well as user-control of identity and data. Holochain does not have a token or currency built in, though it’s easy to &lt;em&gt;build&lt;/em&gt; currencies on Holochain in the form of distributed accounting apps.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Holo&lt;/strong&gt; is a hosting company that provides hosting infrastructure for Holochain apps to be served to regular web browsers. Just as AirBnB sells more room-nights than the largest hotel chains without ever having built a hotel, Holo seeks to compete with the big cloud-hosting companies without ever building a data center by using the efficiency of Holochain to tap into computing power wherever it already is. Holo does have a native cryptocurrency, called HoloFuel, that is based on the distributed hosting power available on its network, with the currency always being backed by, and redeemable for, this tangible asset.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;It turns out that building the foundation for the next Internet to truly be a P2P approach, is not easy — especially while ensuring appropriate layers of security and privacy.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/1_z9EgMxpDxZORUJXdCX-KDQ.png&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;bulletproofing-holochain&quot;&gt;Bulletproofing Holochain&lt;/h1&gt;
+
+&lt;p&gt;Having sold out our ICO for around 30,000 ETH (worth about $20M at the end of the sale), we now needed to deliver on our promise to scale, so we set out to refactor Holochain for increased security, and to run in browsers and on mobile devices.&lt;/p&gt;
+
+&lt;p&gt;One important decision we made was to rebuild Holochain in Rust — unlike its prototype which had been built in Go — in order to take advantage of Rust’s security, stability, and concurrency safety, as well as be able to compile to Web Assembly (WASM) so Holochain apps can run in a web browser or mobile device.&lt;/p&gt;
+
+&lt;p&gt;We also needed to staff up with developers, devops, and security and networking specialists needed to make Holochain as bulletproof as it needed to be. This represented a significant investment of time and money, but it was important to beef up Holochain with the ultra-high security measures anyone would rightly expect of a mainstream crypto framework.&lt;/p&gt;
+
+&lt;p&gt;In mid-May 2018, with funding and a larger development team in place, we were ready to begin rebuilding the Holochain prototype. We estimated we needed 3 months, targeting our August 15th for our first Alpha release with all the features of the Go prototype. Many of our developers were excited about the rebuild.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/1_D6TzxSuTGx7G4OKKceMsUw.png&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;the-inevitable-delays&quot;&gt;The Inevitable Delays&lt;/h1&gt;
+
+&lt;p&gt;It’s now close to a year later. We’ve made a lot of improvements to security, testing, troubleshooting, and underlying infrastructure, and we’ve begun launching a closed-alpha TestNet for Holo. Yet we &lt;em&gt;still&lt;/em&gt; don’t have all the features of the original Holochain prototype back in place. Development has taken considerably longer than we anticipated.&lt;/p&gt;
+
+&lt;p&gt;It turns out that building the foundation for the next Internet to truly be a P2P approach, is not easy — especially while ensuring appropriate layers of security and privacy.&lt;/p&gt;
+
+&lt;p&gt;I still believe that slowing down to build in Rust should save us a lot of trouble in the long run. Rust is so strict that it won’t let you compile until you handle all sorts of possible vulnerabilities that most other languages just let you get away with. We feel confident in the security and stability we get from rebuilding Holochain in Rust.&lt;/p&gt;
+
+&lt;p&gt;However it has brought on another challenge which I take very seriously: &lt;strong&gt;&lt;em&gt;Holochain has gotten harder to use.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;usability-challenges--remedies&quot;&gt;Usability Challenges &amp;amp; Remedies&lt;/h1&gt;
+
+&lt;p&gt;We positioned Holo to be a web app hosting platform, but now we have a version of Holochain that only lets you build apps in Rust. And how many web developers code in Rust? Not many.&lt;/p&gt;
+
+&lt;p&gt;Another current usability challenge is that we have yet to rebuild the rapid application development (RAD) tools for the Rust version of Holochain. These &lt;a href=&quot;https://holochain.github.io/scaffold/&quot;&gt;wizard-like prompts&lt;/a&gt; greatly facilitated development and testing in the Go prototype.&lt;/p&gt;
+
+&lt;p&gt;Finally, although the ability to compile to WASM was a key reason we pivoted to Rust, the addition of the compile step may be a deterrent for some… not to mention that WASM is still somewhat immature and clumsy to tune and debug.&lt;/p&gt;
+
+&lt;h1 id=&quot;taking-stock&quot;&gt;Taking Stock&lt;/h1&gt;
+
+&lt;p&gt;In retrospect, we underestimated the consequences of the rebuild. Mostly because we have almost no live apps in production at this time instead of a thriving ecosystem (that we still look forward to). Equally important, we underplayed the maturity of the prototype and encouraged devs who were ready to build on it to wait for the Rust version.&lt;/p&gt;
+
+&lt;p&gt;As a result, much of the world still thinks Holochain’s application model is unproven when, in fact, we’ve had functional apps for almost two years with speed and scale that outperform every other crypto platform I’ve seen.&lt;/p&gt;
+
+&lt;p&gt;Should we have spun off some team of devs, trainers, and marketers to support the Go version and get a bunch of those apps deployed beyond the proof-of-concept phase? Maybe we should have.&lt;/p&gt;
+
+&lt;p&gt;I’m grateful for the few projects (like &lt;a href=&quot;https://humm.earth/&quot;&gt;Humm.Earth&lt;/a&gt;) that ignored our suggestions and went live on the Go version of Holochain anyway. But there weren’t really enough projects like these for the world to take Holochain seriously.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/1_wjCqv9CcJDDVnNEx8GFvMw.png&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;the-path-forward&quot;&gt;The Path Forward&lt;/h1&gt;
+
+&lt;p&gt;Is it too late to leverage the Go version? Probably. We haven’t supported or made updates to the code in over 9 months.&lt;/p&gt;
+
+&lt;p&gt;And — again — there is a lot of good news still lurking in the Rust rebuild in terms of security and safety. (More detail for the technically inclined: strong elliptical cryptography, new dynamic DHT architectures, P2P networking which can reliably get through NAT and Firewall configurations, and a unified capabilities-based security model.)&lt;/p&gt;
+
+&lt;p&gt;But how do we recover from essentially holding the community back telling them to wait for the next great thing? Several ways come to mind:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Creating Holochain Labs:&lt;/strong&gt; In response to demand — and volunteerism — we’re planning to launch an online space for Holochain-based projects to collaborate, recruit, share code, gather feedback, and garner financial support.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Launching Holo TestNets:&lt;/strong&gt; We are currently launching different phases of a Closed Alpha of Holo, and even though there’s not a large ecosystem of apps to host on it yet, the ones made by the Holo dev team so far are &lt;a href=&quot;https://medium.com/h-o-l-o/a-tour-of-holos-initial-apps-45b00f7e9054&quot;&gt;kind of a big deal&lt;/a&gt;. Open Alpha will be coming soon, and I expect we will be able to demonstrate dApp performance approaching typical cloud-hosted speeds.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Shipping HoloPorts:&lt;/strong&gt; I know that many people are excited to have, hold, and begin to test and utilize their Holo hosting devices. We are approaching that moment. This will also give us a strong foundation of thousands of servers with capacity to host new apps.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Improving usability for developers:&lt;/strong&gt; 1) We’re simplifying the &lt;a href=&quot;https://github.com/holochain/holochain-rust/tree/develop/hdk-rust&quot;&gt;HDK&lt;/a&gt; using Rust macros so that defining modules and functions is short and easy now. 2) We’re enabling querying of &lt;a href=&quot;https://github.com/willemolding/holochain-graphQL-poc&quot;&gt;Holochain using GraphQL&lt;/a&gt;, which will make it really easy to have existing web apps work with Holochain: all you’ll need to do is write a Holochain app as your back-end to replace your database. 3) We’ll get those RAD tools &lt;a href=&quot;https://github.com/holochain/hcrs&quot;&gt;rebuilt&lt;/a&gt; soon to generate files, directories, CRUD functions, and basic tests, so that developing apps without experience with Rust will be much easier.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Despite any missteps over the past year, Holochain does have a lot of momentum. Our core base of supporters is strong, word has been spreading through an ever-growing canon of articles and videos, and the demand for Holo Token (&lt;a href=&quot;https://icodrops.com/holo/&quot;&gt;$HOT&lt;/a&gt;) has remained high (typically ~20x return over Bitcoin and ~40x over ETH since our ICO). We have seen an explosion of community support in influential places like Turkey and China, and there is a groundswell of promising projects right now in Australia.&lt;/p&gt;
+
+&lt;p&gt;Yes, some people (myself included) are tired of &lt;em&gt;hearing the talk&lt;/em&gt; of how great Holo and Holochain will be and just want to &lt;em&gt;see it running&lt;/em&gt;. I’m excited that this moment has now arrived  via the Holo TestNets, and that soon people will be able to run responsive dApps at scale.&lt;/p&gt;
+
+&lt;p&gt;In this article I’ve highlighted some of Holochain’s strengths and successes while also being transparent about the fact that we haven’t had all the answers, and that, in retrospect, we may have made some strategic missteps.&lt;/p&gt;
+
+&lt;p&gt;I hope community members will weigh in with thoughts and feedback in the comments. What do you need from us? How can we serve you best?&lt;/p&gt;
+
+&lt;p&gt;Again, a big thanks to &lt;a href=&quot;https://medium.com/u/882884c74be6?source=post_page-----600812bc9ecc--------------------------------&quot;&gt;Josh Zemel&lt;/a&gt; for his co-writing and editing critical to getting this published. He’s turning to be a great partner in keeping articles flowing, and been patient with my gaps in availability for writing.&lt;/p&gt;
+</description>
+				<guid isPermaLink="true">https://www.artbrock.com/2019/05/21/holochain-wins-missteps-and-next-steps</guid>
+			</item>
+		
+	</channel>
+</rss>
